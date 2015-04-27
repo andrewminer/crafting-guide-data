@@ -1,0 +1,40 @@
+{
+  "name": "crafting-guide-data",
+  "version": "1.0.0",
+  "description": "Mod data for Crafting Guide (http://crafting-guide.com)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrewminer/crafting-guide-data.git"
+  },
+  "keywords": [
+    "crafting",
+    "guide",
+    "minecraft",
+    "mods"
+  ],
+  "author": "Andrew Miner",
+  "bugs": {
+    "url": "https://github.com/andrewminer/crafting-guide-data/issues"
+  },
+  "homepage": "https://github.com/andrewminer/crafting-guide-data",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "chai": "^2.2.0",
+    "coffee-script": "^1.9.2",
+    "crafting-guide-common": "^1.3.0",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0",
+    "underscore": "^1.8.3",
+    "when": "^3.7.2"
+  }
+}
