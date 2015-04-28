@@ -1,8 +1,12 @@
 #!/bin/bash
 
-export AWS_CONFIG_FILE="aws.config"
+if [[ -e "./aws.config" ]]; then
+    export AWS_CONFIG_FILE="./aws.config"
+else
+    export AWS_CONFIG_FILE="~/.aws/config"
+fi
 
-ROOT="./data"
+SOURCE_DIR="./data/"
 SITE="crafting-guide.com"
 TARGET=""
 while [[ "$1" != "" ]]; do
@@ -15,15 +19,15 @@ done
 
 if [[ "$TARGET" == "" ]]; then
     echo "Please choose either --staging or --production for the target."
-    exit
+    exit 1
 fi
 
 if [[ "$TARGET" == "staging" ]]; then
-    find "$ROOT" -name ".DS_Store" 2>/dev/null | xargs rm &>/dev/null
-    if grunt test; then
-        echo "Preparing to upload to S3..."
-        s3cmd sync -r --add-header="cache-control:max-age=1800" "$ROOT/" "s3://new.$SITE/data/"
-    fi
-elif [[ "$TARGET" == "promote" ]]; then
-    aws s3 sync "s3://new.$SITE" "s3://$SITE" --delete
+    TARGET_DIR="s3://new.$SITE/data/"
+elif [[ "$TARGET" == "production" ]]; then
+    TARGET_DIR="s3://$SITE/data/"
 fi
+
+echo "Preparing to upload to S3..."
+s3cmd sync -r --add-header="cache-control:max-age=1800" $SOURCE_DIR $TARGET_DIR
+echo "S3 Upload Complete"
