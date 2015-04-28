@@ -7,18 +7,18 @@ SITE="crafting-guide.com"
 TARGET=""
 while [[ "$1" != "" ]]; do
     case "$1" in
-        "--new") TARGET="new";;
-        "--promote") TARGET="promote";;
+        "--staging") TARGET="staging";;
+        "--production") TARGET="production";;
     esac
     shift
 done
 
 if [[ "$TARGET" == "" ]]; then
-    echo "Please choose either --new or --promote for the target."
+    echo "Please choose either --staging or --production for the target."
     exit
 fi
 
-if [[ "$TARGET" == "new" ]]; then
+if [[ "$TARGET" == "staging" ]]; then
     find "$ROOT" -name ".DS_Store" 2>/dev/null | xargs rm &>/dev/null
     if grunt test; then
         echo "Preparing to upload to S3..."
