@@ -1,0 +1,10 @@
+schema: 1
+
+name:             MineFactory Reloaded
+author:           Team CoFH
+description:      Machines, item transportation, and tools for automating all manner of farming and husbandry
+homePageUrl:      http://teamcofh.com/minefactory-reloaded/
+documentationUrl: http://teamcofh.com/minefactory-reloaded/
+downloadUrl:      http://teamcofh.com/minefactory-reloaded/
+
+version: 2.8.0RC8-86

@@ -27,6 +27,11 @@ module.exports = (grunt)->
                 verbose: true
             src: ['./test/**/*.test.coffee']
 
+        watch:
+            data_files:
+                files: ['./data/**/*.cg']
+                tasks: ['mochaTest']
+
     grunt.registerTask 'default', 'build'
 
     grunt.registerTask 'build', [ ]
