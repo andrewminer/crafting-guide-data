@@ -32,7 +32,7 @@ S3CMD_CFG="$HOME/.s3cfg"
 if [[ ! -e "$S3CMD_CFG" ]]; then
     echo "[default]" > "$S3CMD_CFG"
     cat $AWS_CONFIG_FILE | grep "aws_access_key_id" | sed "s/aws_access_key_id/access_key/" >> "$S3CMD_CFG"
-    cat $AWS_CONFIG_FILE | grep "aws_secret_access_key" | sed "s/aws_secret_access_key/secret_key" >> "$S3CMD_CFG"
+    cat $AWS_CONFIG_FILE | grep "aws_secret_access_key" | sed "s/aws_secret_access_key/secret_key/" >> "$S3CMD_CFG"
 fi
 
 echo "Preparing to upload to S3..."
