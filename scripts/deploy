@@ -3,7 +3,7 @@
 if [[ -e "./aws.config" ]]; then
     export AWS_CONFIG_FILE="./aws.config"
 else
-    export AWS_CONFIG_FILE="~/.aws/config"
+    export AWS_CONFIG_FILE="$HOME/.aws/config"
 fi
 
 SOURCE_DIR="./data/"
