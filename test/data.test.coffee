@@ -36,14 +36,11 @@ describe 'data files for', ->
                     do (modVersion)->
                         describe modVersion.version, ->
 
-                            modVersionParser = new ModVersionParser model:modVersion#, showAllErrors:true
+                            modVersionParser = new ModVersionParser model:modVersion, showAllErrors:true
                             fileName = "./data/#{modSlug}/versions/#{modVersion.version}/mod-version.cg"
                             modVersionParser.parse fs.readFileSync fileName, 'utf8'
 
                             it 'loads mod-version.cg without errors', ->
-                                try
-                                    modVersionParser.errors.should.eql []
-                                    _.keys(modVersion._items).length.should.be.greaterThan 0
-                                    _.keys(modVersion._recipes).length.should.be.greaterThan 0
-                                catch e
-                                    console.error e
+                                modVersionParser.errors.should.eql []
+                                _.keys(modVersion._items).length.should.be.greaterThan 0
+                                _.keys(modVersion._recipes).length.should.be.greaterThan 0

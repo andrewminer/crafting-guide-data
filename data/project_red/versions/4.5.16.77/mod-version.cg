@@ -1,4 +1,10 @@
+schema: 1
+
 item: AND Cell
+    recipe:
+        input: Cathode, Conductive Plate, Wired Plate, Platformed Plate, Circuit Plate
+        pattern: 010 232 410
+        tools: Crafting Table
 
 item: AND Gate
 
