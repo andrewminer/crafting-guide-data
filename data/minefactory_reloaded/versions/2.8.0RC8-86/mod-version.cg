@@ -1341,561 +1341,887 @@ item: Rubber Sapling
     gatherable: yes
 
 item: Rubber Wood
-    recipe:
-        input:
-        pattern:
-        quantity: 1
-        tools: Crafting Table
+    gatherable: yes
 
 item: Ruler
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Paper
+        pattern: .0. .1. .0.
         quantity: 1
         tools: Crafting Table
 
 item: SPAMR Launcher
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, PRC LX-500 Logic Expansion Card, PRC LX-300 Logic Expansion Card, Minecart, Needlegun
+        pattern: 010 020 454
         quantity: 1
         tools: Crafting Table
 
 item: Sacred Rubber Sapling
-    recipe:
-        input:
-        pattern:
-        quantity: 1
-        tools: Crafting Table
+    gatherable: yes
 
 item: Safari Net (Reusable)
     recipe:
-        input:
-        pattern:
+        input: Ender Pearl, Ghast Tear
+        pattern: .0. 010 .0.
         quantity: 1
         tools: Crafting Table
 
 item: Safari Net (Single-Use)
     recipe:
-        input:
-        pattern:
+        input: String, Leather, Slimeball
+        pattern: 010 .2. 0.0
         quantity: 1
         tools: Crafting Table
 
 item: Safari Net Launcher
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Gunpowder, Glowstone Dust, Iron Ingot, Redstone
+        pattern: 010 212 343
         quantity: 1
         tools: Crafting Table
 
 item: Self-Propelled Anti Material Rocket
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, TNT, Firework Rocket, Needlegun Magazine
+        pattern: 000 010 232
         quantity: 1
         tools: Crafting Table
 
 item: Sewage Bucket
     recipe:
-        input:
-        pattern:
+        input: 1000 Sewage, Bucket
+        pattern: ... 1.0 ...
         quantity: 1
-        tools: Crafting Table
+        tools: Fluid Transposer
 
 item: Sewage
-    recipe:
-        input:
-        pattern:
-        quantity: 1
-        tools: Crafting Table
+    gatherable: yes
 
 item: Sewer
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Plastic Sheets, Bucket, Brick, Machine Frame (Basic), Pneumatic Servo
+        pattern: 010 232 242
+        quantity: 4
         tools: Crafting Table
 
 item: Slaughterhouse
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Invar Gear, Invar Sword, Machine Frame (Basic), Invar Axe, Redstone Reception Coil
+        pattern: 010 232 454
         quantity: 1
         tools: Crafting Table
 
 item: Slime Embiggening Syringe
     recipe:
-        input:
-        pattern:
+        input: Empty Syringe, Slimeball, Lapis Lazuli
+        pattern: .0. 121 ...
         quantity: 1
         tools: Crafting Table
 
 item: Sludge Boiler
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Bucket, Furnace, Machine Frame (Basic), Iron Gear, Redstone Reception Coil
+        pattern: 010 232 454
         quantity: 1
         tools: Crafting Table
 
 item: Sludge Bucket
     recipe:
-        input:
-        pattern:
+        input: Bucket, 1000 Sludge
+        pattern: ... 0.1 ...
         quantity: 1
-        tools: Crafting Table
+        tools: Fluid Transposer
 
 item: Sludge
-    recipe:
-        input:
-        pattern:
-        quantity: 1
-        tools: Crafting Table
+    gatherable: yes
 
 item: Small Blackstone Bricks
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Bricks, Ink Sac
+        pattern: 000 010 000
+        quantity: 8
         tools: Crafting Table
+    recipe:
+        input: Large Blackstone Bricks
+        pattern: 00. 00. ...
+        quantity: 4
 
 item: Small Whitestone Bricks
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Bricks, Sugar
+        pattern: 000 010 000
+        quantity: 8
         tools: Crafting Table
+    recipe:
+        input: Large Whitestone Bricks
+        pattern: 00. 00. ...
+        quantity: 4
 
 item: Smooth Blackstone
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stone, Ink Sac
+        pattern: 000 010 000
+        quantity: 8
         tools: Crafting Table
+    recipe:
+        input: Paved Blackstone
+        pattern: ... .0. ...
+    recipe:
+        input: Cobble Blackstone
+        pattern: ... .0. ...
+        tools: Redstone Furnace
+    recipe:
+        input: Cobble Blackstone, furnace fuel
+        pattern: .0. ... .1.
+        tools: Furnace
 
 item: Smooth Whitestone
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stone, Sugar
+        pattern: 000 010 000
+        quantity: 8
         tools: Crafting Table
+    recipe:
+        input: Paved Whitestone
+        pattern: ... .0. ...
+    recipe:
+        input: Cobble Whitestone
+        pattern: ... .0. ...
+        tools: Redstone Furnace
+    recipe:
+        input: Cobble Whitestone, furnace fuel
+        pattern: .0. ... .1.
+        tools: Furnace
 
 item: Snow Bricks
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Snow, Bricks
+        pattern: 0.0 .1. 0.0
+        quantity: 8
         tools: Crafting Table
+    recipe:
+        input: Large Snow Bricks
+        pattern: 00. 00. ...
+        quantity: 4
 
 item: Spyglass
     recipe:
-        input:
-        pattern:
+        input: Tinker's Alloy Ingot, Glass, Plastic Sheets, Stick
+        pattern: 010 212 .3.
         quantity: 1
         tools: Crafting Table
 
 item: Stained Glass (Black)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Black), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Black), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Black), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Blue)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Blue), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Blue), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Blue), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Brown)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Brown), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Brown), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Brown), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Cyan)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Cyan), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Cyan), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Cyan), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Gray)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Gray), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Gray), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Gray), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Green)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Green), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Green), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Green), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Light Blue)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Light Blue), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Light Blue), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Blue), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Light Gray)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Light Gray), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Light Gray), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Gray), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Lime)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Lime), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Lime), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Lime), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Magenta)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Magenta), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Magenta), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Magenta), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Orange)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Orange), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Orange), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Orange), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Pink)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Pink), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Pink), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Pink), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Purple)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Purple), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Purple), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Purple), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Red)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Red), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Red), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Red), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (White)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (White), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (White), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (White), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass (Yellow)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Ceramic Dye (Yellow), Glass
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Yellow), Glass
+        pattern: 001 111 11.
+        quantity: 6
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Yellow), Glass
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Black)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Black)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Black), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Black), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Black), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Blue)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Blue)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Blue), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Blue), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Blue), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Brown)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Brown)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Brown), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Brown), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Brown), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Cyan)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Cyan)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Cyan), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Cyan), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Cyan), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Gray)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Gray)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Gray), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Gray), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Gray), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Green)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Green)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Green), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Green), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Green), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Light Blue)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Light Blue)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Blue), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Light Blue), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Blue), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Light Gray)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Light Gray)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Gray), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Light Gray), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Light Gray), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Lime)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Lime)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Lime), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Lime), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Lime), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Magenta)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Magenta)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Magenta), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Magenta), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Magenta), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Orange)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Orange)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Orange), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Orange), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Orange), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Pink)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Pink)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Pink), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Pink), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Pink), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Purple)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Purple)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Purple), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Purple), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Purple), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Red)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Red)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Red), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Red), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Red), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (White)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (White)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (White), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (White), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (White), Glass Pane
+        pattern: 01. ... ...
 
 item: Stained Glass Pane (Yellow)
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Stained Glass (Yellow)
+        pattern: 000 000 ...
+        quantity: 16
         tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Yellow), Glass Pane
+        pattern: 01. 11. ...
+        quantity: 3
+    recipe:
+        input: Ceramic Dye (Yellow), Glass Pane
+        pattern: 001 111 11.
+        quantity: 6
+        tools: Crafting Table
+    recipe:
+        input: Ceramic Dye (Yellow), Glass Pane
+        pattern: 01. ... ...
 
 item: Steam Boiler
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Reinforced Portable Tank, Sludge Boiler, Nether Brick Stairs
+        pattern: 000 121 333
         quantity: 1
         tools: Crafting Table
 
 item: Steam Turbine
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Steam Dynamo, Piston, Machine Frame (Basic), Silver Gear, Redstone Transmission Coil
+        pattern: 010 232 454
         quantity: 1
         tools: Crafting Table
 
 item: Steam
-    recipe:
-        input:
-        pattern:
-        quantity: 1
-        tools: Crafting Table
+    gatherable: yes
 
 item: Straw
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets
+        pattern: 00. 0.. 0..
         quantity: 1
         tools: Crafting Table
 
 item: Sugar Charcoal Block
     recipe:
-        input:
-        pattern:
+        input: Sugar Charcoal
+        pattern: 000 000 000
         quantity: 1
         tools: Crafting Table
 
 item: Sugar Charcoal
     recipe:
-        input:
-        pattern:
+        input: Sugar
+        pattern: ... .0. ...
         quantity: 1
-        tools: Crafting Table
+        tools: Redstone Furnace
+    recipe:
+        input: Sugar, furnace fuel
+        pattern: .0. ... .1.
+        tools: Furnace
 
 item: Tracking Self-Propelled Anti Material Rocket
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Plastic Sheets, PRC LX-100 Logic Expansion Card, TNT, Firework Rocket, Needlegun Magazine
+        pattern: 010 020 343
+        quantity: 2
         tools: Crafting Table
+    recipe:
+        input: Self-Propelled Anti Material Rocket, PRC LX-100 Logic Expansion Card
+        pattern: 00. 1.. ...
+        quantity: 2
 
 item: Unifier
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Multimeter, Redstone Comparator, Machine Frame (Basic), Silver Gear, Book
+        pattern: 010 232 454
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Bronze)
     recipe:
-        input:
-        pattern:
+        input: Tinker's Alloy Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Cobble)
     recipe:
-        input:
-        pattern:
+        input: Cobblestone, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Copper)
     recipe:
-        input:
-        pattern:
+        input: Copper Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Diamond)
     recipe:
-        input:
-        pattern:
+        input: Diamond, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Emerald)
     recipe:
-        input:
-        pattern:
+        input: Emerald, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Gold)
     recipe:
-        input:
-        pattern:
+        input: Gold Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Iron)
     recipe:
-        input:
-        pattern:
+        input: Iron Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Lapis)
     recipe:
-        input:
-        pattern:
+        input: Lapis Lazuli, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Platinum)
     recipe:
-        input:
-        pattern:
+        input: Shiny Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Quartz)
     recipe:
-        input:
-        pattern:
+        input: Nether Quartz, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Silver)
     recipe:
-        input:
-        pattern:
+        input: Silver Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Upgrade (Tin)
     recipe:
-        input:
-        pattern:
+        input: Tin Ingot, Raw Plastic, Redstone, Gold Nugget
+        pattern: 000 111 232
         quantity: 1
         tools: Crafting Table
 
 item: Veterinary Station
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Empty Syringe, Machine Frame (Basic), Copper Gear, Redstone Reception Coil
+        pattern: 010 121 343
         quantity: 1
         tools: Crafting Table
 
 item: Vine Scaffolding
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Vines
+        pattern: 00. 00. 00.
+        quantity: 8
         tools: Crafting Table
 
 item: Weather Collector
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Iron Bars, Bucket, Machine Frame (Basic), Copper Gear, Redstone Reception Coil
+        pattern: 010 232 454
         quantity: 1
         tools: Crafting Table
 
 item: Whitestone Gravel
     recipe:
-        input:
-        pattern:
-        quantity: 1
+        input: Gravel, Sugar
+        pattern: 000 010 000
+        quantity: 8
         tools: Crafting Table
 
 item: XP Extractor
     recipe:
-        input:
-        pattern:
+        input: Plastic Sheets, Glass, Rubber Bar
+        pattern: 010 010 202
         quantity: 1
         tools: Crafting Table
 
 item: Zombie Syringe
     recipe:
-        input:
-        pattern:
+        input: Rotten Flesh, Empty Syringe
+        pattern: 000 010 000
         quantity: 1
         tools: Crafting Table
