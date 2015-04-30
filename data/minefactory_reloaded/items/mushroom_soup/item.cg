@@ -1,0 +1,12 @@
+schema: 1
+
+description: <<-END
+Mushroom Soup, as a fluid, can be extracted from a [Mushroom Stew] bowl using a [Fluid Transposer]. When poured out into
+the world and drunk with a [Straw], it provides these benefits:
+
+* Completely cures hunger
+* Health Boost II for 0:05
+* Saturation III for 0:15
+
+See also: [Fluid Transposer], [Mushroom Stew], [Straw]
+END

@@ -1,0 +1,21 @@
+schema: 1
+
+description: <<-END
+Sludge is a fluid produced by the [Harvester] as it brings in crops. As a fluid, it can be poured out into the world or
+piped into tanks, machines, etc.  The best use for it is to pipe it into a [Sludge Boiler] where it can be converted
+into useful byproducts.  However, if poured out into the world, it can have a number of nasty effects. If a player
+stands in a pool of sludge, the player will take damage every second and receive the following effects:
+
+* Weakness 0:11
+* Wither 0:11
+* Nausea 0:15
+
+And, should a player be so foolish as to drink it with a [Straw], the player will take 5 hearts of damage and receive
+the following ill effects:
+
+* Wither 0:40
+* Nausea 0:40
+* Blindness 0:40
+
+See also: [Harvester], [Sludge Boiler], [Straw]
+END

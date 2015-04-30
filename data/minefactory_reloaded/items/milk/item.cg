@@ -1,0 +1,10 @@
+schema: 1
+
+description: <<-END
+Milk is a fluid which ordinarily (in vanilla Minecraft) is obtained by right-clicking a cow with [Bucket]. It can then
+be drunk directly from the bucket or used in various crafting recipes, but not placed in the world as a fluid.
+MineFactory Reloaded registers milk as a regular fluid which works around that limitation. When placed in the world, it
+can be drunk with a [Straw] to received the same effect as if it were drunk from a bucket.
+
+See also: [Milk](/browse/minecraft/milk), [Straw]
+END

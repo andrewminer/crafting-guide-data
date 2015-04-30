@@ -1,0 +1,22 @@
+schema: 1
+
+description: <<-END
+Pink Slime is produced by the [Slaughterhouse] as it kills mobs. As a fluid, it can be piped out and stored in tanks,
+buckets or even just poured out into the world.  In the world, it can be drunk by a (foolish) player using a [Straw] to
+with the following effects:
+
+* Speed III 0:60
+* Hunger 0:10
+* Weakness 0:10
+* Nausea 0:25
+
+As you can see, nasty stuff.  In fact, if left alone in the world for a few seconds, it will spawn a Pink Slime mob which
+will then proceed to attack the player.  When defeated, it will drop a few [Pink Slimeball]s (interchangable with
+regular [Slimeball]s).
+
+A more helpful use is to pipe the stuff into a [Meat Packer] where 100 mB will be converted into a [Raw Meat Nugget]
+with can be cooked and consumed without ill effect.
+
+See also: [Meat Packer], [Raw Meat Nugget], [Slaughterhouse], [Straw]
+
+END
