@@ -1,0 +1,10 @@
+schema: 1
+
+name:             ProjectRed
+author:           MrTJP and ChickenBones
+description:      ProjectRed brings vastly improved redstone control via compact wiring and integrated logic gates.
+homePageUrl:      http://projectredwiki.com/wiki/Main_Page
+documentationUrl: http://projectredwiki.com/wiki/Main_Page
+downloadUrl:      http://projectredwiki.com/wiki/Version_archive
+
+version: 4.5.16.77

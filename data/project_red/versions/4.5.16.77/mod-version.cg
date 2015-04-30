@@ -1,0 +1,870 @@
+item: AND Cell
+
+item: AND Gate
+
+item: Anode
+
+item: Basalt Brick Wall
+
+item: Basalt Brick
+
+item: Basalt Cobblestone Wall
+
+item: Basalt Cobblestone
+
+item: Basalt Wall
+
+item: Basalt
+
+item: Black Backpack
+
+item: Black Bundled Cable
+
+item: Black Cage Lamp
+
+item: Black Deviating Lily seed
+
+item: Black Fallout Light
+
+item: Black Fixture
+
+item: Black Illumar Button
+
+item: Black Illumar Feedback Button
+
+item: Black Illumar
+
+item: Black Insulated Wire
+
+item: Black Lamp
+
+item: Black Lantern
+
+item: Block Breaker
+
+item: Block of Peridot
+
+item: Block of Ruby
+
+item: Block of Sapphire
+
+item: Blue Backpack
+
+item: Blue Bundled Cable
+
+item: Blue Cage Lamp
+
+item: Blue Deviating Lily seed
+
+item: Blue Fallout Light
+
+item: Blue Fixture
+
+item: Blue Illumar Button
+
+item: Blue Illumar Feedback Button
+
+item: Blue Illumar
+
+item: Blue Insulated Wire
+
+item: Blue Lamp
+
+item: Blue Lantern
+
+item: Brown Backpack
+
+item: Brown Bundled Cable
+
+item: Brown Cage Lamp
+
+item: Brown Deviating Lily seed
+
+item: Brown Fallout Light
+
+item: Brown Fixture
+
+item: Brown Illumar Button
+
+item: Brown Illumar Feedback Button
+
+item: Brown Illumar
+
+item: Brown Insulated Wire
+
+item: Brown Lamp
+
+item: Brown Lantern
+
+item: Buffer Cell
+
+item: Buffer Gate
+
+item: Bundled Cable
+
+item: Bundled Plate
+
+item: Bus Converter
+
+item: Bus Input Panel
+
+item: Bus Randomizer
+
+item: Bus Transceiver
+
+item: Cathode
+
+item: Circuit Plate
+
+item: Comparator
+
+item: Conductive Plate
+
+item: Copper Coil
+
+item: Counter
+
+item: Cyan Backpack
+
+item: Cyan Bundled Cable
+
+item: Cyan Cage Lamp
+
+item: Cyan Deviating Lily seed
+
+item: Cyan Fallout Light
+
+item: Cyan Fixture
+
+item: Cyan Illumar Button
+
+item: Cyan Illumar Feedback Button
+
+item: Cyan Illumar
+
+item: Cyan Insulated Wire
+
+item: Cyan Lamp
+
+item: Cyan Lantern
+
+item: Data Card
+
+item: Decoding Randomizer
+
+item: Deviating Lily
+
+item: Diamond Sickle
+
+item: Draw Plate
+
+item: Dynamic Item Responder chip
+
+item: Energized Silicon Chip
+
+item: Energized Silicon
+
+item: Framed Black Insulated Wire
+
+item: Framed Blue Insulated Wire
+
+item: Framed Brown Insulated Wire
+
+item: Framed Bundled Cable
+
+item: Framed Cyan Insulated Wire
+
+item: Framed Green Insulated Wire
+
+item: Framed Grey Insulated Wire
+
+item: Framed Light Blue Insulated Wire
+
+item: Framed Light Grey Insulated Wire
+
+item: Framed Lime Insulated Wire
+
+item: Framed Magenta Insulated Wire
+
+item: Framed Orange Insulated Wire
+
+item: Framed Pink Insulated Wire
+
+item: Framed Purple Insulated Wire
+
+item: Framed Red Alloy Wire
+
+item: Framed Red Insulated Wire
+
+item: Framed White Insulated Wire
+
+item: Framed Yellow Insulated Wire
+
+item: Glowing Silicon Compound
+
+item: Golden Coil
+
+item: Golden Saw
+
+item: Golden Sickle
+
+item: Green Backpack
+
+item: Green Bundled Cable
+
+item: Green Cage Lamp
+
+item: Green Deviating Lily seed
+
+item: Green Fallout Light
+
+item: Green Fixture
+
+item: Green Illumar Button
+
+item: Green Illumar Feedback Button
+
+item: Green Illumar
+
+item: Green Insulated Wire
+
+item: Green Lamp
+
+item: Green Lantern
+
+item: Grey Backpack
+
+item: Grey Bundled Cable
+
+item: Grey Cage Lamp
+
+item: Grey Deviating Lily seed
+
+item: Grey Fallout Light
+
+item: Grey Fixture
+
+item: Grey Illumar Button
+
+item: Grey Illumar Feedback Button
+
+item: Grey Illumar
+
+item: Grey Insulated Wire
+
+item: Grey Lamp
+
+item: Grey Lantern
+
+item: Infused Silicon
+
+item: Invert Cell
+
+item: Inverted Black Cage Lamp
+
+item: Inverted Black Fallout Light
+
+item: Inverted Black Fixture
+
+item: Inverted Black Lamp
+
+item: Inverted Black Lantern
+
+item: Inverted Blue Cage Lamp
+
+item: Inverted Blue Fallout Light
+
+item: Inverted Blue Fixture
+
+item: Inverted Blue Lamp
+
+item: Inverted Blue Lantern
+
+item: Inverted Brown Cage Lamp
+
+item: Inverted Brown Fallout Light
+
+item: Inverted Brown Fixture
+
+item: Inverted Brown Lamp
+
+item: Inverted Brown Lantern
+
+item: Inverted Cyan Cage Lamp
+
+item: Inverted Cyan Fallout Light
+
+item: Inverted Cyan Fixture
+
+item: Inverted Cyan Lamp
+
+item: Inverted Cyan Lantern
+
+item: Inverted Green Cage Lamp
+
+item: Inverted Green Fallout Light
+
+item: Inverted Green Fixture
+
+item: Inverted Green Lamp
+
+item: Inverted Green Lantern
+
+item: Inverted Grey Cage Lamp
+
+item: Inverted Grey Fallout Light
+
+item: Inverted Grey Fixture
+
+item: Inverted Grey Lamp
+
+item: Inverted Grey Lantern
+
+item: Inverted Light Blue Cage Lamp
+
+item: Inverted Light Blue Fallout Light
+
+item: Inverted Light Blue Fixture
+
+item: Inverted Light Blue Lamp
+
+item: Inverted Light Blue Lantern
+
+item: Inverted Light Grey Cage Lamp
+
+item: Inverted Light Grey Fallout Light
+
+item: Inverted Light Grey Fixture
+
+item: Inverted Light Grey Lamp
+
+item: Inverted Light Grey Lantern
+
+item: Inverted Lime Cage Lamp
+
+item: Inverted Lime Fallout Light
+
+item: Inverted Lime Fixture
+
+item: Inverted Lime Lamp
+
+item: Inverted Lime Lantern
+
+item: Inverted Magenta Cage Lamp
+
+item: Inverted Magenta Fallout Light
+
+item: Inverted Magenta Fixture
+
+item: Inverted Magenta Lamp
+
+item: Inverted Magenta Lantern
+
+item: Inverted Orange Cage Lamp
+
+item: Inverted Orange Fallout Light
+
+item: Inverted Orange Fixture
+
+item: Inverted Orange Lamp
+
+item: Inverted Orange Lantern
+
+item: Inverted Pink Cage Lamp
+
+item: Inverted Pink Fallout Light
+
+item: Inverted Pink Fixture
+
+item: Inverted Pink Lamp
+
+item: Inverted Pink Lantern
+
+item: Inverted Purple Cage Lamp
+
+item: Inverted Purple Fallout Light
+
+item: Inverted Purple Fixture
+
+item: Inverted Purple Lamp
+
+item: Inverted Purple Lantern
+
+item: Inverted Red Cage Lamp
+
+item: Inverted Red Fallout Light
+
+item: Inverted Red Fixture
+
+item: Inverted Red Lamp
+
+item: Inverted Red Lantern
+
+item: Inverted White Cage Lamp
+
+item: Inverted White Fallout Light
+
+item: Inverted White Fixture
+
+item: Inverted White Lamp
+
+item: Inverted White Lantern
+
+item: Inverted Yellow Cage Lamp
+
+item: Inverted Yellow Fallout Light
+
+item: Inverted Yellow Fixture
+
+item: Inverted Yellow Lamp
+
+item: Inverted Yellow Lantern
+
+item: Iron Coil
+
+item: Iron Sickle
+
+item: Item Broadcaster chip
+
+item: Item Crafting chip
+
+item: Item Extractor chip
+
+item: Item Importer
+
+item: Item Overflow Responder chip
+
+item: Item Responder chip
+
+item: Item Stock Keeper chip
+
+item: Item Terminator chip
+
+item: Item Transport pipe
+
+item: LX Upgrade
+
+item: LY Upgrade
+
+item: LZ Upgrade
+
+item: Light Blue Backpack
+
+item: Light Blue Bundled Cable
+
+item: Light Blue Cage Lamp
+
+item: Light Blue Deviating Lily seed
+
+item: Light Blue Fallout Light
+
+item: Light Blue Fixture
+
+item: Light Blue Illumar Button
+
+item: Light Blue Illumar Feedback Button
+
+item: Light Blue Illumar
+
+item: Light Blue Insulated Wire
+
+item: Light Blue Lamp
+
+item: Light Blue Lantern
+
+item: Light Grey Backpack
+
+item: Light Grey Bundled Cable
+
+item: Light Grey Cage Lamp
+
+item: Light Grey Deviating Lily seed
+
+item: Light Grey Fallout Light
+
+item: Light Grey Fixture
+
+item: Light Grey Illumar Button
+
+item: Light Grey Illumar Feedback Button
+
+item: Light Grey Illumar
+
+item: Light Grey Insulated Wire
+
+item: Light Grey Lamp
+
+item: Light Grey Lantern
+
+item: Light Sensor
+
+item: Lime Backpack
+
+item: Lime Bundled Cable
+
+item: Lime Cage Lamp
+
+item: Lime Deviating Lily seed
+
+item: Lime Fallout Light
+
+item: Lime Fixture
+
+item: Lime Illumar Button
+
+item: Lime Illumar Feedback Button
+
+item: Lime Illumar
+
+item: Lime Insulated Wire
+
+item: Lime Lamp
+
+item: Lime Lantern
+
+item: Magenta Backpack
+
+item: Magenta Bundled Cable
+
+item: Magenta Cage Lamp
+
+item: Magenta Deviating Lily seed
+
+item: Magenta Fallout Light
+
+item: Magenta Fixture
+
+item: Magenta Illumar Button
+
+item: Magenta Illumar Feedback Button
+
+item: Magenta Illumar
+
+item: Magenta Insulated Wire
+
+item: Magenta Lamp
+
+item: Magenta Lantern
+
+item: Marble Brick Wall
+
+item: Marble Brick
+
+item: Marble Wall
+
+item: Marble
+
+item: Motor
+
+item: Multiplexer
+
+item: NAND Gate
+
+item: NOR Gate
+
+item: NOT Gate
+
+item: Null Cell
+
+item: Null-Logic Routing Chip
+
+item: Null-Logic Upgrade Chip
+
+item: OR Gate
+
+item: Orange Backpack
+
+item: Orange Bundled Cable
+
+item: Orange Cage Lamp
+
+item: Orange Deviating Lily seed
+
+item: Orange Fallout Light
+
+item: Orange Fixture
+
+item: Orange Illumar Button
+
+item: Orange Illumar Feedback Button
+
+item: Orange Illumar
+
+item: Orange Insulated Wire
+
+item: Orange Lamp
+
+item: Orange Lantern
+
+item: Peridot Axe
+
+item: Peridot Hoe
+
+item: Peridot Ore
+
+item: Peridot Pickaxe
+
+item: Peridot Saw
+
+item: Peridot Shovel
+
+item: Peridot Sickle
+
+item: Peridot Sword
+
+item: Peridot Wall
+
+item: Peridot
+
+item: Pink Backpack
+
+item: Pink Bundled Cable
+
+item: Pink Cage Lamp
+
+item: Pink Deviating Lily seed
+
+item: Pink Fallout Light
+
+item: Pink Fixture
+
+item: Pink Illumar Button
+
+item: Pink Illumar Feedback Button
+
+item: Pink Illumar
+
+item: Pink Insulated Wire
+
+item: Pink Lamp
+
+item: Pink Lantern
+
+item: Platformed Plate
+
+item: Pointer
+
+item: Pressure Resistance tube
+
+item: Pressure tube
+
+item: Pulse Former
+
+item: Purple Backpack
+
+item: Purple Bundled Cable
+
+item: Purple Cage Lamp
+
+item: Purple Deviating Lily seed
+
+item: Purple Fallout Light
+
+item: Purple Fixture
+
+item: Purple Illumar Button
+
+item: Purple Illumar Feedback Button
+
+item: Purple Illumar
+
+item: Purple Insulated Wire
+
+item: Purple Lamp
+
+item: Purple Lantern
+
+item: RS Latch
+
+item: RX Upgrade
+
+item: RY Upgrade
+
+item: RZ Upgrade
+
+item: Rain Sensor
+
+item: Randomizer
+
+item: Red Alloy Ingot
+
+item: Red Alloy Wire
+
+item: Red Backpack
+
+item: Red Bundled Cable
+
+item: Red Cage Lamp
+
+item: Red Deviating Lily seed
+
+item: Red Fallout Light
+
+item: Red Fixture
+
+item: Red Illumar Button
+
+item: Red Illumar Feedback Button
+
+item: Red Illumar
+
+item: Red Insulated Wire
+
+item: Red Iron Compound
+
+item: Red Lamp
+
+item: Red Lantern
+
+item: Red Silicon Compound
+
+item: Repeater
+
+item: Routed Crafting pipe
+
+item: Routed Extension pipe
+
+item: Routed Firewall pipe
+
+item: Routed Interface pipe
+
+item: Routed Junction pipe
+
+item: Routed Request pipe
+
+item: Router Utility
+
+item: Ruby Axe
+
+item: Ruby Hoe
+
+item: Ruby Ore
+
+item: Ruby Pickaxe
+
+item: Ruby Saw
+
+item: Ruby Shovel
+
+item: Ruby Sickle
+
+item: Ruby Sword
+
+item: Ruby Wall
+
+item: Ruby
+
+item: Sail
+
+item: Sandy Coal Compound
+
+item: Sapphire Axe
+
+item: Sapphire Hoe
+
+item: Sapphire Ore
+
+item: Sapphire Pickaxe
+
+item: Sapphire Saw
+
+item: Sapphire Shovel
+
+item: Sapphire Sickle
+
+item: Sapphire Sword
+
+item: Sapphire Wall
+
+item: Sapphire
+
+item: Screwdriver
+
+item: Segment Display Gate
+
+item: Sequencer
+
+item: Silicon Boule
+
+item: Silicon Chip
+
+item: Silicon
+
+item: Stacking Latch
+
+item: State Cell
+
+item: Stone Sickle
+
+item: Synchronizer
+
+item: Timer
+
+item: Toggle Latch
+
+item: Transparent Latch
+
+item: White Backpack
+
+item: White Bundled Cable
+
+item: White Cage Lamp
+
+item: White Deviating Lily seed
+
+item: White Fallout Light
+
+item: White Fixture
+
+item: White Illumar Button
+
+item: White Illumar Feedback Button
+
+item: White Illumar
+
+item: White Insulated Wire
+
+item: White Lamp
+
+item: White Lantern
+
+item: Wire Debugger
+
+item: Wired Plate
+
+item: Wooden Sickle
+
+item: Wool Gin
+
+item: Woven Cloth
+
+item: XNOR Gate
+
+item: XOR Gate
+
+item: Yellow Backpack
+
+item: Yellow Bundled Cable
+
+item: Yellow Cage Lamp
+
+item: Yellow Deviating Lily seed
+
+item: Yellow Fallout Light
+
+item: Yellow Fixture
+
+item: Yellow Illumar Button
+
+item: Yellow Illumar Feedback Button
+
+item: Yellow Illumar
+
+item: Yellow Insulated Wire
+
+item: Yellow Lamp
+
+item: Yellow Lantern
+
+item: tile.projectred.illumination.airousLight_0.name
+
