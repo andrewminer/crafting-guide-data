@@ -1,12 +1,11 @@
 schema: 1
 
 description: <<-END
-[Chocolate Milk] is used by pouring it out into the world (as a fluid) and then drinking it with a [Straw].  When so
-consumed, it imparts:
+[[Chocolate Milk]] is used by pouring it out into the world (as a fluid) and then drinking it with a [[Straw]].  When so consumed, it imparts:
 
 * Speed IV (for 1:00)
 * Haste III (for 1:00)
 * Regeneration IV (for 0:05)
 
-See: [Chocolate Milk], [Straw]
+See also: [[Chocolate Milk]], [[Straw]]
 END

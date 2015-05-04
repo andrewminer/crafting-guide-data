@@ -1,36 +1,27 @@
 schema: 1
 
 description: <<-END
-The BioReactor converts various forms of plant life into [BioFuel] to run the [BioFuel Generator]. The reactor becomes
-more and more efficient as a greater variety of plant life is provided (up to 9 total).  With a single kind of plant,
-it produces 80 mB of biofuel per item, and for each different kind of plant provided, it produces an extra 10 mB per
-item (up to a maximum efficiency of 160 mB per item).
+The BioReactor converts various forms of plant life into [[BioFuel]] to run the [[BioFuel Generator]]. The reactor becomes more and more efficient as a greater variety of plant life is provided (up to 9 total).  With a single kind of plant, it produces 80 mB of biofuel per item, and for each different kind of plant provided, it produces an extra 10 mB per item (up to a maximum efficiency of 160 mB per item).
 
-For example, suppose you have a farm producing just potatoes, and you provide a full stack to the reactor. This will
-produce 5120 mB of biofuel (64 items times 80 mB per item).  Now suppose you add a carrot farm and provide half a stack
-of carrots and half a stack of potatoes to the reactor.  Since there are two different kinds of plants in the reactor,
-it will produce 5760 mB of BioFuel (32 carrots plus 32 potatoes times 90 mB per item).  To carry the example to the
-final extreme, if you provide a mixture of 9 differnet kinds of plant, a single stack of mixed items will produce 10240
-mB of biofuel.
+For example, suppose you have a farm producing just potatoes, and you provide a full stack to the reactor. This will produce 5120 mB of biofuel (64 items times 80 mB per item).  Now suppose you add a carrot farm and provide half a stack of carrots and half a stack of potatoes to the reactor.  Since there are two different kinds of plants in the reactor, it will produce 5760 mB of BioFuel (32 carrots plus 32 potatoes times 90 mB per item).  To carry the example to the final extreme, if you provide a mixture of 9 differnet kinds of plant, a single stack of mixed items will produce 10240 mB of biofuel.
 
-Not all plants are accepted, however, so plan accordingly! Here is a list of items which are known to either be accepted
-or *not* accepted:
+Not all plants are accepted, however, so plan accordingly! Here is a list of items which are known to either be accepted or *not* accepted:
 
 ** Accepted **
 
-* Seeds: [Melon Seeds], [Pumpkin Seeds], [Seeds]
-* Saplings: [Acacia Sapling], [Birch Sapling], [Jungle Sapling], [Oak Sapling], [Spruce Sapling]
-* Vegetables: [Carrot], [Potato], [Nether Wart]
-* Dyes: [Cactus Green], [Cyan Dye], [Dandelion Yellow], [Gray Dye], [Light Blue Dye], [Light Gray Dye], ...
+* Seeds: [[Melon Seeds]], [[Pumpkin Seeds]], [[Seeds]]
+* Saplings: [[Acacia Sapling]], [[Birch Sapling]], [[Jungle Sapling]], [[Oak Sapling]], [[Spruce Sapling]]
+* Vegetables: [[Carrot]], [[Potato]], [[Nether Wart]]
+* Dyes: [[Cactus Green]], [[Cyan Dye]], [[Dandelion Yellow]], [[Gray Dye]], [[Light Blue Dye]], [[Light Gray Dye]], ...
 
 ** Not Accepted **
 
-* Flowers: [Allium], [Azure Bluet], [Blue Orchid], [Dandelion], [Lilac], [Orange Tulip], [Oxeye Daisy], ...
-* Fruits & Vegetables: [Apple], [Pumpkin], [Melon], [Melon (block)], [Wheat]
-* Leaves: [Acacia Leaves], [Birch Leaves], [Dark Oak Leaves], [Jungle Leaves], [Oak Leaves], ...
-* Plants: [Cactus], [Sugar Canes]
-* Animals Parts: [Slimeball]
+* Flowers: [[Allium]], [[Azure Bluet]], [[Blue Orchid]], [[Dandelion]], [[Lilac]], [[Orange Tulip]], ...
+* Fruits & Vegetables: [[Apple]], [[Pumpkin]], [[Melon]], [[Melon (block)]], [[Wheat]]
+* Leaves: [[Acacia Leaves]], [[Birch Leaves]], [[Dark Oak Leaves]], [[Jungle Leaves]], [[Oak Leaves]], ...
+* Plants: [[Cactus]], [[Sugar Canes]]
+* Animals Parts: [[Slimeball]]
 
-See: [BioFuel], [BioFuel Generator]
+See: [[BioFuel]], [[BioFuel Generator]]
 
 END

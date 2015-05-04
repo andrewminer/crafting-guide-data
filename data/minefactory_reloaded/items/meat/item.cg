@@ -1,9 +1,7 @@
 schema: 1
 
 description: <<-END
-Meat is produced by the [Slaughterhouse] as it kills mobs. As a fluid, it can be piped out and stored in tanks, buckets
-or even just poured out into the world.  In the world, it can be drunk by a player using a [Straw] to gain the following
-benefits:
+Meat is produced by the [[Slaughterhouse]] as it kills mobs. As a fluid, it can be piped out and stored in tanks, buckets or even just poured out into the world.  In the world, it can be drunk by a player using a [[Straw]] to gain the following benefits:
 
 * Completely fill the hunger bar
 * Completely recover health + 6 extra hearts
@@ -12,7 +10,7 @@ benefits:
 * Absorbion III 0:04
 * Staturation III 0:15
 
-Liquid meat can also be piped into a [Meat Packer] in order to form [Raw Meat Ingot]s, 100 mB of liquid meat per ingot.
+Liquid meat can also be piped into a [[Meat Packer]] in order to form [[Raw Meat Ingot]]s, 100 mB of liquid meat per ingot.
 
-See also: [Meat Packer], [Raw Meat Ingot], [Slaughterhouse], [Straw]
+See also: [[Meat Packer]], [[Raw Meat Ingot]], [[Slaughterhouse]], [[Straw]]
 END

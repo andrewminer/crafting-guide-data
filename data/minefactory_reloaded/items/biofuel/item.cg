@@ -4,5 +4,5 @@ description: <<-END
 BioFuel is produced by the BioReactor which converts plant life into a fuel source for the BioFuel Generator. See
 the entry on the reactor for more information on exactly which plants can be used and how to set up the process.
 
-See: [BioReactor], [BioFuel Generator]
+See: [[BioReactor]], [[BioFuel Generator]]
 END

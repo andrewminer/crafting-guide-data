@@ -4,10 +4,8 @@ description: <<-END
 The Assembly Table is used to make various chipsets, gates, wires, and other electronic parts.  Right-clicking opens the
 interface:
 
-|              |
-|:------------:|
 | ![](gui.png) |
-
+|:------------:|
 
 You can place the input items on the left, and the available output items appear on the right.  All assembly table
 recipes are shapeless, and there may even be extra input items present.
@@ -27,9 +25,8 @@ connected (via kinesis pipes) to some source of power. A single assembly table c
 it, so the more lasers you have within range, the faster it will work. Here's an example of a simple
 setup:
 
-|                  |
-|:----------------:|
 | ![](example.png) |
+|:----------------:|
 | *[see the crafting  plan](/craft/redstone_torch:assembly_table:combustion_engine:emerald_kinesis_pipe:4.golden_kinesis_pipe:3.laser)* |
 
 1. a combustion Engine filled with fuel produces power (60 RF/t) when activated by a redstone torch
@@ -37,7 +34,7 @@ setup:
 3. a set of three lasers each transmit 20 RF/t
 4. assembly table which uses the 60 RF/t to build its current assignment
 
-See also: [Laser]
+See also: [[Laser]]
 
 # Similar Machines
 
@@ -45,5 +42,5 @@ There are a number of other machines which also require laser power, so it is wi
 can reach all of them. If multiple machines each have a job ready to work, the lasers will split their time (and
 thus the output power) between each of them.
 
-See also: [Advanced Crafting Table], [Charging Table], [Integration Table]
+See also: [[Advanced Crafting Table]], [[Charging Table]], [[Integration Table]]
 END

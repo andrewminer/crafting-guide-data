@@ -1,7 +1,5 @@
 schema: 1
 
 description: <<-END
-The charging table transfers energy provided by lasers into an item capable of holding charge (e.g., a
-[Redstone Flux Capacitor]).  It works much like an [Assembly Table] in that it requires powered [Laser]s within range to
-provide it with power.  Just place an item in table, and it will automatically start the lasers and charge the item.
+The charging table transfers energy provided by lasers into an item capable of holding charge (e.g., a [[Redstone Flux Capacitor]]).  It works much like an [[Assembly Table]] in that it requires powered [[Laser]]s within range to provide it with power.  Just place an item in table, and it will automatically start the lasers and charge the item.
 END

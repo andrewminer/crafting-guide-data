@@ -1,12 +1,11 @@
 schema: 1
 
 description: <<-END
-Chocolate Milk is a fluid created by pouring out a [Chocolate Milk Bucket] into the world.  It may then be drunk with a
-[Straw] to receive the following effects:
+Chocolate Milk is a fluid created by pouring out a [[Chocolate Milk Bucket]] into the world.  It may then be drunk with a [[Straw]] to receive the following effects:
 
 * Speed IV (for 1:00)
 * Haste III (for 1:00)
 * Regeneration IV (for 0:05)
 
-See: [Chocolate Milk Bucket], [Straw]
+See also: [[Chocolate Milk Bucket]], [[Straw]]
 END

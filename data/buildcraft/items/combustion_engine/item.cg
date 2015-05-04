@@ -1,0 +1,10 @@
+schema: 1
+
+description: <<-END
+The combustion engine generates power by burning various liquid fuels. In doing so, it builds up a considerable amount of heat and must be kept cool with water to avoid exploding. Different fuels produce different amounts of energy and heat, and take more or less time to burn.  The following table shows the energy output and burn duration a single bucket of various kinds of fuels.
+
+| Liquid Type | Rate    | Duration  | Total        |
+|:------------|--------:|----------:|-------------:|
+| Oil         | 30 RF/t |  20,000 t |   600,000 RF |
+| Fuel        | 60 RF/t | 100,000 t | 6,000,000 RF |
+END
