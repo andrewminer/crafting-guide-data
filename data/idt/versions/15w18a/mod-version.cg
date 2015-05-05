@@ -129,28 +129,6 @@ group: Utility Blocks
 			input: Iron Ingot, Furnace
 			pattern: 000 010 000
 			tools: Crafting Table
-			
-	item: Gem Cutter
-		recipe:
-			input: Iron Ingot, Redstone, Diamond Saw Blade
-			pattern: .2. 010 000
-			tools: Crafting Table
-			
-	item: Matter Condenser
-		recipe:
-			input: Titanium Frame, Compressor Unit
-			pattern: 0.0 .1. 0.0
-			tools: Crafting Table
-			
-	item: ZNG
-		recipe:
-			input: Steel Ingot, Zimphnode Bar, Gear
-			pattern: 000 010 020
-			tools: Crafting Table
-			
-	item: Bio-Fuel Extractor
-	
-	item: Tank Compressor
 	
 	item: Healer
 		recipe:
