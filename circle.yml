@@ -4,6 +4,6 @@ deployment:
         commands:
             - ./scripts/deploy --staging
     production:
-        branch: production
+        branch: master
         commands:
             - ./scripts/deploy --production
