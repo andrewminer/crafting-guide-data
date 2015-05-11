@@ -1,9 +1,5 @@
 deployment:
-    staging:
+    all:
         branch: master
         commands:
-            - ./scripts/deploy --staging
-    production:
-        branch: master
-        commands:
-            - ./scripts/deploy --production
+            - ./scripts/deploy --staging && ./scripts/deploy --production
