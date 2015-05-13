@@ -1,5 +1,11 @@
 schema: 1
 
-description: 
+description: <<-END
+The pump can pick up fluid blocks from the world and output them into pipes, tanks, or other fluid containers. When placed above a pool of liquid, it will extend a tube down until it is in the liquid and proceed to find the furthest connected fluid block at that height and remove it, outputting 1000mB of that fluid into any connected pipe or tank.  It will continue doing this until all the connected blocks at that height have been removed (ending with the one directly under the pump). It will then lower the pipe by one block and repeat the process.  Once there are no more fluid blocks under the pump, it will retract the pipe.
+
+The pump requires a small amount of power to operate. In fact, a [[Redstone Engine]] is sufficient to run it, though only very slowly. To operate at full speed, a [[Stirling Engine]] is required.
+
+The pump does not distinguish between multiple kinds of fluid. In particular, when pumping [[Oil]] in the ocean, the pump will first attempt to suck up the entire surface of the ocean before proceeding deeper. To avoid this, you will need to manually isolate the area you'd like to pump from the surrounding area.  An easy way to do so is to place a [[Lily Pad]] on the surface of the water next to the oil patch, and then drop sand using the edge of the lily pad until it is above the surface of the water. If you do happen to suck up multiple fluids with a pump, you can use a [[Diamond Fluid Pipe]] in combination with an [[Obsidian Fluid Pipe]] to dispose of the fluid you don't want.
+END
 
 
