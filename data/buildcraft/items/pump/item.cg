@@ -1,7 +1,7 @@
 schema: 1
 
 description: <<-END
-The pump can pick up fluid blocks from the world and output them into pipes, tanks, or other fluid containers. When placed above a pool of liquid, it will extend a tube down until it is in the liquid and proceed to find the furthest connected fluid block at that height and remove it, outputting 1000mB of that fluid into any connected pipe or tank.  It will continue doing this until all the connected blocks at that height have been removed (ending with the one directly under the pump). It will then lower the pipe by one block and repeat the process.  Once there are no more fluid blocks under the pump, it will retract the pipe.
+The pump can pick up fluid blocks from the world and output them into pipes, tanks, or other fluid containers. When placed above a pool of liquid, it will extend a tube down until it is in the liquid and proceed to find the furthest connected fluid block at that height and remove it, outputting 1000mB of that fluid into any connected pipe or tank.  It will continue doing this until all the connected blocks at that height have been removed (ending with the one directly under the pump). It will then lower the pipe by one block and repeat the process. (to a maximum of 64 blocks). Once there are no more fluid blocks under the pump, it will retract the pipe.
 
 The pump requires a small amount of power to operate. In fact, a [[Redstone Engine]] is sufficient to run it, though only very slowly. To operate at full speed, a [[Stirling Engine]] is required.
 
