@@ -1,5 +1,22 @@
 schema: 1
 
-description: The land mark is used to show the area where a BuildCraft machine should work. Start by placing a landmark just in front of where you want to place the machine.
+description: <<-END
+The land mark is used to show the area where a BuildCraft machine should work. Some machines, like the [[Quarry]], use a 2-dimensional area, while others, like the [[Filler]] use a 3-dimensional area.
+
+# Defining a 2D area
+
+To define a 2D area, start by placing a landmark at one corner of the area you want to define. Then place another landmark in a straight line away from the first to mark off the width. Next, place another landmark in a straight line perpendicular to the first (describing an L) to mark off the depth. By right-clicking the first marker, you active the land marks, and a red rectangle should appear connecting all three land marks.
+
+There are a few things to keep in mind, or your landmarks won't connect into a rectangle:
+
+1. All the landmarks must be at the same height (i.e., at the same Y coordinate)
+2. The landmarks cannot be more than 64m apart
+
+As a handy way to judge the last criteria, if you provide a redstone signal to the first landmark, it will shoot out a blue beam to its maximum range.
+
+# Defining a 3D area
+
+To define a 3D area, start by defining the base using the method described above.  Before right-clicking to define the area, simply place another land mark directly above the first to define the height of the area.
+END
 
 
