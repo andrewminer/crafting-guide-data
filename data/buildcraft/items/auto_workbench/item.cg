@@ -6,9 +6,8 @@ for automated workflows.
 
 Start by opening the interface and laying out input items just like with a regular crafting table.
 
-|              |
-|:------------:|
 | ![](gui.png) |
+|:------------:|
 
 At this point, you'll notice that it does *not* actually craft anything, but it does show you want item *would* be
 crafted. Now, add enough ingredients to complete the recipe three times. Once you do, the workbench will automatically
@@ -21,9 +20,8 @@ have arrived, the next item will be produced. If these items are piped out, prod
 
 For example, here's a setup which converts sticks into wood gears:
 
-|                  |
-|:----------------:|
 | ![](example.png) |
+|:----------------:|
 | *[see the crafting plan](/craft/2.chest:auto_workbench:2.basic_gate_autarchic_pulsar:2.wooden_transport_pipe)* |
 
 1. a chest full of sticks
@@ -34,3 +32,5 @@ For example, here's a setup which converts sticks into wood gears:
 See also: [[Basic Gate (Autarchic Pulsar)]],  [[Wooden Transport Pipe]]
 
 END
+
+
