@@ -1,0 +1,13 @@
+schema: 1
+
+description: <<-END
+The refinery converts [[Oil]] into [[Fuel]]. While the conversion is 1:1, fuel provides a great deal more power than oil, so it's well worth the cost of the machine and power.
+
+To operate, oil must be put into the refinery either by buckets or fluid pipes.  This will be placed in the two rear tanks (up to 8,000mB), while the fuel will be placed in the front tank (up to 4,000mB).  Once the fuel tank is full, the refinery will stop working. To extract the fuel, you'll need to use a [[Wooden Fluid Pipe]] and some kind of power source (e.g., a [[Redstone Engine]]) to extract the fuel.
+
+The refinery can use quite a bit of power, and will work faster the more power you can give it, until its maximum speed is reached. When power is supplied, the two pistons will start moving up and down. As more power is applied, they will move faster and turn different colors, eventually becoming green when at top speed.
+
+See also: [[Oil]], [[Fuel]], [[Wooden Fluid Pipe]]
+END
+
+
