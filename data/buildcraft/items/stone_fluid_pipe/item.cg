@@ -1,5 +1,9 @@
 schema: 1
 
-description: The stone fluid pipe is the second tier of ordinary fluid pipe.  With its transfer rate of 20mB/t, it is twice as fast as the [[Cobblestone Fluid Pipe]] (10mB/t), but considerably slower than the [[Golden Fluid Pipe]] (80mB/t).  The stone fluid pipe will connect to inventories and itself, but not to cobblestone or [[Quartz Fluid Pipe]]s.
+description: <<-END
+The stone fluid pipe is the second tier of ordinary fluid pipe.  With its transfer rate of 20mB/t, it is twice as fast as the [[Cobblestone Fluid Pipe]] (10mB/t), but considerably slower than the [[Golden Fluid Pipe]] (80mB/t).
+
+The stone fluid pipe has no special abilities, but will not connect with either cobblestone or [[Quartz Fluid Pipe]]s.  As with most fluid pipes, it can insert fluids into a container, but cannot extract them (for which you need a [[Wooden Fluid Pipe]]).
+END
 
 
