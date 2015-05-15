@@ -1,0 +1,14 @@
+schema: 1
+
+description: <<-END
+The stirling engine is the second tier of engine provided by Buildcraft. By feeding it a constant supply of combustible material (i.e., whatever a furnace can accept), it will yield a steady 10 RF/t. Various materials will keep the engine running for more or less time:
+
+| Material      | Time (m:s)|
+|---------------|----------:|
+| Lava Bucket   |     20:40 |
+| Coal/Charcoal |      1:20 |
+| Wood/Planks   |      0:15 |
+| Sapling/Stick |      0:05 |
+END
+
+
