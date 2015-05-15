@@ -1,0 +1,5 @@
+schema: 1
+
+description: A wooden transport pipe is used to pull items out of inventories. To start extracting items, a small pulse of energy must be provided (about 0.5RF / item).  To provide this item, you can either connect some kind of engine (e.g., a [[Redstone Engine]]) or attach some kind of autarchic gate (e.g., the [[Basic Gate (Autarchic Pulsar)]]).  The more power provided, the more items will be extracted, so attaching a [[Stirling Engine]] will pull out even more items, and a [[Combustion Engine]] even more.
+
+
