@@ -1,5 +1,5 @@
 schema: 1
 
-description: The redstone engine is the lowest powered engine in Buildcraft. It produces 0.5 RF/t, and cannot be connected to a [[Wooden Kinesis Pipe]], thus making it's only use to directly power machines.
+description: The redstone engine is the lowest powered engine in Buildcraft. It produces 0.5 RF/t, and cannot be connected to a [[Wooden Kinesis Pipe]], thus making it's only use to directly power machines.  It's most common use is a cheap way to power a [[Pump]], or to extract items from a [[Chest]] using a [[Wooden Transport Pipe]].
 
 
