@@ -1,0 +1,19 @@
+schema: 1
+
+description: <<-END
+The assembler is a powered machine which crafts items, it can be upgraded by inserting Acceleration Cards into it; once upgraded it is very fast.
+
+Functions in one of two modes, single pattern mode or interface fed mode.
+
+Single Pattern Mode
+Uses a single Encoded Pattern (must be a crafting recipe) inserted into the assembler to craft an item without a crafting network.
+
+This makes it useful in stand alone setups or in configurations where it can be fed by other mods and even chained together to to craft a final output. Items will be accepted from any side and exported into any available inventories.
+
+Interface Fed Mode
+Uses the Encoded Patterns (must be a crafting recipe)  from attached ME Interface to craft items when they are requested by the Crafting CPU.
+
+Note, this mode requires that the assembler not contain a Encoded Pattern; the pattern slot must be empty.
+END
+
+
