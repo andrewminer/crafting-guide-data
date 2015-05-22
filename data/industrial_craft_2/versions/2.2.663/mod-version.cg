@@ -958,6 +958,10 @@ group: Machine Parts
             input: Insulated Copper Cable, Iron Plate, Redstone
             pattern: 000 212 000
             tools: Crafting Table
+        recipe:
+            input: Insulated Copper Cable, Iron Plate, Redstone
+            pattern: 020 010 020
+            tools: Crafting Table
 
     item: Energy Storage Upgrade
         recipe:
