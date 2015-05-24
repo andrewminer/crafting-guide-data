@@ -140,7 +140,13 @@ group: Crafting Components
 
     item: Basic Capacitor
         recipe:
+            onlyIf: not item Copper Ingot
             input: Gold Nugget, Iron Ingot, Redstone
+            pattern: .02 010 20.
+            tools: Crafting Table
+        recipe:
+            onlyIf: item Copper Ingot
+            input: Gold Nugget, Copper Ingot, Redstone
             pattern: .02 010 20.
             tools: Crafting Table
 
