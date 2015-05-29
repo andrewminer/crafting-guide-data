@@ -1,5 +1,5 @@
 schema: 1
 
-description: Redstone torches are one of the simplest way to generate a redstone signal.  When placed in the world, a redstone torch will emit a redstone signal with strength 15. They also emit slightly less light than a regular torch (light level 14 instead of 15).
+description: Redstone torches are one of the simplest way to generate a redstone signal.  When placed in the world, a redstone torch will emit a redstone signal with strength 15. They also emit slightly less light than a regular torch (light level 7 instead of 15).
 
 
