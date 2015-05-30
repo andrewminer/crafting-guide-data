@@ -1,0 +1,5 @@
+schema: 1
+
+description: The Blueprint Library allows you to make copies of [[Blueprint]]s. By placing the blueprint in the top-right slot, you can copy it into the library.  It will then appear in the list of known blueprints to the left.  In order to copy a blueprint, simply select the desired design from the list of the left, and place an empty blueprint into the lower-left slot, and it will be copied out with the selected design.
+
+
