@@ -57,10 +57,32 @@ group: General Blocks
 			
 	item: Stable Black Hole
 	
-	item: Core Reactor
+	item: Einsteinium Core Reactor
 		recipe:
-			input: Titanium Ingot, Uranium Ingot
-			pattern: .0. 010 .0.
+			input: Titanium Plate, Steel Rod, Einsteinium Ingot
+			pattern: 000 121 000
+			tools: Crafting Table
+			
+	item: Neptunium Core Reactor
+		recipe:
+			input: Titanium Plate, Steel Rod, Neptunium Ingot
+			pattern: 000 121 000
+			tools: Crafting Table
+			
+	item: Uranium Core Reactor
+		recipe:
+			input: Titanium Plate, Steel Rod, Uranium Ingot
+			pattern: 000 121 000
+			tools: Crafting Table
+			
+	item: Super Reactor
+		recipe:
+			input: Einsteinium Core Reactor, Neptunium Core Reactor, Uranium Core Reactor, Titanium Plate, Explosive Charge
+			pattern: .2. 041 333
+			tools: Crafting Table
+		recipe:
+			input: Einsteinium Core Reactor, Neptunium Core Reactor, Uranium Core Reactor, Titanium Plate, Explosive Charge
+			pattern: .2. 140 333
 			tools: Crafting Table
 			
 	item: Liquid Nitrogen
@@ -157,6 +179,16 @@ group: Utility Blocks
 			input: Jungle Wood Planks
 			pattern: 00. 00. ...
 			
+	item: Acacia Crafting Table
+		recipe:
+			input: Acacia Wood Planks
+			pattern: 00. 00. ...
+			
+	item: Dark Oak Crafting Table
+		recipe:
+			input: Dark Oak Wood Planks
+			pattern: 00. 00. ...
+			
 	item: Willow Crafting Table
 		recipe:
 			input: Willow Wood Planks
@@ -186,6 +218,12 @@ group: Utility Blocks
 			input: Jungle Crafting Table
 			pattern: ... .0. ...
 		recipe:
+			input: Acacia Crafting Table
+			pattern: ... .0. ...
+		recipe:
+			input: Dark Oak Crafting Table
+			pattern: ... .0. ...
+		recipe:
 			input: Willow Crafting Table
 			pattern: ... .0. ...
 		recipe:
@@ -200,30 +238,26 @@ group: Utility Blocks
 group: Bombs
 	item: Einsteinium Bomb
 		recipe:
-			input: Iron Ingot, Einsteinium Ingot
+			input: Iron Ingot, Einsteinium Core Reactor
 			pattern: 000 010 000
 			tools: Crafting Table
 			
 	item: Neptunium Bomb
 		recipe:
-			input: Iron Ingot, Neptunium Ingot
+			input: Iron Ingot, Neptunium Core Reactor
 			pattern: 000 010 000
 			tools: Crafting Table
 			
 	item: Uranium Bomb
 		recipe:
-			input: Iron Ingot, Uranium Ingot
+			input: Iron Ingot, Uranium Core Reactor
 			pattern: 000 010 000
 			tools: Crafting Table
 			
 	item: Ultimate Nuker
 		recipe:
-			input: Iron Ingot, Uranium Ingot, Neptunium Ingot, Einsteinium Ingot, Explosive Charge
-			pattern: .1. 040 203
-			tools: Crafting Table
-		recipe:
-			input: Iron Ingot, Uranium Ingot, Neptunium Ingot, Einsteinium Ingot, Explosive Charge
-			pattern: .1. 040 302
+			input: Iron Ingot, Super Reactor
+			pattern: 000 010 000
 			tools: Crafting Table
 			
 group: Ores
@@ -289,6 +323,12 @@ group: Ingots and Bars
 	item: Titanium Ingot
 		recipe:
 			input: Steel Ingot, furnace fuel
+			pattern: .0. ... .1.
+			tools: Furnace
+			
+	item: Zimphnode Bar
+		recipe:
+			input: Zimphnode, furnace fuel
 			pattern: .0. ... .1.
 			tools: Furnace
 			
@@ -362,6 +402,30 @@ group: Armor
 	item: Zimphnode Boots
 		recipe:
 			input: Zimphnode Bar
+			pattern: ... 0.0 0.0
+			tools: Crafting Table
+			
+	item: Vanadium Helmet
+		recipe:
+			input: Vanadium Ingot
+			pattern: 000 0.0 ...
+			tools: Crafting Table
+			
+	item: Vanadium Chestplate
+		recipe:
+			input: Vanadium Ingot
+			pattern: 0.0 000 000
+			tools: Crafting Table
+			
+	item: Vanadium Leggings
+		recipe:
+			input: Vanadium Ingot
+			pattern: 000 0.0 0.0
+			tools: Crafting Table
+			
+	item: Vanadium Boots
+		recipe:
+			input: Vanadium Ingot
 			pattern: ... 0.0 0.0
 			tools: Crafting Table
 			
@@ -599,6 +663,18 @@ group: General Items
 		recipe:
 			input: Paper
 			pattern: ... .0. ...
+			
+	item: Liquid Nitrogen Bucket
+	
+	item: Steel Rod
+		recipe:
+			input: Steel Ingot
+			pattern: .0. .0. ...
+			
+	item: Titanium Plate
+		recipe:
+			input: Titanium Ingot
+			pattern: 00. ... ...
 	
 group: Wood Stuff
 	item: Willow Wood
@@ -655,6 +731,18 @@ group: Wood Stuff
 			pattern: 0.. 0.. ...
 			quantity: 4
 			
+	item: Acacia Stick
+		recipe:
+			input: Acacia Wood Planks
+			pattern: 0.. 0.. ...
+			quantity: 4
+			
+	item: Dark Oak Stick
+		recipe:
+			input: Dark Oak Wood Planks
+			pattern: 0.. 0.. ...
+			quantity: 4
+			
 	item: Willow Stick
 		recipe:
 			input: Willow Wood Planks
@@ -688,6 +776,16 @@ group: Wood Stuff
 			input: Jungle Wood Planks
 			pattern: ... .0. ...
 			
+	item: Acacia Button
+		recipe:
+			input: Acacia Wood Planks
+			pattern: ... .0. ...
+			
+	item: Dark Oak Button
+		recipe:
+			input: Dark Oak Wood Planks
+			pattern: ... .0. ...
+			
 	item: Willow Button
 		recipe:
 			input: Willow Wood Planks
@@ -716,6 +814,16 @@ group: Wood Stuff
 	item: Jungle Pressure Plate
 		recipe:
 			input: Jungle Wood Planks
+			pattern: ... 00. ...
+			
+	item: Acacia Pressure Plate
+		recipe:
+			input: Acacia Wood Planks
+			pattern: ... 00. ...
+			
+	item: Dark Oak Pressure Plate
+		recipe:
+			input: Dark Oak Wood Planks
 			pattern: ... 00. ...
 			
 	item: Willow Pressure Plate
@@ -775,6 +883,20 @@ group: Wood Stuff
 			tools: Crafting Table
 			quantity: 2
 			
+	item: Acacia Fence
+		recipe:
+			input: Acacia Stick
+			pattern: ... 000 000
+			tools: Crafting Table
+			quantity: 2
+			
+	item: Dark Oak Fence
+		recipe:
+			input: Dark Oak Stick
+			pattern: ... 000 000
+			tools: Crafting Table
+			quantity: 2
+			
 	item: Willow Fence
 		recipe:
 			input: Willow Stick
@@ -811,6 +933,18 @@ group: Wood Stuff
 	item: Jungle Fence Gate
 		recipe:
 			input: Jungle Stick, Jungle Wood Planks
+			pattern: ... 010 010
+			tools: Crafting Table
+			
+	item: Acacia Fence Gate
+		recipe:
+			input: Acacia Stick, Acacia Wood Planks
+			pattern: ... 010 010
+			tools: Crafting Table
+			
+	item: Dark Oak Fence Gate
+		recipe:
+			input: Dark Oak Stick, Dark Oak Wood Planks
 			pattern: ... 010 010
 			tools: Crafting Table
 			
@@ -883,6 +1017,26 @@ group: Wood Stuff
 			pattern: ... .0. .1.
 			quantity: 4
 			
+	item: Acacia Torch
+		recipe:
+			input: Charcoal, Acacia Stick
+			pattern: ... .0. .1.
+			quantity: 4
+		recipe:
+			input: Coal, Acacia Stick
+			pattern: ... .0. .1.
+			quantity: 4
+			
+	item: Dark Oak Torch
+		recipe:
+			input: Charcoal, Dark Oak Stick
+			pattern: ... .0. .1.
+			quantity: 4
+		recipe:
+			input: Coal, Dark Oak Stick
+			pattern: ... .0. .1.
+			quantity: 4
+			
 	item: Willow Torch
 		recipe:
 			input: Charcoal, Willow Stick
@@ -928,6 +1082,16 @@ group: Wood Stuff
 			input: Redstone, Jungle Stick
 			pattern: ... .0. .1.
 			
+	item: Acacia Redstone Torch
+		recipe:
+			input: Redstone, Acacia Stick
+			pattern: ... .0. .1.
+			
+	item: Dark Oak Redstone Torch
+		recipe:
+			input: Redstone, Dark Oak Stick
+			pattern: ... .0. .1.
+			
 	item: Willow Redstone Torch
 		recipe:
 			input: Redstone, Willow Stick
@@ -967,6 +1131,18 @@ group: Wood Stuff
 			pattern: 01. 01. ...
 			quantity: 2
 			
+	item: Acacia Wood Wall Part
+		recipe:
+			input: Acacia Stick, Acacia Wood Planks
+			pattern: 01. 01. ...
+			quantity: 2
+			
+	item: Dark Oak Wood Wall Part
+		recipe:
+			input: Dark Oak Stick, Dark Oak Wood Planks
+			pattern: 01. 01. ...
+			quantity: 2
+			
 	item: Willow Wood Wall Part
 		recipe:
 			input: Willow Stick, Willow Wood Planks
@@ -1000,6 +1176,18 @@ group: Wood Stuff
 	item: Jungle Door
 		recipe:
 			input: Jungle Wood Planks
+			pattern: 00. 00. 00.
+			tools: Crafting Table
+			
+	item: Acacia Door
+		recipe:
+			input: Acacia Wood Planks
+			pattern: 00. 00. 00.
+			tools: Crafting Table
+			
+	item: Dark Oak Door
+		recipe:
+			input: Dark Oak Wood Planks
 			pattern: 00. 00. 00.
 			tools: Crafting Table
 			
@@ -1039,6 +1227,18 @@ group: Wood Stuff
 			pattern: 000 0.0 000
 			tools: Crafting Table
 			
+	item: Acacia Chest
+		recipe:
+			input: Acacia Wood Planks
+			pattern: 000 0.0 000
+			tools: Crafting Table
+			
+	item: Dark Oak Chest
+		recipe:
+			input: Dark Oak Wood Planks
+			pattern: 000 0.0 000
+			tools: Crafting Table
+			
 	item: Willow Chest
 		recipe:
 			input: Willow Wood Planks
@@ -1072,6 +1272,18 @@ group: Wood Stuff
 	item: Jungle Trapped Chest
 		recipe:
 			input: Jungle Chest, Tripwire Hook
+			pattern: 01. ... ...
+			tools: Crafting Table
+			
+	item: Acacia Trapped Chest
+		recipe:
+			input: Acacia Chest, Tripwire Hook
+			pattern: 01. ... ...
+			tools: Crafting Table
+			
+	item: Dark Oak Trapped Chest
+		recipe:
+			input: Dark Oak Chest, Tripwire Hook
 			pattern: 01. ... ...
 			tools: Crafting Table
 			
@@ -1111,6 +1323,18 @@ group: Wood Stuff
 			pattern: ... 000 000
 			tools: Crafting Table
 			
+	item: Acacia Trapdoor
+		recipe:
+			input: Acacia Wood Planks
+			pattern: ... 000 000
+			tools: Crafting Table
+			
+	item: Dark Oak Trapdoor
+		recipe:
+			input: Dark Oak Wood Planks
+			pattern: ... 000 000
+			tools: Crafting Table
+			
 	item: Willow Trapdoor
 		recipe:
 			input: Willow Wood Planks
@@ -1135,6 +1359,10 @@ group: Wood Stuff
 	
 	item: Jungle Secret Trapdoor
 	
+	item: Acacia Secret Trapdoor
+	
+	item: Dark Oak Secret Trapdoor
+	
 	item: Willow Secret Trapdoor
 	
 	item: Ebony Secret Trapdoor
@@ -1154,6 +1382,16 @@ group: Wood Stuff
 	item: Jungle Lever
 		recipe:
 			input: Jungle Wood Planks, Cobblestone
+			pattern: ... .0. .1.
+			
+	item: Acacia Lever
+		recipe:
+			input: Acacia Wood Planks, Cobblestone
+			pattern: ... .0. .1.
+			
+	item: Dark Oak Lever
+		recipe:
+			input: Dark Oak Wood Planks, Cobblestone
 			pattern: ... .0. .1.
 			
 	item: Willow Lever
@@ -1188,6 +1426,20 @@ group: Wood Stuff
 	item: Jungle Ladder
 		recipe:
 			input: Jungle Stick
+			pattern: 0.0 000 0.0
+			tools: Crafting Table
+			quantity: 3
+			
+	item: Acacia Ladder
+		recipe:
+			input: Acacia Stick
+			pattern: 0.0 000 0.0
+			tools: Crafting Table
+			quantity: 3
+			
+	item: Dark Oak Ladder
+		recipe:
+			input: Dark Oak Stick
 			pattern: 0.0 000 0.0
 			tools: Crafting Table
 			quantity: 3
@@ -1315,6 +1567,20 @@ group: Walls
 	item: Jungle Wood Wall
 		recipe:
 			input: Jungle Wood Wall Part
+			pattern: ... 000 000
+			tools: Crafting Table
+			quantity: 6
+			
+	item: Acacia Wood Wall
+		recipe:
+			input: Acacia Wood Wall Part
+			pattern: ... 000 000
+			tools: Crafting Table
+			quantity: 6
+			
+	item: Dark Oak Wood Wall
+		recipe:
+			input: Dark Oak Wood Wall Part
 			pattern: ... 000 000
 			tools: Crafting Table
 			quantity: 6
