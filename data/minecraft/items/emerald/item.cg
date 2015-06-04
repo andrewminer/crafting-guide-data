@@ -1,5 +1,8 @@
 schema: 1
 
-description: The emerald is used as a currency used by villagers in vanilla minecraft otherwise it serves no other purpose without any mods.
+description: <<-END
+The Emerald is a rare gemstone found around the same depth as [[Gold Ore]], but only under Extreme Hills (or similar) biomes.  However, its primary value is as a currency for trading with Villagers. In fact, it's pretty easy to acquire a bunch of them by trading simple things like [[Wheat]], [[Wool]], or [[Coal]].
+
+END
 
 
