@@ -1,5 +1,15 @@
 schema: 1
 
-description: Wheat is a crop obtained from planting [[Seeds]] on a tilled [[Dirt]] block.  For a very early-game wheat farm, start by breaking a bunch of [[Grass]] blocks.  These will (sometimes) drop seeds. Next, craft a [[Wooden Hoe]], and use it by right-clicking on dirt blocks near a source of water (i.e., within 4m of a water source block). These will turn into tilled dirt blocks.  Right-click these with the seeds, and tiny, immature wheat plants will appear. These will slowly grow when given enough light until they are completely mature. When broken, the wheat plant will drop the wheat item as well as some more seeds.
+description: <<-END
+Wheat is a crop obtained from planting [[Seeds]] on a tilled [[Dirt]] block.  It can be used to make a variety of food items (including [[Bread]] and [[Cake]]) and to breed Cows and Sheep.  The seeds can be used to breed Chickens.
+
+Except for villages, wheat doesn't naturally appear in the game on its own.  Here are some steps for a very early-game wheat farm:
+
+1. Break a bunch of [[Grass]] blocks to obtain seeds (they only drop occasionally)
+2. Craft a [[Wooden Hoe]], and use it by right-clicking on dirt blocks near a source of water (i.e., within 4m of a water source block). These will turn into tilled dirt blocks.
+3. Right-click the tilled dirt with the seeds, and tiny, immature wheat plants will appear. These will slowly grow when given enough light until they are completely mature.
+4. Harvest the wheat by left-clicking the plant. Fully mature plants will drop a wheat item as well as some more seeds.  Immature plants will only drop seeds.
+5. Use the seeds you recover to re-plant your farm.
+END
 
 
