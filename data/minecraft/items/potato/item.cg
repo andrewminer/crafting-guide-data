@@ -1,0 +1,18 @@
+schema: 1
+
+description: <<-END
+Potato is a food item which can be cultivated from a potato plant. As food, they only restore 1 hunger point (half a shank on the hunger meter), but when cooked in a furnace, they become [[Cooked Potato]]s which restore 5 times as many hunger points.
+
+Potatoes are somewhat difficult to find as they don't appear naturally in the game except in village farms. Apart from that, they are (very) rarely dropped by Zombies or found in dungeons, temples, or strongholds.
+
+To start a simple potato farm, follow these steps:
+
+1. Craft a [[Wooden Hoe]]
+2. Till some dirt within 4 blocks of a water block (at the same height as the water)
+3. Right-click the tilled soil with the potato
+4. Wait until the potato is fully grown (you can see the white poking out of the ground)
+5. Left-click the plant to dig up 2-4 potatoes. If you harvest the plant prematurely, you'll generally only get 1 potato back.
+
+END
+
+
