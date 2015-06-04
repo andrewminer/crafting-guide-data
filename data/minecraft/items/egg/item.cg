@@ -1,5 +1,5 @@
 schema: 1
 
-description: Eggs are used in crafting cakes. They are laid by chickens every 5 minutes.
+description: Eggs are periodically dropped by Chickens (about every 5 minutes).  In addition to crafting various food items (e.g., [[Cake]] and [[Pumpkin Pie]]), they can be used to hatch new chickens (about a 1 in 16 chance for each egg).  Finally, when thrown at a mob, eggs cause a very minor knockback effect (similar to a [[Snowball]]).
 
 
