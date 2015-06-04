@@ -1,5 +1,9 @@
 schema: 1
 
-description: Can be obtained by breaking grass blocks. When planted it will grow into Wheat which is used to make bread.
+description: <<-END
+Seeds are primarily used to grow wheat or to breed Chickens.  They can be obtained either by breaking [[Grass]] (sometimes), or by breaking wheat plants (most of the time).
+
+For details on using seeds in farming, see: [[Wheat]]
+END
 
 
