@@ -275,6 +275,8 @@ group: Ores
 	
 	item: Vanadium Ore
 	
+	item: Tantalum Ore
+	
 	item: Zimphnode
 	
 group: Ingots and Bars
@@ -329,6 +331,12 @@ group: Ingots and Bars
 	item: Zimphnode Bar
 		recipe:
 			input: Zimphnode, furnace fuel
+			pattern: .0. ... .1.
+			tools: Furnace
+			
+	item: Tantalum Ingot
+		recipe:
+			input: Tantalum Ore, furnace fuel
 			pattern: .0. ... .1.
 			tools: Furnace
 			
@@ -426,6 +434,30 @@ group: Armor
 	item: Vanadium Boots
 		recipe:
 			input: Vanadium Ingot
+			pattern: ... 0.0 0.0
+			tools: Crafting Table
+			
+	item: Tantalum Helmet
+		recipe:
+			input: Tantalum Ingot
+			pattern: 000 0.0 ...
+			tools: Crafting Table
+			
+	item: Tantalum Chestplate
+		recipe:
+			input: Tantalum Ingot
+			pattern: 0.0 000 000
+			tools: Crafting Table
+			
+	item: Tantalum Leggings
+		recipe:
+			input: Tantalum Ingot
+			pattern: 000 0.0 0.0
+			tools: Crafting Table
+			
+	item: Tantalum Boots
+		recipe:
+			input: Tantalum Ingot
 			pattern: ... 0.0 0.0
 			tools: Crafting Table
 			
@@ -1611,3 +1643,93 @@ group: Tools
 		recipe:
 			input: Iron Ingot, Stick
 			pattern: .0. 1.. ...
+			
+	item: Steel Pickaxe
+		recipe:
+			input: Steel Ingot, Stick
+			pattern: 000 .1. .1.
+			tools: Crafting Table
+			
+	item: Steel Shovel
+		recipe:
+			input: Steel Ingot, Stick
+			pattern: .0. .1. .1.
+			tools: Crafting Table
+			
+	item: Steel Axe
+		recipe:
+			input: Steel Ingot, Stick
+			pattern: 00. 01. .1.
+			tools: Crafting Table
+			
+	item: Steel Sword
+		recipe:
+			input: Steel Ingot, Stick
+			pattern: .0. .0. .1.
+			tools: Crafting Table
+			
+	item: Steel Hoe
+		recipe:
+			input: Steel Ingot, Stick
+			pattern: 00. .1. .1.
+			tools: Crafting Table
+			
+	item: Titanium Pickaxe
+		recipe:
+			input: Titanium Ingot, Stick
+			pattern: 000 .1. .1.
+			tools: Crafting Table
+			
+	item: Titanium Shovel
+		recipe:
+			input: Titanium Ingot, Stick
+			pattern: .0. .1. .1.
+			tools: Crafting Table
+			
+	item: Titanium Axe
+		recipe:
+			input: Titanium Ingot, Stick
+			pattern: 00. 01. .1.
+			tools: Crafting Table
+			
+	item: Titanium Sword
+		recipe:
+			input: Titanium Ingot, Stick
+			pattern: .0. .0. .1.
+			tools: Crafting Table
+			
+	item: Titanium Hoe
+		recipe:
+			input: Titanium Ingot, Stick
+			pattern: 00. .1. .1.
+			tools: Crafting Table
+			
+	item: Vanadium Pickaxe
+		recipe:
+			input: Vanadium Ingot, Stick
+			pattern: 000 .1. .1.
+			tools: Crafting Table
+			
+	item: Vanadium Shovel
+		recipe:
+			input: Vanadium Ingot, Stick
+			pattern: .0. .1. .1.
+			tools: Crafting Table
+			
+	item: Vanadium Axe
+		recipe:
+			input: Vanadium Ingot, Stick
+			pattern: 00. 01. .1.
+			tools: Crafting Table
+			
+	item: Vanadium Sword
+		recipe:
+			input: Vanadium Ingot, Stick
+			pattern: .0. .0. .1.
+			tools: Crafting Table
+			
+	item: Vanadium Hoe
+		recipe:
+			input: Vanadium Ingot, Stick
+			pattern: 00. .1. .1.
+			tools: Crafting Table
