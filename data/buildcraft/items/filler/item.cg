@@ -1,0 +1,17 @@
+schema: 1
+
+description: <<-END
+The Filler is a machine which performs large-scale shaping of the landscape. It can operate in any one of several different modes:
+
+* Fill—completely fill an area
+* Flatten—remove all blocks within the area, but make sure it has a floor underneath
+* Horizon—works the same as Flatten
+* Frame—fill in only the edges of the area and remove everything else
+* Pyramid—builds a pyramid whose base completely fills the area (can be either point up or point down)
+* Stairs—builds a stair-step pattern within the area, removing any blocks which aren't part of the stairs
+* Box—builds a solid box whose sides fill in the rectangle of the area
+* Clear—completely remove all blocks within the area
+* Cylinder—creates a cylinder centered within the area, removing any blocks not part of the cylinder
+END
+
+
