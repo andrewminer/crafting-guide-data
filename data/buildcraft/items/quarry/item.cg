@@ -1,7 +1,7 @@
 schema: 1
 
 description: <<-END
-The Quarry is a powered machine which rapidly digs as deep a hole as possible, spitting out whatever it digs up.
+The Quarry is a powered machine which rapidly digs as deep a hole as possible, spitting out whatever it digs up. By using [[Land Mark]]s, you can define the area to be quarries (up to 64m x 64m).
 
 You can control the area in which the Quarry digs by setting down three [[Land Mark]]s in an L-shaped pattern where each land mark is on one of the corners of a rectangle one block wider than the whole you want to dig. Once you've got them in place, right-click the middle land mark to get a red rectangle:
 
