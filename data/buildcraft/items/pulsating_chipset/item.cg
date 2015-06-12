@@ -1,7 +1,7 @@
 schema: 1
 
 description: <<-END
-The pulsating chipset is used to add an autarchic pulsar to a gate (e.g., to convert a [[Basic Gate]] to a [[Basic Gate (Autarchic Pulsar)]]). Such a gate, when placed on a [[Wooden Transport Pipe]] or [[Wooden Fluid Pipe]], can produce two additional affects: a "single energy pulse" and an "energy pulsar".
+The Pulsating Chipset is used to add an autarchic pulsar to a gate (e.g., to convert a [[Basic Gate]] to a [[Basic Gate (Autarchic Pulsar)]]). Such a gate, when placed on a [[Wooden Transport Pipe]] or [[Wooden Fluid Pipe]], can produce two additional affects: a "single energy pulse" and an "energy pulsar".  To add the Pulsating Chipeset to a gate, please both components on an [[Integration Table]] and provide [[Laser]] power to the table.
 
 The single energy pulse will cause the pipe to extract a single unit from the adjacent inventory (whether a chest or tank). Each time the condition becomes true, another energy pulse will fire.
 
