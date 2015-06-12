@@ -14,6 +14,25 @@ The Filler is a machine which performs large-scale shaping of the landscape. It 
 | ![](box.png)      | Box      | builds a solid box whose sides fill in the rectangle of the area
 | ![](clear.png)    | Clear    | completely remove all blocks within the area |
 | ![](cylinder.png) | Cylinder | creates a cylinder centered within the area, removing any blocks not part of the cylinder |
+
+### Defining an Area
+
+The Filler requires the use of [[Land Mark]]s to define the 3D area to work in.  Start by choosing one corner of the area and place a land mark down right inside the corner of the box.  Next, place two more land marks in a straight line and at the same altitude as the first land mark.  These will define the depth and width of your box.  Finally, place one last land mark directly above your first one.  This will define the height.  With everything in place, right-click on your first landmark, and a red frame should appear showing that everything is set up correctly.
+
+![](landmarks.png)
+
+Now, you just need to place your filler just in front of one of the land marks, and they will all pop off and the red frame will be replaced with a black-and-yellow striped frame.  The filler should have green lights showing that it is ready to work.
+
+![](ready-to-work.png)
+
+Now, right-click the filler itself.  On the top, you can use the left and right arrows to choose the mode, and the inventory area in the middle to give it raw material to work with.  Certain modes have additional options which will be displayed in the boxes next to the mode selector (but which aren't needed otherwise).
+
+| ![](gui-example.png) |
+|----------------------|
+
+Once the machine is all prepped, just provide power and it will start spewing blocks!  Red blocks to remove extra materials, and your filler blocks to build things up!  Like other machines, it can operate with a bare minimum of power, but the more power you provide (up to a maximum) the faster it will go!
+
+![](working.png)
 END
 
 
