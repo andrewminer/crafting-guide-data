@@ -1,0 +1,16 @@
+schema: 1
+
+description: <<-END
+The Programming table is used to transform a plain [[Redstone Board]] into one specifically programmed for a certain kind of [[Robot]].  It operates using [[Laser]]s, so you will need to have a few nearby to power it.
+
+| ![](laser-and-table.png) |
+|--------------------------|
+
+To create a specific board, right-click the table and pop a plain [[Redstone Board]] into the top-right slot.  Then, choose the type of board you want. Assuming your lasers and powered, you'll see the power meter on the far right climb as the energy is transferred.
+
+| ![](programming-table-gui.png) |
+|--------------------------------|
+
+END
+
+
