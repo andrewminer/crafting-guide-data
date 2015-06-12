@@ -1,0 +1,5 @@
+schema: 1
+
+description: A Redstone Board is an integral component to making a [[Robot]].  In order to make a certain kind of robot, you need to drop a blank Redstone Board into a [[Programming Table]] and use it to make the board for that robot.
+
+
