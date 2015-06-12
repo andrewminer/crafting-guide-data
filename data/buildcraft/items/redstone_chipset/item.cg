@@ -1,5 +1,5 @@
 schema: 1
 
-description: The Redstone Chipset is a simple component made on the [[Assembly Table]] which is only useful in making other things: primarily the [[Basic Gate]].
+description: The Redstone Chipset, like other chipsets, is a component in making other circuits, particularly the [[Basic Gate]].
 
 
