@@ -1,0 +1,5 @@
+schema: 1
+
+description: Robots are extremely powerful helpers which can automate a wide variety of tasks from harvesting crops to fighting mobs.  You start by making a plain robot following a simple (though expensive) recipe.  Then, you make a plain [[Redstone Board]] and program it for the kind of robot you want using a [[Programming Table]].  Finally, these two parts are combined with an [[Integration Table]] to make the specific kind of robot.
+
+
