@@ -1338,7 +1338,7 @@ group: Minerals
     item: Invar Blend
         recipe:
             input: Pulverized Ferrous Metal, Pulverized Iron
-            pattern: 00. 1.. ...
+            pattern: 11. 0.. ...
             quantity: 3
 
     item: Invar Block
