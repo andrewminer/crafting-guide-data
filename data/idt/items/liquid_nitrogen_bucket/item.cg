@@ -1,0 +1,5 @@
+schema: 1
+
+description: <<-END
+To get liquid nitrogen, you can take an empty bucket and right click a liquid nitrogen source block. You can get liquid nitrogen in the frost dimension, which is still in progress, but will very shortly be working.
+END

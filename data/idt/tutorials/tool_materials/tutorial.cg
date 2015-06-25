@@ -1,0 +1,37 @@
+schema: 1
+
+section:
+    title: Tool Materials
+    content: <<-END
+        As of snapshot 15w23a and above, various tools and weapons of types of metals have been added. Those types are steel, titanium and vanadium.
+		Here is a list of those tools, and their damage, according to minecraft, along with their durability.
+		
+		Note: Using an anvil to try and repair the tools do not work. It is being looked into though.
+    END
+
+section:
+    title: Materials and their type, damage and durability
+    content: <<-END
+        Steel is the lowest of the 3, then titanium and vanadium is the strongest. To see how their made, go back to the list of things in the mod and find the tools. (dam = damage)
+		
+		Steel durability: 700 (Better than iron (250))
+		Steel pickaxe: dam 4.5
+		Steel shovel: dam 3.5
+		Steel Axe: dam 5.5
+		Steel Sword: dam 6.5
+		Steel Hoe: dam 0
+		
+		Titanium durability: 1000 (Close to diamond (1561), about 500 short)
+		Titanium pickaxe: dam 5 
+		Titanium shovel: dam 4 
+		Titanium Axe: dam 6
+		Titanium Sword: dam 7
+		Titanium Hoe: dam 0
+		
+		Vanadium durability: 2000 (Better than diamond (1561), about 500 over)
+		Vanadium pickaxe: dam 7 
+		Vanadium shovel: dam 6
+		Vanadium Axe: dam 8 
+		Vanadium Sword: dam 9
+		Vanadium Hoe: dam 0
+    END
