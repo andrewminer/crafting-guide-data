@@ -1,0 +1,5 @@
+schema: 1
+
+description: Just like a standard [[Dolly]], but can also move a monster spawner. The Diamond Dolly will take damage if it is used to move a spawner, and will break after 6 such uses. Like its predecessor, it will not take damage if moving a Barrel, Chest, or other inventory.
+
+
