@@ -3,4 +3,8 @@ schema: 1
 description: <<-END
 The Dirt Chest 9000! is a joke item.  With only room for one slot, it is considerably worse than any other option.
 However, should you make one and fill it with dirt, a humorous manual will be added to your inventory.
+
+The DirtChest 9000! cannot be picked up through conventional means, making it useful on modded Factions severs, as the enemy has to waste time with something like a JABBA [[Dolly]] to move the walls of DirtChest 9000!s
 END
+
+
