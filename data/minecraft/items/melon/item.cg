@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+Melon wedges are a food item which restores 2 food points (or a single shank).  When converted to [[Glistering Melon]], they can also be an ingredient in potions.
+
+In vanilla Minecraft, they can only be obtained by trading with villagers for seeds, or, rarely, by finding them in dungeon chests. Various mods (e.g., Biomes O'Plenty), add them as wildly occurring plants.
+END
+
+
