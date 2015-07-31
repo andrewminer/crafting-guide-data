@@ -1,0 +1,5 @@
+schema: 1
+
+description: A single chest can store up to 27 stacks of items or blocks. It can hold up to 1728 blocks.
+
+
