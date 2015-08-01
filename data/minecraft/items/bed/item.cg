@@ -1,5 +1,11 @@
 schema: 1
 
-description: This item can be used to " sleep" through the night and "wake up" in the morning. It is also your spawn point .
+description: <<-END
+When right-clicked after dark, the bed causes the player to "sleep" and "wake up" the next morning.  While sleeping, time passes
+instantly from the moment the player sleeps until the next morning.  If there are monsters within 5m of the player, you won't be
+able to sleep.  Be careful where you place your bed, though: you'll bump your head painfully if you don't have at least 3m in the
+room where your bed is.
 
-
+In addition to passing the night, sleeping also changes the player's spawn point.  The next time the player dies, so long as the
+bed hasn't been broken, the player will spawn next to the bed.
+END
