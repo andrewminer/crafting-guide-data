@@ -1,5 +1,8 @@
 schema: 1
 
-description: A single chest can store up to 27 stacks of items or blocks. It can hold up to 1728 blocks.
-
-
+description: <<-END
+A chest is a block which can hold other items. A single chest placed by itself can hold 27 stacks. When two chests are placed
+side-by-side, they merge into a double chest capable of holding 54 stacks.  When broken, a chest will drop all the items it
+contains.  Because of this, it is impossible to move a chest with its items intact in vanilla Minecraft.  However, the [[Dolly]]
+from JABBA is able to pick up a chest with all the items intact and place it back down again somewhere else.
+END
