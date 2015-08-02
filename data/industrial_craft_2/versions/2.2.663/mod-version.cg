@@ -632,7 +632,7 @@ group: Energy: Transmission
         recipe:
             input: Copper Plate
             pattern: ... .0. ...
-            quantity: 2
+            quantity: 3
             tools: Cutter
         recipe:
             input: Copper Ingot
