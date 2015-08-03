@@ -1,0 +1,5 @@
+schema: 1
+
+description: A clock is an item which tells you the current time in Minecraft.  When viewed, it will show either a blue sky with a sun or a black sky with a moon.  These accurately reflect the current state of the actual time-of-day in the game no matter whether viewed in the players hand, in the hot-bar, or just in an inventory.  Unfortunately, since the Nether doesn't have a notion of day and night, it spins uselessly while traveling there.
+
+
