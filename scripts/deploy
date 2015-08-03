@@ -36,5 +36,5 @@ if [[ ! -e "$S3CMD_CFG" ]]; then
 fi
 
 echo "Preparing to upload to S3..."
-s3cmd sync -r --add-header="cache-control:max-age=1800" $SOURCE_DIR $TARGET_DIR
+s3cmd sync -r -P --add-header="cache-control:max-age=1800" $SOURCE_DIR $TARGET_DIR
 echo "S3 Upload Complete"
