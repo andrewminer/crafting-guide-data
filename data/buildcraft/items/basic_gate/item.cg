@@ -1,5 +1,5 @@
 schema: 1
 
-description: The Basic Gate is a crafting component for the first teir of gates. It has one "if" statement slot it can use, it can only use Red Pipe Wire, and redstone signals, as well as several cool things with many inventories / tanks to do its job. NOTE: This item is crafted inside the Assembly Table, which requires lasers to receive RF energy, as it does NOT get RF on its own.
+description: The Basic Gate is a crafting component for the first tier of gates. It has one "if" statement slot it can use, it can only use [[Red Pipe Wire]], and redstone signals, as well as several cool things with many inventories / tanks to do its job.
 
 
