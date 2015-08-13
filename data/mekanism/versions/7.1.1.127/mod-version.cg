@@ -1505,7 +1505,7 @@ group: Machines
             pattern: 010 232 010
             tools: Crafting Table
 
-    item: Digital Miner§
+    item: Digital Miner
         recipe:
             input: Atomic Alloy, Basic Control Circuit, Logistical Sorter, Robit, Steel Casing, Teleportation Core
             pattern: 010 232 545
