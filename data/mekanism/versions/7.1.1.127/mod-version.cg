@@ -1499,6 +1499,12 @@ group: Machines
             pattern: 202 131 202
             tools: Crafting Table
 
+    item: Osmium Compressor
+        recipe:
+            input: Redstone, Basic Control Circuit, Glass, Steel Casing
+            pattern: 010 232 010
+            tools: Crafting Table
+
     item: Digital Miner
         recipe:
             input: Atomic Alloy, Basic Control Circuit, Logistical Sorter, Robit, Steel Casing, Teleportation Core
