@@ -1,0 +1,5 @@
+schema: 1
+
+description: A device that will destroy any item that is thrown in front of it, or block placed directly in front of it. Useful for cobblestone (put it right under the spot where the cobble will spawn) or mob farms (mob falls down long pit, lands on plate, dies of fall damage, and drops fall into your ME network.)
+
+
