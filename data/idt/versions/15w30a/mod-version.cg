@@ -46,6 +46,11 @@ group: General Blocks
 		recipe:
 			input: Glass, Praseodymium Ingot, Neodymium Ingot
 			pattern: 12. 0.. ...
+			
+	item: Didymium Glass Pane
+		recipe:
+			input: Didymium Glass
+			pattern: 000 000 ...
 	
 	item: Dark Matter
 	
