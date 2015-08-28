@@ -31,7 +31,6 @@ if [[ "$SOURCE_DIR" == "" || "$MOD_SLUG" == "" || "$MOD_VERSION" == "" ]]; then
     exit 1
 fi
 
-mkdir -p "./static/browse/$MOD_SLUG/images"
 ls $SOURCE_DIR/itempanel_icons | while read FILE; do
     ITEM_NAME="$(echo $FILE | sed 's/.png//')"
     ITEM_SLUG="$(echo $ITEM_NAME \
