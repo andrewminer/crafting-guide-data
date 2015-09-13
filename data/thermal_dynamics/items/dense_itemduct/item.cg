@@ -1,7 +1,7 @@
 schema: 1
 
 description: <<-END
-Dense item ducst will be treated like a section of duct that is 1000 blocks long which effectively makes the pipe system prefer the selected route less. For those familiar to RedPower2, this is similar to its Restriction Tube.
+Dense itemduct will be treated like a section of duct that is 1000 blocks long which effectively makes the pipe system prefer the selected route less. For those familiar to RedPower2, this is similar to its Restriction Tube.
 
 Example:
 
