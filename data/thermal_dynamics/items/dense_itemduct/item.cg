@@ -7,7 +7,7 @@ Example:
 
 Place 1 chest, then leave a 1 block gap and place another. connect an itemduct to the back of the first chest, and the the dense itemduct to the back of the second chest. place 4 more ducts in the middle gap leading away from the 2 chests, an place a third chest. any items piped out of the first chest, will ignore the second chest and go directly to the third, even though the second chest next to it is technicaly closer.
 
-![](Like so)
+![](2015-09-13_18.22.18.jpg)
 END
 
 
