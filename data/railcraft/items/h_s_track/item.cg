@@ -1,5 +1,9 @@
 schema: 1
 
-description: High Speed Track, or H.S. Track (as specified in the hot bar and inventory) is used mainly for fast travel over a straight distance. This track is used typically on main lines. Turns are not advised when using these tracks, but it is simple enough to add turns. Just as normal rails, booster tracks, when not powered, will slow down the minecart or whatever vehicle your using.
+description: <<-END
+High Speed Track, or H.S. Track (as specified in the hot bar and inventory) is used mainly for fast travel over a straight distance. This track is used typically on main lines. Turns are not advised when using these tracks, but it is simple enough to add turns. Just as normal rails, booster tracks, when not powered, will slow down the minecart or whatever vehicle your using.
+(Images are coming, expect them by November 30th, sorry for the inconvenience!)
+The way you make a turn using H.S. Track is by first slowing down the minecart with a un-powered booster track (a powered rail) or a H.S. transition track. 
+END
 
 
