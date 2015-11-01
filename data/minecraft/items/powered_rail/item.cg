@@ -1,5 +1,5 @@
 schema: 1
 
-description: Powered Rails are the vanilla booster of Minecraft. See [[H.S. Booster Track]] for an advanced rail/track system.
+description: Powered Rails are the vanilla booster of Minecraft. See [[H.S. Booster Track]] for info on the faster version of Powered Rails (only found in the "Railcraft" mod). The Powered Rail is used to boost the minecart at a faster speed than the player can make it go. They are useful when minecarts go uphill. When not powered with a Redstone signal, Powered rail/tracks act as brakes to stop the minecart. See [[Redstone]] for more information.
 
 
