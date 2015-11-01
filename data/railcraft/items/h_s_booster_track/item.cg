@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+H.S. Booster tracks main purpose are to boost minecarts when traveling along a High Speed rail/track line. They can also be used for brakes, just as normal vanilla booster rails/tracks. When powered with a redstone signal, they will boost the minecart to speeds greater than what normal boosters are capable of. 
+(Images coming soon, expect them by November 30th, 2015, they may be sooner, sorry for the inconvenience!)
+When using these boosters, turns are HIGHLY unadvised, the consequences could be dire, resulting in a crash. See [[H.S. Track]] for a detailed description of a crash.
+END
+
+
