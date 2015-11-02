@@ -3,7 +3,9 @@ schema: 1
 description: <<-END
 High Speed Track, or H.S. Track for short, is the base for all high speed lines. It is typically pared with [[H.S. Booster Track]] and [[H.S. Transition Track]] to create a smooth ride with speedy travel.
 
-Making Safe Turns- Just like the Vanilla rails in Minecraft, H.S. Track will make a turn, but it must be done safely and with great precautions. When no precautions are taken to take a turn safely, the consequences are dire. Players must realize that precautions must be taken when successfully making a safe turn. Such precautions include slowing the [[Minecart]] or other mode of transportation significantly. Once this is achieved, you can safely make a turn without the worry of crashing.
+Making Safe Turns- Just like the Vanilla rails in Minecraft, H.S. Track will make a turn, but it must be done safely and with great precautions. When no precautions are taken to take a turn safely, the consequences are dire. Players must realize that precautions must be taken when successfully making a safe turn. Such precautions include slowing the [[Minecart]] or other mode of transportation significantly. Once this is achieved, you can safely make a turn without the worry of crashing. Another way to make a safe turn is by using a [[Block Signal]].
+
+Detailed description of a Crash- If no such precautions are taken when making safe turns, the result is a crash. When a crash occurs, an explosion will destroy blocks and rails around the player or/and minecart that crashed. The explosions vary in size, depending on how fast the crash was. A medium speed crash will result in a small-medium explosion. A fast crash will result in a large explosion, typically killing the player. 
 
 END
 
