@@ -7,6 +7,8 @@ Making Safe Turns- Just like the Vanilla rails in Minecraft, H.S. Track will mak
 
 Detailed description of a Crash- If no such precautions are taken when making safe turns, the result is a crash. When a crash occurs, an explosion will destroy blocks and rails around the player or/and minecart that crashed. The explosions vary in size, depending on how fast the crash was. A medium speed crash will result in a small-medium explosion. A fast crash will result in a large explosion, typically killing the player. 
 
+Using H.S. Track is both a efficient way of travel, and also practical. H.S.Track is made from [[H.S. Rail]] and a [[Stone Railbed]], as shown above. Just as Vanilla [[Rail]]s, H.S. Track will also slant uphill and downhill.
+
 END
 
 
