@@ -3,7 +3,9 @@ schema: 1
 description: <<-END
 High Speed Transition Track is used for transitioning from high speed track to medium speed track and medium speed track to low speed track, hence the name,  Transition Track. They are most useful when entering a turn and can be used to safely avoid a crash. H.S. Transition Tracks can be used when transitioning from [[H.S. Track]] to other types of track such as [[Reinforced Rail]] and [[Rail]]s.
 
-When powered with a [[Redstone]] signal, this track will act as a booster, accelerating the [[Minecart]] or other type of transportation. When not powered with a Redstone signal, it will act as a brake, just as a Vanilla [[Powered Rail]] would do.
+When powered with a [[Redstone]] signal, this track will act as a booster, accelerating the [[Minecart]] or other type of transportation. When not powered with a Redstone signal, it will act as a brake, just as a Vanilla [[Powered Rail]] would do. This track is great when trying to make a safe turn or when entering a player's station.
+
+See also [[H.S. Track]] for a detailed description on crashes and making safe turns.
 END
 
 
