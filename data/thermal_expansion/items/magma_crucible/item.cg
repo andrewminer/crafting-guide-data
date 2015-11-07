@@ -1,5 +1,5 @@
 schema: 1
 
-description: It uses Redstone Flux to melt down solid materials into fluids. This often takes a large amount of energy. The Machine is required to create most of the fluids in Thermal Foundation.
+description: The Magma Crucible uses redstone flux to melt down solid materials into fluids. This often takes a large amount of energy. This machine is required to create most of the fluids in Thermal Foundation.  It is very commonly paired with the [[Fluid Transposer]].
 
 
