@@ -1,5 +1,5 @@
 schema: 1
 
-description: The Tunnel Bore is used to bore tunnels in the "Railcraft" mod. The way it works is that a bore head must be provided. See [[Steel Bore Head]], [[Iron Bore Head]], and [[Diamond Bore Head]] for crafting recipes, etc. When powered, it will begin boring the tunnel unless it runs out of track or a fuel source. Fuel sources include [[Coal]], [[Coal Coke]], [[Block of Coal]], and [[Block of Coal Coke]] and other fuel sources in Minecraft. The Tunnel Bore will accept all types of track, and will lay the track that is present in the inventory in a straight line in the middle of the machine.
+description: The Tunnel Bore is a self-propelled steam engine used to bore tunnels. When provided with fuel ([[Coal]], [[Charcoal]], [[Coal Coke]], etc.) and tracks, it will start boring a 3x3 tunnel directly in front of itself.  After each layer is removed, it will lay down a track, and proceed forward.  If provided with [[Gravel]], it will fill in any chasms it finds as it proceeds.
 
 
