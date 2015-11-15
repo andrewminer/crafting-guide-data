@@ -1,0 +1,1542 @@
+schema: 1
+
+group: Armor
+
+    item: Desh Boots
+        recipe:
+            input: Desh Ingot
+            pattern: ... 0.0 0.0
+            tools: Crafting Table
+
+    item: Desh Chestplate
+        recipe:
+            input: Desh Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Desh Helmet
+        recipe:
+            input: Desh Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Desh Leggings
+        recipe:
+            input: Desh Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Heavy Duty Boots
+        recipe:
+            input: Compressed Steel
+            pattern: ... 0.0 0.0
+            tools: Crafting Table
+
+    item: Heavy Duty Chestplate
+        recipe:
+            input: Compressed Steel
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Heavy Duty Helmet
+        recipe:
+            input: Compressed Steel
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Heavy Duty Leggings
+        recipe:
+            input: Compressed Steel
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Oxygen Gear
+        recipe:
+            input: Oxygen Concentrator, Oxygen Pipe
+            pattern: .1. 101 1.1
+            tools: Crafting Table
+
+    item: Oxygen Mask
+        recipe:
+            input: Glass Pane, Iron Helmet
+            pattern: 000 010 000
+            tools: Crafting Table
+
+    item: Sensor Glasses
+        recipe:
+            input: Diamond, Meteoric Iron Ingot, Sensor Lens, String
+            pattern: 303 3.3 212
+            tools: Crafting Table
+
+    item: Telemetry Unit
+        recipe:
+            input: Basic Wafer, Compressed Copper, Compressed Tin, Frequency Module
+            pattern: 232 202 111
+            tools: Crafting Table
+
+    item: Thermal Padding Boots
+        recipe:
+            input: Thermal Cloth
+            pattern: ... 0.0 0.0
+            tools: Crafting Table
+
+    item: Thermal Padding Chestpiece
+        recipe:
+            input: Thermal Cloth
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Thermal Padding Helm
+        recipe:
+            input: Thermal Cloth
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Thermal Padding Leggings
+        recipe:
+            input: Thermal Cloth
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Titanium Boots
+        recipe:
+            input: Compressed Titanium
+            pattern: ... 0.0 0.0
+            tools: Crafting Table
+
+    item: Titanium Chestplate
+        recipe:
+            input: Compressed Titanium
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Titanium Helmet
+        recipe:
+            input: Compressed Titanium
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Titanium Leggings
+        recipe:
+            input: Compressed Titanium
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+group: Decorative Blocks
+
+    item: Bacterial Sludge
+        gatherable: yes
+
+    item: Bacterial Sludge Bucket
+        recipe:
+            input: 1000 Bacterial Sludge, Bucket
+            pattern: ... .0. .1.
+
+    item: Cavernous Vines
+        gatherable: yes
+
+    item: Dense Ice
+        gatherable: yes
+
+    item: Flag
+        recipe:
+            input: Canvas, Steel Pole
+            pattern: 100 100 1..
+            tools: Crafting Table
+
+    item: Glowstone Torch
+        recipe:
+            input: Glowstone Dust, Stick
+            pattern: 0.. 1.. ...
+            quantity: 4
+
+    item: Mars Cobblestone
+        gatherable: yes
+
+    item: Mars Cobblestone Slab
+        recipe:
+            input: Mars Cobblestone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Mars Cobblestone Stairs
+        recipe:
+            input: Mars Cobblestone
+            pattern: ..0 .00 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Mars Cobblestone Wall
+        recipe:
+            input: Mars Cobblestone
+            pattern: ... 000 000
+            quantity: 6
+            tools: Crafting Table
+
+    item: Mars Dungeon Brick
+        gatherable: yes
+
+    item: Mars Dungeon Brick Slab
+        recipe:
+            input: Mars Dungeon Brick
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Mars Dungeon Brick Stairs
+        recipe:
+            input: Mars Dungeon Brick
+            pattern: ..0 .00 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Mars Dungeon Brick Wall
+        recipe:
+            input: Mars Dungeon Brick
+            pattern: ... 000 000
+            quantity: 6
+            tools: Crafting Table
+
+    item: Mars Stone
+        recipe:
+            input: furnace fuel, Mars Cobblestone
+            pattern: .1. ... .0.
+            tools: Crafting Table
+
+    item: Mars Sub-Surface Rock
+        gatherable: yes
+
+    item: Mars Surface Rock
+        gatherable: yes
+
+    item: Moon Dirt
+        gatherable: yes
+
+    item: Moon Dungeon Brick
+        gatherable: yes
+
+    item: Moon Dungeon Brick Slab
+        recipe:
+            input: Moon Dungeon Brick
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Moon Dungeon Brick Stairs
+        recipe:
+            input: Moon Dungeon Brick
+            pattern: ..0 .00 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Moon Dungeon Brick Wall
+        recipe:
+            input: Moon Dungeon Brick
+            pattern: ... 000 000
+            quantity: 6
+            tools: Crafting Table
+
+    item: Moon Rock
+        gatherable: yes
+
+    item: Moon Rock Slab
+        recipe:
+            input: Moon Rock
+            pattern: ... 000 ...
+            tools: Crafting Table
+
+    item: Moon Rock Stairs
+        recipe:
+            input: Moon Rock
+            pattern: ..0 .00 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Moon Rock Wall
+        recipe:
+            input: Moon Rock
+            pattern: ... 000 000
+            quantity: 6
+            tools: Crafting Table
+
+    item: Moon Turf
+        gatherable: yes
+
+    item: Tin Decoration Block
+        recipe:
+            input: Compressed Tin, Stone
+            pattern: ... .1. .0.
+            quantity: 4
+
+    item: Tin Decoration Slab
+        recipe:
+            input: Tin Decoration Block
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Tin Decoration Stairs
+        recipe:
+            input: Tin Decoration Block
+            pattern: ..0 .00 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Tin Decoration Wall
+        recipe:
+            input: Tin Decoration Block
+            pattern: ... 000 000
+            quantity: 6
+            tools: Crafting Table
+
+group: Equipment
+
+    item: Desh Axe
+        recipe:
+            input: Desh Ingot, Desh Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Desh Hoe
+        recipe:
+            input: Desh Ingot, Desh Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Desh Pickaxe
+        recipe:
+            input: Desh Ingot, Desh Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Desh Shovel
+        recipe:
+            input: Desh Ingot, Desh Stick
+            pattern: .0. .1. .1.
+            tools: Crafting Table
+
+    item: Desh Sword
+        recipe:
+            input: Desh Ingot, Desh Stick
+            pattern: .0. .0. .1.
+            tools: Crafting Table
+
+    item: Grapple
+        recipe:
+            input: Iron Ingot, String
+            pattern: ..1 01. 00.
+            tools: Crafting Table
+
+    item: Heavy Duty Axe
+        recipe:
+            input: Compressed Steel, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Heavy Duty Hoe
+        recipe:
+            input: Compressed Steel, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Heavy Duty Pickaxe
+        recipe:
+            input: Compressed Steel, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Heavy Duty Shovel
+        recipe:
+            input: Compressed Steel, Stick
+            pattern: .0. .1. .1.
+            tools: Crafting Table
+
+    item: Heavy Duty Sword
+        recipe:
+            input: Compressed Steel, Stick
+            pattern: .0. .0. .1.
+            tools: Crafting Table
+
+    item: Standard Wrench
+        recipe:
+            input: Compressed Bronze, Compressed Steel
+            pattern: ..1 .0. 0..
+            tools: Crafting Table
+
+    item: Sticky Desh Pickaxe
+        gatherable: yes
+
+    item: Throwable Meteor Chunk
+        recipe:
+            input: Raw Meteoric Iron
+            pattern: ... .0. ...
+            quantity: 3
+
+    item: Throwable Meteor Chunk (Hot)
+        recipe:
+            input: furnace fuel, Throwable Meteor Chunk
+            pattern: .1. ... .0.
+
+    item: Titanium Axe
+        recipe:
+            input: Compressed Titanium, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Titanium Hoe
+        recipe:
+            input: Compressed Titanium, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Titanium Pickaxe
+        recipe:
+            input: Compressed Titanium, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Titanium Shard
+        gatherable: yes
+
+    item: Titanium Shovel
+        recipe:
+            input: Compressed Titanium, Stick
+            pattern: .0. .1. .1.
+            tools: Crafting Table
+
+    item: Titanium Sword
+        recipe:
+            input: Compressed Titanium, Stick
+            pattern: .0. .0. .1.
+            tools: Crafting Table
+
+group: Fluids and Gases
+
+    item: Crude Oil
+        gatherable: yes
+
+    item: Filled Canister of Liquid Nitrogen
+        recipe:
+            extras: Atmospheric Valve
+            input: Atmospheric Valve, Empty Canister
+            pattern: ... 0.1 ...
+            tools: Gas Liquefier
+
+    item: Filled Canister of Liquid Oxygen
+        recipe:
+            extras: Atmospheric Valve
+            input: Atmospheric Valve, Empty Canister
+            pattern: ... 0.1 ...
+            tools: Gas Liquefier
+
+    item: Filled Fuel Canister
+        recipe:
+            input: Empty Canister, Oil Bucket
+            pattern: ... 1.0 ...
+            tools: Refinery
+        recipe:
+            input: Empty Canister, Filled Methane Gas Canister
+            pattern: ... 1.0 ...
+            tools: Refinery
+
+    item: Filled Methane Gas Canister
+        recipe:
+            input: Atmospheric Valve, Empty Canister
+            pattern: 0.1 ... ...
+            tools: Methane Synthesizer
+        recipe:
+            input: Empty Canister, Fragmented Carbon
+            pattern: ..0 ... 1..
+            tools: Methane Synthesizer
+
+    item: Fuel
+        gatherable: yes
+
+    item: Fuel Bucket
+        recipe:
+            input: Bucket, Fuel
+            pattern: ... .1. .0.
+
+    item: Heavy Oxygen Tank
+        recipe:
+            input: Compressed Steel, Red Wool, Tin Canister
+            pattern: 111 222 000
+            tools: Crafting Table
+
+    item: Hydrogen Pipe
+        recipe:
+            input: Copper Ingot
+            pattern: 000 ... 000
+            quantity: 6
+            tools: Crafting Table
+
+    item: Light Oxygen Tank
+        recipe:
+            input: Compressed Copper, Green Wool, Tin Canister
+            pattern: 1.. 2.. 0..
+            tools: Crafting Table
+
+    item: Medium Oxygen Tank
+        recipe:
+            input: Compressed Tin, Orange Wool, Tin Canister
+            pattern: 11. 22. 00.
+            tools: Crafting Table
+
+    item: Oil Bucket
+        recipe:
+            input: Bucket, Crude Oil
+            pattern: ... .1. .0.
+
+    item: Oxygen Pipe
+        recipe:
+            input: Glass Pane
+            pattern: 000 ... 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Oxygen Storage Module
+        recipe:
+            input: Compressed Steel, Heavy Oxygen Tank
+            pattern: 000 111 000
+            tools: Crafting Table
+
+group: Food
+
+    item: Block of Cheese
+        recipe:
+            input: Cheese Curd, Milk
+            pattern: 000 010 000
+            tools: Crafting Table
+
+    item: Can of Food (Apple)
+        recipe:
+            input: Apple, Tin Canister
+            pattern: 10. 0.. ...
+
+    item: Can of Food (Carrot)
+        recipe:
+            input: Carrot, Tin Canister
+            pattern: 10. 0.. ...
+
+    item: Can of Food (Melon)
+        recipe:
+            input: Melon, Tin Canister
+            pattern: 10. 0.. ...
+
+    item: Can of Food (Potato)
+        recipe:
+            input: Potato, Tin Canister
+            pattern: 10. 0.. ...
+
+    item: Cheese Curd
+        recipe:
+            input: Cheese Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+
+    item: Cheese Ore
+        gatherable: yes
+
+group: Launch Pad Components
+
+    item: Cargo Loader
+        recipe:
+            input: Chest, Compressed Aluminum, Compressed Steel, Hopper
+            pattern: 232 101 222
+            tools: Crafting Table
+
+    item: Cargo Unloader
+        recipe:
+            input: Chest, Compressed Aluminum, Compressed Steel, Hopper
+            pattern: 222 101 232
+            tools: Crafting Table
+
+    item: Fuel Loader
+        recipe:
+            input: Basic Wafer, Compressed Aluminum, Compressed Steel, Tin Canister
+            pattern: 222 232 101
+            tools: Crafting Table
+
+    item: Launch Controller
+        recipe:
+            input: Advanced Wafer, Aluminum Wire, Compressed Desh, Desh Ingot, Frequency Module
+            pattern: 343 202 313
+            tools: Crafting Table
+
+    item: Rocket Launch Pad
+        recipe:
+            input: Block of Iron, Compressed Iron
+            pattern: 111 000 ...
+            quantity: 9
+            tools: Crafting Table
+
+group: Machine Parts
+
+    item: Advanced Wafer
+        recipe:
+            input: Diamond, Raw Silicon, Redstone, Redstone Repeater
+            pattern: 0.3 .12 .1.
+            tools: Circuit Fabricator
+
+    item: Atmospheric Valve
+        recipe:
+            input: Desh Ingot, Oxygen Vent
+            pattern: ... 010 .0.
+            tools: Crafting Table
+
+    item: Basic Wafer
+        recipe:
+            input: Diamond, Raw Silicon, Redstone, Redstone Torch
+            pattern: 0.3 .12 .1.
+            tools: Circuit Fabricator
+
+    item: Battery
+        recipe:
+            input: Coal, Compressed Tin, Redstone
+            pattern: .1. 121 101
+            tools: Crafting Table
+
+    item: Beam Core
+        recipe:
+            input: Compressed Iron, Glass Pane, Redstone
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: Blue Solar Wafer
+        recipe:
+            input: Diamond, Lapis Lazuli, Raw Silicon, Redstone
+            pattern: 0.1 .23 .2.
+            quantity: 9
+            tools: Circuit Fabricator
+
+    item: Canvas
+        recipe:
+            input: Stick, String
+            pattern: .10 111 01.
+            tools: Crafting Table
+
+    item: Copper Canister
+        recipe:
+            input: Copper Ingot
+            pattern: 0.0 0.0 000
+            quantity: 2
+            tools: Crafting Table
+
+    item: Empty Canister
+        recipe:
+            input: Compressed Steel, Compressed Tin, Glass, Tin Canister
+            pattern: 101 121 131
+            tools: Crafting Table
+
+    item: Fluid Manipulator
+        recipe:
+            input: Advanced Wafer, Meteoric Iron Ingot, Oxygen Fan, Slimeball
+            pattern: 121 303 121
+            tools: Crafting Table
+
+    item: Frequency Module
+        recipe:
+            input: Basic Wafer, Compressed Aluminum, Compressed Iron, Redstone, Redstone Repeater
+            pattern: .1. 242 303
+            tools: Crafting Table
+
+    item: Heavy-Duty Plate (Tier 1)
+        recipe:
+            input: Compressed Aluminum, Compressed Bronze, Compressed Steel, furnace fuel
+            pattern: 201 201 ..3
+            tools: Compressor
+        recipe:
+            input: Compressed Aluminum, Compressed Bronze, Compressed Steel
+            pattern: 201 201 ...
+            tools: Electric Compressor
+
+    item: Heavy-Duty Plate (Tier 2)
+        recipe:
+            input: Compressed Meteoric Iron, furnace fuel, Heavy-Duty Plate (Tier 1)
+            pattern: 20. ... ..1
+            tools: Compressor
+        recipe:
+            input: Compressed Meteoric Iron, Heavy-Duty Plate (Tier 1)
+            pattern: 10. ... ...
+            tools: Electric Compressor
+
+    item: Heavy-Duty Plate (Tier 3)
+        recipe:
+            input: Compressed Desh, furnace fuel, Heavy-Duty Plate (Tier 2)
+            pattern: 20. ... ..1
+            tools: Compressor
+        recipe:
+            input: Compressed Desh, Heavy-Duty Plate (Tier 2)
+            pattern: 10. ... ...
+            tools: Electric Compressor
+
+    item: Orion Drive
+        recipe:
+            input: Beam Core, Cheese Ore, Coal Ore, Desh Ore, Diamond Ore, Gold Ore, Ilmenite Ore, Lapis Lazuli Ore, Redstone Ore
+            pattern: 475 802 136
+            tools: Crafting Table
+
+    item: Oxygen Concentrator
+        recipe:
+            input: Compressed Steel, Compressed Tin, Oxygen Vent, Tin Canister
+            pattern: 010 131 020
+            tools: Crafting Table
+
+    item: Oxygen Fan
+        recipe:
+            input: Basic Wafer, Compressed Steel, Redstone
+            pattern: 1.1 .0. 121
+            tools: Crafting Table
+
+    item: Oxygen Vent
+        recipe:
+            input: Compressed Steel, Compressed Tin
+            pattern: 11. 10. ...
+
+    item: Sensor Lens
+        recipe:
+            input: Compressed Meteoric Iron, Glass Pane, Redstone
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Single Solar Module
+        recipe:
+            input: Aluminum Wire, Blue Solar Wafer, Glass
+            pattern: 222 111 000
+            quantity: 2
+            tools: Crafting Table
+
+    item: Steel Pole
+        recipe:
+            input: Compressed Steel
+            pattern: .0. .0. .0.
+            quantity: 2
+            tools: Crafting Table
+
+    item: Thermal Cloth
+        recipe:
+            input: Redstone, Wool
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Tin Canister
+        recipe:
+            input: Tin Ingot
+            pattern: 0.0 0.0 000
+            quantity: 2
+            tools: Crafting Table
+
+group: Machines
+
+    item: Circuit Fabricator
+        recipe:
+            input: Aluminum Ingot, Aluminum Wire, Button, Furnace, Lever, Redstone Torch
+            pattern: 040 232 151
+            tools: Crafting Table
+
+    item: Compressor
+        recipe:
+            input: Aluminum Ingot, Anvil, Basic Wafer, Copper Ingot
+            pattern: 010 030 020
+            tools: Crafting Table
+
+    item: Display Screen
+        recipe:
+            input: Basic Wafer, Compressed Steel, Glass
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Electric Arc Furnace
+        recipe:
+            input: Advanced Wafer, Electric Furnace, Heavy-Duty Plate (Tier 1), Meteoric Iron Ingot
+            pattern: 222 212 303
+            tools: Crafting Table
+
+    item: Electric Compressor
+        recipe:
+            input: Advanced Wafer, Aluminum Wire, Anvil, Compressed Bronze, Compressed Steel
+            pattern: 424 434 101
+            tools: Crafting Table
+
+    item: Electric Furnace
+        recipe:
+            input: Advanced Wafer, Compressed Aluminum, Compressed Steel, Furnace
+            pattern: 222 232 101
+            tools: Crafting Table
+
+    item: Gas Liquefier
+        recipe:
+            input: Compressed Bronze, Fluid Manipulator, Heavy Oxygen Tank, Medium Oxygen Tank, Oxygen Compressor, Oxygen Decompressor, Oxygen Pipe, Oxygen Vent
+            pattern: 273 613 504
+            tools: Crafting Table
+
+    item: Methane Synthesizer
+        recipe:
+            input: Compressed Bronze, Electric Furnace, Fluid Manipulator, Heavy Oxygen Tank, Oxygen Compressor, Oxygen Pipe, Oxygen Vent
+            pattern: 363 525 104
+            tools: Crafting Table
+
+    item: NASA Workbench
+        recipe:
+            input: Advanced Wafer, Compressed Steel, Crafting Table, Lever, Redstone Torch
+            pattern: 121 303 141
+            tools: Crafting Table
+
+    item: NASA Workbench Schematic (Astro Miner)
+        gatherable: yes
+
+    item: NASA Workbench Schematic (Automatic Cargo Rocket)
+        gatherable: yes
+
+    item: NASA Workbench Schematic (Moon Buggy)
+        gatherable: yes
+
+    item: NASA Workbench Schematic (Tier 2 Rocket)
+        gatherable: yes
+
+    item: NASA Workbench Schematic (Tier 3 Rocket)
+        gatherable: yes
+
+    item: Oxygen Bubble Distributor
+        recipe:
+            input: Compressed Aluminum, Compressed Steel, Oxygen Fan, Oxygen Vent
+            pattern: 121 303 121
+            tools: Crafting Table
+
+    item: Oxygen Collector
+        recipe:
+            input: Compressed Aluminum, Compressed Steel, Oxygen Concentrator, Oxygen Fan, Oxygen Vent, Tin Canister
+            pattern: 111 354 020
+            tools: Crafting Table
+
+    item: Oxygen Compressor
+        recipe:
+            input: Compressed Aluminum, Compressed Bronze, Compressed Steel, Oxygen Concentrator
+            pattern: 202 030 212
+            tools: Crafting Table
+
+    item: Oxygen Decompressor
+        recipe:
+            input: Compressed Aluminum, Compressed Steel, Oxygen Concentrator, Oxygen Fan, Redstone Torch
+            pattern: 131 020 141
+            tools: Crafting Table
+
+    item: Oxygen Detector
+        recipe:
+            input: Basic Wafer, Compressed Aluminum, Compressed Steel, Oxygen Vent, Redstone
+            pattern: 222 303 414
+            tools: Crafting Table
+
+    item: Oxygen Sealer
+        recipe:
+            input: Compressed Aluminum, Compressed Steel, Oxygen Fan, Oxygen Vent
+            pattern: 010 323 010
+            tools: Crafting Table
+
+    item: Refinery
+        recipe:
+            input: Compressed Steel, Copper Canister, Furnace, Stone
+            pattern: .1. 313 020
+            tools: Crafting Table
+
+    item: Terraformer
+        recipe:
+            input: Compressed Desh, Desh Ingot, Oxygen Concentrator, Tin Canister
+            pattern: 101 131 020
+            tools: Crafting Table
+
+    item: Water Electrolyzer
+        recipe:
+            input: Compressed Bronze, Compressed Copper, Fluid Manipulator, Heavy Oxygen Tank, Oxygen Pipe, Oxygen Vent
+            pattern: 353 424 101
+            tools: Crafting Table
+
+group: Minerals
+
+    item: Aluminum Block
+        recipe:
+            input: Aluminum Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Aluminum Ingot
+        gatherable: yes
+        recipe:
+            input: Aluminum Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Aluminum Block
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Aluminum Ore
+        gatherable: yes
+
+    item: Asteroid Rock
+        gatherable: yes
+
+    item: Block of Desh
+        recipe:
+            input: Desh Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Compressed Aluminum
+        recipe:
+            input: Aluminum Ingot, furnace fuel
+            pattern: 00. ... ..1
+            tools: Compressor
+        recipe:
+            input: Aluminum Ingot
+            pattern: 00. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Bronze
+        recipe:
+            input: Compressed Copper, Compressed Tin, furnace fuel
+            pattern: 01. ... ..2
+            tools: Compressor
+        recipe:
+            input: Compressed Copper, Compressed Tin
+            pattern: 01. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Copper
+        recipe:
+            input: Copper Ingot, furnace fuel
+            pattern: 00. ... ..1
+            tools: Compressor
+        recipe:
+            input: Copper Ingot
+            pattern: 00. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Desh
+        recipe:
+            input: Desh Ingot, furnace fuel
+            pattern: 0.. ... ..1
+            tools: Compressor
+        recipe:
+            input: Desh Ingot
+            pattern: 0.. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Iron
+        recipe:
+            input: furnace fuel, Iron Ingot
+            pattern: 11. ... ..0
+            tools: Compressor
+        recipe:
+            input: Iron Ingot
+            pattern: 00. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Meteoric Iron
+        recipe:
+            input: furnace fuel, Meteoric Iron Ingot
+            pattern: 1.. ... ..0
+            tools: Compressor
+        recipe:
+            input: Meteoric Iron Ingot
+            pattern: 0.. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Steel
+        recipe:
+            input: Coal, Compressed Iron, furnace fuel
+            pattern: 010 ... ..2
+            tools: Compressor
+        recipe:
+            input: Coal, Compressed Iron
+            pattern: 010 ... ...
+            tools: Electric Compressor
+
+    item: Compressed Tin
+        recipe:
+            input: furnace fuel, Tin Ingot
+            pattern: 11. ... ..0
+            tools: Compressor
+        recipe:
+            input: Tin Ingot
+            pattern: 00. ... ...
+            tools: Electric Compressor
+
+    item: Compressed Titanium
+        recipe:
+            input: furnace fuel, Titanium Ingot
+            pattern: 11. ... ..0
+            tools: Compressor
+        recipe:
+            input: Titanium Ingot
+            pattern: 00. ... ...
+            tools: Electric Compressor
+
+    item: Copper Block
+        recipe:
+            input: Copper Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Copper Ingot
+        gatherable: yes
+        recipe:
+            input: Copper Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+
+    item: Copper Ore
+        gatherable: yes
+
+    item: Desh Ingot
+        recipe:
+            input: furnace fuel, Unrefined Desh
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Desh Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Block of Desh
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Desh Ore
+        gatherable: yes
+
+    item: Desh Stick
+        recipe:
+            input: Desh Ingot
+            pattern: 0.. 0.. ...
+
+    item: Fallen Meteor
+        gatherable: yes
+
+    item: Fragmented Carbon
+        recipe:
+            input: Coal
+            pattern: ... .0. ...
+            quantity: 8
+        recipe:
+            input: Charcoal
+            pattern: ... .0. ...
+            quantity: 4
+
+    item: Ilmenite Ore
+        gatherable: yes
+
+    item: Iron Shard
+        gatherable: yes
+
+    item: Meteoric Iron Ingot
+        recipe:
+            input: furnace fuel, Raw Meteoric Iron
+            pattern: .1. ... .0.
+            tools: Crafting Table
+        recipe:
+            input: Solid Meteoric Iron
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Raw Meteoric Iron
+        gatherable: yes
+
+    item: Raw Silicon
+        gatherable: yes
+
+    item: Silicon Ore
+        gatherable: yes
+
+    item: Solid Meteoric Iron
+        recipe:
+            input: Meteoric Iron Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Tin Block
+        recipe:
+            input: Tin Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Tin Ingot
+        gatherable: yes
+        recipe:
+            input: furnace fuel, Tin Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+
+    item: Tin Ore
+        gatherable: yes
+
+    item: Titanium Ingot
+        recipe:
+            input: furnace fuel, Ilmenite Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: furnace fuel, Titanium Shard
+            pattern: .1. ... .0.
+            tools: Furnace
+
+    item: Unrefined Desh
+        gatherable: yes
+
+group: Mobs
+
+    item: Blue Slimeling Egg
+        gatherable: yes
+
+    item: Creeper Egg
+        gatherable: yes
+
+    item: Red Slimeling Egg
+        gatherable: yes
+
+    item: Slimeling Inventory Bag
+        recipe:
+            input: Chest, Diamond, Leather, Slimeball
+            pattern: 212 232 .0.
+            tools: Crafting Table
+
+    item: Yellow Slimeling Egg
+        gatherable: yes
+
+group: Parachutes
+
+    item: Black Parachute
+        recipe:
+            input: Ink Sac, Parachute
+            pattern: 01. ... ...
+
+    item: Blue Parachute
+        recipe:
+            input: Lapis Lazuli, Parachute
+            pattern: 01. ... ...
+
+    item: Brown Parachute
+        recipe:
+            input: Cocoa Beans, Parachute
+            pattern: 01. ... ...
+
+    item: Cyan Parachute
+        recipe:
+            input: Cyan Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Gray Parachute
+        recipe:
+            input: Gray Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Green Parachute
+        recipe:
+            input: Cactus Green, Parachute
+            pattern: 01. ... ...
+
+    item: Light Blue Parachute
+        recipe:
+            input: Light Blue Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Light Gray Parachute
+        recipe:
+            input: Light Gray Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Lime Parachute
+        recipe:
+            input: Lime Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Magenta Parachute
+        recipe:
+            input: Magenta Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Orange Parachute
+        recipe:
+            input: Orange Dye, Parachute
+            pattern: 01. ... ...
+
+    item: Parachute
+        recipe:
+            input: Canvas, String
+            pattern: 000 1.1 .1.
+            tools: Crafting Table
+
+    item: Pink Parachute
+        recipe:
+            input: Parachute, Pink Dye
+            pattern: 10. ... ...
+
+    item: Purple Parachute
+        recipe:
+            input: Parachute, Purple Dye
+            pattern: 10. ... ...
+
+    item: Red Parachute
+        recipe:
+            input: Parachute, Rose Red
+            pattern: 10. ... ...
+
+    item: Yellow Parachute
+        recipe:
+            input: Dandelion Yellow, Parachute
+            pattern: 01. ... ...
+
+group: Power Generation
+
+    item: Advanced Solar Panel
+        recipe:
+            input: Advanced Wafer, Compressed Steel, Full Solar Panel, Heavy Aluminum Wire, Steel Pole
+            pattern: 121 141 303
+            tools: Crafting Table
+
+    item: Aluminum Wire
+        recipe:
+            input: Aluminum Ingot, Wool
+            pattern: 111 000 111
+            quantity: 6
+            tools: Crafting Table
+
+    item: Basic Solar Panel
+        recipe:
+            input: Aluminum Wire, Basic Wafer, Compressed Steel, Full Solar Panel, Steel Pole
+            pattern: 232 242 010
+            tools: Crafting Table
+
+    item: Coal Generator
+        recipe:
+            input: Aluminum Wire, Copper Ingot, Furnace, Iron Ingot
+            pattern: 111 323 303
+            tools: Crafting Table
+
+    item: Energy Beam Receiver
+        recipe:
+            input: Beam Core, Compressed Titanium
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Energy Beam Reflector
+        recipe:
+            input: Beam Core, Compressed Titanium, Lever
+            pattern: .0. 21. 111
+            tools: Crafting Table
+
+    item: Energy Storage Cluster
+        recipe:
+            input: Advanced Wafer, Compressed Steel, Energy Storage Module
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Energy Storage Module
+        recipe:
+            input: Battery, Compressed Steel
+            pattern: 111 000 111
+            tools: Crafting Table
+
+    item: Full Solar Panel
+        recipe:
+            input: Aluminum Wire, Single Solar Module
+            pattern: 111 000 111
+            tools: Crafting Table
+
+    item: Heavy Aluminum Wire
+        recipe:
+            input: Aluminum Ingot, Aluminum Wire, Wool
+            pattern: .2. .1. .0.
+            tools: Crafting Table
+
+group: Rocket Parts
+
+    item: Booster (Tier 1)
+        recipe:
+            input: Compressed Meteoric Iron, Filled Fuel Canister, Heavy-Duty Plate (Tier 1), Oxygen Vent, Yellow Wool
+            pattern: 040 010 232
+            tools: Crafting Table
+
+    item: Heavy Nose Cone
+        recipe:
+            input: Heavy-Duty Plate (Tier 3), Redstone Torch
+            pattern: .1. .0. 0.0
+            tools: Crafting Table
+
+    item: Heavy Rocket Engine
+        recipe:
+            input: Button (stone), Flint and Steel, Heavy-Duty Plate (Tier 3), Oxygen Vent, Tin Canister
+            pattern: .10 242 232
+            tools: Crafting Table
+
+    item: Heavy Rocket Fins
+        recipe:
+            input: Heavy-Duty Plate (Tier 2), Heavy-Duty Plate (Tier 3)
+            pattern: .0. 101 1.1
+            tools: Crafting Table
+
+    item: Nose Cone
+        recipe:
+            input: Heavy-Duty Plate (Tier 1), Redstone Torch
+            pattern: .1. .0. 0.0
+            tools: Crafting Table
+
+    item: Rocket Engine (Tier 1)
+        recipe:
+            input: Button (stone), Flint and Steel, Heavy-Duty Plate (Tier 1), Oxygen Vent, Tin Canister
+            pattern: .10 242 232
+            tools: Crafting Table
+
+    item: Rocket Fins
+        recipe:
+            input: Compressed Steel, Heavy-Duty Plate (Tier 1)
+            pattern: .0. 101 1.1
+            tools: Crafting Table
+
+group: Rockets
+
+    item: Cargo Rocket (capacity: 18)
+        recipe:
+            input: 6 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, Advanced Wafer, Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 420 153 ...
+            tools: NASA Workbench
+
+    item: Cargo Rocket (capacity: 36)
+        recipe:
+            input: 6 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, Advanced Wafer, Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 420 153 ...
+            tools: NASA Workbench
+
+    item: Cargo Rocket (capacity: 54)
+        recipe:
+            input: 6 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 3 Chest, Advanced Wafer, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 430 152 ...
+            tools: NASA Workbench
+
+    item: Rocket (Tier 1)
+        recipe:
+            input: 8 Heavy-Duty Plate (Tier 1), 4 Rocket Fins, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 201 3.. ...
+            tools: NASA Workbench
+
+    item: Rocket (Tier 1 capacity: 18)
+        recipe:
+            input: 8 Heavy-Duty Plate (Tier 1), 4 Rocket Fins, Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 301 42. ...
+            tools: NASA Workbench
+
+    item: Rocket (Tier 1 capacity: 36)
+        recipe:
+            input: 8 Heavy-Duty Plate (Tier 1), 4 Rocket Fins, 2 Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 301 42. ...
+            tools: NASA Workbench
+
+    item: Rocket (Tier 1 capacity: 54)
+        recipe:
+            input: 8 Heavy-Duty Plate (Tier 1), 4 Rocket Fins, 3 Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 301 42. ...
+            tools: NASA Workbench
+
+    item: Rocket (Tier 2)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), Nose Cone, Rocket Engine (Tier 1)
+            pattern: 302 14. ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 2 capacity: 18)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 402 153 ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 2 capacity: 36)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), 2 Chest, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 402 153 ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 2 capacity: 54)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), Chest 3, Nose Cone, Rocket Engine (Tier 1)
+            pattern: 402 153 ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 3)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 3), 4 Heavy Rocket Fins, 2 Booster (Tier 1), Heavy Nose Cone, Heavy Rocket Engine
+            pattern: 302 14. ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 3 capacity: 18)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 3), 4 Heavy Rocket Fins, 2 Booster (Tier 1), Chest, Heavy Nose Cone, Heavy Rocket Engine
+            pattern: 402 153 ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 3 capacity: 36)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 3), 4 Heavy Rocket Fins, 2 Booster (Tier 1), 2 Chest, Heavy Nose Cone, Heavy Rocket Engine
+            pattern: 402 153 ...
+            tools: Crafting Table
+
+    item: Rocket (Tier 3 capacity: 54)
+        recipe:
+            input: 10 Heavy-Duty Plate (Tier 3), 4 Heavy Rocket Fins, 3 Chest, 2 Booster (Tier 1), Heavy Nose Cone, Heavy Rocket Engine
+            pattern: 403 152 ...
+            tools: Crafting Table
+
+group: Space Base Components
+
+    item: Air Lock Controller
+        recipe:
+            input: Basic Wafer, Compressed Meteoric Iron, Compressed Steel
+            pattern: 222 101 222
+            tools: Crafting Table
+
+    item: Air Lock Frame
+        recipe:
+            input: Compressed Aluminum, Compressed Steel, Oxygen Concentrator
+            pattern: 000 121 000
+            quantity: 4
+            tools: Crafting Table
+
+    item: Ambient Thermal Controller
+        recipe:
+            input: Basic Wafer, Compressed Bronze, Compressed Steel, Oxygen Vent, Redstone
+            pattern: 434 121 101
+            tools: Crafting Table
+
+    item: Arc Lamp
+        recipe:
+            input: Battery, Desh Ingot, Glowstone Dust
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Cryogenic Chamber
+        recipe:
+            input: Bed, Compressed Desh, Heavy-Duty Plate (Tier 2)
+            pattern: 121 101 121
+            tools: Crafting Table
+
+    item: Sealable Aluminum Wire
+        recipe:
+            input: Aluminum Wire, Tin Decoration Block
+            pattern: ... 101 ...
+            tools: Crafting Table
+
+    item: Sealable Heavy Aluminum Wire
+        recipe:
+            input: Heavy Aluminum Wire, Tin Decoration Block
+            pattern: ... 101 ...
+            tools: Crafting Table
+
+    item: Sealable Oxygen Pipe
+        recipe:
+            input: Oxygen Pipe, Tin Decoration Block
+            pattern: ... 101 ...
+            tools: Crafting Table
+
+    item: Short Range Telepad
+        recipe:
+            input: Beam Core, Compressed Steel, Ender Pearl, Redstone
+            pattern: 101 232 111
+            tools: Crafting Table
+
+    item: Spin Thruster
+        recipe:
+            input: Advanced Wafer, Compressed Steel, Filled Fuel Canister, Meteoric Iron Ingot, Rocket Engine (Tier 1)
+            pattern: ... 204 131
+            tools: Crafting Table
+
+    item: Walkway
+        recipe:
+            input: Compressed Titanium
+            pattern: 000 .0. ...
+            quantity: 5
+            tools: Crafting Table
+
+    item: Walkway (Aluminum Wire)
+        recipe:
+            input: Compressed Titanium, Heavy Aluminum Wire
+            pattern: 000 101 111
+            quantity: 5
+            tools: Crafting Table
+
+    item: Walkway (Oxygen Pipe)
+        recipe:
+            input: Compressed Titanium, Oxygen Pipe
+            pattern: 000 101 000
+            tools: Crafting Table
+
+group: Treasure
+
+    item: Dungeon Key (Tier 1)
+        gatherable: yes
+
+    item: Dungeon Key (Tier 2)
+        gatherable: yes
+
+    item: Parachest
+        gatherable: yes
+
+    item: Treasure Chest
+        gatherable: yes
+
+    item: Treasure Chest (Tier 2)
+        gatherable: yes
+
+    item: Treasure Chest (Tier 3)
+        gatherable: yes
+
+group: Vehicles
+
+    item: Astro Miner
+        recipe:
+            input: 5 Orion Drive, 4 Heavy-Duty Plate (Tier 1), 2 Chest, Advanced Wafer, Beam Core, Steel Pole
+            pattern: 103 245 ...
+            tools: NASA Workbench
+
+    item: Astro Miner Base
+        recipe:
+            input: Beam Core, Chest, Compressed Steel, Energy Storage Module
+            pattern: 212 0.0 232
+            quantity: 4
+            tools: Crafting Table
+
+    item: Buggy
+        recipe:
+            input: 11 Heavy-Duty Plate (Tier 1), 4 Buggy Wheel, Buggy Seat
+            pattern: 102 ... ...
+            tools: NASA Workbench
+
+    item: Buggy Fueling Pad
+        recipe:
+            input: Block of Iron, Compressed Steel
+            pattern: 111 000 ...
+            quantity: 9
+            tools: Crafting Table
+
+    item: Buggy Seat
+        recipe:
+            input: Compressed Iron, Compressed Steel
+            pattern: ..1 .01 111
+            tools: Crafting Table
+
+    item: Buggy Storage Box
+        recipe:
+            input: Chest, Compressed Iron, Compressed Steel
+            pattern: 222 101 222
+            tools: Crafting Table
+
+    item: Buggy Wheel
+        recipe:
+            input: Compressed Steel, Leather
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+update: Iron Ingot
+    recipe:
+        input: furnace fuel, Iron Shard
+        pattern: .1. ... .0.
+        tools: Furnace

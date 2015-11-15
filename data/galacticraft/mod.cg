@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Galacticraft
+author:           micdoodle8
+description:      A tech mod which adds interplanetary travel and exploration.
+homePageUrl:      http://micdoodle8.com/mods/galacticraft
+documentationUrl: http://wiki.micdoodle8.com/wiki/Galacticraft
+downloadUrl:      http://micdoodle8.com/mods/galacticraft/downloads
+
+version: 3.0.12.404
