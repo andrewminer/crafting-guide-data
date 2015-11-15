@@ -329,6 +329,7 @@ item: Copper Dust
         tools: Macerator
 
 item: Copper Ingot
+    gatherable: yes
     recipe:
         input: Copper Ore, furnace fuel
         pattern: .0. ... .1.
@@ -1231,6 +1232,7 @@ item: Tin Dust
         tools: Macerator
 
 item: Tin Ingot
+    gatherable: yes
     recipe:
         input: Tin Ore, furnace fuel
         pattern: .0. ... .1.

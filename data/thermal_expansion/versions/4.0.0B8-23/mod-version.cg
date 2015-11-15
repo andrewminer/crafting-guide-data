@@ -1098,6 +1098,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Copper Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Copper
             pattern: ... .0. ...
@@ -1262,6 +1263,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Ferrous Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Ferrous Metal
             pattern: ... .0. ...
@@ -1405,6 +1407,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Lead Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Lead
             pattern: ... .0. ...
@@ -1538,6 +1541,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Mana Infused Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Mana Infused Metal
             pattern: ... .0. ...
@@ -1740,6 +1744,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Shiny Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Shiny Metal
             pattern: ... .0. ...
@@ -1856,6 +1861,7 @@ group: Minerals
             tools: Crafting Table
 
     item: Silver Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Silver
             pattern: ... .0. ...
@@ -1930,6 +1936,7 @@ group: Minerals
             tools: Crafting Tools
 
     item: Tin Ingot
+        gatherable: yes
         recipe:
             input: Pulverized Tin
             pattern: ... .0. ...

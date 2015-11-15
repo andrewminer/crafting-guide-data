@@ -8,6 +8,7 @@ group: Materials
       tools: Crafting Table
 
   item: Unstable Ingot
+    gatherable: yes
     recipe:
       input: Iron Ingot, Division Sigil (Activated), Diamond
       pattern: 0.. 1.. 2..
@@ -22,6 +23,7 @@ group: Materials
       extras: Division Sigil (Activated)
 
   item: Bedrockium Ingot
+    gatherable: yes
     recipe:
       input: Triple Compressed Cobblestone, Quadruple Compressed Cobblestone, Block of Diamond
       pattern: 010 121 010

@@ -172,6 +172,7 @@ group: Minerals
             tools: Pulverizer
 
     item: Ludicrite Ingot
+        gatherable: yes
         recipe:
             input: Ludicrite Dust, furnace fuel
             pattern: .0. ... .1.
@@ -220,6 +221,7 @@ group: Minerals
             tools: Pulverizer
 
     item: Yellorium Ingot
+        gatherable: yes
         recipe:
             input: Yellorite Ore, furnace fuel
             pattern: .0. ... .1.

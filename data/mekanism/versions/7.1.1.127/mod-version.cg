@@ -1790,6 +1790,7 @@ group: Minerals
             tools: Crusher
 
     item: Copper Ingot
+        gatherable: yes
         recipe:
             input: Copper Dust, furnace fuel
             pattern: .0. ... .1.
@@ -2188,6 +2189,7 @@ group: Minerals
             tools: Crusher
 
     item: Osmium Ingot
+        gatherable: yes
         recipe:
             input: Osmium Dust, furnace fuel
             pattern: .0. ... .1.
@@ -2398,6 +2400,7 @@ group: Minerals
             tools: Crusher
 
     item: Tin Ingot
+        gatherable: yes
         recipe:
             input: Tin Dust, furnace fuel
             pattern: .0. ... .1.
@@ -2919,3 +2922,4 @@ update: Stick
         input: Oak Wood Planks
         pattern: ... .0. ...
         quantity: 6
+        tools: Precision Sawmill

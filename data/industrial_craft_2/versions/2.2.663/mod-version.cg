@@ -1692,6 +1692,7 @@ group: Minerals
             tools: Compressor
 
     item: Copper Ingot
+        gatherable: yes
         recipe:
             input: Copper Ore, furnace fuel
             pattern: .0. ... .1.
@@ -1811,6 +1812,7 @@ group: Minerals
             tools: Compressor
 
     item: Lead Ingot
+        gatherable: yes
         recipe:
             input: furnace fuel, Lead Ore
             pattern: .1. ... .0.
@@ -1945,6 +1947,7 @@ group: Minerals
             tools: Thermal Centrifuge
 
     item: Silver Ingot
+        gatherable: yes
         recipe:
             input: furnace fuel, Silver Dust
             pattern: .1. ... .0.
@@ -2004,6 +2007,7 @@ group: Minerals
             tools: Compressor
 
     item: Tin Ingot
+        gatherable: yes
         recipe:
             input: furnace fuel, Tin Ore
             pattern: .1. ... .0.
@@ -2138,11 +2142,13 @@ group: Minerals: Dusts
             tools: Macerator
         recipe:
             extras: Tiny Pile of Gold Dust
+            ignoreDuringCrafting: yes
             input: Slag
             pattern: ... .0. ...
             quantity: 5
             tools: Thermal Centrifuge
         recipe:
+            ignoreDuringCrafting: yes
             input: furnace fuel, Hydrated Coal Dust
             pattern: .1. ... .0.
             tools: Furnace
@@ -2281,10 +2287,12 @@ group: Minerals: Dusts
             pattern: ... .0. ...
             tools: Thermal Centrifuge
         recipe:
+            ignoreDuringCrafting: yes
             input: Tiny Pile of Iron Dust
             pattern: 000 000 000
             tools: Crafting Table
         recipe:
+            ignoreDuringCrafting: yes
             input: 9 Tiny Pile of Iron Dust
             pattern: ... .0. ...
             tools: Compressor
@@ -2293,45 +2301,53 @@ group: Minerals: Dusts
             pattern: ... .0. ...
             tools: Macerator
         recipe:
+            ignoreDuringCrafting: yes
             input: Fuel Rod (Empty)
             pattern: ... .0. ...
             tools: Macerator
         recipe:
             extras: 3 Plutonium
+            ignoreDuringCrafting: yes
             input: Pellets of RTG Fuel
             pattern: ... .0. ...
             quantity: 54
             tools: Thermal Centrifuge
         recipe:
             extras: Tiny Pile of Plutonium, 4 Uranium
+            ignoreDuringCrafting: yes
             input: Fuel Rod (Depleted Uranium)
             pattern: ... .0. ...
             tools: Thermal Centrifuge
         recipe:
             extras: 2 Tiny Pile of Plutonium, 8 Uranium 238
+            ignoreDuringCrafting: yes
             input: Dual Fuel Rod (Depleted Uranium)
             pattern: ... .0. ...
             quantity: 3
             tools: Thermal Centrifuge
         recipe:
             extras: 4 Tiny Pile of Plutonium, 16 Uranium 238
+            ignoreDuringCrafting: yes
             input: Quad Fuel Rod (Depleted Uranium)
             pattern: ... .0. ...
             quantity: 6
             tools: Thermal Centrifuge
         recipe:
             extras: Tiny Pile of Plutonium, 3 Plutonium
+            ignoreDuringCrafting: yes
             input: Fuel Rod (Depleted MOX)
             pattern: ... .0. ...
             tools: Thermal Centrifuge
         recipe:
             extras: 2 Tiny Pile of Plutonium, 6 Plutonium
+            ignoreDuringCrafting: yes
             input: Dual Fuel Rod (Depleted MOX)
             pattern: ... .0. ...
             quantity: 3
             tools: Thermal Centrifuge
         recipe:
             extras: 4 Tiny Pile of Plutonium, 12 Plutonium
+            ignoreDuringCrafting: yes
             input: Quad Fuel Rod (Depleted MOX)
             pattern: ... .0. ...
             quantity: 6
@@ -2358,23 +2374,23 @@ group: Minerals: Dusts
 
     item: Lead Dust
         recipe:
-            extras: Tiny Pile of Copper Dust
-            input: Purified Crushed Lead Ore
+            input: Lead Ingot
             pattern: ... .0. ...
-            tools: Thermal Centrifuge
+            tools: Macerator
         recipe:
             extras: Stone Dust
             input: Crushed Lead Ore
             pattern: ... .0. ...
             tools: Thermal Centrifuge
         recipe:
+            extras: Tiny Pile of Copper Dust
+            input: Purified Crushed Lead Ore
+            pattern: ... .0. ...
+            tools: Thermal Centrifuge
+        recipe:
             input: Tiny Pile of Lead Dust
             pattern: 000 000 000
             tools: Crafting Table
-        recipe:
-            input: Lead Ingot
-            pattern: ... .0. ...
-            tools: Macerator
         recipe:
             input: 9 Tiny Pile of Lead Dust
             pattern: ... .0. ...

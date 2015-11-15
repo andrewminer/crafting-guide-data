@@ -697,7 +697,7 @@ group: Machine Parts
             pattern: 00. 00. ...
             quantity: 4
         recipe:
-            input: Plastic Block
+            input: Block of Plastic
             pattern: ... .0. ...
             quantity: 4
 
@@ -1904,7 +1904,7 @@ group: Tools
     item: Needlegun Ammo (Lava)
         recipe:
             extras: Bucket
-            input: Lava Bucket, Needlegun Ammo, Plastic Cup
+            input: Lava Bucket, Needlegun Ammo (Needles), Plastic Cup
             pattern: 12. 0.. ...
 
     item: Needlegun Ammo (Needles)

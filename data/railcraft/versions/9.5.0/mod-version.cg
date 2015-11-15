@@ -2275,6 +2275,7 @@ group: Minerals
             tools: Coke Oven
 
     item: Copper Ingot
+        gatherable: yes
         recipe:
             input: Copper Ore, furnace fuel
             pattern: .0. ... .1.
@@ -2333,6 +2334,7 @@ group: Minerals
             tools: Furnace
 
     item: Lead Ingot
+        gatherable: yes
         recipe:
             input: Lead Ore, furnace fuel
             pattern: .0. ... .1.
@@ -2443,6 +2445,7 @@ group: Minerals
         gatherable: yes
 
     item: Tin Ingot
+        gatherable: yes
         recipe:
             input: Tin Ore, furnace fuel
             pattern: .0. ... .1.

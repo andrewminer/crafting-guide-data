@@ -82,6 +82,10 @@ group: Agriculture
             input: Bowl, Mushroom (brown), Mushroom (red)
             pattern: .2. .1. .0.
 
+    item: Mushroom (brown)
+
+    item: Mushroom (red)
+
     item: Nether Wart
         gatherable: yes
 
@@ -1359,8 +1363,10 @@ group: Minerals
             pattern: 00. 00. ...
 
     item: Glowstone Dust
+        gatherable: yes
 
     item: Gold Ingot
+        gatherable: yes
         recipe:
             input: Gold Ore, furnace fuel
             pattern: .0. ... .1.
@@ -1387,6 +1393,7 @@ group: Minerals
         gatherable: yes
 
     item: Iron Ingot
+        gatherable: yes
         recipe:
             input: Iron Ore, furnace fuel
             pattern: .0. ... .1.
@@ -1568,6 +1575,9 @@ group: Plants
         gatherable: yes
 
     item: Red Tulip
+        gatherable: yes
+
+    item: Rose
         gatherable: yes
 
     item: Rose Bush
@@ -2366,6 +2376,9 @@ group: Tools
         recipe:
             input: Flint, Iron Ingot
             pattern: ... .1. ..0
+
+    item: furnace fuel
+        gatherable: yes
 
     item: Golden Axe
         recipe:
