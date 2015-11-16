@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Advanced Solar Panels
+author:           SeNtiMel
+description:      An extension to Industrial Craft which adds... advanced solar panels!
+homePageUrl:      http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291
+documentationUrl: http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291
+downloadUrl:      http://forum.industrial-craft.net/index.php?page=Attachment&attachmentID=4316&h=f2254c849c790ec1adc14a7173ef455cf2b483e7&s=ccba0a64d4c1648d63dfe5fa8f0c6faf893c0bfe
+
+version: 3.5.1

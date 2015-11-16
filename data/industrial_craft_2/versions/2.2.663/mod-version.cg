@@ -4,11 +4,11 @@ group: Agriculture
 
     item: Bio Chaff
         recipe:
-            input: 8 Wheat
+            input: 16 Seeds
             pattern: ... .0. ...
             tools: Macerator
         recipe:
-            input: 16 Seeds
+            input: 8 Wheat
             pattern: ... .0. ...
             tools: Macerator
         recipe:
@@ -90,12 +90,12 @@ group: Agriculture
     item: Coffee Powder
         recipe:
             input: Coffee Beans
-            pattern: ... .0. ...
-        recipe:
-            input: Coffee Beans
             pattern: ... .0. .0.
             quantity: 3
             tools: Macerator
+        recipe:
+            input: Coffee Beans
+            pattern: ... .0. ...
 
     item: Cold Coffee
         recipe:
@@ -144,12 +144,12 @@ group: Agriculture
 
     item: Fertilizer
         recipe:
-            input: Bone Meal, Scrap
-            pattern: ... 10. ...
-            quantity: 2
-        recipe:
             input: Fertilizer, Scrap
             pattern: 11. 0.. ...
+            quantity: 2
+        recipe:
+            input: Bone Meal, Scrap
+            pattern: ... 10. ...
             quantity: 2
 
     item: (Filled) Tin Can
@@ -490,12 +490,12 @@ group: Energy: Generation
 
     item: Generator
         recipe:
-            input: Iron Furnace, Iron Plate, RE-Battery
-            pattern: .2. 111 .0.
-            tools: Crafting Table
-        recipe:
             input: Basic Machine Casing, Furnace, RE-Battery
             pattern: .2. .0. .1.
+            tools: Crafting Table
+        recipe:
+            input: Iron Furnace, Iron Plate, RE-Battery
+            pattern: .2. 111 .0.
             tools: Crafting Table
 
     item: Geothermal Generator
@@ -616,24 +616,19 @@ group: Energy: Storage
 
     item: Single-Use Battery
         recipe:
-            input: Coal Dust, Insulated Copper Cable, Redstone
-            pattern: .1. .2. .0.
-            quantity: 5
-            tools: Crafting Table
-        recipe:
             input: Hydrated Coal Dust, Insulated Copper Cable, Redstone
             pattern: .1. .2. .0.
             quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Coal Dust, Insulated Copper Cable, Redstone
+            pattern: .1. .2. .0.
+            quantity: 5
             tools: Crafting Table
 
 group: Energy: Transmission
 
     item: Copper Cable
-        recipe:
-            input: Copper Plate
-            pattern: ... .0. ...
-            quantity: 3
-            tools: Cutter
         recipe:
             input: Copper Ingot
             pattern: ... .0. ...
@@ -644,6 +639,11 @@ group: Energy: Transmission
             pattern: ... .0. ...
             quantity: 3
             tools: Metal Former
+        recipe:
+            input: Copper Plate
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Cutter
 
     item: EU-Detector Cable
         recipe:
@@ -671,11 +671,6 @@ group: Energy: Transmission
 
     item: Gold Cable
         recipe:
-            input: Gold Plate
-            pattern: ... .0. ...
-            quantity: 4
-            tools: Cutter
-        recipe:
             input: Gold Ingot
             pattern: ... .0. ...
             quantity: 4
@@ -685,6 +680,11 @@ group: Energy: Transmission
             pattern: ... .0. ...
             quantity: 4
             tools: Metal Former
+        recipe:
+            input: Gold Plate
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Cutter
 
     item: HV Cable
         recipe:
@@ -738,11 +738,6 @@ group: Energy: Transmission
 
     item: Tin Cable
         recipe:
-            input: Tin Plate
-            pattern: ... .0. ...
-            quantity: 3
-            tools: Cutter
-        recipe:
             input: Tin Ingot
             pattern: ... .0. ...
             quantity: 3
@@ -752,6 +747,11 @@ group: Energy: Transmission
             pattern: ... .0. ...
             quantity: 3
             tools: Metal Former
+        recipe:
+            input: Tin Plate
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Cutter
 
 group: Machine Parts
 
@@ -802,27 +802,27 @@ group: Machine Parts
             input: Bronze Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Bronze Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Bronze Plate
-        recipe:
-            input: Bronze Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Bronze Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Bronze Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Bronze Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Bronze Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Carbon Plate
         recipe:
@@ -853,27 +853,27 @@ group: Machine Parts
             input: Copper Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Copper Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Copper Plate
-        recipe:
-            input: Copper Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Copper Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Copper Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Crystal Memory
         recipe:
@@ -980,26 +980,27 @@ group: Machine Parts
             input: Gold Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Gold Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Gold Plate
-        recipe:
-            input: Gold Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Gold Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Block of Gold
             pattern: ... .0. ...
             quantity: 9
+            tools: Block Cutting Machine
+        recipe:
+            input: Gold Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Gold Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Iridium Reinforced Plate
         recipe:
@@ -1012,27 +1013,27 @@ group: Machine Parts
             input: Iron Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Iron Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Iron Plate
-        recipe:
-            input: Iron Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Iron Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Block of Iron
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Iron Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Iron Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Iron Rotor Blade
         recipe:
@@ -1072,14 +1073,14 @@ group: Machine Parts
 
     item: Lapis Lazuli Plate
         recipe:
-            input: Lapis Lazuli Dust
-            pattern: ... .0. ...
-            tools: Compressor
-        recipe:
             input: Lapis Lazuli Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Lapis Lazuli Dust
+            pattern: ... .0. ...
+            tools: Compressor
 
     item: Lapotron Crystal
         recipe:
@@ -1092,27 +1093,27 @@ group: Machine Parts
             input: Lead Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Lead Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Lead Plate
-        recipe:
-            input: Lead Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Lead Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Lead Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Lead Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Lead Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Mining Pipe
         recipe:
@@ -1180,25 +1181,25 @@ group: Machine Parts
 
     item: Refined Iron Plate
         recipe:
-            input: Refined Iron Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
-        recipe:
             input: Refined Iron Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Refined Iron Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
 
     item: Rubber
-        recipe:
-            input: furnace fuel, Sticky Resin
-            pattern: .1. ... .0.
-            tools: Furnace
         recipe:
             input: Sticky Resin
             pattern: ... .0. ...
             quantity: 3
             tools: Extractor
+        recipe:
+            input: furnace fuel, Sticky Resin
+            pattern: .1. ... .0.
+            tools: Furnace
         recipe:
             input: Rubber Wood
             pattern: ... .0. ...
@@ -1291,27 +1292,27 @@ group: Machine Parts
             input: Tin Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Forge Hammer
+            tools: Metal Former
         recipe:
             input: Tin Plate
             pattern: ... .0. ...
             quantity: 2
-            tools: Metal Former
+            tools: Forge Hammer
 
     item: Tin Plate
-        recipe:
-            input: Tin Ingot
-            pattern: ... .0. ...
-            tools: Forge Hammer
-        recipe:
-            input: Tin Ingot
-            pattern: ... .0. ...
-            tools: Metal Former
         recipe:
             input: Tin Block
             pattern: ... .0. ...
             quantity: 9
             tools: Block Cutting Machine
+        recipe:
+            input: Tin Ingot
+            pattern: ... .0. ...
+            tools: Metal Former
+        recipe:
+            input: Tin Ingot
+            pattern: ... .0. ...
+            tools: Forge Hammer
 
     item: Transformer Upgrade
         recipe:
@@ -1603,12 +1604,12 @@ group: Machines: Steam
 
     item: Solid Heat Generator
         recipe:
-            input: Heat Conductor, Iron Furnace, Iron Plate
-            pattern: .0. 222 .1.
-            tools: Crafting Table
-        recipe:
             input: Basic Machine Casing, Furnace, Heat Conductor
             pattern: .2. .0. .1.
+            tools: Crafting Table
+        recipe:
+            input: Heat Conductor, Iron Furnace, Iron Plate
+            pattern: .0. 222 .1.
             tools: Crafting Table
 
     item: Steam Generator
@@ -1635,13 +1636,13 @@ group: Minerals
 
     item: Bronze Ingot
         recipe:
-            input: Bronze Dust, furnace fuel
-            pattern: .0. ... .1.
-            tools: Furnace
-        recipe:
             input: Bronze Dust
             pattern: ... .0. ...
             tools: Electric Furnace
+        recipe:
+            input: Bronze Dust, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
         recipe:
             input: Bronze Block
             pattern: ... .0. ...
@@ -1873,6 +1874,10 @@ group: Minerals
 
     item: Plutonium
         recipe:
+            input: Tiny Pile of Plutonium
+            pattern: 000 000 000
+            tools: Crafting Table
+        recipe:
             extras: 4 Tiny Pile of Plutonium, 6 Iron Dust
             input: Quad Fuel Rod (Depleted MOX)
             pattern: ... .0. ...
@@ -1896,10 +1901,6 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 3
             tools: Thermal Centrifuge
-        recipe:
-            input: Tiny Pile of Plutonium
-            pattern: 000 000 000
-            tools: Crafting Table
 
     item: Refined Iron Ingot
         recipe:

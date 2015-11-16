@@ -1,0 +1,178 @@
+schema: 1
+
+item: Advanced Solar Helmet
+    recipe:
+        input: Advanced Solar Panel, Advanced Circuit, NanoSuit Helmet, Insulated Gold Cable, LV-Transformer
+        pattern: .0. 121 343
+        quantity: 1
+        tools: Crafting Table
+
+item: Advanced Solar Panel
+    recipe:
+        input: Irradiant Glass Pane, Advanced Alloy, Solar Panel, Advanced Circuit, Irradiant Reinforced Plate
+        pattern: 000 121 343
+        quantity: 1
+        tools: Crafting Table
+
+item: Enriched Sunnarium Alloy
+    recipe:
+        input: Irradiant Uranium, Sunnarium
+        pattern: 000 010 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Enriched Sunnarium
+    recipe:
+        input: Irradiant Uranium, Sunnarium
+        pattern: 000 010 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Hybrid Solar Panel
+    recipe:
+        input: Carbon Plate, Lapis Lazuli Block, Iridium Reinforced Plate, Advanced Solar Panel, Advanced Circuit, Enriched Sunnarium
+        pattern: 010 232 454
+        quantity: 1
+        tools: Crafting Table
+    recipe:
+        input: Ultimate Hybrid Solar Panel
+        pattern: ... .0. ...
+        quantity: 8
+
+item: Hybrid Solar Helmet
+    recipe:
+        input: Hybrid Solar Panel, Advanced Circuit, QuantumSuit Helmet, Glass Fibre Cable, HV-Transformer
+        pattern: .0. 121 343
+        quantity: 1
+        tools: Crafting Table
+
+item: Iridium Ingot
+    recipe:
+        input: Iridium Ore
+        pattern: ... .0. ...
+        quantity: 1
+        tools: industrial_craft_2__compressor
+
+item: Iridium-Iron Plate
+    recipe:
+        input: Iron Ingot, Iridium Ingot
+        pattern: 000 010 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Irradiant Glass Pane
+    recipe:
+        input: Reinforced Glass, Irradiant Uranium, Glowstone Dust
+        pattern: 000 121 000
+        quantity: 6
+        tools: Crafting Table
+
+item: Irradiant Reinforced Plate
+    recipe:
+        input: Redstone, Sunnarium Piece, Lapis Lazuli, Reinforced Iridium-Iron Plate, Diamond
+        pattern: 010 232 040
+        quantity: 1
+        tools: Crafting Table
+
+item: Irradiant Uranium
+    recipe:
+        input: Glowstone Dust, Uranium Ingot
+        pattern: .0. 010 .0.
+        quantity: 1
+        tools: Crafting Table
+
+item: MT Core
+    recipe:
+        input: Irradiant Glass Pane, Thick Neutron Reflector
+        pattern: 010 0.0 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Molecular Transformer
+    recipe:
+        input: Advanced Machine Casing, EV-Transformer, Advanced Circuit, MT Core
+        pattern: 010 232 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Quantum Core
+    recipe:
+        input: Enriched Sunnarium Alloy, Nether Star, Eye of Ender
+        pattern: 010 121 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Quantum Solar Panel
+    recipe:
+        input: Ultimate Hybrid Solar Panel, Quantum Core
+        pattern: 000 010 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Reinforced Iridium-Iron Plate
+    recipe:
+        input: Advanced Alloy, Carbon Plate, Iridium-Iron Plate
+        pattern: 010 121 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Sunnarium Alloy
+    recipe:
+        input: Iridium Reinforced Plate, Sunnarium
+        pattern: 000 010 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Sunnarium Piece
+    recipe:
+        input: Glowstone Dust
+        pattern: ... .0. ...
+        quantity: 1
+        tools: Molecular Transformer
+
+item: Sunnarium
+    recipe:
+        input: Sunnarium Piece
+        pattern: 000 000 000
+        quantity: 1
+        tools: Crafting Table
+    recipe:
+        input: Glowstone
+        pattern: ... .0. ...
+        quantity: 1
+        tools: Molecular Transformer
+
+item: Ultimate Hybrid Solar Panel
+    recipe:
+        input: Lapis Lazuli Block, Coal Chunk, Advanced Solar Panel, Enriched Sunnarium Alloy
+        pattern: .0. 121 313
+        quantity: 1
+        tools: Crafting Table
+
+item: Ultimate Solar Helmet
+    recipe:
+        input: Ultimate Hybrid Solar Panel, Advanced Circuit, QuantumSuit Helmet, Glass Fibre Cable, HV-Transformer
+        pattern: .0. 121 343
+        quantity: 1
+        tools: Crafting Table
+    recipe:
+        input: Ultimate Hybrid Solar Panel, Hybrid Solar Helmet
+        pattern: .0. .1. ...
+
+item: Uranium Ingot
+    recipe:
+        input: Uranium Ore
+        pattern: ... .0. ...
+        quantity: 1
+        tools: industrial_craft_2__compressor
+    recipe:
+        input: Crushed Uranium Ore
+        pattern: ... .0. ...
+        quantity: 1
+        tools: industrial_craft_2__compressor
+    recipe:
+        input: Enriched Uranium Nuclear Fuel
+        pattern: ... .0. ...
+        quantity: 1
+        tools: industrial_craft_2__compressor
+
