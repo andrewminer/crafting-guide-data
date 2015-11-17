@@ -24,11 +24,15 @@ MOD_VERSION="$1"; shift
 
 mkdir -p "./data/$MOD_SLUG/versions/$MOD_VERSION"
 DATA_FILE="./data/$MOD_SLUG/versions/$MOD_VERSION/mod-version.cg"
-touch "$DATA_FILE"
 
 if [[ "$SOURCE_DIR" == "" || "$MOD_SLUG" == "" || "$MOD_VERSION" == "" ]]; then
     echo "$USAGE"
     exit 1
+fi
+
+if [[ ! -e "$DATA_FILE" ]]; then
+    echo "schema: 1" > $DATA_FILE
+    echo "" >> $DATA_FILE
 fi
 
 ls $SOURCE_DIR/itempanel_icons | while read FILE; do
@@ -43,7 +47,12 @@ ls $SOURCE_DIR/itempanel_icons | while read FILE; do
     mkdir -p "./data/$MOD_SLUG/items/$ITEM_SLUG"
     cp "$SOURCE_DIR/itempanel_icons/$FILE" "./data/$MOD_SLUG/items/$ITEM_SLUG/icon.png"
     if ! grep -q "item: $ITEM_NAME$" $DATA_FILE; then
-        echo "item: $ITEM_NAME" >> $DATA_FILE
+        echo "# item: $ITEM_NAME" >> $DATA_FILE
+        echo "#    recipe:" >> $DATA_FILE
+        echo "#        input:" >> $DATA_FILE
+        echo "#        pattern: ... ... ..." >> $DATA_FILE
+        echo "#        quantity: 1" >> $DATA_FILE
+        echo "#        tools: Crafting Table" >> $DATA_FILE
         echo "" >> $DATA_FILE
     fi
 done
