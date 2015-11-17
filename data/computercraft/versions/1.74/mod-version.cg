@@ -1,0 +1,272 @@
+schema: 1
+
+group: Advanced Turtles
+
+    item: Advanced Crafty Turtle
+        recipe:
+            input: Advanced Turtle, Crafting Table
+            pattern: 01. ... ...
+
+    item: Advanced Digging Turtle
+        recipe:
+            input: Advanced Turtle, Diamond Shovel
+            pattern: 01. ... ...
+
+    item: Advanced Farming Turtle
+        recipe:
+            input: Advanced Turtle, Diamond Hoe
+            pattern: 01. ... ...
+
+    item: Advanced Felling Turtle
+        recipe:
+            input: Advanced Turtle, Diamond Axe
+            pattern: 01. ... ...
+
+    item: Advanced Melee Turtle
+        recipe:
+            input: Advanced Turtle, Diamond Sword
+            pattern: 01. ... ...
+
+    item: Advanced Mining Turtle
+        recipe:
+            input: Advanced Turtle, Diamond Pickaxe
+            pattern: 01. ... ...
+
+    item: Advanced Turtle
+        recipe:
+            input: Advanced Computer, Chest, Gold Ingot
+            pattern: 222 202 212
+
+    item: Advanced Wireless Turtle
+        recipe:
+            input: Advanced Turtle, Wireless Modem
+            pattern: 10. ... ...
+
+group: Basic Turtles
+
+    item: Crafty Turtle
+        recipe:
+            input: Turtle, Wireless Modem
+            pattern: 10. ... ...
+
+    item: Digging Turtle
+        recipe:
+            input: Diamond Shovel, Turtle
+            pattern: 10. ... ...
+
+    item: Farming Turtle
+        recipe:
+            input: Diamond Hoe, Turtle
+            pattern: 10. ... ...
+
+    item: Felling Turtle
+        recipe:
+            input: Diamond Axe, Turtle
+            pattern: 10. ... ...
+
+    item: Melee Turtle
+        recipe:
+            input: Diamond Sword, Turtle
+            pattern: 10. ... ...
+
+    item: Mining Turtle
+        recipe:
+            input: Diamond Pickaxe, Turtle
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: Turtle
+        recipe:
+            input: Chest, Computer, Iron Ingot
+            pattern: 222 212 202
+            tools: Crafting Table
+
+    item: Wireless Turtle
+        recipe:
+            input: Turtle, Wireless Modem
+            pattern: 10. ... ...
+
+group: Computers
+
+    item: Advanced Computer
+        recipe:
+            input: Glass Pane, Gold Ingot, Redstone
+            pattern: 111 121 101
+            tools: Crafting Table
+
+    item: Command Computer
+        recipe:
+            input: Command Block, Glass Pane, Stone
+            pattern: 222 202 212
+            tools: Crafting Table
+
+    item: Computer
+        recipe:
+            input: Glass Pane, Redstone, Stone
+            pattern: 222 212 202
+            tools: Crafting Table
+
+group: Floppy Disks
+
+    item: Floppy Disk (Black)
+        recipe:
+            input: Ink Sac, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Blue)
+        recipe:
+            input: Lapis Lazuli, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Brown)
+        recipe:
+            input: Cocoa Beans, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Cyan)
+        recipe:
+            input: Cyan Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Gray)
+        recipe:
+            input: Gray Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Green)
+        recipe:
+            input: Green Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Light Blue)
+        recipe:
+            input: Light Blue Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Light Gray)
+        recipe:
+            input: Light Gray Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Lime)
+        recipe:
+            input: Lime Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Magenta)
+        recipe:
+            input: Magenta Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Orange)
+        recipe:
+            input: Orange Dye, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Pink)
+        recipe:
+            input: Paper, Pink Dye, Redstone
+            pattern: 20. 1.. ...
+
+    item: Floppy Disk (Purple)
+        recipe:
+            input: Paper, Pink Dye, Redstone
+            pattern: 20. 1.. ...
+
+    item: Floppy Disk (Red)
+        recipe:
+            input: Paper, Redstone, Rose Red
+            pattern: 10. 2.. ...
+
+    item: Floppy Disk (White)
+        recipe:
+            input: Bonemeal, Paper, Redstone
+            pattern: 21. 0.. ...
+
+    item: Floppy Disk (Yellow)
+        recipe:
+            input: Dandelion Yellow, Paper, Redstone
+            pattern: 21. 0.. ...
+
+group: Peripherials
+
+    item: Advanced Monitor
+        recipe:
+            input: Glass Pane, Gold Ingot
+            pattern: 111 101 111
+            quantity: 4
+            tools: Crafting Table
+
+    item: Disk Drive
+        recipe:
+            input: Redstone, Stone
+            pattern: 111 101 101
+            tools: Crafting Table
+
+    item: Monitor
+        recipe:
+            input: Glass Pane, Stone
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Networking Cable
+        recipe:
+            input: Redstone, Stone
+            pattern: .1. 101 .1.
+            quantity: 6
+            tools: Crafting Table
+
+    item: Printed Book
+        recipe:
+            input: Leather, Printed Page, String
+            pattern: 01. 2.. ...
+
+    item: Printed Page
+        gatherable: yes
+
+    item: Printed Pages
+        recipe:
+            input: Printed Page, String
+            pattern: 00. 1.. ...
+
+    item: Printer
+        recipe:
+            input: Ink Sac, Redstone, Stone
+            pattern: 222 212 202
+            tools: Crafting Table
+
+    item: Wired Modem
+        recipe:
+            input: Redstone, Stone
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Wireless Modem
+        recipe:
+            input: Ender Pearl, Stone
+            pattern: 111 101 111
+            tools: Crafting Table
+
+group: Pocket Computers
+
+    item: Advanced Pocket Computer
+        recipe:
+            input: Glass Pane, Gold Ingot, Golden Apple
+            pattern: 111 121 101
+            tools: Crafting Table
+
+    item: Advanced Wireless Pocket Computer
+        recipe:
+            input: Advanced Pocket Computer, Wireless Modem
+            pattern: 10. ... ...
+
+    item: Pocket Computer
+        recipe:
+            input: Glass Pane, Golden Apple, Stone
+            pattern: 222 212 202
+            tools: Crafting Table
+
+    item: Wireless Pocket Computer
+        recipe:
+            input: Pocket Computer, Wireless Modem
+            pattern: 10. ... ...

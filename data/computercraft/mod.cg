@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Computer Craft
+author:           dan200
+description:      Add computers and Turtles programmable in Lua along with peripherials and basic networking.
+homePageUrl:      http://www.computercraft.info/
+documentationUrl: http://www.computercraft.info/download/
+downloadUrl:      http://www.computercraft.info/wiki/Main_Page
+
+version: 1.74
