@@ -1,0 +1,9 @@
+schema: 1
+
+name:        Extra Cells
+author:      DrummerMC
+description: An AppliedEnergistics extension which adds large cells and cells for storing fluids
+homePageUrl: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x
+downloadUrl: http://curse.com/mc-mods/minecraft/229218-extracells2/2242838
+
+version: 2.2.73b129

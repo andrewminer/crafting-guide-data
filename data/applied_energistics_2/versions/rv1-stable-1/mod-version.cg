@@ -705,6 +705,12 @@ group: Storage System Blocks & Parts
             pattern: 111 101 111
             tools: Crafting Table
 
+    item: ME Chest
+        recipe:
+            input: Glass, ME Terminal, ME Glass Cable, Iron Ingot, Fluix Crystal
+            pattern: 010 2.2 343
+            tools: Crafting Table
+
     item: ME Controller
         recipe:
             input: Engineering Processor, Pure Fluix Crystal, Sky Stone Block

@@ -1,0 +1,345 @@
+schema: 1
+
+group: Decorative Blocks
+
+    item: Walrus
+        recipe:
+            input: Raw Fish
+            pattern: 000 0.0 000
+            tools: Crafting Table
+
+group: Equipment
+
+    item: ME Portable Fluid Storage
+        recipe:
+            input: 1k ME Fluid Storage Component, Energy Cell, ME Chest
+            pattern: 21. 0.. ...
+
+group: Fluid Storage Blocks
+
+    item: Certus Quartz Tank
+        recipe:
+            input: Quartz Glass
+            pattern: 000 0.0 000
+            tools: Crafting Table
+
+group: Fluid Storage Chips
+
+    item: ME 1024k Fluid Storage
+        recipe:
+            input: 1024k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 1024k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 16k Fluid Storage
+        recipe:
+            input: 16k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 16k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 1k Fluid Storage
+        recipe:
+            input: 1k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 1k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 256k Fluid Storage
+        recipe:
+            input: 256k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 256k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 4096k Fluid Storage
+        recipe:
+            input: 4096k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 4096k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 4k Fluid Storage
+        recipe:
+            input: 4k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 4k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 64k Fluid Storage
+        recipe:
+            input: 64k ME Fluid Storage Component, Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 64k ME Fluid Storage Component, Fluid Storage Housing
+            pattern: 10. ... ...
+
+group: Fluid Storage Components
+
+    item: 1024k ME Fluid Storage Component
+        recipe:
+            input: 256k ME Fluid Storage Component, Engineering Processor, Lapis Lazuli, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 16k ME Fluid Storage Component
+        recipe:
+            input: 4k ME Fluid Storage Component, Engineering Processor, Lapis Lazuli, Quartz Glass
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 1k ME Fluid Storage Component
+        recipe:
+            input: Certus Quartz Crystal, Lapis Lazuli, Logic Processor
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: 256k ME Fluid Storage Component
+        recipe:
+            input: 64k ME Fluid Storage Component, Engineering Processor, Lapis Lazuli, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 4096k ME Fluid Storage Component
+        recipe:
+            input: 1024k ME Fluid Storage Component, Engineering Processor, Lapis Lazuli, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 4k ME Fluid Storage Component
+        recipe:
+            input: 1k ME Fluid Storage Component, Calculation Processor, Lapis Lazuli, Quartz Glass
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 64k ME Fluid Storage Component
+        recipe:
+            input: 16k ME Fluid Storage Component, Engineering Processor, Lapis Lazuli, Quartz Glass
+            pattern: 212 030 202
+            tools: Crafting Table
+
+group: Item Storage Chips
+
+    item: ME 1024k Storage
+        recipe:
+            input: 1024k ME Storage Component, Diamond, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 1024k ME Storage Component, Advanced Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 16384k Storage
+        recipe:
+            input: 16384k ME Storage Component, Diamond, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 16384k ME Storage Component, Advanced Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 256k Storage
+        recipe:
+            input: 256k ME Storage Component, Diamond, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 256k ME Storage Component, Advanced Storage Housing
+            pattern: 10. ... ...
+
+    item: ME 4096k Storage
+        recipe:
+            input: 4096k ME Storage Component, Diamond, Fluix Dust, Quartz Glass
+            pattern: 323 202 111
+            tools: Crafting Table
+        recipe:
+            input: 4096k ME Storage Component, Advanced Storage Housing
+            pattern: 10. ... ...
+
+group: Item Storage Components
+
+    item: 1024k ME Storage Component
+        recipe:
+            input: 256k ME Storage Component, Engineering Processor, Glowstone Dust, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 16384k ME Storage Component
+        recipe:
+            input: 4096k ME Storage Component, Engineering Processor, Glowstone Dust, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 256k ME Storage Component
+        recipe:
+            input: 64k ME Storage Component, Engineering Processor, Glowstone Dust, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: 4096k ME Storage Component
+        recipe:
+            input: 1024k ME Storage Component, Engineering Processor, Glowstone Dust, Logic Processor
+            pattern: 212 030 202
+            tools: Crafting Table
+
+group: Machines
+
+    item: Fluid Vibration Chamber
+        recipe:
+            input: Certus Quartz Tank, Iron Ingot, Vibration Chamber
+            pattern: 111 101 121
+            tools: Crafting Table
+
+    item: ME Fluid Assembler
+        recipe:
+            input: 1k ME Fluid Storage Component, Molecular Assembler
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: ME Fluid Auto Filler
+        recipe:
+            input: ME Fluid Assembler, ME Fluid Terminal
+            pattern: 01. ... ...
+
+group: Parts
+
+    item: Advanced Storage Housing
+        recipe:
+            input: Diamond, Fluix Dust, Quartz Glass
+            pattern: 212 1.1 000
+            tools: Crafting Table
+
+    item: Fluid Storage Housing
+        recipe:
+            input: Certus Quartz Tank, Fluix Dust, Quartz Glass
+            pattern: 212 1.1 000
+            tools: Crafting Table
+
+group: Storage Blocks
+
+    item: Blast Resistant ME Drive
+        recipe:
+            input: ME Dense Cable - Fluix, ME Drive, Obsidian
+            pattern: 202 212 222
+            tools: Crafting Table
+
+    item: ME Block Container
+        recipe:
+            input: 1k ME Storage Component, Chest, ME Storage Housing
+            pattern: 02. 1.. ...
+
+    item: ME Drive Fixture
+        recipe:
+            input: Iron Ingot, ME Drive
+            pattern: 00. 1.. ...
+
+    item: ME Energy Cell Fixture
+        recipe:
+            input: Energy Cell, Iron Ingot
+            pattern: 11. 0.. ...
+
+    item: ME Fluid Annihilation Plane
+        recipe:
+            input: Annihilation Core, Fluix Dust, Iron Ingot, Lapis Lazuli
+            pattern: 231 031 231
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli, ME Annihilation Plane
+            pattern: 10. ... ...
+
+    item: ME Fluid Conversion Monitor
+        recipe:
+            input: Annihilation Core, Formation Core, ME Fluid Storage Monitor
+            pattern: 01. 2.. ...
+            tools: Crafting Table
+
+    item: ME Fluid Export Bus
+        recipe:
+            input: Formation Core, Iron Ingot, Lapis Lazuli, Piston
+            pattern: 101 232 ...
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli, ME Export Bus
+            pattern: 10. ... ...
+
+    item: ME Fluid Formation Plane
+        recipe:
+            input: Fluix Dust, Formation Core, Iron Ingot, Lapis Lazuli
+            pattern: 230 130 230
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli, ME Formation Plane
+            pattern: 10. ... ...
+
+    item: ME Fluid Import Bus
+        recipe:
+            input: Annihilation Core, Iron Ingot, Lapis Lazuli, Sticky Piston
+            pattern: 202 131 ...
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli, ME Import Bus
+            pattern: 10. ... ...
+
+    item: ME Fluid Interface (block)
+        recipe:
+            input: Annihilation Core, Formation Core, Iron Ingot, Lapis Lazuli
+            pattern: 232 0.1 232
+            tools: Crafting Table
+        recipe:
+            input: ME Fluid Interface (panel)
+            pattern: ... .0. ...
+
+    item: ME Fluid Interface (panel)
+        recipe:
+            input: ME Fluid Interface (block)
+            pattern: ... .0. ...
+
+    item: ME Fluid Level Emitter
+        recipe:
+            input: Calculation Processor, Lapis Lazuli, Redstone Torch
+            pattern: 21. 0.. ...
+            tools: Crafting Table
+
+    item: ME Fluid Storage Bus
+        recipe:
+            input: Lapis Lazuli, ME Interface (block), Piston, Sticky Piston
+            pattern: .1. 32. 00.
+            tools: Crafting Table
+
+    item: ME Fluid Storage Monitor
+        recipe:
+            input: Illuminated Panel, Lapis Lazuli, ME Level Emitter
+            pattern: 11. 20. ...
+            tools: Crafting Table
+
+    item: ME Fluid Terminal
+        recipe:
+            input: Annihilation Core, Formation Core, Illuminated Panel, Lapis Lazuli, Logic Processor
+            pattern: 201 433 ...
+            tools: Crafting Table
+
+    item: ME Ore Dictionary Export Bus
+        recipe:
+            input: Acceleration Card, Fuzzy Card, ME Export Bus
+            pattern: .2. 110 000
+            tools: Crafting Table
+
+    item: Wireless ME Fluid Terminal
+        recipe:
+            input: Dense Energy Cell, ME Fluid Terminal, Wireless Receiver
+            pattern: .2. .1. .0.
+            tools: Crafting Table
