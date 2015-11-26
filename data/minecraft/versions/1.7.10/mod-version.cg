@@ -1595,6 +1595,17 @@ group: Plants
     item: White Tulip
         gatherable: yes
 
+group: Portals
+
+    item: Nether Portal
+        multiblock:
+            input: Obsidian
+            layer: .00.
+            layer: 0..0
+            layer: 0..0
+            layer: 0..0
+            layer: .00.
+
 group: Potions: Brewing
 
     item: Awkward Potion

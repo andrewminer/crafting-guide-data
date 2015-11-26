@@ -2473,14 +2473,12 @@ group: Minerals
 group: Multi-Block Structures
 
     item: Blast Furnace
-        recipe:
-            input: Blast Furnace (bottom half), Blast Furnace (inner layer), Blast Furnace (outer layer)
-            pattern: .2. .1. .0.
-
-    item: Blast Furnace (bottom half)
-        recipe:
-            input: Blast Furnace (inner layer), Blast Furnace (outer layer)
-            pattern: ... .0. .1.
+        multiblock:
+            input: Blast Furnace Brick
+            layer: 000 000 000
+            layer: 000 0.0 000
+            layer: 000 0.0 000
+            layer: 000 000 000
 
     item: Blast Furnace Brick
         recipe:
@@ -2489,20 +2487,12 @@ group: Multi-Block Structures
             quantity: 4
             tools: Crafting Table
 
-    item: Blast Furnace (inner layer)
-        recipe:
-            input: Blast Furnace Brick
-            pattern: 000 0.0 000
-
-    item: Blast Furnace (outer layer)
-        recipe:
-            input: Blast Furnace Brick
-            pattern: 000 000 000
-
     item: Coke Oven
-        recipe:
-            input: Coke Oven Layer
-            pattern: .0. .0. .0.
+        multiblock:
+            input: Coke Oven Brick
+            layer: 000 000 000
+            layer: 000 0.0 000
+            layer: 000 000 000
 
     item: Coke Oven Brick
         recipe:
@@ -2510,15 +2500,11 @@ group: Multi-Block Structures
             pattern: 101 010 101
             tools: Crafting Table
 
-    item: Coke Oven (layer)
-        recipe:
-            input: Coke Oven Brick
-            pattern: 000 000 000
-
     item: Rock Crusher
-        recipe:
-            input: Rock Crusher (layer)
-            pattern: ... .0. .0.
+        multiblock:
+            input: Rock Crusher (block)
+            layer: 000 000
+            layer: 000 000
 
     item: Rock Crusher (block)
         recipe:
@@ -2527,15 +2513,128 @@ group: Multi-Block Structures
             quantity: 4
             tools: Crafting Table
 
-    item: Rock Crusher (layer)
-        recipe:
-            input: Rock Crusher (block)
-            pattern: ... 000 000
-
-    item: Steam Boiler (simple)
-        recipe:
+    item: Steam Boiler (Low Pressure 1x1x1)
+        multiblock:
             input: Low Pressure Boiler Tank, Solid Fueled Boiler Firebox
-            pattern: ... .0. .1.
+            layer: 1
+            layer: 0
+
+    item: Steam Boiler (Low Pressure 2x2x2)
+        multiblock:
+            input: Low Pressure Boiler Tank, Solid Fueled Boiler Firebox
+            layer: 11 11
+            layer: 00 00
+            layer: 00 00
+
+    item: Steam Boiler (Low Pressure 3x4x3)
+        multiblock:
+            input: Low Pressure Boiler Tank, Solid Fueled Boiler Firebox
+            layer: 111 111 111
+            layer: 000 000 000
+            layer: 000 000 000
+            layer: 000 000 000
+            layer: 000 000 000
+
+    item: Steam Boiler (High Pressure 1x1x1)
+        multiblock:
+            input: High Pressure Boiler Tank, Solid Fueled Boiler Firebox
+            layer: 1
+            layer: 0
+
+    item: Steam Boiler (High Pressure 2x2x2)
+        multiblock:
+            input: High Pressure Boiler Tank, Solid Fueled Boiler Firebox
+            layer: 11 11
+            layer: 00 00
+            layer: 00 00
+
+    item: Steam Boiler (High Pressure 3x4x3)
+        multiblock:
+            input: High Pressure Boiler Tank, Solid Fueled Boiler Firebox
+            layer: 111 111 111
+            layer: 000 000 000
+            layer: 000 000 000
+            layer: 000 000 000
+            layer: 000 000 000
+
+    item: Iron Tank (3x3x3)
+        multiblock:
+            input: Iron Tank Wall, Iron Tank Gauge, Iron Tank Valve
+            layer: 000 000 000
+            layer: 020 1.1 020
+            layer: 000 000 000
+
+    item: Iron Tank (5x5x5)
+        multiblock:
+            input: Iron Tank Wall, Iron Tank Gauge, Iron Tank Valve
+            layer: 00000 00000 00000 00000 00000
+            layer: 01110 1...1 2...2 1...1 01110
+            layer: 01110 1...1 1...1 1...1 01110
+            layer: 01110 1...1 1...1 1...1 01110
+            layer: 00000 00000 00000 00000 00000
+
+    item: Iron Tank (7x7x7)
+        multiblock:
+            input: Iron Tank Wall, Iron Tank Gauge, Iron Tank Valve
+            layer: 0000000 0000000 0000000 0000000 0000000 0000000 0000000
+            layer: 0111110 1.....1 1.....1 2.....2 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0000000 0000000 0000000 0000000 0000000 0000000 0000000
+
+    item: Iron Tank (9x9x8)
+        multiblock:
+            input: Iron Tank Wall, Iron Tank Gauge, Iron Tank Valve
+                layer: 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000
+                layer: 011111110 1.......1 1.......1 1.......1 2.......2 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000
+
+    item: Steel Tank (3x3x3)
+        multiblock:
+            input: Steel Tank Wall, Steel Tank Gauge, Steel Tank Valve
+            layer: 000 000 000
+            layer: 020 1.1 020
+            layer: 000 000 000
+
+    item: Steel Tank (5x5x5)
+        multiblock:
+            input: Steel Tank Wall, Steel Tank Gauge, Steel Tank Valve
+            layer: 00000 00000 00000 00000 00000
+            layer: 01110 1...1 2...2 1...1 01110
+            layer: 01110 1...1 1...1 1...1 01110
+            layer: 01110 1...1 1...1 1...1 01110
+            layer: 00000 00000 00000 00000 00000
+
+    item: Steel Tank (7x7x7)
+        multiblock:
+            input: Steel Tank Wall, Steel Tank Gauge, Steel Tank Valve
+            layer: 0000000 0000000 0000000 0000000 0000000 0000000 0000000
+            layer: 0111110 1.....1 1.....1 2.....2 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0111110 1.....1 1.....1 1.....1 1.....1 1.....1 0111110
+            layer: 0000000 0000000 0000000 0000000 0000000 0000000 0000000
+
+    item: Steel Tank (9x9x8)
+        multiblock:
+            input: Steel Tank Wall, Steel Tank Gauge, Steel Tank Valve
+                layer: 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000
+                layer: 011111110 1.......1 1.......1 1.......1 2.......2 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 011111110 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 1.......1 011111110
+                layer: 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000 000000000
+
 
 group: Signals
 
