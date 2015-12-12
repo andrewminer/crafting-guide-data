@@ -1,0 +1,358 @@
+schema: 1
+
+item: Acacia Drawer
+    recipe:
+        input: Acacia Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Acacia Drawers 1x2
+    recipe:
+        input: Acacia Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Acacia Drawers 2x2
+    recipe:
+        input: Acacia Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Acacia Trim
+    recipe:
+        input: Acacia Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Birch Drawer
+    recipe:
+        input: Birch Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Birch Drawers 1x2
+    recipe:
+        input: Birch Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Birch Drawers 2x2
+    recipe:
+        input: Birch Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Birch Trim
+    recipe:
+        input: Birch Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Acacia Drawers 1x2
+    recipe:
+        input: Acacia Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Acacia Drawers 2x2
+    recipe:
+        input: Acacia Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Birch Drawers 1x2
+    recipe:
+        input: Birch Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Birch Drawers 2x2
+    recipe:
+        input: Birch Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Dark Oak Drawers 1x2
+    recipe:
+        input: Dark Oak Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Dark Oak Drawers 2x2
+    recipe:
+        input: Dark Oak Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Jungle Drawers 1x2
+    recipe:
+        input: Jungle Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Jungle Drawers 2x2
+    recipe:
+        input: Jungle Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Oak Drawers 1x2
+    recipe:
+        input: Oak Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Oak Drawers 2x2
+    recipe:
+        input: Oak Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Spruce Drawers 1x2
+    recipe:
+        input: Spruce Wood Slab, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Compact Spruce Drawers 2x2
+    recipe:
+        input: Spruce Wood Slab, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Compacting Drawer
+    recipe:
+        input: Stone, Piston, Oak Drawer, Iron Ingot
+        pattern: 000 121 030
+        quantity: 1
+        tools: Crafting Table
+
+item: Concealment Key
+    recipe:
+        input: Drawer Key, Eye of Ender
+        pattern: 01. ... ...
+        quantity: 1
+
+item: Controller Slave
+    recipe:
+        input: Stone, Redstone Comparator, Oak Drawer, Gold Ingot
+        pattern: 000 121 030
+        quantity: 1
+        tools: Crafting Table
+
+item: Dark Oak Drawer
+    recipe:
+        input: Dark Oak Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Dark Oak Drawers 1x2
+    recipe:
+        input: Dark Oak Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Dark Oak Drawers 2x2
+    recipe:
+        input: Dark Oak Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Dark Oak Trim
+    recipe:
+        input: Dark Oak Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Drawer Controller
+    recipe:
+        input: Stone, Redstone Comparator, Oak Drawer, Diamond
+        pattern: 000 121 030
+        quantity: 1
+        tools: Crafting Table
+
+item: Drawer Key
+    recipe:
+        input: Gold Nugget, Gold Ingot, Upgrade Template
+        pattern: 01. .1. .2.
+        quantity: 1
+        tools: Crafting Table
+
+item: Jungle Drawer
+    recipe:
+        input: Jungle Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Jungle Drawers 1x2
+    recipe:
+        input: Jungle Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Jungle Drawers 2x2
+    recipe:
+        input: Jungle Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Jungle Trim
+    recipe:
+        input: Jungle Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Oak Drawer
+    recipe:
+        input: Oak Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Oak Drawers 1x2
+    recipe:
+        input: Oak Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Oak Drawers 2x2
+    recipe:
+        input: Oak Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Oak Trim
+    recipe:
+        input: Oak Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Packing Tape
+    recipe:
+        input: Slime Ball, Paper
+        pattern: .0. 111 ...
+        quantity: 1
+        tools: Crafting Table
+
+item: Spruce Drawer
+    recipe:
+        input: Spruce Wood Planks, Chest
+        pattern: 000 .1. 000
+        quantity: 1
+        tools: Crafting Table
+
+item: Spruce Drawers 1x2
+    recipe:
+        input: Spruce Wood Planks, Chest
+        pattern: 010 000 010
+        quantity: 1
+        tools: Crafting Table
+
+item: Spruce Drawers 2x2
+    recipe:
+        input: Spruce Wood Planks, Chest
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Spruce Trim
+    recipe:
+        input: Spruce Wood Planks, Stick
+        pattern: 101 000 101
+        quantity: 1
+        tools: Crafting Table
+
+item: Status Upgrade (I)
+    recipe:
+        input: Upgrade Template, Redstone, Stick, Redstone Torch
+        pattern: 323 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Status Upgrade (II)
+    recipe:
+        input: Upgrade Template, Redstone, Stick, Redstone Comparator
+        pattern: 323 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Storage Upgrade (II)
+    recipe:
+        input: Upgrade Template, Iron Ingot, Stick
+        pattern: 121 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Storage Upgrade (III)
+    recipe:
+        input: Upgrade Template, Gold Ingot, Stick
+        pattern: 121 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Storage Upgrade (IV)
+    recipe:
+        input: Upgrade Template, Obsidian, Stick
+        pattern: 121 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Storage Upgrade (V)
+    recipe:
+        input: Upgrade Template, Diamond, Stick
+        pattern: 121 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Storage Upgrade (VI)
+    recipe:
+        input: Upgrade Template, Emerald, Stick
+        pattern: 121 202 121
+        quantity: 1
+        tools: Crafting Table
+
+item: Upgrade Template
+    recipe:
+        input: Oak Drawer, Stick
+        pattern: 111 101 111
+        quantity: 2
+        tools: Crafting Table
+
+item: Void Upgrade
+    recipe:
+        input: Upgrade Template, Obsidian, Stick
+        pattern: 222 101 222
+        quantity: 1
+        tools: Crafting Table
+
