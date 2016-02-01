@@ -1,5 +1,8 @@
 schema: 1
 
-description: This jet-pack is very dangerous, as of jumping a few times with it on launches you into the air and kills you.
+description: <<-END
+This jet-pack is very dangerous, as of jumping a few times with it on launches you into the air and kills you with the death message: "<player> attempted to fly a potato"
+
+END
 
 
