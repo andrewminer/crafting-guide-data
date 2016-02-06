@@ -752,7 +752,7 @@ group: Storage System Blocks & Parts
 
     item: ME Wireless Access Point
         recipe:
-            input: Calculation Processor, ME Glass Cable, Wireless Reciever
+            input: Calculation Processor, ME Glass Cable, Wireless Receiver
             pattern: .2. .0. .1.
             tools: Crafting Table
 
@@ -945,7 +945,7 @@ group: Tools
 
     item: Wireless Terminal
         recipe:
-            input: Dense Energy Cell, ME Terminal, Wireless Reciever
+            input: Dense Energy Cell, ME Terminal, Wireless Receiver
             pattern: .2. .1. .0.
             tools: Crafting Table
 
