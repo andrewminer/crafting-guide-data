@@ -1,0 +1,10 @@
+schema: 1
+
+name:             OpenComputers
+author:           Sangar
+description:      Adds programmable, modular, and persistent computers
+homePageUrl:      http://oc.cil.li/
+documentationUrl: http://ocdoc.cil.li/
+downloadUrl:      http://minecraft.curseforge.com/projects/opencomputers/files
+
+version: 1.5.22
