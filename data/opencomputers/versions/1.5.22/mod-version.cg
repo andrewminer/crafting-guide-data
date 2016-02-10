@@ -300,7 +300,7 @@ group: Crafting Materials
         recipe:
             input: furnace fuel, Raw Circuit Board
             pattern: .1. ... .0.
-            tools: Crafting Table
+            tools: Furnace
 
     item: Raw Circuit Board
         recipe:
