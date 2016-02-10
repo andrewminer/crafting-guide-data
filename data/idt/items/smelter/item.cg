@@ -1,0 +1,5 @@
+schema: 1
+
+description: <<-END
+Right now acts just like furnace. This is where you can get [[Steel Ingot]]s and [[Titanium Ingot]]s.
+END

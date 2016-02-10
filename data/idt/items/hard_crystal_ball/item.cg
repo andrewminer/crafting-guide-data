@@ -1,0 +1,5 @@
+schema: 1
+
+description: <<-END
+Slightly darker than the [[Crystal Ball]], oooh man. Also, as of the mod's snapshot 15w11a to current, you can right click on things to get essences, instead of crafting them. Such as, right click leaves, vines, or flowers for [[Essence of Life]]. Right click lava or netherrack for [[Essence of Fire]], right click water for [[Essence of Water]]. Right click dirt or grass to get [[Essence of Earth]]. I had right clicking in the air to get [[Essence of Air]], but it doesn't work anymore, you just crash. So you have to craft that one.
+END

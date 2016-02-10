@@ -1,0 +1,5 @@
+schema: 1
+
+description: <<-END
+Upon putting even one piece of this armor on will give you the fire protection potion effect. Once all parts of this armor is taken off, it gives you 10 seconds left of the effect and will go away.
+END
