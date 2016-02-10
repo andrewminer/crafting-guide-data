@@ -1,0 +1,26 @@
+schema: 1
+
+item: Diamond Saw
+   recipe:
+       input: Stick, Stone Rod, Diamond
+       pattern: 011 021 ...
+       tools: Crafting Table
+
+item: Iron Saw
+   recipe:
+       input: Stick, Stone Rod, Iron Ingot
+       pattern: 011 021 ...
+       tools: Crafting Table
+
+item: Stone Rod
+   recipe:
+       input: Stone
+       pattern: 0.. 0.. ...
+       quantity: 4
+
+item: Stone Saw
+   recipe:
+       input: Stick, Stone Rod, Flint
+       pattern: 011 021 ...
+       tools: Crafting Table
+

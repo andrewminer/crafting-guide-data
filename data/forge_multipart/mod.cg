@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Forge Multipart
+author:           ChickenBones
+description:      Adds the ability to split blocks into fragments and place them in the world.
+homePageUrl:      http://www.curse.com/mc-mods/minecraft/229323-forge-multi-part
+documentationUrl: http://www.curse.com/mc-mods/minecraft/229323-forge-multi-part
+downloadUrl:      http://www.curse.com/mc-mods/minecraft/229323-forge-multi-part
+
+version: 1.2.0.345
