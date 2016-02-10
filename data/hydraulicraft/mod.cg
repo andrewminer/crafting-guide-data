@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Hydraulicraft
+author:           CallMeFoxie
+description:      A mod about the power of Hydraulics, double your ores and harvest crops.
+homePageUrl:      http://minecraft.curseforge.com/projects/hydraulicraft
+documentationUrl: http://minecraft.curseforge.com/projects/hydraulicraft
+downloadUrl:      http://minecraft.curseforge.com/projects/hydraulicraft
+
+version: 2.1.242
