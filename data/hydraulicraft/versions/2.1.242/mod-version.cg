@@ -1,789 +1,691 @@
 schema: 1
 
-group: Machines - Low Pressure
-
- item: Low Pressure Pump
-    recipe:
-        input: Piston, Gasket, Glass, Low Pressure Core, Pressure Wall
-        pattern: 010 232 040
-        quantity: 1
-        tools: Crafting Table
-
-item: Low Pressure Lava Pump
-    recipe:
-        input: Glass, Gasket, Interface Valve, Low Pressure Core, Piston, Pressure Wall
-        pattern: 010 230 454
-        quantity: 1
-        tools: Crafting Table
-
- item: Hydraulic Archimedes' Screw
-    recipe:
-        input: Piston, Gasket, Low Pressure Core, Pressure Wall
-        pattern: .0. 121 333
-        quantity: 1
-        tools: Crafting Table
-
- item: Low Pressure Redstone Pump
-    recipe:
-        input: Lead Ingot, Gasket, Glass, Redstone Reception Coil, Pressure Wall
-        pattern: 0.0 123 444
-        quantity: 1
-        tools: Crafting Table
-
- item: Low Pressure Vat
-    recipe:
-        input: Lead Ingot, Pressure Wall, Gasket, Low Pressure Core
-        pattern: 010 232 010
-        quantity: 1
-        tools: Crafting Table
-
-group: Machines - Medium Pressure		
-		
- item: Medium Pressure Pump
-    recipe:
-        input: Piston, Gasket, Glass, Medium Pressure Core, Low Pressure Pump
-        pattern: 010 232 040
-        quantity: 1
-        tools: Crafting Table
-
- item: Medium Pressure Lava Pump
-    recipe:
-        input: Glass, Gasket, Interface Valve, Medium Pressure Core, Piston, Low Pressure Lava Pump
-        pattern: 010 230 454
-        quantity: 1
-        tools: Crafting Table
-
- item: Hydraulic Saw
-    recipe:
-        input: Glass, Iron Saw, Gasket, Medium Pressure Core, Interface Valve, Pressure Wall
-        pattern: 010 234 555
-        quantity: 1
-        tools: Assembler
-
- item: Assembler
-    recipe:
-       input: Pressure Wall, Glass, Gasket, Crafting Table, Interface Valve, Medium Pressure Core
-       pattern: 010 234 050
-       quantity: 1
-        tools: Crafting Table
-		
- item: Hydraulic Charger
-    recipe:
-        input: Pressure Wall, Cannister, Gasket, Medium Pressure Core, Interface Valve
-        pattern: 010 234 000
-        quantity: 1
-        tools: Crafting Table
-
- item: Hydraulic Harvester
-    recipe:
-        input: Pressure Wall, Interface Valve, Medium Pressure Core, Gasket
-        pattern: 000 123 000
-        quantity: 1
-        tools: Assembler
-
- item: Medium Pressure Redstone Pump
-    recipe:
-        input: Copper Ingot, Gasket, Glass, Redstone Reception Coil, Pressure Wall
-        pattern: 0.0 123 444
-        quantity: 1
-        tools: Crafting Table
-
- item: Medium Pressure Vat
-    recipe:
-        input: Copper Ingot, Pressure Wall, Gasket, Medium Pressure Core, Low Pressure Vat
-        pattern: 010 232 040
-        quantity: 1
-        tools: Crafting Table
-
- item: Crusher
-    recipe:
-        input: Gasket, Piston, Medium Pressure Core, Pressure Wall, Interface Valve
-        pattern: .0. 121 343
-        quantity: 1
-        tools: Crafting Table
-
- item: Friction Incinerator
-    recipe:
-        input: Glass, Gasket, Friction Plate, Medium Pressure Core, Pressure Wall, Interface Valve
-        pattern: 010 232 454
-        quantity: 1
-        tools: Crafting Table
-
- item: Hydraulic Filler
-    recipe:
-        input: Glass, Gasket, Medium Pressure Core, Interface Valve, Pressure Wall, Bucket
-        pattern: 010 123 454
-        quantity: 1
-        tools: Crafting Table
-
- item: washer
-    recipe:
-        input: Glass, Gasket, Medium Pressure Core, Pressure Wall
-        pattern: 010 120 333
-        quantity: 1
-        tools: Crafting Table
-	
- item: Filter
-    recipe:
-        input: Glass, Gasket, Medium Pressure Core, Pressure Wall, Interface Valve
-        pattern: 010 121 343
-        quantity: 1
-        tools: Crafting Table
-
- item: Cactus Harvester Trolley
-    recipe:
-        input: Hydraulic Piston, Pressure Wall, Medium Pressure Core, Golden Sword
-        pattern: .0. 121 .3.
-        quantity: 1
-        tools: Assembler
-
- item: Enderlily Harvester Trolley
-    recipe:
-        input: Hydraulic Piston, Pressure Wall, Medium Pressure Core, Eye of Ender
-        pattern: .0. 121 .3.
-        quantity: 1
-        tools: Assembler
-
- item: Netherwart Harvester Trolley
-    recipe:
-        input: Hydraulic Piston, Pressure Wall, Medium Pressure Core, Ghast Tear
-        pattern: .0. 121 .3.
-        quantity: 1
-        tools: Assembler
-
- item: Sugar Cane Harvester Trolley
-    recipe:
-        input: Hydraulic Piston, Pressure Wall, Medium Pressure Core, Shears
-        pattern: .0. 121 .3.
-        quantity: 1
-        tools: Assembler
-
- item: Wheat Harvester Trolley
-    recipe:
-        input: Hydraulic Piston, Pressure Wall, Medium Pressure Core, Golden Hoe
-        pattern: .0. 121 .3.
-        quantity: 1
-        tools: Assembler
-
- item: Hydraulic Piston
-    recipe:
-        input: Iron Ingot, Pressure Wall, Medium Pressure Core, Gasket
-        pattern: 000 121 131
-        quantity: 1
-        tools: Assembler
-
-group: Machines - High Pressure
-		
- item: High Pressure Pump
-    recipe:
-        input: Piston, Gasket, Glass, High Pressure Core, Medium Pressure Pump
-        pattern: 010 232 040
-        quantity: 1
-        tools: Assembler
-
- item: High Pressure Lava Pump
-    recipe:
-        input: Glass, Gasket, Interface Valve, High Pressure Core, Piston, Medium Pressure Lava Pump
-        pattern: 010 230 454
-        quantity: 1
-        tools: Assembler
-		
- item: High Pressure Redstone Pump
-    recipe:
-        input: Enriched Copper Ingot, Gasket, Glass, Redstone Reception Coil, Pressure Wall
-        pattern: 0.0 123 444
-        quantity: 1
-        tools: Assembler
-
- item: High Pressure Vat
-    recipe:
-        input: Pressure Wall, Enriched Copper Ingot, Gasket, High Pressure Core, Medium Pressure Vat
-        pattern: 010 232 040
-        quantity: 1
-        tools: Assembler
-
- item: Hydraulic Dynamo
-    recipe:
-        input: Redstone Transmission Coil, Friction Plate, Copper Ingot, Gasket, Redstone
-        pattern: .0. 123 242
-        quantity: 1
-        tools: Assembler
-
-group: Machine Parts		
-
- item: Cannister
-    recipe:
-        input: Lead Ingot, Low Pressure Pipe
-        pattern: 010 0.0 000
-        quantity: 1
-        tools: Crafting Table
-
- item: Hydraulic Wrench
-    recipe:
-        input: Copper Ingot, Cannister
-        pattern: 0.0 .0. .1.
-        quantity: 1
-        tools: Crafting Table
-
-		
- item: Friction Plate
-    recipe:
-        input: Stone
-        pattern: .00 0.0 00.
-        quantity: 1
-        tools: Crafting Table
-
- item: Gasket
-    recipe:
-        input: Paper, Iron Bars
-        pattern: 0.0 .1. 0.0
-        quantity: 4
-        tools: Crafting Table		
-		
- item: Harvester Frame
-    recipe:
-        input: Stick
-        pattern: 000 .0. 000
-        quantity: 18
-        tools: Crafting Table
-
- item: High Pressure Core
-    recipe:
-        input: Enriched Copper Ingot, Pressure Wall, Medium Pressure Core
-        pattern: 010 121 010
-        quantity: 1
-        tools: Crafting Table
-
- item: High Pressure Pipe
-    recipe:
-        input: Enriched Copper Ingot, Gasket, Medium Pressure Pipe
-        pattern: 0.1 .2. 1.0
-        quantity: 1
-        tools: Assembler
-
- item: High Pressure Valve
-    recipe:
-        input: High Pressure Pipe, Lever
-        pattern: ... 010 ...
-        quantity: 2
-        tools: Crafting Table
-
- item: Hydraulic Block Valve
-    recipe:
-        input: Pressure Wall, Gasket
-        pattern: 010 1.1 010
-        quantity: 4
-        tools: Crafting Table
-
- item: Low Pressure Core
-    recipe:
-        input: Lead Ingot, Stone, Pressure Wall
-        pattern: 010 121 010
-        quantity: 2
-        tools: Crafting Table
-
- item: Interface Valve
-    recipe:
-        input: Pressure Wall, Hopper, Gasket
-        pattern: 010 2.2 010
-        quantity: 4
-        tools: Crafting Table
-
- item: Low Pressure Pipe
-    recipe:
-        input: Lead Ingot, Gasket
-        pattern: 000 1.1 000
-        quantity: 4
-        tools: Crafting Table
-
- item: Low Pressure Valve
-    recipe:
-        input: Low Pressure Pipe, Lever
-        pattern: ... 010 ...
-        quantity: 2
-        tools: Crafting Table
-
- item: Medium Pressure Core
-    recipe:
-        input: Copper Ingot, Pressure Wall, Low Pressure Core
-        pattern: 010 121 010
-        quantity: 1
-        tools: Crafting Table
-
- item: Medium Pressure Pipe
-    recipe:
-        input: Copper Ingot, Gasket, Low Pressure Pipe
-        pattern: 0.0 121 0.0
-        quantity: 1
-        tools: Crafting Table
-
- item: Medium Pressure Valve
-    recipe:
-        input: Media Pressure Pipe, Lever
-        pattern: ... 010 ...
-        quantity: 2
-        tools: Crafting Table
-
- item: Portal Base
-    recipe:
-        input: Iron Ingot, Ender Pearl, High Pressure Core, Gasket
-        pattern: 000 121 030
-        quantity: 1
-        tools: Crafting Table
-
- item: Portal Frame
-    recipe:
-        input: Iron Ingot, Ender Pearl
-        pattern: 000 010 000
-        quantity: 6
-        tools: Crafting Table
-
- item: Portal IP Card
-    recipe:
-        input: Redstone, Red Wool, Black Wool, Iron Ingot
-        pattern: 011 023 033
-        quantity: 1
-        tools: Crafting Table
-
- item: Pressure Glass
-    recipe:
-        input: Glass, Lead Ingot, Pressure Wall
-        pattern: 000 010 020
-        quantity: 8
-        tools: Crafting Table
-
- item: Pressure Wall
-    recipe:
-        input: Stone, Lead Ingot
-        pattern: 000 010 000
-        quantity: 8
-        tools: Crafting Table
-		
-group: Wearables
-		
- item: Diving Suit Boots
-    recipe:
-        input: Gasket, Lead Ingot
-        pattern: 0.0 1.1 ...
-        quantity: 1
-        tools: Crafting Table
-
- item: Diving Suit Chestplate
-    recipe:
-        input: Lead Ingot, Cannister, Gasket
-        pattern: 0.0 121 202
-        quantity: 1
-        tools: Crafting Table
-
- item: Diving Suit Helmet
-    recipe:
-        input: Lead Ingot, Gasket
-        pattern: 000 0.0 010
-        quantity: 1
-        tools: Crafting Table
-
- item: Diving Suit Legs
-    recipe:
-        input: Gasket, Lead Ingot
-        pattern: 010 1.1 0.0
-        quantity: 1
-        tools: Crafting Table
-
- item: Miners Helmet
-    recipe:
-        input: Miners Helmet Lamp, Iron Helmet
-        pattern: 01. ... ...
-        quantity: 1
-        tools: Crafting Table
-
- item: Miners Helmet Lamp
-    recipe:
-        input: Glass, Torch
-        pattern: .0. 010 .0.
-        quantity: 1
-        tools: Crafting Table
-		
 group: Fluids
 
- item: Crude Oil; gatherable: yes
- 
- item: Fluoro Carbon Fluid
-    recipe:
-        input: Crude Oil, Refined Lonezium
-        pattern: 0.. 1.. ...
-        quantity: 2.5
-        tools: Filter
+    item: Crude Oil
+        gatherable: yes
 
- item: Fluoro Carbon Fluid Bucket
-    recipe:
-        input: Fluoro Carbon Fluid, Bucket
-        pattern: ... .1. ..0
-        quantity: 1
-        tools: Fluid Transposer
-		
- item: Hydraulic Oil
-    recipe:
-        input: Crude Oil, Beachium
-        pattern: 0.. 1.. ...
-        quantity: 1
-        tools: Filter
+    item: Fluoro Carbon Fluid
+        recipe:
+            input: Crude Oil, Refined Lonezium
+            pattern: 0.. 1.. ...
+            quantity: 2
+            tools: Filter
 
- item: Hydraulic Oil Bucket
-    recipe:
-        input: Hydraulic Oil, Bucket
-        pattern: ... .1. ..0
-        quantity: 1
-        tools: Fluid Transposer
+    item: Fluoro Carbon Fluid Bucket
+        recipe:
+            input: Bucket, Fluoro Carbon Fluid
+            pattern: ... .0. ..1
+            tools: Fluid Transposer
 
-item: Lubricant
-    recipe:
-        input: Crude Oil, Refined Nadsium Bicarbinate
-        pattern: 01. ... ...
-        quantity: 1
-        tools: Filter
+    item: Hydraulic Oil
+        recipe:
+            input: Beachium, Crude Oil
+            pattern: 1.. 0.. ...
+            tools: Filter
 
- item: Lubricant Bucket
-    recipe:
-        input: Lubricant, Bucket
-        pattern: ... .1. ..0
-        quantity: 1
-        tools: Fluid Transposer
+    item: Hydraulic Oil Bucket
+        recipe:
+            input: Bucket, Hydraulic Oil
+            pattern: ... .0. ..1
+            tools: Fluid Transposer
 
- item: Oil Bucket
-    recipe:
-        input: Bucket, Crude Oil
-        pattern: ... .01 ...
-        quantity: 1
-        tools: Fluid Transposer
+    item: Lubricant
+        recipe:
+            input: Crude Oil, Refined Nadsium Bicarbinate
+            pattern: 01. ... ...
+            tools: Filter
+
+    item: Lubricant Bucket
+        recipe:
+            input: Bucket, Lubricant
+            pattern: ... .0. ..1
+            tools: Fluid Transposer
+
+    item: Oil Bucket
+        recipe:
+            input: Bucket, Crude Oil
+            pattern: ... .01 ...
+            tools: Fluid Transposer
+
+group: Machine Parts
+
+    item: Cannister
+        recipe:
+            input: Lead Ingot, Low Pressure Pipe
+            pattern: 010 0.0 000
+            tools: Crafting Table
+
+    item: Friction Plate
+        recipe:
+            input: Stone
+            pattern: .00 0.0 00.
+            tools: Crafting Table
+
+    item: Gasket
+        recipe:
+            input: Iron Bars, Paper
+            pattern: 1.1 .0. 1.1
+            quantity: 4
+            tools: Crafting Table
+
+    item: Harvester Frame
+        recipe:
+            input: Stick
+            pattern: 000 .0. 000
+            quantity: 18
+            tools: Crafting Table
+
+    item: High Pressure Core
+        recipe:
+            input: Enriched Copper Ingot, Medium Pressure Core, Pressure Wall
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: High Pressure Pipe
+        recipe:
+            input: Enriched Copper Ingot, Gasket, Medium Pressure Pipe
+            pattern: 0.1 .2. 1.0
+            tools: Assembler
+
+    item: High Pressure Valve
+        recipe:
+            input: High Pressure Pipe, Lever
+            pattern: ... 010 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Hydraulic Block Valve
+        recipe:
+            input: Gasket, Pressure Wall
+            pattern: 101 0.0 101
+            quantity: 4
+            tools: Crafting Table
+
+    item: Hydraulic Wrench
+        recipe:
+            input: Cannister, Copper Ingot
+            pattern: 1.1 .1. .0.
+            tools: Crafting Table
+
+    item: Interface Valve
+        recipe:
+            input: Gasket, Hopper, Pressure Wall
+            pattern: 212 0.0 212
+            quantity: 4
+            tools: Crafting Table
+
+    item: Low Pressure Core
+        recipe:
+            input: Lead Ingot, Pressure Wall, Stone
+            pattern: 020 212 020
+            quantity: 2
+            tools: Crafting Table
+
+    item: Low Pressure Pipe
+        recipe:
+            input: Gasket, Lead Ingot
+            pattern: 111 0.0 111
+            quantity: 4
+            tools: Crafting Table
+
+    item: Low Pressure Valve
+        recipe:
+            input: Lever, Low Pressure Pipe
+            pattern: ... 101 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Medium Pressure Core
+        recipe:
+            input: Copper Ingot, Low Pressure Core, Pressure Wall
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: Medium Pressure Pipe
+        recipe:
+            input: Copper Ingot, Gasket, Low Pressure Pipe
+            pattern: 0.0 121 0.0
+            tools: Crafting Table
+
+    item: Medium Pressure Valve
+        recipe:
+            input: Lever, Media Pressure Pipe
+            pattern: ... 101 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Portal Base
+        recipe:
+            input: Ender Pearl, Gasket, High Pressure Core, Iron Ingot
+            pattern: 333 020 313
+            tools: Crafting Table
+
+    item: Portal Frame
+        recipe:
+            input: Ender Pearl, Iron Ingot
+            pattern: 111 101 111
+            quantity: 6
+            tools: Crafting Table
+
+    item: Portal IP Card
+        recipe:
+            input: Black Wool, Iron Ingot, Red Wool, Redstone
+            pattern: 322 301 311
+            tools: Crafting Table
+
+    item: Pressure Glass
+        recipe:
+            input: Glass, Lead Ingot, Pressure Wall
+            pattern: 000 010 020
+            quantity: 8
+            tools: Crafting Table
+
+    item: Pressure Wall
+        recipe:
+            input: Lead Ingot, Stone
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+group: Machines - High Pressure
+
+    item: High Pressure Lava Pump
+        recipe:
+            input: Gasket, Glass, High Pressure Core, Interface Valve, Medium Pressure Lava Pump, Piston
+            pattern: 101 321 545
+            tools: Assembler
+
+    item: High Pressure Pump
+        recipe:
+            input: Gasket, Glass, High Pressure Core, Medium Pressure Pump, Piston
+            pattern: 404 121 434
+            tools: Assembler
+
+    item: High Pressure Redstone Pump
+        recipe:
+            input: Enriched Copper Ingot, Gasket, Glass, Pressure Wall, Redstone Reception Coil
+            pattern: 0.0 124 333
+            tools: Assembler
+
+    item: High Pressure Vat
+        recipe:
+            input: Enriched Copper Ingot, Gasket, High Pressure Core, Medium Pressure Vat, Pressure Wall
+            pattern: 404 121 434
+            tools: Assembler
+
+    item: Hydraulic Dynamo
+        recipe:
+            input: Copper Ingot, Friction Plate, Gasket, Redstone, Redstone Transmission Coil
+            pattern: .4. 102 030
+            tools: Assembler
+
+group: Machines - Low Pressure
+
+    item: Hydraulic Archimedes' Screw
+        recipe:
+            input: Gasket, Low Pressure Core, Piston, Pressure Wall
+            pattern: .2. 010 333
+            tools: Crafting Table
+
+    item: Low Pressure Lava Pump
+        recipe:
+            input: Gasket, Glass, Interface Valve, Low Pressure Core, Piston, Pressure Wall
+            pattern: 101 231 454
+            tools: Crafting Table
+
+    item: Low Pressure Pump
+        recipe:
+            input: Gasket, Glass, Low Pressure Core, Piston, Pressure Wall
+            pattern: 303 121 343
+            tools: Crafting Table
+
+    item: Low Pressure Redstone Pump
+        recipe:
+            input: Gasket, Glass, Lead Ingot, Pressure Wall, Redstone Reception Coil
+            pattern: 2.2 014 333
+            tools: Crafting Table
+
+    item: Low Pressure Vat
+        recipe:
+            input: Gasket, Lead Ingot, Low Pressure Core, Pressure Wall
+            pattern: 131 020 131
+            tools: Crafting Table
+
+group: Machines - Medium Pressure
+
+    item: Assembler
+        recipe:
+            input: Crafting Table, Gasket, Glass, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 525 103 545
+            tools: Crafting Table
+
+    item: Cactus Harvester Trolley
+        recipe:
+            input: Golden Sword, Hydraulic Piston, Medium Pressure Core, Pressure Wall
+            pattern: .1. 323 .0.
+            tools: Assembler
+
+    item: Crusher
+        recipe:
+            input: Gasket, Interface Valve, Medium Pressure Core, Piston, Pressure Wall
+            pattern: .0. 323 414
+            tools: Crafting Table
+
+    item: Enderlily Harvester Trolley
+        recipe:
+            input: Eye of Ender, Hydraulic Piston, Medium Pressure Core, Pressure Wall
+            pattern: .1. 323 .0.
+            tools: Assembler
+
+    item: Filter
+        recipe:
+            input: Gasket, Glass, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 101 030 424
+            tools: Crafting Table
+
+    item: Friction Incinerator
+        recipe:
+            input: Friction Plate, Gasket, Glass, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 212 040 535
+            tools: Crafting Table
+
+    item: Hydraulic Charger
+        recipe:
+            input: Cannister, Gasket, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 404 132 444
+            tools: Crafting Table
+
+    item: Hydraulic Filler
+        recipe:
+            input: Bucket, Gasket, Glass, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 212 143 505
+            tools: Crafting Table
+
+    item: Hydraulic Harvester
+        recipe:
+            input: Gasket, Interface Valve, Medium Pressure Core, Pressure Wall
+            pattern: 333 120 333
+            tools: Assembler
+
+    item: Hydraulic Piston
+        recipe:
+            input: Gasket, Iron Ingot, Medium Pressure Core, Pressure Wall
+            pattern: 111 323 303
+            tools: Assembler
+
+    item: Hydraulic Saw
+        recipe:
+            input: Gasket, Glass, Interface Valve, Iron Saw, Medium Pressure Core, Pressure Wall
+            pattern: 131 042 555
+            tools: Assembler
+
+    item: Medium Pressure Lava Pump
+        recipe:
+            input: Gasket, Glass, Interface Valve, Low Pressure Lava Pump, Medium Pressure Core, Piston
+            pattern: 101 241 535
+            tools: Crafting Table
+
+    item: Medium Pressure Pump
+        recipe:
+            input: Gasket, Glass, Low Pressure Pump, Medium Pressure Core, Piston
+            pattern: 404 131 424
+            tools: Crafting Table
+
+    item: Medium Pressure Redstone Pump
+        recipe:
+            input: Copper Ingot, Gasket, Glass, Pressure Wall, Redstone Reception Coil
+            pattern: 0.0 124 333
+            tools: Crafting Table
+
+    item: Medium Pressure Vat
+        recipe:
+            input: Copper Ingot, Gasket, Low Pressure Vat, Medium Pressure Core, Pressure Wall
+            pattern: 040 131 020
+            tools: Crafting Table
+
+    item: Netherwart Harvester Trolley
+        recipe:
+            input: Ghast Tear, Hydraulic Piston, Medium Pressure Core, Pressure Wall
+            pattern: .1. 323 .0.
+            tools: Assembler
+
+    item: Sugar Cane Harvester Trolley
+        recipe:
+            input: Hydraulic Piston, Medium Pressure Core, Pressure Wall, Shears
+            pattern: .0. 212 .3.
+            tools: Assembler
+
+    item: Washer
+        recipe:
+            input: Gasket, Glass, Medium Pressure Core, Pressure Wall
+            pattern: 101 021 333
+            tools: Crafting Table
+
+    item: Wheat Harvester Trolley
+        recipe:
+            input: Golden Hoe, Hydraulic Piston, Medium Pressure Core, Pressure Wall
+            pattern: .1. 323 .0.
+            tools: Assembler
 
 group: Minerals
 
- item: Ardite Chunk
-    recipe:
-        input: Ardite Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Ardite Chunk
+        recipe:
+            input: Ardite Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Ardite Dust
-    recipe:
-        input: Ardite Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Ardite Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
-		
- item: Beachium; gatherable: yes
+    item: Ardite Dust
+        recipe:
+            input: Ardite Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Ardite Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Cobalt Chunk
-    recipe:
-        input: Cobalt Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Beachium
+        gatherable: yes
 
- item: Cobalt Dust
-    recipe:
-        input: Cobalt Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Cobalt Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
-	
+    item: Cobalt Chunk
+        recipe:
+            input: Cobalt Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Copper Block
-    recipe:
-        input: Copper Ingot
-        pattern: 000 000 000
-        quantity: 1
-        tools: Crafting Table
+    item: Cobalt Dust
+        recipe:
+            input: Cobalt Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Cobalt Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Copper Chunk
-    recipe:
-        input: Copper Ingot
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Copper Block
+        recipe:
+            input: Copper Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
 
- item: Copper Dust
-    recipe:
-        input: Copper Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Copper Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
+    item: Copper Chunk
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Copper Ingot   
-    recipe:
-        input: Copper Ore, Pyrotheum Dust
-        pattern: 01. ... ...
-        quantity: 1
-        tools: Crafting Table
+    item: Copper Dust
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Copper Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Copper Ore; gatherable: yes
+    item: Copper Ingot
+        recipe:
+            input: Copper Ore, Pyrotheum Dust
+            pattern: 01. ... ...
+            tools: Crafting Table
 
- 
+    item: Copper Ore
+        gatherable: yes
 
- item: Dark Iron Chunk
-    recipe:
-        input: Dark Iron Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Dark Iron Chunk
+        recipe:
+            input: Dark Iron Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Dark Iron Dust
-    recipe:
-        input: Dark Iron Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Dark Iron Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
+    item: Dark Iron Dust
+        recipe:
+            input: Dark Iron Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Dark Iron Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
+    item: Diamond Shard
+        recipe:
+            input: Diamond
+            pattern: ... .0. ...
+            quantity: 9
+            tools: Crusher
 
- item: Diamond Shard
-    recipe:
-        input: Diamond
-        pattern: ... .0. ...
-        quantity: 9
-        tools: Crusher
+    item: Dirty Mineral
+        recipe:
+            input: Beachium, Crude Oil
+            pattern: 1.. 0.. ...
+            tools: Filter
+        recipe:
+            input: Crude Oil, Refined Lonezium
+            pattern: 0.. 1.. ...
+            tools: Filter
+        recipe:
+            input: Crude Oil, Refined Nadsium Bicarbinate
+            pattern: 0.. 1.. ...
+            tools: Filter
 
- item: Dirty Mineral
-    recipe:
-        input: Crude Oil, Beachium
-        pattern: 0.. 1.. ...
-        quantity: 1
-        tools: Filter
-    recipe:
-        input: Crude Oil, Refined Lonezium
-        pattern: 0.. 1.. ...
-        quantity: 1
-        tools: Filter
-    recipe:
-        input: Crude Oil, Refined Nadsium Bicarbinate
-        pattern: 0.. 1.. ...
-        quantity: 1
-        tools: Filter
+    item: Enriched Copper Dust
+        recipe:
+            input: Copper Dust, Diamond Shard
+            pattern: 10. ... ...
+            quantity: 2
+            tools: Crafting Table
 
- item: Enriched Copper Dust
-    recipe:
-        input: Diamond Shard, Copper Dust
-        pattern: 01. ... ...
-        quantity: 2
-        tools: Crafting Table
+    item: Enriched Copper Ingot
+        recipe:
+            input: Enriched Copper Dust, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
 
- item: Enriched Copper Ingot
-    recipe:
-        input: Enriched Copper Dust, Furnace Fuel
-        pattern: .0. ... .1.
-        quantity: 1
-        tools: Furnace
+    item: Foxium
+        gatherable: yes
 
+    item: Gold Chunk
+        recipe:
+            input: Gold Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
+    item: Gold Dust
+        recipe:
+            input: Gold Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Gold Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Foxium; gatherable: yes
+    item: Iron Chunk
+        recipe:
+            input: Iron Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
+    item: Iron Dust
+        recipe:
+            input: Iron Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Iron Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Gold Chunk
-    recipe:
-        input: Gold Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Lead Block
+        recipe:
+            input: Lead Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
 
- item: Gold Dust
-    recipe:
-        input: Gold Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Gold Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
+    item: Lead Chunk
+        recipe:
+            input: Lead Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Iron Chunk
-    recipe:
-        input: Iron Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Lead Dust
+        recipe:
+            input: Lead Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Lead Chunk
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Iron Dust
-    recipe:
-        input: Iron Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Iron Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
-		
- item: Lead Block
-    recipe:
-        input: Lead Ingot
-        pattern: 000 000 000
-        quantity: 1
-        tools: Crafting Table
+    item: Lead Ingot
+        recipe:
+            input: Furnace Fuel, Lead Ore
+            pattern: .1. ... .0.
+            tools: Furnace
 
- item: Lead Chunk
-    recipe:
-        input: Lead Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Lead Ore
+        gatherable: yes
 
- item: Lead Dust
-    recipe:
-        input: Lead Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-	recipe:
-		input: Lead Chunk
-		pattern: 0.. ... ...
-		quantity: 1
-		tools: Washer
+    item: Lonezium
+        gatherable: yes
 
- item: Lead Ingot
-    recipe:
-        input: Lead Ore, Furnace Fuel
-        pattern: .0. ... .1.
-        quantity: 1
-        tools: Furnace
+    item: Nadsium Bicarbinate
+        gatherable: yes
 
- item: Lead Ore; gatherable: yes
+    item: Nickel Chunk
+        recipe:
+            input: Ferrous Ore
+            pattern: ... .0. ...
+            tools: Crusher
 
- item: Lonezium; gatherable: yes
+    item: Nickel Dust
+        recipe:
+            input: Ferrous Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Nickel Chunk
+            pattern: ... .0. ...
+            tools: washer
 
- item: Nickel Chunk
-    recipe:
-        input: Ferrous Ore
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
+    item: Refined Lonezium
+        recipe:
+            input: Lonezium
+            pattern: 0.. ... ...
+            tools: washer
 
- item: Nickel Dust
-    recipe:
-        input: Ferrous Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-    recipe:
-        input: Nickel Chunk
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Washer
+    item: Refined Nadsium Bicarbinate
+        recipe:
+            input: Nadsium Bicarbinate
+            pattern: 0.. ... ...
+            tools: washer
 
+    item: Silver Chunk
+        recipe:
+            input: Silver Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Refined Lonezium
-    recipe:
-        input: Lonezium
-        pattern: 0.. ... ...
-        quantity: 1
-        tools: Washer
+    item: Silver Dust
+        recipe:
+            input: Silver Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Silver Chunk
+            pattern: ... .0. ...
+            tools: washer
 
- item: Refined Nadsium Bicarbinate
-    recipe:
-        input: Nadsium Bicarbinate
-        pattern: 0.. ... ...
-        quantity: 1
-        tools: Washer
+    item: Tin Chunk
+        recipe:
+            input: Tin Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Crusher
 
- item: Silver Chunk
-    recipe:
-        input: Silver Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
+    item: Tin Dust
+        recipe:
+            input: Tin Ingot
+            pattern: ... .0. ...
+            tools: Crusher
+        recipe:
+            input: Tin Chunk
+            pattern: ... .0. ...
+            tools: washer
 
- item: Silver Dust
-    recipe:
-        input: Silver Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-    recipe:
-        input: Silver Chunk
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Washer
-
- item: Tin Chunk
-    recipe:
-        input: Tin Ore
-        pattern: ... .0. ...
-        quantity: 2
-        tools: Crusher
-
- item: Tin Dust
-    recipe:
-        input: Tin Ingot
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Crusher
-    recipe:
-        input: Tin Chunk
-        pattern: ... .0. ...
-        quantity: 1
-        tools: Washer
-
-
- item: Nadsium Bicarbinate; gatherable: yes
-
-
-		
 group: Miscellaneous
 
+    item: Bacon
+        gatherable: yes
 
- item: Bacon; gatherable: yes
+    item: Ender Lolly
+        recipe:
+            input: Ender Pearl, Stick
+            pattern: 0.. 1.. ...
+            quantity: 4
+            tools: Crafting Table
 
- item: Ender Lolly
-    recipe:
-        input: Ender Pearl, Stick
-        pattern: 0.. 1.. ...
-        quantity: 4
-        tools: Crafting Table
+    item: Jar Of Dirt
+        recipe:
+            input: Glass, Oakwood Slab, Podzol
+            pattern: .1. 020 000
+            tools: Crafting Table
 
+    item: Moving Pane
+        recipe:
+            input: Gasket, Glass Pane, High Pressure Core, Pressure Wall
+            pattern: 111 121 303
+            quantity: 2
+            tools: Assembler
 
+group: Wearables
 
+    item: Diving Suit Boots
+        recipe:
+            input: Gasket, Lead Ingot
+            pattern: 0.0 1.1 ...
+            tools: Crafting Table
 
+    item: Diving Suit Chestplate
+        recipe:
+            input: Cannister, Gasket, Lead Ingot
+            pattern: 2.2 010 121
+            tools: Crafting Table
 
- item: Jar Of Dirt
-    recipe:
-        input: Oakwood Slab, Glass, Podzol
-        pattern: .0. 121 111
-        quantity: 1
-        tools: Crafting Table
+    item: Diving Suit Helmet
+        recipe:
+            input: Gasket, Lead Ingot
+            pattern: 111 1.1 101
+            tools: Crafting Table
 
+    item: Diving Suit Legs
+        recipe:
+            input: Gasket, Lead Ingot
+            pattern: 010 1.1 0.0
+            tools: Crafting Table
 
- 
+    item: Miners Helmet
+        recipe:
+            input: Iron Helmet, Miners Helmet Lamp
+            pattern: 10. ... ...
+            tools: Crafting Table
 
-
- item: Moving Pane
-    recipe:
-        input: Glass Pane, High Pressure Core, Pressure Wall, Gasket
-        pattern: 000 010 232
-        quantity: 2
-        tools: Assembler
-
- 
-
+    item: Miners Helmet Lamp
+        recipe:
+            input: Glass, Torch
+            pattern: .0. 010 .0.
+            tools: Crafting Table
