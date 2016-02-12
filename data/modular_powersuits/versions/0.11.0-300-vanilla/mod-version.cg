@@ -47,6 +47,10 @@ group: Parts
             tools: Crafting Table
 
     item: Artificial Muscle
+        recipe:
+            input: Carbon Myofiber, Myofiber Gel
+            pattern: 010 010 010
+            tools: Crafting Table
 
     item: Basic Plating
         recipe:
@@ -55,6 +59,16 @@ group: Parts
             tools: Crafting Table
 
     item: Carbon Myofiber
+        recipe:
+            input: Block of Coal
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Computer Chip
+        recipe:
+            input: Redstone, Solenoid, Redstone Comparator, Diamond
+            pattern: 010 232 010
+            tools: Crafting Table
 
     item: Control Circuit
         recipe:
@@ -70,8 +84,8 @@ group: Parts
 
     item: Glider Wing
         recipe:
-            input: Iron Ingot
-            pattern: .00 00. 0..
+            input: Iron Ingot, Solenoid
+            pattern: .00 001 0..
             tools: Crafting Table
 
     item: Hologram Emitter
@@ -86,10 +100,22 @@ group: Parts
             pattern: 021 3.3 ...
             tools: Crafting Table
 
+    item: Insulated Rubber Hose
+        recipe:
+            input: Black Wool, Glass
+            pattern: 000 1.1 000
+            tools: Crafting Table
+
     item: Ion Thruster
         recipe:
-            input: Force Field Emitter, Glowstone Dust, Iron Ingot, Solenoid
-            pattern: .03 21. 203
+            input: Force Field Emitter, Glowstone Dust, Iron Ingot, Solenoid, Wiring
+            pattern: .03 21. 403
+            tools: Crafting Table
+
+    item: Liquid Nitrogen Bucket
+        recipe:
+            input: Ice, Packed Ice, Water Bucket, Bucket
+            pattern: 010 222 .3.
             tools: Crafting Table
 
     item: Lux Capacitor
@@ -100,6 +126,12 @@ group: Parts
             pattern: 210 2.2 ...
             tools: Crafting Table
 
+    item: Magnet
+        recipe:
+            input: Iron Ingot, Solenoid
+            pattern: 000 111 000
+            tools: Crafting Table
+
     item: MV Capacitor
         recipe:
             input: Gold Nugget, Lapis Lazuli, Paper, Wiring
@@ -107,17 +139,27 @@ group: Parts
             tools: Crafting Table
 
     item: Myofiber Gel
+        recipe:
+            input: Magma Cream, Iron Ingot
+            pattern: .0. 101 101
+            tools: Crafting Table
 
     item: Parachute
         recipe:
-            input: String
-            pattern: ... 0.0 ...
+            input: Wool, String, Iron Ingot
+            pattern: 000 1.1 2.2
             tools: Crafting Table
 
     item: Servo Motor
         recipe:
             input: Iron Ingot, Solenoid, Wiring
-            pattern: .2. 101 ...
+            pattern: .1. 202 .1.
+            tools: Crafting Table
+
+    item: Solar Panel
+        recipe:
+            input: Lapis Lazuli, Glass Pane, Lapis Lazuli Block, Iron Ingot
+            pattern: 010 020 333
             tools: Crafting Table
 
     item: Solenoid
@@ -128,6 +170,7 @@ group: Parts
 
     item: Wiring
         recipe:
-            input: Gold Nugget, Redstone
+            input: Gold Ingot, Redstone
             pattern: ... 010 ...
+            quantity: 8
             tools: Crafting Table

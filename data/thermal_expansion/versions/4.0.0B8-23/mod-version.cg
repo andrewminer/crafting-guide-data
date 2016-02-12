@@ -206,14 +206,20 @@ group: Energy
             pattern: .3. 010 121
             tools: Crafting Table
 
+    item: Hardened Energy Cell Frame
+        recipe:
+            input: Invar Ingot, Leadstone Energy Cell Frame
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
     item: Hardened Energy Cell
         recipe:
             input: Invar Ingot, Leadstone Energy Cell
             pattern: .0. 010 .0.
             tools: Crafting Table
         recipe:
-            input: Copper Ingot, Invar Ingot, Leadstone Energy Cell Frame, Redstone Conductance Coil
-            pattern: 101 020 131
+            input: Copper Ingot, Hardened Energy Cell Frame, Redstone Conductance Coil
+            pattern: .0. 010 .2.
             tools: Crafting Table
 
     item: Hardened Flux Capacitor
@@ -258,7 +264,27 @@ group: Energy
             pattern: .3. 121 303
             tools: Crafting Table
 
+    item: Resonant Energy Cell Frame (Empty)
+        recipe:
+            input: Enderium Ingot, Redstone Energy Cell Frame (Empty)
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Resonant Energy Cell Frame (Full)
+        recipe:
+            input: Redstone Energy Cell Frame (Empty), Enderium Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Resonant Energy Cell Frame (Empty), 4000 Destabilized Redstone
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer
+
     item: Resonant Energy Cell
+        recipe:
+            input: Electrum Ingot, Resonant Energy Cell Frame (Full), Lead Ingot, Redstone Conductance Coil
+            pattern: .0. 010 232
+            tools: Crafting Table
         recipe:
             input: Enderium Ingot, Redstone Energy Cell
             pattern: .0. 010 .0.
@@ -2327,3 +2353,10 @@ update: Iron Ingot
         input: Pulverized Iron
         pattern: ... .0. ...
         tools: Redstone Furnace
+# item: Hardened Energy Cell_2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+

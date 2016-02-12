@@ -1,0 +1,176 @@
+schema: 1
+
+group: Armor
+
+    item: Power Armor Boots
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: ... 1.1 0.0
+            tools: Crafting Table
+
+    item: Power Armor Chestplate
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: 0.0 101 000
+            tools: Crafting Table
+
+    item: Power Armor Helmet
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: 000 1.1 ...
+            tools: Crafting Table
+
+    item: Power Armor Leggings
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: 000 1.1 0.0
+            tools: Crafting Table
+
+    item: Power Armor Tinker Table
+        recipe:
+            input: Emerald, Electrum Ingot, Machine Frame, Redstone Transmission Coil
+            pattern: .0. 121 .3.
+            tools: Crafting Table
+
+    item: Power Fist
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: .1. 10. .01
+            tools: Crafting Table
+
+group: Parts
+
+    item: Advanced Plating
+        recipe:
+            input: Diamond, Electrum Gear
+            pattern: 00. 10. 00.
+            tools: Crafting Table
+
+    item: Artificial Muscle
+        recipe:
+            input: Carbon Myofiber, Myofiber Gel, Pulverized Coal
+            pattern: 020 010 010
+            tools: Crafting Table
+
+    item: Basic Plating
+        recipe:
+            input: Iron Ingot, Invar Gear
+            pattern: 00. 10. 00.
+            tools: Crafting Table
+
+    item: Carbon Myofiber
+        recipe:
+            input: Pulverized Coal, Liquifacted Coal Bucket
+            pattern: 010 010 010
+            tools: Crafting Table
+
+    item: Computer Chip
+        recipe:
+            input: Redstone Transmission Coil, Solenoid, Light Gray Rockwool, Multimeter, Redstone Reception Coil, Redstone Conductance Coil
+            pattern: 010 232 415
+            tools: Crafting Table
+
+    item: Control Circuit
+        recipe:
+            input: Cactus Green, Redstone Conductance Coil, Electrum Ingot, Redstone, Wiring
+            pattern: 402 310 234
+            tools: Crafting Table
+
+    item: Force Field Emitter
+        recipe:
+            input: Ender Pearl, Solenoid, Tesseract Frame (Full)
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Glider Wing
+        recipe:
+            input: Iron Ingot, Solenoid
+            pattern: .00 001 0..
+            tools: Crafting Table
+
+    item: Hologram Emitter
+        recipe:
+            input: Cactus Green, Glass, Glowstone Dust, Lapis Lazuli, Rose Red, Redstone Conductance Coil
+            pattern: 210 151 314
+            tools: Crafting Table
+
+    item: HV Capacitor
+        recipe:
+            input: Wiring, Resonant Energy Cell Frame (Full)
+            pattern: 010 0.0 ...
+            tools: Crafting Table
+
+    item: Insulated Rubber Hose
+        recipe:
+            input: Black Rockwool, Hardened Glass
+            pattern: 000 1.1 000
+            tools: Crafting Table
+
+    item: Ion Thruster
+        recipe:
+            input: Force Field Emitter, Glowstone Dust, Iron Ingot, Solenoid, Wiring
+            pattern: .03 21. 403
+            tools: Crafting Table
+
+    item: Liquid Nitrogen Bucket
+        recipe:
+            input: Cryotheum Dust, Gelid Cryotheum Bucket, Bucket
+            pattern: 000 111 .2.
+            tools: Crafting Table
+
+    item: Lux Capacitor
+
+    item: LV Capacitor
+        recipe:
+            input: Silver Ingot, Leadstone Energy Cell Frame, Gold Ingot, Wiring
+            pattern: 012 3.3 ...
+            tools: Crafting Table
+
+    item: Magnet
+        recipe:
+            input: Electrum Ingot, Redstone Conductance Coil, Solenoid
+            pattern: 010 222 010
+            tools: Crafting Table
+
+    item: MV Capacitor
+        recipe:
+            input: Wiring, Hardened Energy Cell Frame
+            pattern: 010 0.0 ...
+            tools: Crafting Table
+
+    item: Myofiber Gel
+        recipe:
+            input: Magma Cream, Gray Rockwool, Pulverized Coal
+            pattern: .0. 121 101
+            tools: Crafting Table
+
+    item: Parachute
+        recipe:
+            input: Wool, String, Light Gray Rockwool
+            pattern: 000 1.1 2.2
+            tools: Crafting Table
+
+    item: Servo Motor
+        recipe:
+            input: Pneumatic Servo, Solenoid, Wiring
+            pattern: .1. 202 .1.
+            tools: Crafting Table
+
+    item: Solar Panel
+        recipe:
+            input: Lapis Lazuli, Glass Pane, Lapis Lazuli Block, Redstone Transmission Coil, Redstone Conductance Coil
+            pattern: 010 020 343
+            tools: Crafting Table
+
+    item: Solenoid
+        recipe:
+            input: Invar Ingot, Wiring
+            pattern: 101 101 101
+            tools: Crafting Table
+
+    item: Wiring
+        recipe:
+            input: Copper Ingot, Silver Ingot
+            pattern: 000 111 000
+            quantity: 8
+            tools: Crafting Table
