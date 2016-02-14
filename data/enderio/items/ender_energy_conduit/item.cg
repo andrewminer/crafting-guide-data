@@ -1,0 +1,13 @@
+schema: 1
+
+description: <<-END
+Setblock as I know does not exist
+numerical id: 4181/2
+id: EnderIO:itemPowerConduit 2
+if you know that it is possible to do a /setblock
+please edit this or email:
+dwddaniels262@gmail.com
+VERSION: 1.7.10
+END
+
+
