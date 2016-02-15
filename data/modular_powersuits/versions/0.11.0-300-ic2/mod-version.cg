@@ -1,0 +1,176 @@
+schema: 1
+
+group: Armor
+
+    item: Power Armor Boots
+        recipe:
+            input: Iron Plate, Electronic Circuit
+            pattern: ... 1.1 0.0
+            tools: Crafting Table
+
+    item: Power Armor Chestplate
+        recipe:
+            input: Iron Plate, Electronic Circuit
+            pattern: 0.0 101 000
+            tools: Crafting Table
+
+    item: Power Armor Helmet
+        recipe:
+            input: Iron Plate, Electronic Circuit
+            pattern: 000 1.1 ...
+            tools: Crafting Table
+
+    item: Power Armor Leggings
+        recipe:
+            input: Iron Plate, Electronic Circuit
+            pattern: 000 1.1 0.0
+            tools: Crafting Table
+
+    item: Power Armor Tinker Table
+        recipe:
+            input: Emerald, Iron Plate, Electronic Circuit, Basic Machine Casing
+            pattern: .0. 121 .3.
+            tools: Crafting Table
+
+    item: Power Fist
+        recipe:
+            input: Iron Plate, Electronic Circuit
+            pattern: .1. 10. .01
+            tools: Crafting Table
+
+group: Parts
+
+    item: Advanced Plating
+        recipe:
+            input: Diamond, Advanced Circuit
+            pattern: 00. 10. 00.
+            tools: Crafting Table
+
+    item: Artificial Muscle
+        recipe:
+            input: Carbon Myofiber, Myofiber Gel, Rubber
+            pattern: 020 010 010
+            tools: Crafting Table
+
+    item: Basic Plating
+        recipe:
+            input: Iron Ingot, Electronic Circuit
+            pattern: 00. 10. 00.
+            tools: Crafting Table
+
+    item: Carbon Myofiber
+        recipe:
+            input: Carbon Plate
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Computer Chip
+        recipe:
+            input: Gold Cable, Solenoid, Advanced Circuit, OV Scanner
+            pattern: 010 232 010
+            tools: Crafting Table
+
+    item: Control Circuit
+        recipe:
+            input: Cactus Green, Electronic Circuit, Electrum Ingot, Redstone, Wiring
+            pattern: 402 310 234
+            tools: Crafting Table
+
+    item: Force Field Emitter
+        recipe:
+            input: Ender Pearl, Solenoid, Advanced Circuit
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Glider Wing
+        recipe:
+            input: Carbon Plate, Iron Ingot, Solenoid
+            pattern: .00 001 0.2
+            tools: Crafting Table
+
+    item: Hologram Emitter
+        recipe:
+            input: Cactus Green, Glass, Glowstone Dust, Lapis Lazuli, Rose Red, Electronic Circuit
+            pattern: 210 151 314
+            tools: Crafting Table
+
+    item: HV Capacitor
+        recipe:
+            input: Wiring, Lapotron Crystal
+            pattern: 010 0.0 ...
+            tools: Crafting Table
+
+    item: Insulated Rubber Hose
+        recipe:
+            input: Rubber, Reinforced Glass
+            pattern: 000 1.1 000
+            tools: Crafting Table
+
+    item: Ion Thruster
+        recipe:
+            input: Force Field Emitter, Solenoid, Basic Machine Casing, Glowstone Dust, Advanced Circuit
+            pattern: .01 23. 401
+            tools: Crafting Table
+
+    item: Liquid Nitrogen Bucket
+        recipe:
+            input: Lapis Lazuli Dust, Coolant Cell, Bucket
+            pattern: 000 111 .2.
+            tools: Crafting Table
+
+    item: Lux Capacitor
+
+    item: LV Capacitor
+        recipe:
+            input: Wiring, RE-Battery
+            pattern: 010 0.0 ...
+            tools: Crafting Table
+
+    item: Magnet
+        recipe:
+            input: Iron Ingot, Advanced Circuit, Solenoid
+            pattern: 010 222 010
+            tools: Crafting Table
+
+    item: MV Capacitor
+        recipe:
+            input: Wiring, Energy Crystal
+            pattern: 010 0.0 ...
+            tools: Crafting Table
+
+    item: Myofiber Gel
+        recipe:
+            input: Magma Cream, Carbon Plate, Sticky Resin
+            pattern: .0. 121 101
+            tools: Crafting Table
+
+    item: Parachute
+        recipe:
+            input: Wool, String, Carbon Plate
+            pattern: 000 1.1 2.2
+            tools: Crafting Table
+
+    item: Servo Motor
+        recipe:
+            input: Solenoid, Wiring, Basic Machine Casing
+            pattern: .0. 121 .0.
+            tools: Crafting Table
+
+    item: Solar Panel
+        recipe:
+            input: Lapis Lazuli, Glass, Lapis Lazuli Block, Electronic Circuit, Advanced Circuit
+            pattern: 010 121 343
+            tools: Crafting Table
+
+    item: Solenoid
+        recipe:
+            input: Wiring, Iron Plate, Electronic Circuit
+            pattern: 010 020 010
+            tools: Crafting Table
+
+    item: Wiring
+        recipe:
+            input: Gold Cable, Redstone
+            pattern: ... 010 ...
+            quantity: 8
+            tools: Crafting Table
