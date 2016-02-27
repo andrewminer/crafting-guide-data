@@ -1,0 +1,8 @@
+schema: 1
+
+description: <<-END
+Helps you to automate items craft.
+Some items can be crafted only in Metal Former.(ex. HV Cable)
+END
+
+
