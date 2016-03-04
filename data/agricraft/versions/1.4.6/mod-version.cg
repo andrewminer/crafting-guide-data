@@ -1,0 +1,336 @@
+schema: 1
+
+group: Agricraft Seeds
+
+ item: Allium Seeds
+  recipe:
+   input: Poppy Seeds, Blue Orchid Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Aurigold Seeds
+  recipe:
+   input: Redstodendron Seeds, Orange Tulip Seeds, Farmland, Crop Mutation, Gold Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Blue Orchid Seeds
+  recipe:
+   input: Poppy Seeds, Dandelion Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Brown Mushroom Spores
+  recipe:
+   input: Nether Wart, Potato Seeds, Mycelium, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Cactus Seeds
+  recipe:
+   input: Sugarcane Seeds, Poppy Seeds, Sand, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Carrot Seeds
+  recipe:
+   input: Carrot
+   pattern: 0.. ... ...
+   quantity: 1
+ item: Cinderpearl Seeds
+  recipe:
+   input: Cactus Seeds, Red Tulip Seeds, Sand, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Cuprosia Seeds
+  recipe:
+   input: Redstodendron Seeds, Red Tulip Seeds, Farmland, Crop Mutation, Copper Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Daisy Seeds
+  recipe:
+   input: Dandelion Seeds, Blue Orchid Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Dandelion Seeds
+  recipe:
+   input: Sugarcane Seeds, Melon Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Diamahlia Seeds
+  recipe:
+   input: Aurigold Seeds, Lapender Seeds, Farmland, Crop Mutation, Diamond Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Emeryllis Seeds
+  recipe:
+   input: Ferranium Seeds, Redstodendron Seeds, Farmland, Crop Mutation, Emerald Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Ferranium Seeds
+  recipe:
+   input: Lapender Seeds, White Tulip Seeds, Farmland, Crop Mutation, Iron Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Jaslumine Seeds
+  recipe:
+   input: Ferranium Seeds, Seeds, Farmland, Crop Mutation, Bauxite Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Lapender Seeds
+  recipe:
+   input: Pink Tulip Seeds, Blue Orchid Seeds, Farmland, Crop Mutation, Lapis Lazuli Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Mystical Black Flower Seeds
+  recipe:
+   input: Mystical Blue Flower Seeds, Cactus Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Blue Flower Seeds
+  recipe:
+   input: Blue Orchid Seeds, Allium Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Brown Flower Seeds
+  recipe:
+   input: Mystical Purple Flower Seeds, Mystical Green Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Cyan Flower Seeds
+  recipe:
+   input: Mystical Green Flower Seeds, Mystical Blue Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Gray Flower Seeds
+  recipe:
+   input: Mystical Black Flower Seeds, Mystical White Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Green Flower Seeds
+  recipe:
+   input: Mystical Blue Flower Seeds, Mystical Yellow Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Light Blue Flower Seeds
+  recipe:
+   input: Mystical Blue Flower Seeds, Mystical White Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Light Gray Flower Seeds
+  recipe:
+   input: Mystical Gray Flower Seeds, Mystical White Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Lime Flower Seeds
+  recipe:
+   input: Mystical White Flower Seeds, Mystical Green Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Magenta Flower Seeds
+  recipe:
+   input: Mystical Red Flower Seeds, Mystical Blue Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Orange Flower Seeds
+  recipe:
+   input: Mystical Yellow Flower Seeds, Mystical Red Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Pink Flower Seeds
+  recipe:
+   input: Mystical Purple Flower Seeds, Mystical White Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Purple Flower Seeds
+  recipe:
+   input: Mystical Magenta Flower Seeds, Mystical Blue Flower Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Red Flower Seeds
+  recipe:
+   input: Poppy Seeds, Red Tulip Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical White Flower Seeds
+  recipe:
+   input: White Tulip Seeds, Daisy Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Mystical Yellow Flower Seeds
+  recipe:
+   input: Dandelion Seeds, Orange Tulip Seeds, Podzol, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Niccissus Seeds
+  recipe:
+   input: Aurigold Seeds, Dandelion Seeds, Farmland, Crop Mutation, Ferrous Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Nitor Wart Spores
+  recipe:
+   input: Nether Wart, Orange Tulip Seeds, Soul Sand, Crop Mutation, Glowstone
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Orange Tulip Seeds
+  recipe:
+   input: Daisy Seeds, Blue Orchid Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Petinia Seeds
+  recipe:
+   input: Lapender Seeds, Daisy Seeds, Farmland, Crop Mutation, Tin Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Pink Tulip Seeds
+  recipe:
+   input: Allium Seeds, Dandelion Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Platiolus Seeds
+  recipe:
+   input: Diamahlia Seeds, Ferranium Seeds, Farmland, Crop Mutation, Shiny Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Plombean Seeds
+  recipe:
+   input: Ferranium Seeds, Potato Seeds, Farmland, Crop Mutation, Lead Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Poppy Seeds
+  recipe:
+   input: Sugarcane Seeds, Pumpkin Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Potato Seeds
+  recipe:
+   input: Potato
+   pattern: 0.. ... ...
+   quantity: 1
+ item: Quartzanthemum Seeds
+  recipe:
+   input: Nitor Wart Spores, Lapender Seeds, Soul Sand, Crop Mutation, Nether Quartz Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Red Mushroom Spores
+  recipe:
+   input: Nether Wart, Poppy Seeds, Mycelium, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Red Tulip Seeds
+  recipe:
+   input: Poppy Seeds, Allium Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: Redstodendron Seeds
+  recipe:
+   input: Red Tulip Seeds, Daisy Seeds, Farmland, Crop Mutation, Redstone Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Shimmerleaf Seeds
+  recipe:
+   input: White Tulip Seeds, Cinderpearl Seeds, Farmland, Crop Mutation, Silverwood Log
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Silverweed Seeds
+  recipe:
+   input: Aurigold Seeds, Allium Seeds, Farmland, Crop Mutation, Silver Ore
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Sugarcane Seeds
+  recipe:
+   input: Seeds, Carrot Seeds, Crop Mutation, Sand
+   pattern: 021 .3. ...
+   tools: Crop Mutation
+ item: Taint Root Seeds
+  recipe:
+   input: Vishroom Spores, Nether Wart, Tainted Soil, Crop Mutation, Crusted Taint
+   pattern: 031 .2. .4.
+   tools: Crop Mutation
+ item: Vishroom Spores
+  recipe:
+   input: Brown Mushroom Spores, Shimmerleaf Seeds, Mycelium, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+ item: White Tulip Seeds
+  recipe:
+   input: Daisy Seeds, Dandelion Seeds, Farmland, Crop Mutation
+   pattern: 031 .2. ...
+   tools: Crop Mutation
+
+group: Agricraft Tools
+ item: Crop Sticks
+  recipe:
+   input: Stick
+   pattern: 00. 00. ...
+   quantity: 4
+ item: Crop Mutation 
+  recipe:
+   input: Crop Sticks
+   pattern: .0. ... ...
+   tools: Crop Sticks
+ item: Agricultural Journal
+  recipe:
+   input: Crop Sticks, Book and Quill, Seeds
+   pattern: 020 212 020
+ item: Clipper
+  recipe:
+   input: Stick, Shears, Iron Ingot
+   pattern: .2. 01. .0.
+ item: Computer Controlled Seed Analyzer
+  recipe:
+   input: Iron Ingot, Seed Analyzer, Redstone Repeater, Computer
+   pattern: 010 232 020
+ item: Fence Gate
+  recipe:
+   input: Fence (Agricraft), Oak Wood Planks
+   pattern: 010 ... ...
+ item: Fence (Agricraft)
+  recipe:
+   input: Fence, Oak Wood Planks
+   pattern: 000 010 000
+   quantity: 8
+ item: Gardening Trowel
+  recipe:
+   input: Iron Ingot, Stick
+   pattern: ..1 00. ...
+ item: Iron Hand Rake
+  recipe:
+   input: Iron Bars, Stick
+   pattern: 01. ... ...
+ item: Magnifying Glass
+  recipe:
+   input: Stick, Glass Pane
+   pattern: 010 .0. .0.
+ item: Quartz Shard
+ item: Seed Analyzer
+  recipe:
+   input: Stick, Glass Pane, Stone Slab, Oak Wood Slab, Oak Wood Planks
+   pattern: 010 .20 434
+ item: Seed Storage
+  recipe:
+   input: Oak Wood Planks, Iron Ingot, Chest
+   pattern: 010 020 020
+ item: Sprinkler
+  recipe:
+   input: Oak Wood Planks, Iron Ingot, Bucket, Iron Bars
+   pattern: .0. .1. 323
+ item: Wooden Channel Valve
+  recipe:
+   input: Iron Ingot, Lever, Wooden Irrigation Channel
+   pattern: 01. 2.. ...
+ item: Wooden Grate
+  recipe:
+   input: Oak Wood Planks
+   pattern: 0.0 .0. 0.0
+ item: Wooden Hand Rake
+  recipe:
+   input: Fence, Stick
+   pattern: 01. ... ...
+ item: Wooden Irrigation Channel
+  recipe:
+   input: Oak Wood Planks
+   pattern: 0.0 .0. ...
+ item: Wooden Irrigation Channel Block
+  recipe:
+   input: Wooden Irrigation Channel
+   pattern: 00. 00. ...
+ item: Wooden Water Tank
+  recipe:
+   input: Oak Wood Planks
+   pattern: 0.0 0.0 000
