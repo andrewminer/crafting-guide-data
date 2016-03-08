@@ -1,5 +1,5 @@
 schema: 1
 
-description: This generator uses RTG Fuel to create an small, but endless power source.
+description: This generator uses Pellets of RTG Fuel to create an small, but endless power source. It can hold up to 6 pellets and produces a maximum of 32 EU/tick. It can't explode or cause radiation.
 
 
