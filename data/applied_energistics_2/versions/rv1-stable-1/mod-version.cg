@@ -62,7 +62,7 @@ group: Automated Crafting System Blocks & Parts
     item: Molecular Assembler
         recipe:
             input: Annihilation Core, Crafting Table, Formation Core, Iron Ingot, Quartz Glass
-            pattern: 343 012 323
+            pattern: 343 012 343
             tools: Crafting Table
 
 group: Cables
