@@ -247,6 +247,12 @@ group: Machines
 
 group: Materials
 
+    item: Darkstone
+        recipe:
+            input: Cobblestone, Ink sac, Stone
+            pattern: 202 212 202
+            tools: Crafting Table
+
     item: Glowing Mangalloy
         gatherable: yes
 
