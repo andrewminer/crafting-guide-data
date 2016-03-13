@@ -2,357 +2,312 @@ schema: 1
 
 group: Crafting Components
 
-item: Eviscerator Head
-   recipe:
-       input: Diamond, Battlesuit Plate, Nether Star
-       pattern: 01. 1.2 ...
-       quantity: 1
-       tools: Crafting Table
+    item: Advanced Circuit
+        recipe:
+            input: Blank Circuit, Mystic Quartz
+            pattern: ... 1.0 ...
+            tools: Item Fabricator
 
-item: Eviscerator Rod
-   recipe:
-       input: Battlesuit Plate, Diamond Nugget, Diamond
-       pattern: 010 020 020
-       quantity: 1
-       tools: Crafting Table
+    item: Amplification Crystal
+        recipe:
+            input: Darkstone, Diamond, Nether Quartz
+            pattern: 2.2 .1. 000
+            tools: Crafting Table
 
-  item: Advanced Circuit
-     recipe:
-         input: Mystic Quartz, Blank Circuit
-         pattern: ... 0.1 ...
-         quantity: 1
-         tools: Item Fabricator
+    item: Battlesuit Plate
+        recipe:
+            input: EnergizedCrystal, Mangalloy, Titanium Ingot
+            pattern: 101 .2. 101
+            quantity: 2
+            tools: Crafting Table
 
-  item: Amplification Crystal
-     recipe:
-         input: Nether Quartz, Diamond, Darkstone
-         pattern: 0.0 .1. 222
-         quantity: 1
-         tools: Crafting Table
+    item: Blank Circuit
+        recipe:
+            input: Paper, Silica
+            pattern: ... 1.0 ...
+            tools: Item Fabricator
 
-  item: Blank Circuit
-    recipe:
-    input: Silica, Paper
-    pattern: ... 0.1 ...
-    quantity: 1
-    tools: Item Fabricator
+    item: Ender Crystal
+        recipe:
+            input: Ender Pearl, Redstone
+            pattern: ... 0.1 ...
+            tools: Item Fabricator
 
-  item: Quibit Cluster Level 1
-     recipe:
-         input: Quibit Crystal, Iron Casing, Steel Ingot
-         pattern: 010 101 222
-         quantity: 1
-         tools: Crafting Table
+    item: EnergizedCrystal
+        recipe:
+            input: Nether Star, Quibit Crystal, ZBQ-7
+            pattern: 212 101 212
+            quantity: 4
+            tools: Crafting Table
 
-  item: Quibit Cluster Level 2
-     recipe:
-         input: Quibit Cluster Level 1, Amplification Crystal
-         pattern: 001 001 ...
-         quantity: 1
-         tools: Crafting Table
+    item: Eviscerator Head
+        recipe:
+            input: Battlesuit Plate, Diamond, Nether Star
+            pattern: 10. 0.2 ...
+            tools: Crafting Table
 
-  item: Quibit Cluster Level 3
-     recipe:
-         input: Quibit Cluster Level 2, Amplification Crystal
-         pattern: 001 001 ...
-         quantity: 1
-         tools: Crafting Table
+    item: Eviscerator Rod
+        recipe:
+            input: Battlesuit Plate, Diamond, Diamond Nugget
+            pattern: 020 010 010
+            tools: Crafting Table
 
-  item: Quibit Cluster Level 4
-     recipe:
-         input: Quibit Cluster Level 3, Amplification Crystal
-         pattern: 001 001 ...
-         quantity: 1
-         tools: Crafting Table
+    item: Iron Casing
+        recipe:
+            input: Iron Ingot, Lapis Lazuli
+            pattern: .1. 000 ...
+            quantity: 4
+            tools: Crafting Table
 
-  item: Quibit Cluster Level 5
-     recipe:
-         input: Quibit Cluster Level 4, Amplification Crystal
-         pattern: 001 001 ...
-         quantity: 1
-         tools: Crafting Table
+    item: Mystic Quartz
+        recipe:
+            input: Nether Quartz, Titanium Ingot
+            pattern: ... 1.0 ...
+            tools: Item Fabricator
 
-  item: Quibit Crystal
-     recipe:
-         input: Redstone, Nether Quartz, Diamond
-         pattern: .0. 121 .0.
-         quantity: 4
-         tools: Crafting Table
+    item: Quantum Disk
+        recipe:
+            input: Blank Circuit, Ender Crystal, Titanium Ingot
+            pattern: .1. 202 .1.
+            tools: Crafting Table
 
-  item: Ender Crystal
-    recipe:
-        input: Ender Pearl, Redstone
-        pattern: ... 0.1 ...
-        quantity: 1
-        tools: Item Fabricator
+    item: Quibit Cluster Level 1
+        recipe:
+            input: Iron Casing, Quibit Crystal, Steel Ingot
+            pattern: 101 010 222
+            tools: Crafting Table
 
-  item: EnergizedCrystal
-    recipe:
-        input: ZBQ-7, Quibit Crystal, Nether Star
-        pattern: 010 121 010
-        quantity: 4
-        tools: Crafting Table
+    item: Quibit Cluster Level 2
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 1
+            pattern: 110 110 ...
+            tools: Crafting Table
 
-  item: Upgrade Token
-     recipe:
-         input: Nether Star, ZBQ-7
-         pattern: 01. ... ...
-         quantity: 1
-         tools: Crafting Table
+    item: Quibit Cluster Level 3
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 2
+            pattern: 110 110 ...
+            tools: Crafting Table
 
-  item: ZBQ-7
-     recipe:
-         input: Block of Redstone, Lapis Lazuli Block, Block of Gold, Block of Diamond
-         pattern: 010 232 010
-         quantity: 2
-         tools: Crafting Table
+    item: Quibit Cluster Level 4
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 3
+            pattern: 110 110 ...
+            tools: Crafting Table
 
-  item: Iron Casing
-     recipe:
-         input: Lapis Lazuli, Iron Ingot
-         pattern: .0. 111 ...
-         quantity: 4
-         tools: Crafting Table
+    item: Quibit Cluster Level 5
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 4
+            pattern: 110 110 ...
+            tools: Crafting Table
 
-  item: Mystic Quartz
-   recipe:
-       input: Titanium Ingot, Nether Quartz
-       pattern: ... 0.1 ...
-       quantity: 1
-       tools: Item Fabricator
+    item: Quibit Crystal
+        recipe:
+            input: Diamond, Nether Quartz, Redstone
+            pattern: .2. 101 .2.
+            quantity: 4
+            tools: Crafting Table
 
-  item: Quantum Disk
-   recipe:
-       input: Ender Crystal, Titanium Ingot, Blank Circuit
-       pattern: .0. 121 .0.
-       quantity: 1
-       tools: Crafting Table
+    item: Upgrade Token
+        recipe:
+            input: Nether Star, ZBQ-7
+            pattern: 01. ... ...
+            tools: Crafting Table
 
-
-
-  item: Battlesuit Plate
-     recipe:
-         input: Mangalloy, EnergizedCrystal, Titanium Ingot
-         pattern: 010 .2. 010
-         quantity: 2
-         tools: Crafting Table
-
-group: Materials
-
-item: Glowing Mangalloy; gatherable: yes
-
-item: Silica
-recipe:
-    input: Sand, Block of Quartz
-    pattern: ... 0.1 ...
-    quantity: 4
-    tools: Item Fabricator
-
-  item: Mangalloy
-    recipe:
-        input: Steel Ingot, Redstone
-        pattern: 000 010 000
-        quantity: 1
-        tools: Crafting Table
-
-  item: Steel Ingot
-     recipe:
-         input: Coal, Iron Ingot
-         pattern: 0.0 .1. 0.0
-         quantity: 1
-         tools: Crafting Table
-
-  item: Titanium Ingot
-     recipe:
-         input: Titanium Ore, furnace fuel
-         pattern: .0. ... .1.
-         quantity: 1
-         tools: Furnace
-item: Titanium Ore; gatherable: yes
+    item: ZBQ-7
+        recipe:
+            input: Block of Diamond, Block of Gold, Block of Redstone, Lapis Lazuli Block
+            pattern: 232 101 232
+            quantity: 2
+            tools: Crafting Table
 
 group: Decorative
 
- item: Darkstone Lamp
-    recipe:
-        input: Darkstone, Lapis Lazuli
-        pattern: 000 010 000
-        quantity: 8
-        tools: Crafting Table
+    item: Darkstone Lamp
+        recipe:
+            input: Darkstone, Lapis Lazuli
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
 
- item: Darkstone Pillar
-    recipe:
-        input: Darkstone
-        pattern: 0.. 0.. ...
-        quantity: 2
-        tools: Crafting Table
+    item: Darkstone Pillar
+        recipe:
+            input: Darkstone
+            pattern: 0.. 0.. ...
+            quantity: 2
+            tools: Crafting Table
 
- item: Darkstone Tile
-    recipe:
-        input: Darkstone
-        pattern: 000 000 000
-        quantity: 9
-        tools: Crafting Table
+    item: Darkstone Tile
+        recipe:
+            input: Darkstone
+            pattern: 000 000 000
+            quantity: 9
+            tools: Crafting Table
 
- item: Decorative Darkstone
-    recipe:
-        input: Darkstone, Stone
-        pattern: 0.0 .1. 0.0
-        quantity: 4
-        tools: Crafting Table
+    item: Decorative Darkstone
+        recipe:
+            input: Darkstone, Stone
+            pattern: 0.0 .1. 0.0
+            quantity: 4
+            tools: Crafting Table
 
 group: Equipment
 
-item: Item Magnet
-   recipe:
-       input: Redstone, Lapis Lazuli, Amplification Crystal, Mangalloy
-       pattern: 0.1 2.2 .3.
-       quantity: 1
-       tools: Crafting Table
+    item: Battlesuit Boots
+        recipe:
+            input: Battlesuit Plate
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
 
+    item: Battlesuit Chestplate
+        recipe:
+            input: Battlesuit Plate
+            pattern: 0.0 000 000
+            tools: Crafting Table
 
- item: Battlesuit Boots
-    recipe:
-        input: Battlesuit Plate
-        pattern: 0.0 0.0 ...
-        quantity: 1
-        tools: Crafting Table
+    item: Battlesuit Helmet
+        recipe:
+            input: Battlesuit Plate
+            pattern: 000 0.0 ...
+            tools: Crafting Table
 
- item: Battlesuit Chestplate
-    recipe:
-        input: Battlesuit Plate
-        pattern: 0.0 000 000
-        quantity: 1
-        tools: Crafting Table
+    item: Battlesuit Leggings
+        recipe:
+            input: Battlesuit Plate
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
 
- item: Battlesuit Helmet
-    recipe:
-        input: Battlesuit Plate
-        pattern: 000 0.0 ...
-        quantity: 1
-        tools: Crafting Table
+    item: Eviscerator
+        recipe:
+            input: Eviscerator Head, Eviscerator Rod
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
 
- item: Battlesuit Leggings
-    recipe:
-        input: Battlesuit Plate
-        pattern: 000 0.0 0.0
-        quantity: 1
-        tools: Crafting Table
+    item: Item Magnet
+        recipe:
+            input: Amplification Crystal, Lapis Lazuli, Mangalloy, Redstone
+            pattern: 3.1 0.0 .2.
+            tools: Crafting Table
 
+    item: Titanium Boots
+        recipe:
+            input: Titanium Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
 
+    item: Titanium Chestplate
+        recipe:
+            input: Titanium Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
 
- item: Eviscerator
-    recipe:
-        input: Eviscerator Head, Eviscerator Rod
-        pattern: 0.. 1.. 1..
-        quantity: 1
-        tools: Crafting Table
+    item: Titanium Helmet
+        recipe:
+            input: Titanium Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
 
+    item: Titanium Leggings
+        recipe:
+            input: Titanium Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
 
-
-  item: Titanium Boots
-     recipe:
-         input: Titanium Ingot
-         pattern: 0.0 0.0 ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Titanium Chestplate
-     recipe:
-         input: Titanium Ingot
-         pattern: 0.0 000 000
-         quantity: 1
-         tools: Crafting Table
-
-   item: Titanium Helmet
-      recipe:
-          input: Titanium Ingot
-          pattern: 000 0.0 ...
-          quantity: 1
-          tools: Crafting Table
-
-
-  item: Titanium Leggings
-     recipe:
-         input: Titanium Ingot
-         pattern: 000 0.0 0.0
-         quantity: 1
-         tools: Crafting Table
-
-  item: Titanium Sword
-     recipe:
-         input: Titanium Ingot, Stick
-         pattern: 0.. 0.. 1..
-         quantity: 1
-         tools: Crafting Table
-
+    item: Titanium Sword
+        recipe:
+            input: Stick, Titanium Ingot
+            pattern: 1.. 1.. 0..
+            tools: Crafting Table
 
 group: Machines
 
- item: Item Fabricator
-    recipe:
-        input: Iron Casing, Amplification Crystal, Darkstone
-        pattern: 0.0 010 222
-        quantity: 1
-        tools: Crafting Table
+    item: Imaginary Time Block
+        recipe:
+            input: EnergizedCrystal, Iron Casing, Mangalloy, ZBQ-7
+            pattern: 101 030 202
+            tools: Crafting Table
 
-  item: Imaginary Time Block
-     recipe:
-         input: Iron Casing, EnergizedCrystal, ZBQ-7, Mangalloy
-         pattern: 010 121 313
-         quantity: 1
-         tools: Crafting Table
+    item: Item Fabricator
+        recipe:
+            input: Amplification Crystal, Darkstone, Iron Casing
+            pattern: 2.2 202 111
+            tools: Crafting Table
 
+    item: Quantum Entropy Accelerator
+        recipe:
+            input: Furnace, Iron Casing, Lava Bucket, Steel Ingot
+            pattern: 111 303 323
+            tools: Crafting Table
 
+    item: Storehouse
+        recipe:
+            input: Advanced Circuit, Iron Casing, Quantum Disk, Quibit Crystal, Titanium Ingot
+            pattern: 404 323 101
+            tools: Crafting Table
 
-  item: Quantum Entropy Accelerator
-     recipe:
-         input: Iron Casing, Steel Ingot, Furnace, Lava Bucket
-         pattern: 000 121 131
-         quantity: 1
-         tools: Crafting Table
+group: Materials
 
+    item: Glowing Mangalloy
+        gatherable: yes
 
+    item: Mangalloy
+        recipe:
+            input: Redstone, Steel Ingot
+            pattern: 111 101 111
+            tools: Crafting Table
 
-  item: Storehouse
-     recipe:
-         input: Titanium Ingot, Advanced Circuit, Quibit Crystal, Quantum Disk, Iron Casing
-         pattern: 010 232 414
-         quantity: 1
-         tools: Crafting Table
+    item: Silica
+        recipe:
+            input: Block of Quartz, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Item Fabricator
+
+    item: Steel Ingot
+        recipe:
+            input: Coal, Iron Ingot
+            pattern: 0.0 .1. 0.0
+            tools: Crafting Table
+
+    item: Titanium Ingot
+        recipe:
+            input: furnace fuel, Titanium Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+
+    item: Titanium Ore
+        gatherable: yes
 
 group: Power
 
-item: Exciter Upgrade
-   recipe:
-       input: Redstone, Quibit Crystal, Darkstone
-       pattern: 010 222 ...
-       quantity: 2
-       tools: Crafting Table
+    item: Exciter Upgrade
+        recipe:
+            input: Darkstone, Quibit Crystal, Redstone
+            pattern: 212 000 ...
+            quantity: 2
+            tools: Crafting Table
 
-item: RF Entangler
-  recipe:
-      input: Quibit Crystal, ZBQ-7, Mangalloy, Quibit Cluster Level 3, Steel Ingot
-      pattern: 010 232 444
-      quantity: 1
-      tools: Crafting Table
+    item: Quibit Cell
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 1, RF Exciter
+            pattern: 202 010 202
+            tools: Crafting Table
 
-item: Zero Point Extractor (ZPE)
-  recipe:
-      input: Amplification Crystal, ZBQ-7, Quibit Crystal, Quibit Cluster Level 2, Steel Ingot
-      pattern: 010 232 444
-      quantity: 1
-      tools: Crafting Table
+    item: RF Entangler
+        recipe:
+            input: Mangalloy, Quibit Cluster Level 3, Quibit Crystal, Steel Ingot, ZBQ-7
+            pattern: 242 010 333
+            tools: Crafting Table
 
-  item: RF Exciter
-     recipe:
-         input: Redstone, Quibit Crystal, Darkstone
-         pattern: 010 222 ...
-         quantity: 2
-         tools: Crafting Table
+    item: RF Exciter
+        recipe:
+            input: Darkstone, Quibit Crystal, Redstone
+            pattern: 212 000 ...
+            quantity: 2
+            tools: Crafting Table
 
-   item: Quibit Cell
-      recipe:
-          input: RF Exciter, Amplification Crystal, Quibit Cluster Level 1
-          pattern: 010 121 010
-          quantity: 1
-          tools: Crafting Table
+    item: Zero Point Extractor (ZPE)
+        recipe:
+            input: Amplification Crystal, Quibit Cluster Level 2, Quibit Crystal, Steel Ingot, ZBQ-7
+            pattern: 040 212 333
+            tools: Crafting Table
