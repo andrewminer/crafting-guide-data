@@ -595,6 +595,190 @@ group: Modules
          pattern: 0.. 1.. ...
          quantity: 1
          tools: Crafting Table
+         
+group: Upgrades
+
+  item: Advanced Satellite Upgrade
+     recipe:
+         input: Paper, Iron Ingot, Golden Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Crafting Byproduct Extraction Upgrade
+     recipe:
+         input: Redstone, Wood Gear, Iron Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Disconnection Upgrade (DOWN)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 010 121 313
+         quantity: 1
+         tools: Crafting Table
+
+  item: Disconnection Upgrade (EAST)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 010 123 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Disconnection Upgrade (NORTH)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 030 121 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Disconnection Upgrade (SOUTH)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 010 121 030
+         quantity: 1
+         tools: Crafting Table
+
+  item: Disconnection Upgrade (UP)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 313 121 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Disconnection Upgrade (WEST)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Iron Ingot
+         pattern: 010 321 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Fluid Crafting Upgrade
+     recipe:
+         input: Redstone, Glass Bottle, Golden Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Sneaky Upgrade (DOWN)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 010 121 313
+         quantity: 1
+         tools: Crafting Table
+
+  item: Sneaky Upgrade (EAST)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 010 123 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Sneaky Upgrade (NORTH)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 030 121 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Sneaky Upgrade (SOUTH)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 010 121 030
+         quantity: 1
+         tools: Crafting Table
+
+  item: Sneaky Upgrade (UP)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 313 121 010
+         quantity: 1
+         tools: Crafting Table
+
+  item: Sneaky Upgrade (WEST)
+     recipe:
+         input: Paper, Redstone, Iron Chipset, Slimeball
+         pattern: 010 321 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Item Speed Upgrade
+     recipe:
+         input: Paper, Gold Ingot, Iron Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Placement Rules Upgrade
+     recipe:
+         input: Redstone, Hopper, Dandelion Yellow, Rose Red, Iron Ingot, Iron Chipset
+         pattern: 012 454 340
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Fuzzy Upgrade
+     recipe:
+         input: Paper, Nether Quartz, Golden Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Power Transportation Upgrade
+     recipe:
+         input: Paper, Block of Redstone, Iron Chipset, Glowstone, Lapis Lazuli Block
+         pattern: 010 232 040
+         quantity: 4
+         tools: Crafting Table
+
+  item: IC2 LV Power Supplier Upgrade
+     recipe:
+         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, Power Transportation Upgrade, Transformer Upgrade
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+
+  item: IC2 MV Power Supplier Upgrade
+     recipe:
+         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 LV Power Supplier Upgrade, Transformer Upgrade
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+         
+  item: IC2 HV Power Supplier Upgrade
+     recipe:
+         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 MV Power Supplier Upgrade, Transformer Upgrade
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+         
+  item: IC2 EV Power Supplier Upgrade
+     recipe:
+         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 HV Power Supplier Upgrade, Transformer Upgrade
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+         
+  item: TE Power Supplier Upgrade
+     recipe:
+         input: Paper, Combustion Engine, Golden Chipset, Power Transportation Upgrade, Iron Chipset
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Crafting Monitoring Upgrade
+     recipe:
+         input: Redstone, Lapis Lazuli, Cactus Green, Dandelion Yellow, Diamond Chipset, Crafting Logistics Pipe Mk2
+         pattern: 010 243 050
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Opaque Upgrade
+     recipe:
+         input: Redstone, Bone Meal, Iron Chipset
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
 		 
 group: Blocks
 
@@ -613,13 +797,6 @@ group: Items
          pattern: 000 000 000
          quantity: 1
          tools: Soldering Station
-
-# item: Advanced Satellite Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
 
 # item: CC Based ItemSink module
 #    recipe:
@@ -642,21 +819,7 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Crafting Byproduct Extraction Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Crafting Cleanup Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Crafting Monitoring Upgrade
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -670,98 +833,7 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Disconnection Upgrade (DOWN)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Disconnection Upgrade (EAST)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Disconnection Upgrade (NORTH)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Disconnection Upgrade (SOUTH)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Disconnection Upgrade (UP)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Disconnection Upgrade (WEST)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Fluid Crafting Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Focus Lense
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Fuzzy Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: IC2 EV Power Supplier Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: IC2 HV Power Supplier Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: IC2 LV Power Supplier Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: IC2 MV Power Supplier Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Item Speed Upgrade
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -978,27 +1050,6 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Opaque Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Placement Rules Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Power Transportation Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Remote Orderer
 #    recipe:
 #        input:
@@ -1175,13 +1226,6 @@ group: Items
 #        tools: Crafting Table
 
 # item: Structural Pipe Frame
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: TE Power Supplier Upgrade
 #    recipe:
 #        input:
 #        pattern: ... ... ...
