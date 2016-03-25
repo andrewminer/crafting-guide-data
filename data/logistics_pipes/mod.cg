@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Logistics Pipes
+author:           RS485, davboecki, AartBluestoke, ArtForz, GUIpsp and theZorro266
+description:      A mod to super-power your BuildCraft pipe system
+homePageUrl:      https://github.com/RS485/LogisticsPipes
+documentationUrl: http://rs485.network/wiki/Main_Page
+downloadUrl:      http://ci.thezorro266.com/view/Logistics%20Pipes/
+
+version: 0.9.3.100

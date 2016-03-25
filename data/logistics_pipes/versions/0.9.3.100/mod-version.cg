@@ -1,0 +1,1024 @@
+schema: 1
+
+# item: Active Supplier Module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Advanced Extractor MK2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Advanced Extractor MK3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Advanced Extractor module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Advanced Satellite Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Apiary Refiller module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Basic Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bee Analyzer Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bee Analyzer module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: BeeSink Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: BeeSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Blank Module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: CC Based ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: CC Based QuickSort module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: CC Remote Control Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Byproduct Extraction Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Cleanup Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Logistics Pipe Mk2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Logistics Pipe Mk3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting module MK2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting module MK3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Monitoring Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crafting Sign Creator
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Creative Tab Based ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (DOWN)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (EAST)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (NORTH)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (SOUTH)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (UP)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Disconnection Upgrade (WEST)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Drone Terminus module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Electric Buffer module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Electric Manager module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Enchantment Sink module MK2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Enchantment Sink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Extractor MK2 module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Extractor MK3 module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Extractor module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fluid Crafting Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Focus Lense
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fuzzy Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: IC2 EV Power Supplier Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: IC2 HV Power Supplier Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: IC2 LV Power Supplier Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: IC2 MV Power Supplier Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Item Speed Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_6
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_7
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.pipeComponents_8
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Laser Acceptor Interface
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logic Expansion Circuit
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Broken Item
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Chassis Mk1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Chassis Mk2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Chassis Mk3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Chassis Mk4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Chassis Mk5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Crafting Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Disk
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Firewall Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Basic Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Container Supplier
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Container
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Extractor Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Insertion Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Provider Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Request Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Satellite Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fluid Supplier
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Fuzzy Crafting Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics HUD Bow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics HUD Glass
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics HUD Glasses
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics HUD Nose Bridge
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Inventory System Connector
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Item Card
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Pipe Controller
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Power Junction
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Request Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics RF Power Provider
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Security Station
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics Statistics Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics System Destination Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Logistics System Entrance Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: LogisticsPipes Pipe Block.name
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Micro Capsulator
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Micro Packager
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Micro Servo
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Mod Based ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Nano Hopper
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Opaque Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: OreDict ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Passive Supplier module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Placement Rules Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Polymorphic ItemSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Power Transportation Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Provider Logistics Pipe Mk2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Provider Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Provider module MK2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Provider module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: QuickSort module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_10
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_11
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_12
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_13
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_14
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_15
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_16
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_17
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_6
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_7
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_8
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Remote Orderer_9
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Request Logistics Pipe Mk2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Request Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Routing Logic Processor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Satellite Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Combination Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (DOWN)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (EAST)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (NORTH)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (SOUTH)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (UP)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sneaky Upgrade (WEST)
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Soldering Station
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Structural Pipe Frame
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Supplier Logistics Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: TE Power Supplier Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Terminus module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Thaumic AspectSink module
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Unrouted Transport Pipe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Upgrade Module Upgrade
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
