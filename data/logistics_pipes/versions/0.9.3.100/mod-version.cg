@@ -218,6 +218,57 @@ group: Item Pipes
          quantity: 1
          tools: Carpenter
 		 
+group: Fluid Pipes
+
+  item: Logistics Fluid Basic Pipe
+     recipe:
+         input: Pipe Sealant, Basic Logistics Pipe, Bucket
+         pattern: 0.. 1.. 2..
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Logistics Fluid Insertion Pipe
+     recipe:
+         input: Glass Bottle, Logistics Fluid Basic Pipe
+         pattern: .0. 010 .0.
+         quantity: 1
+         tools: Crafting Table
+
+  item: Logistics Fluid Extractor Pipe
+     recipe:
+         input: Wooden Fluid Pipe, Logistics Fluid Insertion Pipe
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Logistics Fluid Provider Pipe
+     recipe:
+         input: Glass Bottle, Logistics Fluid Basic Pipe
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Logistics Fluid Supplier
+     recipe:
+         input: Gold Ingot, Lapis Lazuli, Logistics Fluid Basic Pipe
+         pattern: .0. 121 .0.
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Logistics Fluid Request Pipe
+     recipe:
+         input: Glass Bottle, Logistics Fluid Basic Pipe
+         pattern: 010 ... ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Logistics Fluid Satellite Pipe
+     recipe:
+         input: Redstone, Logistics Fluid Basic Pipe
+         pattern: 010 ... ...
+         quantity: 1
+         tools: Crafting Table
+		 
 group: Blocks
 
   item: Soldering Station
@@ -628,56 +679,7 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Logistics Fluid Basic Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Logistics Fluid Container
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Extractor Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Insertion Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Provider Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Request Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Satellite Pipe
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Logistics Fluid Supplier
 #    recipe:
 #        input:
 #        pattern: ... ... ...
