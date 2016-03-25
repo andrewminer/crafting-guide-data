@@ -269,6 +269,333 @@ group: Fluid Pipes
          quantity: 1
          tools: Crafting Table
 		 
+group: Modules
+
+  item: Blank Module
+     recipe:
+         input: Paper, Redstone, Gold Nugget
+         pattern: .0. 101 .2.
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: ItemSink module
+     recipe:
+         input: Cactus Green, Iron Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Cactus Green, Iron Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Active Supplier Module
+     recipe:
+         input: Gold Gear, Redstone, Passive Supplier Module
+         pattern: .0. 121 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Golden Chipset, Passive Supplier Module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Apiary Refiller module
+     recipe:
+         input: Pollen Cluster, Redstone, Propolis, Wooden Transport Pipe
+         pattern: .0. 1.1 232
+         quantity: 1
+         tools: Carpenter
+		 
+  item: Bee Analyzer module
+     recipe:
+         input: Propolis, Iron Gear, Redstone
+         pattern: 010 2.2 020
+         quantity: 1
+         tools: Carpenter
+	 recipe:
+         input: Propolis, Iron Chipset, Redstone
+         pattern: 010 2.2 020
+         quantity: 1
+         tools: Carpenter
+
+  item: BeeSink module
+     recipe:
+         input: Propolis, Redstone
+         pattern: 010 1.1 010
+         quantity: 1
+         tools: Carpenter
+		 
+  item: Crafting module
+     recipe:
+         input: Redstone, Iron Gear, Rose Red, Blank Module, Lapis Lazuli
+         pattern: 012 .3. 4.0
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Iron Chipset, Rose Red, Blank Module, Lapis Lazuli
+         pattern: .01 .2. 3..
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Crafting module MK2
+     recipe:
+         input: Gold Gear, Crafting module
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+     recipe:
+         input: Golden Chipset, Crafting module
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+
+  item: Crafting module MK3
+     recipe:
+         input: Crafting module MK2, Nano Hopper
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Creative Tab Based ItemSink module
+     recipe:
+         input: OreDict ItemSink Module, Gold Gear
+         pattern: 1.. 0.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: OreDict Item Sink Module, Golden Chipset
+         pattern: 1.. 0.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Drone Terminus module
+     recipe:
+         input: Ink Sac, Pollen Cluster, Purple Dye, Redstone
+         pattern: 012 3.3 230
+         quantity: 1
+         tools: Carpenter
+		 
+  item: Electric Buffer module
+     recipe:
+         input: Advanced Circuit, Gold Gear, Redstone, Blank Module
+         pattern: 010 232 020
+         quantity: 1
+         tools: Crafting Table	 
+     recipe:
+         input: Advanced Circuit, Golden Chipset, Redstone, Blank Module
+         pattern: .1. 232 020
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Electric Manager module
+     recipe:
+         input: Electronic Circuit, Gold Gear, RE-Battery, Redstone, Blank Module
+         pattern: 012 343 230
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Electronic Circuit, Golden Chipset, RE-Battery, Redstone, Blank Module
+         pattern: .1. 343 230
+         quantity: 1
+         tools: Crafting Table
+
+  item: Extractor module
+     recipe:
+         input: Lapis Lazuli, Iron Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Lapis Lazuli, Iron Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Extractor MK2 module
+     recipe:
+         input: Gold Gear, Extractor module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Golden Chipset, Extractor module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+
+  item: Extractor MK3 module
+     recipe:
+         input: Diamond Gear, Extractor MK2 module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Diamond Chipset, Extractor MK2 module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Advanced Extractor module
+     recipe:
+         input: Redstone, Extractor module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Advanced Extractor MK2
+     recipe:
+         input: Redstone, Extractor MK2 module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Gold Gear, Advanced Extractor module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Golden Chipset, Advanced Extractor module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+
+  item: Advanced Extractor MK3
+     recipe:
+         input: Redstone, Extractor MK3 module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Diamond Gear, Advanced Extractor MK2
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Diamond Chipset, Advanced Extractor MK3
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Mod Based ItemSink module
+     recipe:
+         input: Gold Gear, ItemSink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Golden Chipset, ItemSink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Passive Supplier module
+     recipe:
+         input: Rose Red, Iron Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Rose Red, Iron Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Polymorphic ItemSink module
+     recipe:
+         input: Orange Dye, Iron Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Orange Dye, Iron Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Provider module
+     recipe:
+         input: Lapis Lazuli, Gold Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Lapis Lazuli, Golden Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Provider module MK2
+     recipe:
+         input: Diamond Gear, Provider module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Diamond Chipset, Provider module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: QuickSort module
+     recipe:
+         input: Lapis Lazuli, Diamond Gear, Redstone, Blank Module
+         pattern: 010 232 ...
+         quantity: 1
+         tools: Crafting Table
+     recipe:
+         input: Lapis Lazuli, Diamond Chipset, Blank Module
+         pattern: 010 .2. ...
+         quantity: 1
+         tools: Crafting Table
+
+  item: Thaumic AspectSink module
+     recipe:
+         input: Air Shard, Iron Chipset, Redstone, Blank Module
+         pattern: 010 232 020
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Terminus module
+     recipe:
+         input: Ink Sac, Iron Gear, Purple Dye, Redstone, Blank Module
+         pattern: 012 343 ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Ink Sac, Iron Chipset, Purple Dye, Blank Module
+         pattern: 012 .3. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: OreDict ItemSink module
+     recipe:
+         input: Book, Mod Based ItemSink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Enchantment Sink module
+     recipe:
+         input: Enchanted Book, ItemSink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
+  item: Enchantment Sink module MK2
+     recipe:
+         input: Gold Gear, Enchantment Sink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+	 recipe:
+         input: Golden Chipset, Enchantment Sink module
+         pattern: 0.. 1.. ...
+         quantity: 1
+         tools: Crafting Table
+		 
 group: Blocks
 
   item: Soldering Station
@@ -286,64 +613,8 @@ group: Items
          pattern: 000 000 000
          quantity: 1
          tools: Soldering Station
-		 
-# item: Active Supplier Module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Advanced Extractor MK2
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Advanced Extractor MK3
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Advanced Extractor module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
 
 # item: Advanced Satellite Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Apiary Refiller module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Bee Analyzer module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: BeeSink module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Blank Module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -385,27 +656,6 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Crafting module MK2
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Crafting module MK3
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Crafting module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Crafting Monitoring Upgrade
 #    recipe:
 #        input:
@@ -414,13 +664,6 @@ group: Items
 #        tools: Crafting Table
 
 # item: Crafting Sign Creator
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Creative Tab Based ItemSink module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -463,62 +706,6 @@ group: Items
 #        tools: Crafting Table
 
 # item: Disconnection Upgrade (WEST)
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Drone Terminus module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Electric Buffer module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Electric Manager module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Enchantment Sink module MK2
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Enchantment Sink module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Extractor MK2 module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Extractor MK3 module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Extractor module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -631,13 +818,6 @@ group: Items
 #        tools: Crafting Table
 
 # item: item.pipeComponents_8
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: ItemSink module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -798,28 +978,7 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Mod Based ItemSink module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Opaque Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: OreDict ItemSink module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Passive Supplier module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -833,35 +992,7 @@ group: Items
 #        quantity: 1
 #        tools: Crafting Table
 
-# item: Polymorphic ItemSink module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
 # item: Power Transportation Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Provider module MK2
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Provider module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: QuickSort module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
@@ -1051,20 +1182,6 @@ group: Items
 #        tools: Crafting Table
 
 # item: TE Power Supplier Upgrade
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Terminus module
-#    recipe:
-#        input:
-#        pattern: ... ... ...
-#        quantity: 1
-#        tools: Crafting Table
-
-# item: Thaumic AspectSink module
 #    recipe:
 #        input:
 #        pattern: ... ... ...
