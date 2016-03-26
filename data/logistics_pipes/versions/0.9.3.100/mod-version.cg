@@ -1,974 +1,830 @@
 schema: 1
 
-group: Item Pipes
-
-  item: Basic Logistics Pipe
-     recipe:
-         input: Glass, Redstone Torch, Cobblestone Transport Pipe, Diamond Transport Pipe, Gold Gear
-         pattern: 010 232 .4.
-         quantity: 8
-         tools: Crafting Table
-	recipe:
-         input: Glass, Redstone Torch, Cobblestone Transport Pipe, Diamond Transport Pipe, Golden Chipset
-         pattern: 010 232 .4.
-         quantity: 8
-         tools: Crafting Table
-		 
-  item: Crafting Logistics Pipe
-     recipe:
-         input: Redstone, Basic Logistics Pipe, Stone Gear
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Crafting Logistics Pipe Mk2
-     recipe:
-         input: Gold Gear, Crafting Logistics Pipe, Redstone
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Crafting Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Crafting Logistics Pipe Mk3
-     recipe:
-         input: Nano Hopper, Diamond Chipset, Crafting Logistics Pipe Mk2
-         pattern: .0. .1. .2.
-         quantity: 1
-         tools: Soldering Station
-		 
-  item: Satellite Logistics Pipe
-     recipe:
-         input: Redstone, Basic Logistics Pipe
-         pattern: 010 ... ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Provider Logistics Pipe
-     recipe:
-         input: Gold Gear, Redstone, Basic Logistics Pipe
-         pattern: .0. 121 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Redstone Torch, Basic Logistics Pipe
-         pattern: 0.. 2.. 1..
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Provider Logistics Pipe Mk2
-     recipe:
-         input: Diamond Gear, Provider Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Diamond Chipset, Provider Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Supplier Logistics Pipe
-     recipe:
-         input: Lapis Lazuli, Basic Logistics Pipe
-         pattern: 010 ... ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Container Supplier
-     recipe:
-         input: Lapis Lazuli, Basic Logistics Pipe, Bucket
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Request Logistics Pipe
-     recipe:
-         input: Gold Gear, Basic Logistics Pipe, Iron Gear
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Golden Chipset, Basic Logistics Pipe, Iron Gear
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-	
-  item: Request Logistics Pipe Mk2
-     recipe:
-         input: Diamond Gear, Request Logistics Pipe, Redstone
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Diamond Chipset, Request Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Remote Orderer Logistics Pipe
-     recipe:
-         input: Ender Pearl, Basic Logistics Pipe, Redstone
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Chassis Mk1
-     recipe:
-         input: Redstone, Iron Ingot, Basic Logistics Pipe
-         pattern: 000 121 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Redstone Chipset, Iron Ingot, Basic Logistics Pipe
-         pattern: .0. 121 ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Chassis Mk2
-     recipe:
-         input: Iron Ingot, Basic Logistics Pipe
-         pattern: 000 010 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Iron Chipset, Iron Ingot, Basic Logistics Pipe
-         pattern: .0. 121 ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Chassis Mk3
-     recipe:
-         input: Iron Ingot, Basic Logistics Pipe
-         pattern: 000 010 000
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Iron Chipset, Iron Ingot, Basic Logistics Pipe
-         pattern: .0. 121 .0.
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Chassis Mk4
-     recipe:
-         input: Iron Ingot, Gold Ingot, Basic Logistics Pipe
-         pattern: 000 020 111
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Iron Chipset, Iron Ingot, Golden Chipset, Basic Logistics Pipe
-         pattern: .0. 131 .2.
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Chassis Mk5
-     recipe:
-         input: Diamond Chipset, Logistics Chassis Mk4
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics System Entrance Pipe
-     recipe:
-         input: Cactus Green, Provider Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics System Destination Pipe
-     recipe:
-         input: Rose Red, Provider Logistics Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Firewall Pipe
-     recipe:
-         input: Nether Brick Block, Diamond Chipset, Basic Logistics Pipe
-         pattern: 010 .2. 0.0
-         quantity: 1
-         tools: Soldering Station
-		 
-  item: Logistics Inventory System Connector
-     recipe:
-         input: Ender Pearl, Redstone, Basic Logistics Pipe
-         pattern: .0. 121 ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: BeeSink Logistics Pipe
-     recipe:
-         input: Propolis, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 1.1 010
-         quantity: 1
-         tools: Carpenter
-		 
-  item: Bee Analyzer Logistics Pipe
-     recipe:
-         input: Propolis, Iron Gear, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 2.2 020
-         quantity: 1
-         tools: Carpenter
-	 recipe:
-         input: Propolis, Iron Chipset, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 2.2 020
-         quantity: 1
-         tools: Carpenter
-         
-  item: Unrouted Transport Pipe
-     recipe:
-         input: Iron Ingot, Glass Pane, Redstone
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-group: Fluid Pipes
-
-  item: Logistics Fluid Basic Pipe
-     recipe:
-         input: Pipe Sealant, Basic Logistics Pipe, Bucket
-         pattern: 0.. 1.. 2..
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Insertion Pipe
-     recipe:
-         input: Glass Bottle, Logistics Fluid Basic Pipe
-         pattern: .0. 010 .0.
-         quantity: 1
-         tools: Crafting Table
-
-  item: Logistics Fluid Extractor Pipe
-     recipe:
-         input: Wooden Fluid Pipe, Logistics Fluid Insertion Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Provider Pipe
-     recipe:
-         input: Glass Bottle, Logistics Fluid Basic Pipe
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Supplier
-     recipe:
-         input: Gold Ingot, Lapis Lazuli, Logistics Fluid Basic Pipe
-         pattern: .0. 121 .0.
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Request Pipe
-     recipe:
-         input: Glass Bottle, Logistics Fluid Basic Pipe
-         pattern: 010 ... ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Logistics Fluid Satellite Pipe
-     recipe:
-         input: Redstone, Logistics Fluid Basic Pipe
-         pattern: 010 ... ...
-         quantity: 1
-         tools: Crafting Table
-		 
-group: Modules
-
-  item: Blank Module
-     recipe:
-         input: Paper, Redstone, Gold Nugget
-         pattern: .0. 101 .2.
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: ItemSink module
-     recipe:
-         input: Cactus Green, Iron Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Cactus Green, Iron Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Active Supplier Module
-     recipe:
-         input: Gold Gear, Redstone, Passive Supplier Module
-         pattern: .0. 121 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Passive Supplier Module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Apiary Refiller module
-     recipe:
-         input: Pollen Cluster, Redstone, Propolis, Wooden Transport Pipe
-         onlyIf: mod Forestry
-         pattern: .0. 1.1 232
-         quantity: 1
-         tools: Carpenter
-		 
-  item: Bee Analyzer module
-     recipe:
-         input: Propolis, Iron Gear, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 2.2 020
-         quantity: 1
-         tools: Carpenter
-	 recipe:
-         input: Propolis, Iron Chipset, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 2.2 020
-         quantity: 1
-         tools: Carpenter
-
-  item: BeeSink module
-     recipe:
-         input: Propolis, Redstone
-         onlyIf: mod Forestry
-         pattern: 010 1.1 010
-         quantity: 1
-         tools: Carpenter
-		 
-  item: Crafting module
-     recipe:
-         input: Redstone, Iron Gear, Rose Red, Blank Module, Lapis Lazuli
-         pattern: 012 .3. 4.0
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Iron Chipset, Rose Red, Blank Module, Lapis Lazuli
-         pattern: .01 .2. 3..
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Crafting module MK2
-     recipe:
-         input: Gold Gear, Crafting module
-         pattern: 01. ... ...
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Golden Chipset, Crafting module
-         pattern: 01. ... ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Crafting module MK3
-     recipe:
-         input: Crafting module MK2, Nano Hopper
-         pattern: 01. ... ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Creative Tab Based ItemSink module
-     recipe:
-         input: OreDict ItemSink Module, Gold Gear
-         pattern: 1.. 0.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: OreDict ItemSink Module, Golden Chipset
-         pattern: 1.. 0.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Drone Terminus module
-     recipe:
-         input: Ink Sac, Pollen Cluster, Purple Dye, Redstone
-         onlyIf: mod Forestry
-         pattern: 012 3.3 230
-         quantity: 1
-         tools: Carpenter
-		 
-  item: Electric Buffer module
-     recipe:
-         input: Advanced Circuit, Gold Gear, Redstone, Blank Module
-         pattern: 010 232 020
-         quantity: 1
-         tools: Crafting Table	 
-     recipe:
-         input: Advanced Circuit, Golden Chipset, Redstone, Blank Module
-         pattern: .1. 232 020
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Electric Manager module
-     recipe:
-         input: Electronic Circuit, Gold Gear, RE-Battery, Redstone, Blank Module
-         pattern: 012 343 230
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Electronic Circuit, Golden Chipset, RE-Battery, Redstone, Blank Module
-         pattern: .1. 343 230
-         quantity: 1
-         tools: Crafting Table
-
-  item: Extractor module
-     recipe:
-         input: Lapis Lazuli, Iron Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Lapis Lazuli, Iron Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Extractor MK2 module
-     recipe:
-         input: Gold Gear, Extractor module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Extractor module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Extractor MK3 module
-     recipe:
-         input: Diamond Gear, Extractor MK2 module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Diamond Chipset, Extractor MK2 module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Advanced Extractor module
-     recipe:
-         input: Redstone, Extractor module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Advanced Extractor MK2
-     recipe:
-         input: Redstone, Extractor MK2 module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Gold Gear, Advanced Extractor module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Advanced Extractor module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Advanced Extractor MK3
-     recipe:
-         input: Redstone, Extractor MK3 module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Diamond Gear, Advanced Extractor MK2
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Diamond Chipset, Advanced Extractor MK3
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Mod Based ItemSink module
-     recipe:
-         input: Gold Gear, ItemSink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, ItemSink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Passive Supplier module
-     recipe:
-         input: Rose Red, Iron Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Rose Red, Iron Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Polymorphic ItemSink module
-     recipe:
-         input: Orange Dye, Iron Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Orange Dye, Iron Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Provider module
-     recipe:
-         input: Lapis Lazuli, Gold Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Lapis Lazuli, Golden Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Provider module MK2
-     recipe:
-         input: Diamond Gear, Provider module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Diamond Chipset, Provider module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: QuickSort module
-     recipe:
-         input: Lapis Lazuli, Diamond Gear, Redstone, Blank Module
-         pattern: 010 232 ...
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Lapis Lazuli, Diamond Chipset, Blank Module
-         pattern: 010 .2. ...
-         quantity: 1
-         tools: Crafting Table
-
-  item: Thaumic AspectSink module
-     recipe:
-         input: Air Shard, Iron Chipset, Redstone, Blank Module
-         pattern: 010 232 020
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Terminus module
-     recipe:
-         input: Ink Sac, Iron Gear, Purple Dye, Redstone, Blank Module
-         pattern: 012 343 ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Ink Sac, Iron Chipset, Purple Dye, Blank Module
-         pattern: 012 .3. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: OreDict ItemSink module
-     recipe:
-         input: Book, Mod Based ItemSink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Enchantment Sink module
-     recipe:
-         input: Enchanted Book, ItemSink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-		 
-  item: Enchantment Sink module MK2
-     recipe:
-         input: Gold Gear, Enchantment Sink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-	 recipe:
-         input: Golden Chipset, Enchantment Sink module
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-         
-group: Upgrades
-
-  item: Advanced Satellite Upgrade
-     recipe:
-         input: Paper, Iron Ingot, Golden Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Crafting Byproduct Extraction Upgrade
-     recipe:
-         input: Redstone, Wood Gear, Iron Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Disconnection Upgrade (DOWN)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 010 121 313
-         quantity: 1
-         tools: Crafting Table
-
-  item: Disconnection Upgrade (EAST)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 010 123 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Disconnection Upgrade (NORTH)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 030 121 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Disconnection Upgrade (SOUTH)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 010 121 030
-         quantity: 1
-         tools: Crafting Table
-
-  item: Disconnection Upgrade (UP)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 313 121 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Disconnection Upgrade (WEST)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Iron Ingot
-         pattern: 010 321 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Fluid Crafting Upgrade
-     recipe:
-         input: Redstone, Glass Bottle, Golden Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Sneaky Upgrade (DOWN)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 010 121 313
-         quantity: 1
-         tools: Crafting Table
-
-  item: Sneaky Upgrade (EAST)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 010 123 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Sneaky Upgrade (NORTH)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 030 121 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Sneaky Upgrade (SOUTH)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 010 121 030
-         quantity: 1
-         tools: Crafting Table
-
-  item: Sneaky Upgrade (UP)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 313 121 010
-         quantity: 1
-         tools: Crafting Table
-
-  item: Sneaky Upgrade (WEST)
-     recipe:
-         input: Paper, Redstone, Iron Chipset, Slimeball
-         pattern: 010 321 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Sneaky Combination Upgrade
-     recipe:
-         input: Paper, Redstone, Iron Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Item Speed Upgrade
-     recipe:
-         input: Paper, Gold Ingot, Iron Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Placement Rules Upgrade
-     recipe:
-         input: Redstone, Hopper, Dandelion Yellow, Rose Red, Iron Ingot, Iron Chipset
-         pattern: 012 454 340
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Fuzzy Upgrade
-     recipe:
-         input: Paper, Nether Quartz, Golden Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Power Transportation Upgrade
-     recipe:
-         input: Paper, Block of Redstone, Iron Chipset, Glowstone, Lapis Lazuli Block
-         pattern: 010 232 040
-         quantity: 4
-         tools: Crafting Table
-
-  item: IC2 LV Power Supplier Upgrade
-     recipe:
-         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, Power Transportation Upgrade, Transformer Upgrade
-         onlyIf: mod IC2
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-
-  item: IC2 MV Power Supplier Upgrade
-     recipe:
-         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 LV Power Supplier Upgrade, Transformer Upgrade
-         onlyIf: mod IC2
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-         
-  item: IC2 HV Power Supplier Upgrade
-     recipe:
-         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 MV Power Supplier Upgrade, Transformer Upgrade
-         onlyIf: mod IC2
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-         
-  item: IC2 EV Power Supplier Upgrade
-     recipe:
-         input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 HV Power Supplier Upgrade, Transformer Upgrade
-         onlyIf: mod IC2
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-         
-  item: TE Power Supplier Upgrade
-     recipe:
-         input: Paper, Combustion Engine, Golden Chipset, Power Transportation Upgrade, Iron Chipset
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Paper, Steam Dynamo, Redstone Reception Coil, Power Transportation Upgrade, Redstone Transmission Coil
-         onlyIf: mod Thermal Expansion
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Crafting Monitoring Upgrade
-     recipe:
-         input: Redstone, Lapis Lazuli, Cactus Green, Dandelion Yellow, Diamond Chipset, Crafting Logistics Pipe Mk2
-         pattern: 010 243 050
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Opaque Upgrade
-     recipe:
-         input: Redstone, Bone Meal, Iron Chipset
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
-		 
 group: Blocks
 
-  item: Soldering Station
-     recipe:
-         input: Iron Ingot, Crafting Table, Redstone
-         pattern: 010 0.0 020
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics Request Table
-     recipe:
-         input: Stone Bricks, Crafting Table, Crafting Logistics Pipe Mk2, Hopper, Request Logistics Pipe Mk2, Diamond Chipset, Chest
-         pattern: 010 234 565
-         quantity: 1
-         tools: Soldering Station
-         
-  item: Logistics Crafting Table
-     recipe:
-         input: Oak Wood Planks, Crafting Table, Stone Gear, Chest
-         pattern: 010 .2. 030
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics Power Junction
-     recipe:
-         input: Iron Ingot, Redstone, Block of Redstone
-         pattern: 000 121 000
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics Security Station
-     recipe:
-         input: Iron Ingot, Diamond Gear, Redstone, Basic Logistics Pipe
-         pattern: 010 232 000
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Iron Ingot, Diamond Chipset, Redstone, Basic Logistics Pipe
-         pattern: 010 232 000
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics RF Power Provider
-     recipe:
-         input: Paper, Combustion Engine, Golden Chipset, Block of Redstone, Iron Chipset
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Paper, Steam Dynamo, Redstone Reception Coil, Block of Redstone, Redstone Transmission Coil
-         onlyIf: mod Thermal Expansion
-         pattern: 010 232 040
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics Fuzzy Crafting Table
-     recipe:
-         input: Nether Quartz, Logistics Crafting Table
-         pattern: 0.. 1.. ...
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics Statistics Table
-     recipe:
-         input: Iron Ingot, Gold Gear, Redstone, Basic Logistics Pipe
-         pattern: 010 232 000
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Iron Ingot, Golden Chipset, Redstone, Basic Logistics Pipe
-         pattern: 010 232 000
-         quantity: 1
-         tools: Crafting Table
+    item: Logistics Crafting Table
+        recipe:
+            input: Chest, Crafting Table, Oak Wood Planks, Stone Gear
+            pattern: 212 .3. 202
+            tools: Crafting Table
+
+    item: Logistics Fuzzy Crafting Table
+        recipe:
+            input: Logistics Crafting Table, Nether Quartz
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Logistics Power Junction
+        recipe:
+            input: Block of Redstone, Iron Ingot, Redstone
+            pattern: 111 202 111
+            tools: Crafting Table
+
+    item: Logistics Request Table
+        recipe:
+            input: Chest, Crafting Logistics Pipe Mk2, Crafting Table, Diamond Chipset, Hopper, Request Logistics Pipe Mk2, Stone Bricks
+            pattern: 626 145 303
+            tools: Soldering Station
+
+    item: Logistics RF Power Provider
+        recipe:
+            input: Block of Redstone, Combustion Engine, Golden Chipset, Iron Chipset, Paper
+            pattern: 414 202 434
+            tools: Crafting Table
+        recipe:
+            onlyIf: mod Thermal Expansion
+            input: Block of Redstone, Paper, Redstone Reception Coil, Redstone Transmission Coil, Steam Dynamo
+            pattern: 141 202 131
+            tools: Crafting Table
+
+    item: Logistics Security Station
+        recipe:
+            input: Basic Logistics Pipe, Diamond Gear, Iron Ingot, Redstone
+            pattern: 212 303 222
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Diamond Chipset, Iron Ingot, Redstone
+            pattern: 212 303 222
+            tools: Crafting Table
+
+    item: Logistics Statistics Table
+        recipe:
+            input: Basic Logistics Pipe, Gold Gear, Iron Ingot, Redstone
+            pattern: 212 303 222
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Golden Chipset, Iron Ingot, Redstone
+            pattern: 212 303 222
+            tools: Crafting Table
+
+    item: Soldering Station
+        recipe:
+            input: Crafting Table, Iron Ingot, Redstone
+            pattern: 101 1.1 121
+            tools: Crafting Table
+
+group: Fluid Pipes
+
+    item: Logistics Fluid Basic Pipe
+        recipe:
+            input: Basic Logistics Pipe, Bucket, Pipe Sealant
+            pattern: 2.. 0.. 1..
+            tools: Crafting Table
+
+    item: Logistics Fluid Extractor Pipe
+        recipe:
+            input: Logistics Fluid Insertion Pipe, Wooden Fluid Pipe
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Logistics Fluid Insertion Pipe
+        recipe:
+            input: Glass Bottle, Logistics Fluid Basic Pipe
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Logistics Fluid Provider Pipe
+        recipe:
+            input: Glass Bottle, Logistics Fluid Basic Pipe
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Logistics Fluid Request Pipe
+        recipe:
+            input: Glass Bottle, Logistics Fluid Basic Pipe
+            pattern: 010 ... ...
+            tools: Crafting Table
+
+    item: Logistics Fluid Satellite Pipe
+        recipe:
+            input: Logistics Fluid Basic Pipe, Redstone
+            pattern: 101 ... ...
+            tools: Crafting Table
+
+    item: Logistics Fluid Supplier
+        recipe:
+            input: Gold Ingot, Lapis Lazuli, Logistics Fluid Basic Pipe
+            pattern: .0. 121 .0.
+            tools: Crafting Table
+
+group: Item Pipes
+
+    item: Basic Logistics Pipe
+        recipe:
+            input: Cobblestone Transport Pipe, Diamond Transport Pipe, Glass, Gold Gear, Redstone Torch
+            pattern: 242 010 .3.
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone Transport Pipe, Diamond Transport Pipe, Glass, Golden Chipset, Redstone Torch
+            pattern: 242 010 .3.
+            quantity: 8
+            tools: Crafting Table
+
+    item: Bee Analyzer Logistics Pipe
+        recipe:
+            onlyIf: mod Forestry
+            input: Iron Gear, Propolis, Redstone
+            pattern: 101 2.2 121
+            tools: Carpenter
+        recipe:
+            onlyIf: mod Forestry
+            input: Iron Chipset, Propolis, Redstone
+            pattern: 101 2.2 121
+            tools: Carpenter
+
+    item: BeeSink Logistics Pipe
+        recipe:
+            onlyIf: mod Forestry
+            input: Propolis, Redstone
+            pattern: 010 1.1 010
+            tools: Carpenter
+
+    item: Crafting Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Redstone, Stone Gear
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+
+    item: Crafting Logistics Pipe Mk2
+        recipe:
+            input: Crafting Logistics Pipe, Gold Gear, Redstone
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+        recipe:
+            input: Crafting Logistics Pipe, Golden Chipset
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Crafting Logistics Pipe Mk3
+        recipe:
+            input: Crafting Logistics Pipe Mk2, Diamond Chipset, Nano Hopper
+            pattern: .2. .1. .0.
+            tools: Soldering Station
+
+    item: Logistics Chassis Mk1
+        recipe:
+            input: Basic Logistics Pipe, Iron Ingot, Redstone
+            pattern: 222 101 ...
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Iron Ingot, Redstone Chipset
+            pattern: .2. 101 ...
+            tools: Crafting Table
+
+    item: Logistics Chassis Mk2
+        recipe:
+            input: Basic Logistics Pipe, Iron Ingot
+            pattern: 111 101 ...
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Iron Chipset, Iron Ingot
+            pattern: .1. 202 ...
+            tools: Crafting Table
+
+    item: Logistics Chassis Mk3
+        recipe:
+            input: Basic Logistics Pipe, Iron Ingot
+            pattern: 111 101 111
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Iron Chipset, Iron Ingot
+            pattern: .1. 202 .1.
+            tools: Crafting Table
+
+    item: Logistics Chassis Mk4
+        recipe:
+            input: Basic Logistics Pipe, Gold Ingot, Iron Ingot
+            pattern: 222 202 111
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Golden Chipset, Iron Chipset, Iron Ingot
+            pattern: .2. 303 .1.
+            tools: Crafting Table
+
+    item: Logistics Chassis Mk5
+        recipe:
+            input: Diamond Chipset, Logistics Chassis Mk4
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Logistics Firewall Pipe
+        recipe:
+            input: Basic Logistics Pipe, Diamond Chipset, Nether Brick Block
+            pattern: 212 .0. 2.2
+            tools: Soldering Station
+
+    item: Logistics Fluid Container Supplier
+        recipe:
+            input: Basic Logistics Pipe, Bucket, Lapis Lazuli
+            pattern: 202 .1. ...
+            tools: Crafting Table
+
+    item: Logistics Inventory System Connector
+        recipe:
+            input: Basic Logistics Pipe, Ender Pearl, Redstone
+            pattern: .1. 202 ...
+            tools: Crafting Table
+
+    item: Logistics System Destination Pipe
+        recipe:
+            input: Provider Logistics Pipe, Rose Red
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Logistics System Entrance Pipe
+        recipe:
+            input: Cactus Green, Provider Logistics Pipe
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Provider Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Gold Gear, Redstone
+            pattern: .1. 202 ...
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Golden Chipset, Redstone Torch
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+
+    item: Provider Logistics Pipe Mk2
+        recipe:
+            input: Diamond Gear, Provider Logistics Pipe
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Provider Logistics Pipe
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Remote Orderer Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Ender Pearl, Redstone
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+
+    item: Request Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Gold Gear, Iron Gear
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+        recipe:
+            input: Basic Logistics Pipe, Golden Chipset, Iron Gear
+            pattern: 1.. 0.. 2..
+            tools: Crafting Table
+
+    item: Request Logistics Pipe Mk2
+        recipe:
+            input: Diamond Gear, Redstone, Request Logistics Pipe
+            pattern: 0.. 2.. 1..
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Request Logistics Pipe
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Satellite Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Redstone
+            pattern: 101 ... ...
+            tools: Crafting Table
+
+    item: Supplier Logistics Pipe
+        recipe:
+            input: Basic Logistics Pipe, Lapis Lazuli
+            pattern: 101 ... ...
+            tools: Crafting Table
+
+    item: Unrouted Transport Pipe
+        recipe:
+            input: Glass Pane, Iron Ingot, Redstone
+            pattern: 101 .2. ...
+            tools: Crafting Table
 
 group: Items
 
-  item: Nano Hopper
-     recipe:
-         input: Hopper
-         pattern: 000 000 000
-         quantity: 1
-         tools: Soldering Station
+    item: Crafting Sign Creator
+        recipe:
+            input: Diamond Gear, Gold Gear, Sign
+            pattern: 1.1 .2. .0.
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Golden Chipset, Sign
+            pattern: 1.1 .2. .0.
+            tools: Crafting Table
 
-  item: Crafting Sign Creator
-     recipe:
-         input: Gold Gear, Sign, Diamond Gear
-         pattern: 0.0 .1. .2.
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Golden Chipset, Sign, Diamond Chipset
-         pattern: 0.0 .1. .2.
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Remote Orderer
-     recipe:
-         input: Glass, Diamond Gear
-         pattern: 00. 00. 11.
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Glass, Diamond Chipset
-         pattern: 00. 00. 11.
-         quantity: 1
-         tools: Crafting Table
-         
-  item: Logistics HUD Glasses
-     recipe:
-         input: Logistics HUD Bow, Logistics HUD Glass, Logistics HUD Nose Bridge
-         pattern: 0.0 121 ...
-         quantity: 1
-         tools: Soldering Station
-         
-  item: Logistics HUD Bow
-     recipe:
-         input: Diamond, Diamond Chipset
-         pattern: ... 000 ..1
-         quantity: 1
-         tools: Soldering Station
+    item: Logistics Disk
+        recipe:
+            input: Gold Nugget, Ink Sac, Redstone
+            pattern: 101 020 101
+            tools: Crafting Table
 
-  item: Logistics HUD Glass
-     recipe:
-         input: Redstone, Diamond Chipset, Glass
-         pattern: 010 020 000
-         quantity: 1
-         tools: Soldering Station
+    item: Logistics HUD Bow
+        recipe:
+            input: Diamond, Diamond Chipset
+            pattern: ... 000 ..1
+            tools: Soldering Station
 
-  item: Logistics HUD Nose Bridge
-     recipe:
-         input: Diamond Chipset, Diamond
-         pattern: .0. 1.1 ...
-         quantity: 1
-         tools: Soldering Station
+    item: Logistics HUD Glass
+        recipe:
+            input: Diamond Chipset, Glass, Redstone
+            pattern: 202 212 222
+            tools: Soldering Station
 
-  item: Logistics Disk
-     recipe:
-         input: Ink Sac, Gold Nugget, Redstone
-         pattern: 010 121 010
-         quantity: 1
-         tools: Crafting Table
+    item: Logistics HUD Glasses
+        recipe:
+            input: Logistics HUD Bow, Logistics HUD Glass, Logistics HUD Nose Bridge
+            pattern: 0.0 121 ...
+            tools: Soldering Station
 
-  item: Logistics Item Card
-     recipe:
-         input: Iron Chipset, Blank Module, Ender Pearl
-         pattern: 0.0 121 ...
-         quantity: 1
-         tools: Soldering Station
+    item: Logistics HUD Nose Bridge
+        recipe:
+            input: Diamond, Diamond Chipset
+            pattern: .1. 0.0 ...
+            tools: Soldering Station
 
-  item: Logistics Pipe Controller
-     recipe:
-         input: Gold Ingot, Gold Gear
-         pattern: 0.0 .1. .0.
-         quantity: 1
-         tools: Crafting Table
-     recipe:
-         input: Gold Ingot, Golden Chipset
-         pattern: 0.0 .1. .0.
-         quantity: 1
-         tools: Crafting Table
+    item: Logistics Item Card
+        recipe:
+            input: Blank Module, Ender Pearl, Iron Chipset
+            pattern: 2.2 010 ...
+            tools: Soldering Station
+
+    item: Logistics Pipe Controller
+        recipe:
+            input: Gold Gear, Gold Ingot
+            pattern: 1.1 .0. .1.
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Golden Chipset
+            pattern: 0.0 .1. .0.
+            tools: Crafting Table
+
+    item: Nano Hopper
+        recipe:
+            input: Hopper
+            pattern: 000 000 000
+            tools: Soldering Station
+
+    item: Remote Orderer
+        recipe:
+            input: Diamond Gear, Glass
+            pattern: 11. 11. 00.
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Glass
+            pattern: 11. 11. 00.
+            tools: Crafting Table
+
+group: Modules
+
+    item: Active Supplier Module
+        recipe:
+            input: Gold Gear, Passive Supplier Module, Redstone
+            pattern: .0. 212 ...
+            tools: Crafting Table
+        recipe:
+            input: Golden Chipset, Passive Supplier Module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Advanced Extractor MK2
+        recipe:
+            input: Extractor MK2 module, Redstone
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Advanced Extractor module, Gold Gear
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Advanced Extractor module, Golden Chipset
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Advanced Extractor MK3
+        recipe:
+            input: Extractor MK3 module, Redstone
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Advanced Extractor MK2, Diamond Gear
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Advanced Extractor MK3, Diamond Chipset
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Advanced Extractor module
+        recipe:
+            input: Extractor module, Redstone
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Apiary Refiller module
+        recipe:
+            onlyIf: mod Forestry
+            input: Pollen Cluster, Propolis, Redstone, Wooden Transport Pipe
+            pattern: .0. 2.2 131
+            tools: Carpenter
+
+    item: Bee Analyzer module
+        recipe:
+            onlyIf: mod Forestry
+            input: Iron Gear, Propolis, Redstone
+            pattern: 101 2.2 121
+            tools: Carpenter
+        recipe:
+            onlyIf: mod Forestry
+            input: Iron Chipset, Propolis, Redstone
+            pattern: 101 2.2 121
+            tools: Carpenter
+
+    item: BeeSink module
+        recipe:
+            onlyIf: mod Forestry
+            input: Propolis, Redstone
+            pattern: 010 1.1 010
+            tools: Carpenter
+
+    item: Blank Module
+        recipe:
+            input: Gold Nugget, Paper, Redstone
+            pattern: .1. 212 .0.
+            tools: Crafting Table
+
+    item: Crafting module
+        recipe:
+            input: Blank Module, Iron Gear, Lapis Lazuli, Redstone, Rose Red
+            pattern: 314 .0. 2.3
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Iron Chipset, Lapis Lazuli, Rose Red
+            pattern: .13 .0. 2..
+            tools: Crafting Table
+
+    item: Crafting module MK2
+        recipe:
+            input: Crafting module, Gold Gear
+            pattern: 10. ... ...
+            tools: Crafting Table
+        recipe:
+            input: Crafting module, Golden Chipset
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: Crafting module MK3
+        recipe:
+            input: Crafting module MK2, Nano Hopper
+            pattern: 01. ... ...
+            tools: Crafting Table
+
+    item: Creative Tab Based ItemSink module
+        recipe:
+            input: Gold Gear, OreDict ItemSink Module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+        recipe:
+            input: Golden Chipset, OreDict ItemSink Module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Drone Terminus module
+        recipe:
+            onlyIf: mod Forestry
+            input: Ink Sac, Pollen Cluster, Purple Dye, Redstone
+            pattern: 012 3.3 230
+            tools: Carpenter
+
+    item: Electric Buffer module
+        recipe:
+            input: Advanced Circuit, Blank Module, Gold Gear, Redstone
+            pattern: 020 313 030
+            tools: Crafting Table
+        recipe:
+            input: Advanced Circuit, Blank Module, Golden Chipset, Redstone
+            pattern: .2. 313 030
+            tools: Crafting Table
+
+    item: Electric Manager module
+        recipe:
+            input: Blank Module, Electronic Circuit, Gold Gear, RE-Battery, Redstone
+            pattern: 123 404 341
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Electronic Circuit, Golden Chipset, RE-Battery, Redstone
+            pattern: .2. 404 341
+            tools: Crafting Table
+
+    item: Enchantment Sink module
+        recipe:
+            input: Enchanted Book, ItemSink module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Enchantment Sink module MK2
+        recipe:
+            input: Enchantment Sink module, Gold Gear
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Enchantment Sink module, Golden Chipset
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Extractor MK2 module
+        recipe:
+            input: Extractor module, Gold Gear
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+        recipe:
+            input: Extractor module, Golden Chipset
+            pattern: 1.. 0.. ...
+            tools: Crafting Table
+
+    item: Extractor MK3 module
+        recipe:
+            input: Diamond Gear, Extractor MK2 module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Extractor MK2 module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Extractor module
+        recipe:
+            input: Blank Module, Iron Gear, Lapis Lazuli, Redstone
+            pattern: 212 303 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Iron Chipset, Lapis Lazuli
+            pattern: 212 .0. ...
+            tools: Crafting Table
+
+    item: ItemSink module
+        recipe:
+            input: Blank Module, Cactus Green, Iron Gear, Redstone
+            pattern: 121 303 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Cactus Green, Iron Chipset
+            pattern: 121 .0. ...
+            tools: Crafting Table
+
+    item: Mod Based ItemSink module
+        recipe:
+            input: Gold Gear, ItemSink module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+        recipe:
+            input: Golden Chipset, ItemSink module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: OreDict ItemSink module
+        recipe:
+            input: Book, Mod Based ItemSink module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: Passive Supplier module
+        recipe:
+            input: Blank Module, Iron Gear, Redstone, Rose Red
+            pattern: 313 202 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Iron Chipset, Rose Red
+            pattern: 212 .0. ...
+            tools: Crafting Table
+
+    item: Polymorphic ItemSink module
+        recipe:
+            input: Blank Module, Iron Gear, Orange Dye, Redstone
+            pattern: 212 303 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Iron Chipset, Orange Dye
+            pattern: 212 .0. ...
+            tools: Crafting Table
+
+    item: Provider module
+        recipe:
+            input: Blank Module, Gold Gear, Lapis Lazuli, Redstone
+            pattern: 212 303 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Golden Chipset, Lapis Lazuli
+            pattern: 212 .0. ...
+            tools: Crafting Table
+
+    item: Provider module MK2
+        recipe:
+            input: Diamond Gear, Provider module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+        recipe:
+            input: Diamond Chipset, Provider module
+            pattern: 0.. 1.. ...
+            tools: Crafting Table
+
+    item: QuickSort module
+        recipe:
+            input: Blank Module, Diamond Gear, Lapis Lazuli, Redstone
+            pattern: 212 303 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Diamond Chipset, Lapis Lazuli
+            pattern: 212 .0. ...
+            tools: Crafting Table
+
+    item: Terminus module
+        recipe:
+            input: Blank Module, Ink Sac, Iron Gear, Purple Dye, Redstone
+            pattern: 123 404 ...
+            tools: Crafting Table
+        recipe:
+            input: Blank Module, Ink Sac, Iron Chipset, Purple Dye
+            pattern: 123 .0. ...
+            tools: Crafting Table
+
+    item: Thaumic AspectSink module
+        recipe:
+            input: Air Shard, Blank Module, Iron Chipset, Redstone
+            pattern: 020 313 030
+            tools: Crafting Table
+
+group: Upgrades
+
+    item: Advanced Satellite Upgrade
+        recipe:
+            input: Golden Chipset, Iron Ingot, Paper
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Crafting Byproduct Extraction Upgrade
+        recipe:
+            input: Iron Chipset, Redstone, Wood Gear
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Crafting Monitoring Upgrade
+        recipe:
+            input: Cactus Green, Crafting Logistics Pipe Mk2, Dandelion Yellow, Diamond Chipset, Lapis Lazuli, Redstone
+            pattern: 545 032 515
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (DOWN)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 232 303 131
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (EAST)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 232 301 232
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (NORTH)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 212 303 232
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (SOUTH)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 232 303 212
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (UP)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 131 303 232
+            tools: Crafting Table
+
+    item: Disconnection Upgrade (WEST)
+        recipe:
+            input: Iron Chipset, Iron Ingot, Paper, Redstone
+            pattern: 232 103 232
+            tools: Crafting Table
+
+    item: Fluid Crafting Upgrade
+        recipe:
+            input: Glass Bottle, Golden Chipset, Redstone
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: Fuzzy Upgrade
+        recipe:
+            input: Golden Chipset, Nether Quartz, Paper
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: IC2 EV Power Supplier Upgrade
+        recipe:
+            onlyIf: mod IC2
+            input: Energy Storage Upgrade, IC2 HV Power Supplier Upgrade, Overclocker Upgrade, Paper, Transformer Upgrade
+            pattern: 303 212 343
+            tools: Crafting Table
+
+    item: IC2 HV Power Supplier Upgrade
+        recipe:
+            onlyIf: mod IC2
+            input: Energy Storage Upgrade, IC2 MV Power Supplier Upgrade, Overclocker Upgrade, Paper, Transformer Upgrade
+            pattern: 303 212 343
+            tools: Crafting Table
+
+    item: IC2 LV Power Supplier Upgrade
+        recipe:
+            onlyIf: mod IC2
+            input: Energy Storage Upgrade, Overclocker Upgrade, Paper, Power Transportation Upgrade, Transformer Upgrade
+            pattern: 202 131 242
+            tools: Crafting Table
+
+    item: IC2 MV Power Supplier Upgrade
+        recipe:
+            onlyIf: mod IC2
+            input: Energy Storage Upgrade, IC2 LV Power Supplier Upgrade, Overclocker Upgrade, Paper, Transformer Upgrade
+            pattern: 303 212 343
+            tools: Crafting Table
+
+    item: Item Speed Upgrade
+        recipe:
+            input: Gold Ingot, Iron Chipset, Paper
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: Opaque Upgrade
+        recipe:
+            input: Bone Meal, Iron Chipset, Redstone
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: Placement Rules Upgrade
+        recipe:
+            input: Dandelion Yellow, Hopper, Iron Chipset, Iron Ingot, Redstone, Rose Red
+            pattern: 410 323 534
+            tools: Crafting Table
+
+    item: Power Transportation Upgrade
+        recipe:
+            input: Block of Redstone, Glowstone, Iron Chipset, Lapis Lazuli Block, Paper
+            pattern: 404 212 434
+            quantity: 4
+            tools: Crafting Table
+
+    item: Sneaky Combination Upgrade
+        recipe:
+            input: Iron Chipset, Paper, Redstone
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (DOWN)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 121 202 323
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (EAST)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 121 203 121
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (NORTH)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 131 202 121
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (SOUTH)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 121 202 131
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (UP)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 323 202 121
+            tools: Crafting Table
+
+    item: Sneaky Upgrade (WEST)
+        recipe:
+            input: Iron Chipset, Paper, Redstone, Slimeball
+            pattern: 121 302 121
+            tools: Crafting Table
+
+    item: TE Power Supplier Upgrade
+        recipe:
+            input: Combustion Engine, Golden Chipset, Iron Chipset, Paper, Power Transportation Upgrade
+            pattern: 303 141 323
+            tools: Crafting Table
+        recipe:
+            onlyIf: mod Thermal Expansion
+            input: Paper, Power Transportation Upgrade, Redstone Reception Coil, Redstone Transmission Coil, Steam Dynamo
+            pattern: 040 212 030
+            tools: Crafting Table
