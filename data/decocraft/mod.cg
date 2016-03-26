@@ -1,0 +1,9 @@
+schema: 1
+
+name:             Decocraft
+author:           RazzleberryFox
+description:      A mod which uses clay to create decorational items
+homePageUrl:      http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292016-decocraft-2-2-decorations-for-minecraft-halloween
+downloadUrl:      http://mods.curse.com/mc-mods/minecraft/decocraft2
+
+version: 2.2.1
