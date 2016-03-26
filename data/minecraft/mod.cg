@@ -2,7 +2,7 @@ schema: 1
 
 name:             Minecraft
 author:           Mojang
-description:      The basic game by itself
+description:      All the items and recipes from vanilla Minecraft without any mods.
 homePageUrl:      http://www.minecraft.net
 documentationUrl: http://minecraft.gamepedia.com/Minecraft_Wiki
 downloadUrl:      https://minecraft.net/store/minecraft
