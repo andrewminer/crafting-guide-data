@@ -202,7 +202,7 @@ group: Item Pipes
   item: BeeSink Logistics Pipe
      recipe:
          input: Propolis, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 1.1 010
          quantity: 1
          tools: Carpenter
@@ -210,13 +210,13 @@ group: Item Pipes
   item: Bee Analyzer Logistics Pipe
      recipe:
          input: Propolis, Iron Gear, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 2.2 020
          quantity: 1
          tools: Carpenter
 	 recipe:
          input: Propolis, Iron Chipset, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 2.2 020
          quantity: 1
          tools: Carpenter
@@ -315,7 +315,7 @@ group: Modules
   item: Apiary Refiller module
      recipe:
          input: Pollen Cluster, Redstone, Propolis, Wooden Transport Pipe
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: .0. 1.1 232
          quantity: 1
          tools: Carpenter
@@ -323,13 +323,13 @@ group: Modules
   item: Bee Analyzer module
      recipe:
          input: Propolis, Iron Gear, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 2.2 020
          quantity: 1
          tools: Carpenter
 	 recipe:
          input: Propolis, Iron Chipset, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 2.2 020
          quantity: 1
          tools: Carpenter
@@ -337,7 +337,7 @@ group: Modules
   item: BeeSink module
      recipe:
          input: Propolis, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 010 1.1 010
          quantity: 1
          tools: Carpenter
@@ -388,7 +388,7 @@ group: Modules
   item: Drone Terminus module
      recipe:
          input: Ink Sac, Pollen Cluster, Purple Dye, Redstone
-         onlyif: mod Forestry
+         onlyIf: mod Forestry
          pattern: 012 3.3 230
          quantity: 1
          tools: Carpenter
@@ -756,7 +756,7 @@ group: Upgrades
   item: IC2 LV Power Supplier Upgrade
      recipe:
          input: Paper, Energy Storage Upgrade, Overclocker Upgrade, Power Transportation Upgrade, Transformer Upgrade
-         onlyif: mod IC2
+         onlyIf: mod IC2
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
@@ -764,7 +764,7 @@ group: Upgrades
   item: IC2 MV Power Supplier Upgrade
      recipe:
          input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 LV Power Supplier Upgrade, Transformer Upgrade
-         onlyif: mod IC2
+         onlyIf: mod IC2
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
@@ -772,7 +772,7 @@ group: Upgrades
   item: IC2 HV Power Supplier Upgrade
      recipe:
          input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 MV Power Supplier Upgrade, Transformer Upgrade
-         onlyif: mod IC2
+         onlyIf: mod IC2
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
@@ -780,7 +780,7 @@ group: Upgrades
   item: IC2 EV Power Supplier Upgrade
      recipe:
          input: Paper, Energy Storage Upgrade, Overclocker Upgrade, IC2 HV Power Supplier Upgrade, Transformer Upgrade
-         onlyif: mod IC2
+         onlyIf: mod IC2
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
@@ -793,7 +793,7 @@ group: Upgrades
          tools: Crafting Table
      recipe:
          input: Paper, Steam Dynamo, Redstone Reception Coil, Power Transportation Upgrade, Redstone Transmission Coil
-         onlyif: mod Thermal Expansion
+         onlyIf: mod Thermal Expansion
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
@@ -862,7 +862,7 @@ group: Blocks
          tools: Crafting Table
      recipe:
          input: Paper, Steam Dynamo, Redstone Reception Coil, Block of Redstone, Redstone Transmission Coil
-         onlyif: mod Thermal Expansion
+         onlyIf: mod Thermal Expansion
          pattern: 010 232 040
          quantity: 1
          tools: Crafting Table
