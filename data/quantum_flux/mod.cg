@@ -1,0 +1,9 @@
+schema: 1
+
+name:             Quantum Flux
+author:           jotato
+description:      QuantumFlux is a Forge mod for Minecraft that focuses on adding ways to generate, store, and transport RF power wirelessly.  There are a couple of ways to generate and store RF, but the core of the mod is wireless transmission of power...oh, and an awesome looking set of armor
+homePageUrl:      http://minecraft.curseforge.com/projects/quantumflux
+documentationUrl: https://github.com/joekaiser/QuantumFlux/wiki
+downloadUrl:      http://minecraft.curseforge.com/projects/quantumflux/files
+version: 1.3.4
