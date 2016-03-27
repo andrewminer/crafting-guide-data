@@ -13,7 +13,7 @@ Next, place your Quarry down just in front of the middle landmark.  This will ca
 
 At this point, you just need to provide power for digging to commence.  While even a single [[Stirling Engine]] is enough to get it moving, it will operate more quickly the more power you can provide (up to a limit which varies depending up on your mod pack).
 
-You are also well advised to hook up some kind of transport pipes (e.g., [[Cobblestone Transport Pipe]]s) to funnel away all the material the Quarry will dig up. While it is possible to simply place a chest next to the Quarry, this will quickly fill up and overflow. If the Quarry is unable to place its items into an inventory, they will simply be flung into the air (where they will eventually disappear like any item left in the world).  The Quarry automatically ejects items, so no [[Wooden Transport Pipe]] is necessary.
+You should also provide a place for the quarried blocks to go (e.g., [[Cobblestone Transport Pipe]]s) to funnel away all the material the Quarry will dig up. While it is possible to simply place a chest next to the Quarry, this will quickly fill up and overflow. If the Quarry is unable to place its items into an inventory, they will simply be flung into the air (where they will eventually disappear like any item left in the world).  The Quarry automatically ejects items, so no [[Wooden Transport Pipe]] is necessary.
 END
 
 
