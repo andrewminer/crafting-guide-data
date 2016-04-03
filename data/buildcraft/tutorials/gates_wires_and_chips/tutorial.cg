@@ -20,10 +20,12 @@ section:
         Here are the important pieces of the build:
 
         1. The on/off switch for the entire operation.  Flipping the switch creates a redstone signal.
-        2. A [Basic Gate](/browse/buildcraft/basic_gate/) attached to a [Structure Pipe]
-            (/browse/buildcraft/structure_pipe) reads the redstone signal and generates a red pipe wire signal.
-        3. [Red Pipe Wire](/browse/buildcraft/red_pipe_wire) follows the [Cobblestone Kinesis Pipe]
-            (/browse/buildcraft/cobblestone_kinesis_pipe), transmitting the signal throughout the rest of the build.
+        2. A [Basic Gate](/browse/buildcraft/basic_gate/) attached to a
+            [Structure Pipe](/browse/buildcraft/structure_pipe) reads the redstone signal and generates a red pipe wire
+            signal.
+        3. [Red Pipe Wire](/browse/buildcraft/red_pipe_wire) follows the
+            [Cobblestone Kinesis Pipe](/browse/buildcraft/cobblestone_kinesis_pipe), transmitting the signal throughout
+            the rest of the build.
         4. Another Basic Gate receives the red pipe wire signal and converts it back to a redstone signal, thus turning
             the [Combustion Engine](/browse/buildcraft/combustion_engine)s on.
         5. The red pipe wire signal is also received by Basic Gates next to the [Redstone
@@ -33,3 +35,6 @@ section:
     END
 
 video: J6-VUApZGQs, Buildcraft Gates Tutorial, Part 1
+video: covWMGMy_-A, Buildcraft Gates Tutorial, Part 2
+video: Ta_gcvgqBVM, Buildcraft Gates Tutorial, Part 3
+video: u4_VYq4hMxc, Buildcraft Gates Tutorial, Part 4
