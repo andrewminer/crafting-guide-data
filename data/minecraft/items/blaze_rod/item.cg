@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+Blaze Rods can be obtained by killing Blazes in the Nether. Blazes only spawn within Nether Fortresses, and are most easily found by locating a Blaze spawner.
+
+The primary use of Blaze Rods is to create a [[Brewing Stand]], and then to create [[Blaze Powder]] for using in making potions.
+END
+
+
