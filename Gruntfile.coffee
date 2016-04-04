@@ -18,7 +18,7 @@ module.exports = (grunt)->
                 options:
                     mode: 'gzip'
                 files: [
-                    {expand: true, cwd:'./build/static', src:'**/*.cg', dest:'./dist/'}
+                    {expand: true, cwd:'./data', src:'**/*.cg', dest:'./dist/'}
                 ]
 
         copy:
