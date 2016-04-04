@@ -1,3 +1,5 @@
 .DS_Store
 aws.config
+build
+dist
 node_modules
