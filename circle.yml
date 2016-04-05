@@ -6,5 +6,6 @@ deployment:
     all:
         branch: master
         commands:
+            - grunt dist
             - grunt upload:prod
             - grunt upload:staging

@@ -21,18 +21,7 @@ module.exports = (grunt)->
                     {expand: true, cwd:'./data', src:'**/*.cg', dest:'./dist/data'}
                 ]
 
-        copy:
-            data:
-                files: [
-                    {expand:true, cwd:'./data', src:'**/*', dest:'./build/data'}
-                ]
-            build_to_dist:
-                files: [
-                    {expand:true, cwd:'./build', src:'**/*', dest:'./dist'}
-                ]
-
         clean:
-            build: ['./build']
             dist: ['./dist']
 
         mochaTest:
@@ -47,6 +36,13 @@ module.exports = (grunt)->
                 verbose: true
             src: ['./test/**/*.test.coffee']
 
+        symlink:
+            images:
+                files: [
+                    {expand:true, cwd:'./data', src:'**/*.png', dest:'./dist/data'}
+                ]
+
+
         watch:
             data_files:
                 files: ['./data/**/*.cg']
@@ -54,23 +50,20 @@ module.exports = (grunt)->
 
     # Compound Tasks ###################################################################################################
 
-    grunt.registerTask 'build', 'build the project to be run from a local server',
-        ['copy:data']
-
     grunt.registerTask 'default', 'run tests to verify data files',
         ['test']
 
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
-        ['build', 'copy:build_to_dist', 'compress']
+        ['clean', 'symlink:images', 'compress']
 
     grunt.registerTask 'test', 'run unit tests',
         ['mochaTest']
 
     grunt.registerTask 'upload:prod', 'upload the project to the production Amazon S3 environment',
-        ['dist', 'script:s3_upload:prod']
+        ['script:s3_upload:prod']
 
     grunt.registerTask 'upload:staging', 'upload the project the staging Amazon S3 environment',
-        ['dist', 'script:s3_upload:staging']
+        ['script:s3_upload:staging']
 
     # Code Tasks #######################################################################################################
 
