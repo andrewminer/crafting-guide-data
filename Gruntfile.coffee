@@ -18,17 +18,17 @@ module.exports = (grunt)->
                 options:
                     mode: 'gzip'
                 files: [
-                    {expand: true, cwd:'./data', src:'**/*.cg', dest:'./dist/'}
+                    {expand: true, cwd:'./data', src:'**/*.cg', dest:'./dist/data'}
                 ]
 
         copy:
             data:
                 files: [
-                    {expand:true, cwd:'./data/', src:'**/*', dest:'./build/'}
+                    {expand:true, cwd:'./data', src:'**/*', dest:'./build/data'}
                 ]
             build_to_dist:
                 files: [
-                    {expand:true, cwd:'./build/', src:'**/*', dest:'./dist/'}
+                    {expand:true, cwd:'./build', src:'**/*', dest:'./dist'}
                 ]
 
         clean:
@@ -60,12 +60,6 @@ module.exports = (grunt)->
     grunt.registerTask 'default', 'run tests to verify data files',
         ['test']
 
-    grunt.registerTask 'deploy:prod', 'deploy the project to production via CircleCI',
-        ['script:deploy:prod']
-
-    grunt.registerTask 'deploy:staging', 'deploy the project to staging via CircleCI',
-        ['script:deploy:staging']
-
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
         ['build', 'copy:build_to_dist', 'compress']
 
@@ -88,14 +82,6 @@ module.exports = (grunt)->
         fs.symlinkSync '../../crafting-guide-common/', './node_modules/crafting-guide-common'
 
     # Script Tasks #####################################################################################################
-
-    grunt.registerTask 'script:deploy:prod', "deploy code by copying to the production branch", ->
-      done = this.async()
-      grunt.util.spawn cmd:'./scripts/deploy', args:['--production'], opts:{stdio:'inherit'}, (error)-> done(error)
-
-    grunt.registerTask 'script:deploy:staging', "deploy code by copying to the staging branch", ->
-      done = this.async()
-      grunt.util.spawn cmd:'./scripts/deploy', args:['--staging'], opts:{stdio:'inherit'}, (error)-> done(error)
 
     grunt.registerTask 'script:s3_upload:prod', 'uploads all static content to S3', ->
       done = this.async()
