@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+Dirt provides the basis for much of the overworld biomes.  When placed next to either [[Grass]] or [[Mycelium]], the neighboring plant life will slowly convert the dirt.
+
+When right-clicked with a hoe, the dirt will be transformed into tilled dirt, capable of growing plants.  However, such tilled dirt will revert to being plain dirt before long if not within 4 blocks of a water block on the same level as itself.
+END
+
+
