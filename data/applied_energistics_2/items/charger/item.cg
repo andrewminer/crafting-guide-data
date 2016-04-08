@@ -1,0 +1,5 @@
+schema: 1
+
+description: Charges the various hand-held tools added by Applied Energistics.  Power can be provided by [[ME Glass Cable]]s (or any other mod's RF-compatible power cables) to the top or bottom of the device.
+
+
