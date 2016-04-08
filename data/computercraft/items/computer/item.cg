@@ -1,0 +1,5 @@
+schema: 1
+
+description: The Computer is the most basic interactive unit in ComputerCraft. When placed in the world, it will boot up and start running.  If there is a program on the computer's main drive named "startup" it will immediately run that program. Once that program is complete (or if there wasn't any such program), it will then run the CraftOS shell.  See the wiki page for [CraftOS](http://www.computercraft.info/wiki/CraftOS_Shell) for a full list of available commands.
+
+
