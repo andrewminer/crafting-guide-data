@@ -1,0 +1,21 @@
+schema: 1
+
+description: <<-END
+The Beealyzer gives you a complete analysis of any unknown bee, including its species, possible mutations and cross-breeds, and its ideal climate. As such, it is an essential piece of equipment for any apiarist. Start by right-clicking with it in your hand to bring up its interface.
+
+![](interface.png)
+
+To take a reading, place some honey drops in the top slot, and then place your bee in the second slot.  The bee will immediately drop down to the slot labeled "I".  This tells you the basic traits of the bee.
+
+By moving the bee into different ones of the bottom set of slots (i.e., those labeled "I" through "V"), you can get different information about the bee:
+
+  * I — traits of the individual bee
+  * II — where the bee likes to live
+  * III — items the bee can produce
+  * IV — possible mutations and cross-breeding
+  * V — general information
+
+Each bee analyzed requires one [[Honey Drop]] to move it from the top section to the bottom section. Once a bee has been analyzed, you can move it between the numbered slots and even take it out of the Beealyzer and put it back in without costing any extra honey.
+END
+
+
