@@ -1,0 +1,14 @@
+schema: 1
+
+description: <<-END
+The Apirarist's gear prevents aggressive, venomous, and otherwise harmful bees from hurting the player. In order to be protected, the player must have the full set of equipped in the armor slots of his inventory:
+
+  * [[Apiarist's Hat]]
+  * [[Apiarist's Shirt]]
+  * [[Apiarist's Pants]]
+  * [[Apiarist's Shoes]]
+
+Unfortunately, the necessary materials are quite hard to come by as the necessary [[Woven Silk]] can only be obtained from the venomous [[Tropical Queen]]'s [[Silky Comb]]s.
+END
+
+
