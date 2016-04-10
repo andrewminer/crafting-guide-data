@@ -3,6 +3,9 @@ schema: 1
 description: <<-END
 Cross-Crops can not actually be crafted in a normal sense.  You create them by first tilling a patch of grass or dirt
 into farmland.  Then, right-click the farmland with [[Crop Sticks]] to place them down.  Then, right-click the planted
-crop sticks with *another* set of crop sticks so that they add stick across the tops of the first set.  Now you have a
+crop sticks with *another* set of crop sticks so that they add sticks across the tops of the first set.  Now you have a
 cross-crops.
+
 END
+
+
