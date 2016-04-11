@@ -42,7 +42,6 @@ module.exports = (grunt)->
                     {expand:true, cwd:'./data', src:'**/*.png', dest:'./dist/data'}
                 ]
 
-
         watch:
             data_files:
                 files: ['./data/**/*.cg']

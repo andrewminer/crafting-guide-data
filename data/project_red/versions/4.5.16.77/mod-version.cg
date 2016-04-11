@@ -7,100 +7,280 @@ item: AND Cell
         tools: Crafting Table
 
 item: AND Gate
+    recipe:
+        input: Anode, Cathode, Circuit Plate, Conductive Plate
+        pattern: 010 111 232
+        tools: Crafting Table
 
 item: Anode
+    recipe:
+        input: Redstone Dust, Circuit Plate
+        pattern: .0. 000 111
+        quantity: 3
+        tools: Crafting Table
 
 item: Basalt Brick Wall
+    recipe:
+        input: Basalt Brick
+        pattern: 000 000 ...
+        quantity: 6
+        tools: Crafting Table
 
 item: Basalt Brick
+    recipe:
+        input: Basalt
+        pattern: 00. 00. ...
+        quantity: 4
 
 item: Basalt Cobblestone Wall
+    recipe:
+        input: Basalt Cobblestone
+        pattern: 000 000 ...
+        quantity: 6
+        tools: Crafting Table
 
 item: Basalt Cobblestone
+    gatherable: yes
 
 item: Basalt Wall
+    recipe:
+        input: Basalt
+        pattern: 000 000 ...
+        quantity: 6
+        tools: Crafting Table
 
 item: Basalt
+    recipe:
+        input: Basalt Cobblestone, furnace fuel
+        pattern: .0. ... .1.
+        quantity: 1
+        tools: Furnace
 
 item: Black Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Black Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Black Cage Lamp
+    recipe:
+        input: Iron Bars, Black Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Black Deviating Lily seed
+item: Black Deviating Lily Seed
+    gatherable: yes
 
 item: Black Fallout Light
+    recipe:
+        input: Iron Bars, Black Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Black Fixture
+    recipe:
+        input: Glass Pane, Black Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Black Illumar Button
+    recipe:
+        input: Button, Black Illumar
+        pattern: 01. 1.. ...
 
 item: Black Illumar Feedback Button
+    recipe:
+        input: Black Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Black Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Black Insulated Wire
+    recipe:
+        input: Black Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Black Lamp
+    recipe:
+        input: Glass Pane, Black Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Black Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Black Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Block Breaker
+    recipe:
+        input: Cobblestone, Iron Pickaxe, Piston, Redstone Dust
+        pattern: 010 020 030
+        tools: Crafting Table
 
 item: Block of Peridot
+    recipe:
+        input: Peridot
+        pattern: 000 000 000
+        tools: Crafting Table
 
 item: Block of Ruby
+    recipe:
+        input: Ruby
+        pattern: 000 000 000
+        tools: Crafting Table
 
 item: Block of Sapphire
+    recipe:
+        input: Sapphire
+        pattern: 000 000 000
+        quantity: 1
+        tools: Crafting Table
 
 item: Blue Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Blue Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Blue Cage Lamp
+    recipe:
+        input: Iron Bars, Blue Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Blue Deviating Lily seed
+item: Blue Deviating Lily Seed
+    gatherable: yes
 
 item: Blue Fallout Light
+    recipe:
+        input: Iron Bars, Blue Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Blue Fixture
+    recipe:
+        input: Glass Pane, Blue Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Blue Illumar Button
+    recipe:
+        input: Button, Blue Illumar
+        pattern: 01. 1.. ...
 
 item: Blue Illumar Feedback Button
+    recipe:
+        input: Blue Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Blue Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Blue Insulated Wire
+    recipe:
+        input: Blue Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Blue Lamp
+    recipe:
+        input: Glass Pane, Blue Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Blue Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Blue Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Brown Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Brown Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Brown Cage Lamp
+    recipe:
+        input: Iron Bars, Brown Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Brown Deviating Lily seed
+item: Brown Deviating Lily Seed
+    gatherable: yes
 
 item: Brown Fallout Light
+    recipe:
+        input: Iron Bars, Brown Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Brown Fixture
+    recipe:
+        input: Glass Pane, Brown Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Brown Illumar Button
+    recipe:
+        input: Button, Brown Illumar
+        pattern: 01. 1.. ...
 
 item: Brown Illumar Feedback Button
+    recipe:
+        input: Brown Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Brown Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Brown Insulated Wire
+    recipe:
+        input: Brown Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Brown Lamp
+    recipe:
+        input: Glass Pane, Brown Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Brown Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Brown Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Buffer Cell
 
@@ -131,28 +311,71 @@ item: Copper Coil
 item: Counter
 
 item: Cyan Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Cyan Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Cyan Cage Lamp
+    recipe:
+        input: Iron Bars, Cyan Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Cyan Deviating Lily seed
+item: Cyan Deviating Lily Seed
+    gatherable: yes
 
 item: Cyan Fallout Light
+    recipe:
+        input: Iron Bars, Cyan Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Cyan Fixture
+    recipe:
+        input: Glass Pane, Cyan Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Cyan Illumar Button
+    recipe:
+        input: Button, Cyan Illumar
+        pattern: 01. 1.. ...
 
 item: Cyan Illumar Feedback Button
+    recipe:
+        input: Cyan Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Cyan Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Cyan Insulated Wire
+    recipe:
+        input: Cyan Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Cyan Lamp
+    recipe:
+        input: Glass Pane, Cyan Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Cyan Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Cyan Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Data Card
 
@@ -215,52 +438,138 @@ item: Golden Saw
 item: Golden Sickle
 
 item: Green Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Green Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Green Cage Lamp
+    recipe:
+        input: Iron Bars, Green Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Green Deviating Lily seed
+item: Green Deviating Lily Seed
+    gatherable: yes
 
 item: Green Fallout Light
+    recipe:
+        input: Iron Bars, Green Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Green Fixture
+    recipe:
+        input: Glass Pane, Green Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Green Illumar Button
+    recipe:
+        input: Button, Green Illumar
+        pattern: 01. 1.. ...
 
 item: Green Illumar Feedback Button
+    recipe:
+        input: Green Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Green Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Green Insulated Wire
+    recipe:
+        input: Green Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Green Lamp
+    recipe:
+        input: Glass Pane, Green Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Green Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Green Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
-item: Grey Backpack
+item: Gray Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
-item: Grey Bundled Cable
+item: Gray Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
-item: Grey Cage Lamp
+item: Gray Cage Lamp
+    recipe:
+        input: Iron Bars, Gray Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Grey Deviating Lily seed
+item: Gray Deviating Lily Seed
+    gatherable: yes
 
-item: Grey Fallout Light
+item: Gray Fallout Light
+    recipe:
+        input: Iron Bars, Gray Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
-item: Grey Fixture
+item: Gray Fixture
+    recipe:
+        input: Glass Pane, Gray Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
-item: Grey Illumar Button
+item: Gray Illumar Button
+    recipe:
+        input: Button, Gray Illumar
+        pattern: 01. 1.. ...
 
-item: Grey Illumar Feedback Button
+item: Gray Illumar Feedback Button
+    recipe:
+        input: Gray Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
-item: Grey Illumar
+item: Gray Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
-item: Grey Insulated Wire
+item: Gray Insulated Wire
+    recipe:
+        input: Gray Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
-item: Grey Lamp
+item: Gray Lamp
+    recipe:
+        input: Glass Pane, Gray Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
-item: Grey Lantern
+item: Gray Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Gray Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Infused Silicon
 
@@ -455,102 +764,274 @@ item: LY Upgrade
 item: LZ Upgrade
 
 item: Light Blue Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Light Blue Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Light Blue Cage Lamp
+    recipe:
+        input: Iron Bars, Light Blue Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Light Blue Deviating Lily seed
+item: Light Blue Deviating Lily Seed
+    gatherable: yes
 
 item: Light Blue Fallout Light
+    recipe:
+        input: Iron Bars, Light Blue Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Light Blue Fixture
+    recipe:
+        input: Glass Pane, Light Blue Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Light Blue Illumar Button
+    recipe:
+        input: Button, Light Blue Illumar
+        pattern: 01. 1.. ...
 
 item: Light Blue Illumar Feedback Button
+    recipe:
+        input: Light Blue Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Light Blue Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Light Blue Insulated Wire
+    recipe:
+        input: Light Blue Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Light Blue Lamp
+    recipe:
+        input: Glass Pane, Light Blue Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Light Blue Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Light Blue Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
-item: Light Grey Backpack
+item: Light Gray Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
-item: Light Grey Bundled Cable
+item: Light Gray Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
-item: Light Grey Cage Lamp
+item: Light Gray Cage Lamp
+    recipe:
+        input: Iron Bars, Light Gray Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Light Grey Deviating Lily seed
+item: Light Gray Deviating Lily Seed
+    gatherable: yes
 
-item: Light Grey Fallout Light
+item: Light Gray Fallout Light
+    recipe:
+        input: Iron Bars, Light Gray Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
-item: Light Grey Fixture
+item: Light Gray Fixture
+    recipe:
+        input: Glass Pane, Light Gray Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
-item: Light Grey Illumar Button
+item: Light Gray Illumar Button
+    recipe:
+        input: Button, Light Gray Illumar
+        pattern: 01. 1.. ...
 
-item: Light Grey Illumar Feedback Button
+item: Light Gray Illumar Feedback Button
+    recipe:
+        input: Light Gray Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
-item: Light Grey Illumar
+item: Light Gray Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
-item: Light Grey Insulated Wire
+item: Light Gray Insulated Wire
+    recipe:
+        input: Light Gray Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
-item: Light Grey Lamp
+item: Light Gray Lamp
+    recipe:
+        input: Glass Pane, Light Gray Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
-item: Light Grey Lantern
+item: Light Gray Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Light Gray Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Light Sensor
 
 item: Lime Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Lime Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Lime Cage Lamp
+    recipe:
+        input: Iron Bars, Lime Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Lime Deviating Lily seed
+item: Lime Deviating Lily Seed
+    gatherable: yes
 
 item: Lime Fallout Light
+    recipe:
+        input: Iron Bars, Lime Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Lime Fixture
+    recipe:
+        input: Glass Pane, Lime Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Lime Illumar Button
+    recipe:
+        input: Button, Lime Illumar
+        pattern: 01. 1.. ...
 
 item: Lime Illumar Feedback Button
+    recipe:
+        input: Lime Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Lime Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Lime Insulated Wire
+    recipe:
+        input: Lime Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Lime Lamp
+    recipe:
+        input: Glass Pane, Lime Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Lime Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Lime Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Magenta Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Magenta Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Magenta Cage Lamp
+    recipe:
+        input: Iron Bars, Magenta Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Magenta Deviating Lily seed
+item: Magenta Deviating Lily Seed
+    gatherable: yes
 
 item: Magenta Fallout Light
+    recipe:
+        input: Iron Bars, Magenta Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Magenta Fixture
+    recipe:
+        input: Glass Pane, Magenta Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Magenta Illumar Button
+    recipe:
+        input: Button, Magenta Illumar
+        pattern: 01. 1.. ...
 
 item: Magenta Illumar Feedback Button
+    recipe:
+        input: Magenta Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Magenta Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Magenta Insulated Wire
+    recipe:
+        input: Magenta Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Magenta Lamp
+    recipe:
+        input: Glass Pane, Magenta Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Magenta Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Magenta Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Marble Brick Wall
 
@@ -579,28 +1060,71 @@ item: Null-Logic Upgrade Chip
 item: OR Gate
 
 item: Orange Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Orange Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Orange Cage Lamp
+    recipe:
+        input: Iron Bars, Orange Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Orange Deviating Lily seed
+item: Orange Deviating Lily Seed
+    gatherable: yes
 
 item: Orange Fallout Light
+    recipe:
+        input: Iron Bars, Orange Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Orange Fixture
+    recipe:
+        input: Glass Pane, Orange Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Orange Illumar Button
+    recipe:
+        input: Button, Orange Illumar
+        pattern: 01. 1.. ...
 
 item: Orange Illumar Feedback Button
+    recipe:
+        input: Orange Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Orange Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Orange Insulated Wire
+    recipe:
+        input: Orange Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Orange Lamp
+    recipe:
+        input: Glass Pane, Orange Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Orange Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Orange Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Peridot Axe
 
@@ -623,28 +1147,71 @@ item: Peridot Wall
 item: Peridot
 
 item: Pink Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Pink Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Pink Cage Lamp
+    recipe:
+        input: Iron Bars, Pink Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Pink Deviating Lily seed
+item: Pink Deviating Lily Seed
+    gatherable: yes
 
 item: Pink Fallout Light
+    recipe:
+        input: Iron Bars, Pink Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Pink Fixture
+    recipe:
+        input: Glass Pane, Pink Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Pink Illumar Button
+    recipe:
+        input: Button, Pink Illumar
+        pattern: 01. 1.. ...
 
 item: Pink Illumar Feedback Button
+    recipe:
+        input: Pink Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Pink Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Pink Insulated Wire
+    recipe:
+        input: Pink Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Pink Lamp
+    recipe:
+        input: Glass Pane, Pink Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Pink Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Pink Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Platformed Plate
 
@@ -654,31 +1221,72 @@ item: Pressure Resistance tube
 
 item: Pressure tube
 
-item: Pulse Former
-
 item: Purple Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Purple Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Purple Cage Lamp
+    recipe:
+        input: Iron Bars, Purple Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Purple Deviating Lily seed
+item: Purple Deviating Lily Seed
+    gatherable: yes
 
 item: Purple Fallout Light
+    recipe:
+        input: Iron Bars, Purple Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Purple Fixture
+    recipe:
+        input: Glass Pane, Purple Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Purple Illumar Button
+    recipe:
+        input: Button, Purple Illumar
+        pattern: 01. 1.. ...
 
 item: Purple Illumar Feedback Button
+    recipe:
+        input: Purple Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Purple Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Purple Insulated Wire
+    recipe:
+        input: Purple Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Purple Lamp
+    recipe:
+        input: Glass Pane, Purple Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Purple Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Purple Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: RS Latch
 
@@ -697,30 +1305,71 @@ item: Red Alloy Ingot
 item: Red Alloy Wire
 
 item: Red Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Red Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Red Cage Lamp
+    recipe:
+        input: Iron Bars, Red Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Red Deviating Lily seed
+item: Red Deviating Lily Seed
+    gatherable: yes
 
 item: Red Fallout Light
+    recipe:
+        input: Iron Bars, Red Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Red Fixture
+    recipe:
+        input: Glass Pane, Red Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Red Illumar Button
+    recipe:
+        input: Button, Red Illumar
+        pattern: 01. 1.. ...
 
 item: Red Illumar Feedback Button
+    recipe:
+        input: Red Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Red Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Red Insulated Wire
-
-item: Red Iron Compound
+    recipe:
+        input: Red Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Red Lamp
+    recipe:
+        input: Glass Pane, Red Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Red Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Red Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Red Silicon Compound
 
@@ -811,28 +1460,71 @@ item: Toggle Latch
 item: Transparent Latch
 
 item: White Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: White Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: White Cage Lamp
+    recipe:
+        input: Iron Bars, White Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: White Deviating Lily seed
+item: White Deviating Lily Seed
+    gatherable: yes
 
 item: White Fallout Light
+    recipe:
+        input: Iron Bars, White Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: White Fixture
+    recipe:
+        input: Glass Pane, White Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: White Illumar Button
+    recipe:
+        input: Button, White Illumar
+        pattern: 01. 1.. ...
 
 item: White Illumar Feedback Button
+    recipe:
+        input: White Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: White Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: White Insulated Wire
+    recipe:
+        input: White Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: White Lamp
+    recipe:
+        input: Glass Pane, White Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: White Lantern
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, White Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
 
 item: Wire Debugger
 
@@ -849,28 +1541,68 @@ item: XNOR Gate
 item: XOR Gate
 
 item: Yellow Backpack
+    recipe:
+        input: Woven Cloth, Ink Sac
+        pattern: 000 010 000
+        tools: Crafting Table
 
 item: Yellow Bundled Cable
+    recipe:
+        input: Inc Sac, Bundled Cable, String
+        pattern: 01. 2.. ...
+        tools: Crafting Table
 
 item: Yellow Cage Lamp
+    recipe:
+        input: Iron Bars, Yellow Illumar, Circuit Plate, Conductive Plate
+        pattern: .0. 010 232
+        tools: Crafting Table
 
-item: Yellow Deviating Lily seed
+item: Yellow Deviating Lily Seed
+    gatherable: yes
 
 item: Yellow Fallout Light
+    recipe:
+        input: Iron Bars, Yellow Illumar, Gold Nugget, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Yellow Fixture
+    recipe:
+        input: Glass Pane, Yellow Illumar, Circuit Plate, Conductive Plate
+        pattern: 000 010 232
+        tools: Crafting Table
 
 item: Yellow Illumar Button
+    recipe:
+        input: Button, Yellow Illumar
+        pattern: 01. 1.. ...
 
 item: Yellow Illumar Feedback Button
+    recipe:
+        input: Yellow Illumar Button, Redstone Torch
+        pattern: 01. ... ...
 
 item: Yellow Illumar
+    recipe:
+        input: Glowstone, Inc Sac
+        pattern: 00. 11. ...
 
 item: Yellow Insulated Wire
+    recipe:
+        input: Yellow Wool, Red Alloy Ingot
+        pattern: 010 010 010
+        quantity: 12
+        tools: Crafting Table
 
 item: Yellow Lamp
+    recipe:
+        input: Glass Pane, Yellow Illumar, Redstone Dust
+        pattern: 010 010 020
+        tools: Crafting Table
 
 item: Yellow Lantern
-
-item: tile.projectred.illumination.airousLight_0.name
-
+    recipe:
+        input: Circuit Plate, Gold Bugget, Glass Pane, Yellow Illumar, Redstone Dust
+        pattern: 010 232 040
+        tools: Crafting Table
