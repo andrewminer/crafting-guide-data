@@ -43,9 +43,9 @@ module.exports = (grunt)->
                 ]
 
         watch:
-            data_files:
+            test:
                 files: ['./data/**/*.cg']
-                tasks: ['mochaTest']
+                tasks: ['script:clear', 'mochaTest']
 
     # Compound Tasks ###################################################################################################
 
@@ -74,6 +74,10 @@ module.exports = (grunt)->
         fs.symlinkSync '../../crafting-guide-common/', './node_modules/crafting-guide-common'
 
     # Script Tasks #####################################################################################################
+
+    grunt.registerTask 'script:clear', 'clears the terminal screen', ->
+      done = this.async()
+      grunt.util.spawn cmd:'clear', opts:{stdio:'inherit'}, (error)-> done(error)
 
     grunt.registerTask 'script:s3_upload:prod', 'uploads all static content to S3', ->
       done = this.async()
