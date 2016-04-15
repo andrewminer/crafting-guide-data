@@ -515,61 +515,61 @@ group: Cards and Chips
 
     item: Data Card
         recipe:
-            input: Paper, Redstone Dust
+            input: Paper, Redstone
             pattern: 00. 010 010
             tools: Crafting Table
 
     item: Dynamic Item Responder Chip
         recipe:
-            input: Cyan Illumar, Iron Ingot, Null-Logic Routing Chip, Orange Illumar, Redstone Dust
+            input: Cyan Illumar, Iron Ingot, Null-Logic Routing Chip, Orange Illumar, Redstone
             pattern: 343 120 343
             tools: Crafting Table
 
     item: Item Broadcaster Chip
         recipe:
-            input: Gold Ingot, Magenta Illumar, Null-Logic Routing Chip, Redstone Dust
+            input: Gold Ingot, Magenta Illumar, Null-Logic Routing Chip, Redstone
             pattern: 131 023 131
             tools: Crafting Table
 
     item: Item Crafting Chip
         recipe:
-            input: Glowstone Dust, Green Illumar, Null-Logic Routing Chip, Redstone Dust
+            input: Glowstone Dust, Green Illumar, Null-Logic Routing Chip, Redstone
             pattern: 131 020 131
             tools: Crafting Table
 
     item: Item Extractor Chip
         recipe:
-            input: Cyan Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone Dust
+            input: Cyan Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone
             pattern: 030 123 030
             tools: Crafting Table
 
     item: Item Overflow Responder Chip
         recipe:
-            input: Green Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone Dust
+            input: Green Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone
             pattern: 030 123 030
             tools: Crafting Table
 
     item: Item Responder Chip
         recipe:
-            input: Green Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone Dust
+            input: Green Illumar, Iron Ingot, Null-Logic Routing Chip, Redstone
             pattern: 030 123 030
             tools: Crafting Table
 
     item: Item Stock Keeper Chip
         recipe:
-            input: Blue Illumar, Diamond, Null-Logic Routing Chip, Redstone Dust
+            input: Blue Illumar, Diamond, Null-Logic Routing Chip, Redstone
             pattern: 030 123 030
             tools: Crafting Table
 
     item: Item Terminator Chip
         recipe:
-            input: Grey Illumar, Iron Ingot, Null-Logic Routing Chip, Purple Illumar, Redstone Dust
+            input: Grey Illumar, Iron Ingot, Null-Logic Routing Chip, Purple Illumar, Redstone
             pattern: 340 124 340
             tools: Crafting Table
 
     item: LX Upgrade
         recipe:
-            input: Gold Nugget, Null-Logic Upgrade Chip, Redstone Dust
+            input: Gold Nugget, Null-Logic Upgrade Chip, Redstone
             pattern: 222 .10 2.2
             tools: Crafting Table
 
@@ -581,25 +581,25 @@ group: Cards and Chips
 
     item: LZ Upgrade
         recipe:
-            input: Emerald, LY Upgrade, Redstone Dust
+            input: Emerald, LY Upgrade, Redstone
             pattern: 2.2 .1. 202
             tools: Crafting Table
 
     item: Null-Logic Routing Chip
         recipe:
-            input: Gold Nugget, Paper, Redstone Dust
+            input: Gold Nugget, Paper, Redstone
             pattern: 011 022 0..
             tools: Crafting Table
 
     item: Null-Logic Upgrade Chip
         recipe:
-            input: Paper, Redstone Dust
+            input: Paper, Redstone
             pattern: 010 111 010
             tools: Crafting Table
 
     item: RX Upgrade
         recipe:
-            input: Gold Nugget, Null-Logic Upgrade Chip, Redstone Dust
+            input: Gold Nugget, Null-Logic Upgrade Chip, Redstone
             pattern: 2.2 01. 222
             tools: Crafting Table
 
@@ -611,7 +611,7 @@ group: Cards and Chips
 
     item: RZ Upgrade
         recipe:
-            input: Emerald, Redstone Dust, RY Upgrade
+            input: Emerald, Redstone, RY Upgrade
             pattern: 1.1 .2. 101
             tools: Crafting Table
 
@@ -619,7 +619,7 @@ group: Electronics Parts
 
     item: Anode
         recipe:
-            input: Circuit Plate, Redstone Dust
+            input: Circuit Plate, Redstone
             pattern: .1. 111 000
             quantity: 3
             tools: Crafting Table
@@ -654,7 +654,7 @@ group: Electronics Parts
 
     item: Motor
         recipe:
-            input: Copper Coil, Iron Ingot, Redstone Dust, Stone
+            input: Copper Coil, Iron Ingot, Redstone, Stone
             pattern: .1. 303 202
             tools: Crafting Guide
 
@@ -703,13 +703,13 @@ group: Lamps and Lights
 
     item: Black Lamp
         recipe:
-            input: Black Illumar, Glass Pane, Redstone Dust
+            input: Black Illumar, Glass Pane, Redstone
             pattern: 101 101 121
             tools: Crafting Table
 
     item: Black Lantern
         recipe:
-            input: Black Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone Dust
+            input: Black Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -733,13 +733,13 @@ group: Lamps and Lights
 
     item: Blue Lamp
         recipe:
-            input: Blue Illumar, Glass Pane, Redstone Dust
+            input: Blue Illumar, Glass Pane, Redstone
             pattern: 101 101 121
             tools: Crafting Table
 
     item: Blue Lantern
         recipe:
-            input: Blue Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone Dust
+            input: Blue Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -763,13 +763,13 @@ group: Lamps and Lights
 
     item: Brown Lamp
         recipe:
-            input: Brown Illumar, Glass Pane, Redstone Dust
+            input: Brown Illumar, Glass Pane, Redstone
             pattern: 101 101 121
             tools: Crafting Table
 
     item: Brown Lantern
         recipe:
-            input: Brown Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone Dust
+            input: Brown Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -793,13 +793,13 @@ group: Lamps and Lights
 
     item: Cyan Lamp
         recipe:
-            input: Cyan Illumar, Glass Pane, Redstone Dust
+            input: Cyan Illumar, Glass Pane, Redstone
             pattern: 101 101 121
             tools: Crafting Table
 
     item: Cyan Lantern
         recipe:
-            input: Circuit Plate, Cyan Illumar, Glass Pane, Gold Bugget, Redstone Dust
+            input: Circuit Plate, Cyan Illumar, Glass Pane, Gold Bugget, Redstone
             pattern: 030 212 040
             tools: Crafting Table
 
@@ -823,13 +823,13 @@ group: Lamps and Lights
 
     item: Green Lamp
         recipe:
-            input: Glass Pane, Green Illumar, Redstone Dust
+            input: Glass Pane, Green Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Green Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Green Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Green Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -853,13 +853,13 @@ group: Lamps and Lights
 
     item: Grey Lamp
         recipe:
-            input: Glass Pane, Grey Illumar, Redstone Dust
+            input: Glass Pane, Grey Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Grey Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Grey Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Grey Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1363,13 +1363,13 @@ group: Lamps and Lights
 
     item: Light Blue Lamp
         recipe:
-            input: Glass Pane, Light Blue Illumar, Redstone Dust
+            input: Glass Pane, Light Blue Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Light Blue Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Light Blue Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Light Blue Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1393,13 +1393,13 @@ group: Lamps and Lights
 
     item: Light Grey Lamp
         recipe:
-            input: Glass Pane, Light Grey Illumar, Redstone Dust
+            input: Glass Pane, Light Grey Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Light Grey Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Light Grey Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Light Grey Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1423,13 +1423,13 @@ group: Lamps and Lights
 
     item: Lime Lamp
         recipe:
-            input: Glass Pane, Lime Illumar, Redstone Dust
+            input: Glass Pane, Lime Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Lime Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Lime Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Lime Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1453,13 +1453,13 @@ group: Lamps and Lights
 
     item: Magenta Lamp
         recipe:
-            input: Glass Pane, Magenta Illumar, Redstone Dust
+            input: Glass Pane, Magenta Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Magenta Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Magenta Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Magenta Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1483,13 +1483,13 @@ group: Lamps and Lights
 
     item: Orange Lamp
         recipe:
-            input: Glass Pane, Orange Illumar, Redstone Dust
+            input: Glass Pane, Orange Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Orange Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Orange Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Orange Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1513,13 +1513,13 @@ group: Lamps and Lights
 
     item: Pink Lamp
         recipe:
-            input: Glass Pane, Pink Illumar, Redstone Dust
+            input: Glass Pane, Pink Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Pink Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Pink Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Pink Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1543,13 +1543,13 @@ group: Lamps and Lights
 
     item: Purple Lamp
         recipe:
-            input: Glass Pane, Purple Illumar, Redstone Dust
+            input: Glass Pane, Purple Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Purple Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Purple Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Purple Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1573,13 +1573,13 @@ group: Lamps and Lights
 
     item: Red Lamp
         recipe:
-            input: Glass Pane, Red Illumar, Redstone Dust
+            input: Glass Pane, Red Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
     item: Red Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Red Illumar, Redstone Dust
+            input: Circuit Plate, Glass Pane, Gold Bugget, Red Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1603,13 +1603,13 @@ group: Lamps and Lights
 
     item: White Lamp
         recipe:
-            input: Glass Pane, Redstone Dust, White Illumar
+            input: Glass Pane, Redstone, White Illumar
             pattern: 020 020 010
             tools: Crafting Table
 
     item: White Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone Dust, White Illumar
+            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone, White Illumar
             pattern: 020 141 030
             tools: Crafting Table
 
@@ -1633,13 +1633,13 @@ group: Lamps and Lights
 
     item: Yellow Lamp
         recipe:
-            input: Glass Pane, Redstone Dust, Yellow Illumar
+            input: Glass Pane, Redstone, Yellow Illumar
             pattern: 020 020 010
             tools: Crafting Table
 
     item: Yellow Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone Dust, Yellow Illumar
+            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone, Yellow Illumar
             pattern: 020 141 030
             tools: Crafting Table
 
@@ -1857,7 +1857,7 @@ group: Machines
 
     item: Block Breaker
         recipe:
-            input: Cobblestone, Iron Pickaxe, Piston, Redstone Dust
+            input: Cobblestone, Iron Pickaxe, Piston, Redstone
             pattern: 010 020 030
             tools: Crafting Table
 
@@ -2160,7 +2160,7 @@ group: Minerals
 
     item: Red Silicon Compound
         recipe:
-            input: Redstone Dust, Silicon
+            input: Redstone, Silicon
             pattern: 000 010 000
             tools: Crafting Table
 
@@ -2495,13 +2495,13 @@ group: Transportation
 
     item: Routed Crafting Pipe
         recipe:
-            input: Glowstone Dust, Redstone Dust, Routed Junction Pipe
+            input: Glowstone Dust, Redstone, Routed Junction Pipe
             pattern: 101 121 101
             tools: Crafting Table
 
     item: Routed Extension Pipe
         recipe:
-            input: Redstone Dust, Routed Junction Pipe
+            input: Redstone, Routed Junction Pipe
             pattern: .0. 010 .0.
             tools: Crafting Table
 
@@ -2513,7 +2513,7 @@ group: Transportation
 
     item: Routed Interface Pipe
         recipe:
-            input: Gold Nugget, Redstone Dust, Routed Junction Pipe
+            input: Gold Nugget, Redstone, Routed Junction Pipe
             pattern: 101 020 101
             tools: Crafting Table
 
@@ -2526,12 +2526,12 @@ group: Transportation
 
     item: Routed Request Pipe
         recipe:
-            input: Diamond, Redstone Dust, Routed Junction Pipe
+            input: Diamond, Redstone, Routed Junction Pipe
             pattern: 101 121 101
             tools: Crafting Table
 
     item: Router Utility
         recipe:
-            input: Emerald, Iron Ingot, Redstone Dust
+            input: Emerald, Iron Ingot, Redstone
             pattern: ..2 101 111
             tools: Crafting Table
