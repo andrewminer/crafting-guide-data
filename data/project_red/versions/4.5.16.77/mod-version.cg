@@ -10,91 +10,91 @@ group: Backpacks
 
     item: Blue Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Lapis Lazuli, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Brown Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Cocoa Beans, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Cyan Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Cyan Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Green Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Cactus Green, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Grey Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Gray Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Light Blue Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Light Blue Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Light Grey Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Light Gray Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Lime Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Lime Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Magenta Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Magenta Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Orange Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Orange Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Pink Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Pink Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Purple Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Purple Dye, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Red Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Rose Red, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: White Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Bone Meal, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Yellow Backpack
         recipe:
-            input: Ink Sac, Woven Cloth
+            input: Dandelion Yellow, Woven Cloth
             pattern: 111 101 111
             tools: Crafting Table
 
