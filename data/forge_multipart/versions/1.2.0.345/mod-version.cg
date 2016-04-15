@@ -1,26 +1,324 @@
 schema: 1
 
-item: Diamond Saw
-   recipe:
-       input: Stick, Stone Rod, Diamond
-       pattern: 011 021 ...
-       tools: Crafting Table
+group: Block of Diamond Parts
 
-item: Iron Saw
-   recipe:
-       input: Stick, Stone Rod, Iron Ingot
-       pattern: 011 021 ...
-       tools: Crafting Table
+    item: Block of Diamond Corner
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Post, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Notch, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
 
-item: Stone Rod
-   recipe:
-       input: Stone
-       pattern: 0.. 0.. ...
-       quantity: 4
+    item: Block of Diamond Cover
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Panel, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
 
-item: Stone Saw
-   recipe:
-       input: Stick, Stone Rod, Flint
-       pattern: 011 021 ...
-       tools: Crafting Table
+    item: Block of Diamond Nook
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Strip, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Corner, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
 
+    item: Block of Diamond Notch
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Pillar, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Block of Diamond Panel
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Slab, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Diamond Pillar
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Slab, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Block of Diamond Post
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Panel, Stone Saw
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: Block of Diamond Slab
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Diamond Strip
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Cover, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Hollow Block of Diamond Cover
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Cover
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Block of Diamond Panel
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Panel
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Block of Diamond Slab
+        recipe:
+            extras: Stone Saw
+            input: Block of Diamond Slab
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+group: Block of Iron Parts
+
+    item: Block of Iron Corner
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Post, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Notch, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Iron Cover
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Panel, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Iron Nook
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Strip, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Corner, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Iron Notch
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Pillar, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Block of Iron Panel
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Slab, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Iron Pillar
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Slab, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Block of Iron Post
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Panel, Stone Saw
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: Block of Iron Slab
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Block of Iron Strip
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Cover, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Hollow Block of Iron Cover
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Cover
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Block of Iron Panel
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Panel
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Block of Iron Slab
+        recipe:
+            extras: Stone Saw
+            input: Block of Iron Slab
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+group: Oak Wood Parts
+
+    item: Hollow Oak Wood Cover
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Cover
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Oak Wood Panel
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Panel
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Hollow Oak Wood Slab
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Slab
+            pattern: 000 0.0 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Oak Wood Corner
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Post, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Notch, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Oak Wood Cover
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Panel, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Oak Wood Nook
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Strip, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Corner, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Oak Wood Notch
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Pillar, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Oak Wood Panel
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Slab, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Oak Wood Pillar
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Slab, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+    item: Oak Wood Post
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Panel, Stone Saw
+            pattern: 10. ... ...
+            tools: Crafting Table
+
+    item: Oak Wood Slab
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood, Stone Saw
+            pattern: 1.. 0.. ...
+            quantity: 2
+
+    item: Oak Wood Strip
+        recipe:
+            extras: Stone Saw
+            input: Oak Wood Cover, Stone Saw
+            pattern: 10. ... ...
+            quantity: 2
+
+group: Saws
+
+    item: Diamond Saw
+        recipe:
+            input: Diamond, Stick, Stone Rod
+            pattern: 122 102 ...
+            tools: Crafting Table
+
+    item: Iron Saw
+        recipe:
+            input: Iron Ingot, Stick, Stone Rod
+            pattern: 122 102 ...
+            tools: Crafting Table
+
+    item: Stone Rod
+        recipe:
+            input: Stone
+            pattern: 0.. 0.. ...
+            quantity: 4
+
+    item: Stone Saw
+        recipe:
+            input: Flint, Stick, Stone Rod
+            pattern: 122 102 ...
+            tools: Crafting Table
