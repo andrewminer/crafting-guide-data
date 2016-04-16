@@ -77,7 +77,6 @@ group: Block of Diamond Parts
 
     item: Hollow Block of Diamond Cover
         recipe:
-            extras: Stone Saw
             input: Block of Diamond Cover
             pattern: 000 0.0 000
             quantity: 8
@@ -85,7 +84,6 @@ group: Block of Diamond Parts
 
     item: Hollow Block of Diamond Panel
         recipe:
-            extras: Stone Saw
             input: Block of Diamond Panel
             pattern: 000 0.0 000
             quantity: 8
@@ -93,7 +91,6 @@ group: Block of Diamond Parts
 
     item: Hollow Block of Diamond Slab
         recipe:
-            extras: Stone Saw
             input: Block of Diamond Slab
             pattern: 000 0.0 000
             quantity: 8
@@ -176,7 +173,6 @@ group: Block of Iron Parts
 
     item: Hollow Block of Iron Cover
         recipe:
-            extras: Stone Saw
             input: Block of Iron Cover
             pattern: 000 0.0 000
             quantity: 8
@@ -184,7 +180,6 @@ group: Block of Iron Parts
 
     item: Hollow Block of Iron Panel
         recipe:
-            extras: Stone Saw
             input: Block of Iron Panel
             pattern: 000 0.0 000
             quantity: 8
@@ -192,7 +187,6 @@ group: Block of Iron Parts
 
     item: Hollow Block of Iron Slab
         recipe:
-            extras: Stone Saw
             input: Block of Iron Slab
             pattern: 000 0.0 000
             quantity: 8
@@ -202,7 +196,6 @@ group: Oak Wood Parts
 
     item: Hollow Oak Wood Cover
         recipe:
-            extras: Stone Saw
             input: Oak Wood Cover
             pattern: 000 0.0 000
             quantity: 8
@@ -210,7 +203,6 @@ group: Oak Wood Parts
 
     item: Hollow Oak Wood Panel
         recipe:
-            extras: Stone Saw
             input: Oak Wood Panel
             pattern: 000 0.0 000
             quantity: 8
@@ -218,7 +210,6 @@ group: Oak Wood Parts
 
     item: Hollow Oak Wood Slab
         recipe:
-            extras: Stone Saw
             input: Oak Wood Slab
             pattern: 000 0.0 000
             quantity: 8
