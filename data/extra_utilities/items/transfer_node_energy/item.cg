@@ -1,0 +1,8 @@
+schema: 1
+
+description: <<-END
+The Transfer Node (Energy) is a block added by the Extra Utilities mod.
+It accepts energy (RF and MJ) and transmits it through pipes. The Node constantly search for machines that accepts energy and adds it to an internal registry. Every tick it will distribute energy from it's buffer to each registered machine. The energy will also be transferred through other types of nodes to the inventory/machine they are attached to. The Energy Node will convert MJ to RF at a rate of 1 MJ to 10 RF. The node has an an internal buffer of 10,000 RF and a transfer limit of 32,000 RF/ t.
+END
+
+
