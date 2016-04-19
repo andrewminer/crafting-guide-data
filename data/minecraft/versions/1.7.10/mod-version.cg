@@ -2520,24 +2520,28 @@ group: Tools
 group: Tools: Armor
 
     item: Chain Boots
+        gatherable: yes
         recipe:
             input: Fire
             pattern: ... 0.0 0.0
             tools: Crafting Table
 
     item: Chain Chestplate
+        gatherable: yes
         recipe:
             input: Fire
             pattern: 0.0 000 000
             tools: Crafting Table
 
     item: Chain Helmet
+        gatherable: yes
         recipe:
             input: Fire
             pattern: 000 0.0 ...
             tools: Crafting Table
 
     item: Chain Leggings
+        gatherable: yes
         recipe:
             input: Fire
             pattern: 000 0.0 0.0
