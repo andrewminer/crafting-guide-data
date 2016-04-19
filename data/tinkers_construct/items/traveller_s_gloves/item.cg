@@ -1,0 +1,5 @@
+schema: 1
+
+description: The Traveller's Gloves don't do anything by default, but they can receive improvements in a [[Tool Station]] just like the other items of Traveller's gear.  In the case of the gloves, the only valid improvement is to add [[Redstone]]: up to 400.  Each redstone adds 0.01 to the speed of whatever tool the player is holding.  In other words, a pickaxe with mining speed 6.0 will behave like one with mining speed 10.0 with a full-loaded set of gloves.  They can be equipped using the extra inventory section added by Tinker's Construct.
+
+
