@@ -1,0 +1,14 @@
+schema: 1
+
+description: <<-END
+The Terraformer allows the transformation of a landscape from being infertile to being cultivable. It will create a large green bubble and slowly transform the superficial blocks, not the deeper ones, of the moon or planet into grass blocks.
+
+To terraform the entire area within the bubble, the machine will require at least (may vary):
+- 2 water buckets;
+- 3 stacks of seeds;
+- 3 stacks of bone meal;
+- saplings (optional);
+- 10-12 MJ of energy.
+END
+
+
