@@ -1,0 +1,11 @@
+schema: 1
+
+description: <<-END
+[[Advanced Solar Panel]] is a device that can be placed to generate energy from the sunlight.
+
+Since the advanced panel can adjust its rotation to the sun's current position, it allows for better energy production, as it is generating an optimal amount of energy throughout the day, unlike the [[Basic Solar Panel]].
+
+It consists of a base block, a pole and a solar array that is 3x3 in size. When placed on flat land solar arrays need at least 2 block between each other. 
+END
+
+
