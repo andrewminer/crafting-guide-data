@@ -1,5 +1,9 @@
 schema: 1
 
-description: The Water Electrolyzer use electricity to transform water into Hydrogen Gas and Oxygen Gas. 
+description: <<-END
+The Water Electrolyzer use electricity to transform water into Hydrogen Gas and Oxygen Gas.
+
+The hydrogen can then be supplied to a [[Methane Synthesizer]] to make Methane Gas, used to make unlimited rocket fuel. 
+END
 
 
