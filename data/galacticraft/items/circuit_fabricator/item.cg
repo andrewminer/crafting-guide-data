@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+The Circuit Fabricator is a machine block that is used to produce the [[Blue Solar Wafer]], [[Basic Wafer]] and the [[Advanced Wafer]].
+
+It is required to power it with energy, which can be connected using [[Aluminum Wire]]. 
+END
+
+
