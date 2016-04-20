@@ -1,0 +1,12 @@
+schema: 1
+
+description: <<-END
+The Telemetry Unit is used to gather data to be displayed on the telemetry information channel of a nearby Display Screen.
+
+It can gather information about:
+- players
+- rockets
+- mobs
+END
+
+
