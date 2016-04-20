@@ -1,0 +1,8 @@
+schema: 1
+
+description: <<-END
+
+The [[Electric Arc Furnace]] has similar functionality to an [[Electric Furnace]] but with two major benefits: doubled ingot production from smelting ores, and faster speed than an [[Electric Furnace]]. 
+END
+
+
