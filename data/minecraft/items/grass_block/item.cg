@@ -1,0 +1,13 @@
+schema: 1
+
+description: <<-END
+Grass Blocks make up the surface layer of most temperate biomes.  They can be harvested with or without a special tool (the shovel being the most efficient), but only a [[Dirt]] block will be received unless you use a tool which has the Silk Touch enchantment (or the equivalent).
+
+Grass Blocks also have the interesting property that they will convert nearby [[Dirt]] blocks into grass blocks.  It happens slowly, but eventually an entire dirt patch can be converted by a single grass block.  This happens even without being directly in sight of the sky.
+
+When right-clicked with [[Bone Meal]], Grass Blocks will sprout both tall grass and various kinds of native Minecraft flowers ([[Poppy]], [[Dandelion]], [[Allium]], etc.).  Since these flowers cannot be cultivated like crops, this is the only way to produce more.
+
+Like [[Dirt]], Grass Blocks can be turned into tilled soil suitable for farming by right-clicking with a hoe.  Just as with dirt, the tilled soil made from grass will revert to being plain dirt if left too long without a water block nearby (within 4m).
+END
+
+
