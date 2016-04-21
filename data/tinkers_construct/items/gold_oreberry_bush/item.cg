@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+Gold Oreberry Bushes produce [[Gold Oreberry]]s which can be melted down into [[Copper Nugget]]s. They can be found underground at all levels below 64m from bedrock.
+
+The berries can be picked when ripe by right-clicking the plant. The bush itself can be obtained by breaking it like any other block (no special tool is required). They can be planted on Stone or Cobblestone. When planted, they are tiny, immature bushes which require some time to become full-sized.
+END
+
+
