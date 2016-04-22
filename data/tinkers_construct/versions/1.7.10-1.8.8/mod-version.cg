@@ -74,6 +74,560 @@ group: Armor
             input: Golden Apple (magic), Miniature Yellow Heart, Red Heart Canister
             pattern: 21. 0.. ...
 
+group: Blocks—Bricks
+
+    item: Bone Brick
+        recipe:
+            input: Bone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Chiseled Seared Bricks
+        recipe:
+            input: Fancy Seared Bricks, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Chiseled Seared Bricks (layered)
+        recipe:
+            input: Seared Paver, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Chiseled Seared Bricks (nether)
+
+    item: Chiseled Seared Bricks (nether layered)
+
+    item: Chiseled Seared Slab
+        recipe:
+            input: Chiseled Seared Bricks
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Chiseled Seared Slab (layered)
+        recipe:
+            input: Chiseled Seared Bricks (layered)
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Cracked Seared Bricks
+
+    item: Cracked Seared Bricks (nether)
+
+    item: Endstone Brick
+        recipe:
+            input: End Stone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Alumite Brick
+        recipe:
+            input: Alumite Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Ardite Brick
+        recipe:
+            input: Ardite Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Bone Brick
+        recipe:
+            input: Bone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Cobalt Brick
+        recipe:
+            input: Cobalt Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Diamond Brick
+        recipe:
+            input: Diamond Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Endstone Brick
+        recipe:
+            input: Endstone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Gold Brick
+        recipe:
+            input: Gold Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Iron Brick
+        recipe:
+            input: Iron Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Lapis Brick
+        recipe:
+            input: Lapis Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Manyullyn Brick
+        recipe:
+            input: Manyullyn Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Netherrack Brick
+        recipe:
+            input: Netherrack Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Obsidian Brick
+        recipe:
+            input: Obsidian Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Obsidian Brick (style 2)
+        recipe:
+            input: Obsidian Brick (style 2), Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Polished Stone Brick
+        recipe:
+            input: Polished Stone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Redstone Brick
+        recipe:
+            input: Redstone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Sandstone Brick
+        recipe:
+            input: Sandstone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Seared Bricks
+        recipe:
+            input: Seared Road, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Seared Bricks (nether)
+
+    item: Fancy Seared Slab
+        recipe:
+            input: Fancy Seared Bricks
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Fancy Slime Brick (blue)
+        recipe:
+            input: Slime Brick (blue), Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Slime Brick (green)
+        recipe:
+            input: Slime Brick (green), Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Stone Brick
+        recipe:
+            input: Stone Road, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Lapis Brick
+        recipe:
+            input: Lapis Lazuli, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Netherrack Brick
+
+    item: Obsidian Brick (style 2)
+        recipe:
+            input: Obsidian Ingot, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Polished Stone Brick
+
+    item: Redstone Brick
+        recipe:
+            input: Redstone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Sandstone Brick
+        recipe:
+            input: Chiseled Sandstone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Seared Cobblestone
+        recipe:
+            input: 72 Seared Stone (liquid), Casting Basin, Cobblestone
+            pattern: .0. .2. .1.
+            tools: Smeltery
+
+    item: Seared Paver
+        recipe:
+            input: Seared Stone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Seared Paver Slab
+        recipe:
+            input: Seared Paver
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Seared Road
+        recipe:
+            input: Seared Bricks, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Seared Road Slab
+        recipe:
+            input: Seared Road
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Seared Stone
+        recipe:
+            extras: Casting Basin
+            input: 144 Seared Stone (liquid), Casting Basin
+            pattern: .0. ... .1.
+            tools: Smeltery
+
+    item: Seared Stone Slab
+        recipe:
+            input: Seared Stone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Slime Brick (blue)
+        recipe:
+            input: Gelatinous Slime, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Slime Brick (green)
+        recipe:
+            input: Slimeball, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Stone Road
+        recipe:
+            input: Stone Bricks, Wooden Chisel
+            pattern: 10. ... ...
+
+group: Blocks—Brownstone
+
+    item: Brownstone
+        recipe:
+            input: furnace fuel, Rough Brownstone
+            pattern: .1. ... .0.
+            tools: Furnace
+
+    item: Brownstone Brick
+        recipe:
+            input: Brownstone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Brownstone Brick Slab
+        recipe:
+            input: Brownstone Brick
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Brownstone Road (rough)
+        recipe:
+            input: Rough Brownstone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Brownstone Road Slab (rough)
+        recipe:
+            input: Brownstone Road (rough)
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Brownstone Road Slab (smooth)
+        recipe:
+            input: Brownstone Road (smooth)
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Brownstone Road (smooth)
+        recipe:
+            input: Brownstone Brick, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Brownstone Slab
+        recipe:
+            input: Brownstone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Chiseled Brownstone
+        recipe:
+            input: Fancy Brownstone, Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Chiseled Brownstone Slab
+        recipe:
+            input: Chiseled Brownstone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Fancy Brownstone
+        recipe:
+            input: Brownstone Road (smooth), Wooden Chisel
+            pattern: 10. ... ...
+
+    item: Fancy Brownstone Slab
+        recipe:
+            input: Fancy Brownstone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Rough Brownstone
+        recipe:
+            extras: Casting Basin
+            input: 16 Liquid Tin, Casting Basin, Gravel
+            pattern: .0. .2. .1.
+            tools: Smeltery
+
+    item: Rough Brownstone Slab
+        recipe:
+            input: Rough Brownstone
+            pattern: ... 000 ...
+            quantity: 6
+            tools: Crafting Table
+
+group: Blocks—Soil
+
+    item: Consecrated Soil
+        recipe:
+            input: furnace fuel, Graveyard Soil
+            pattern: .1. ... .0.
+            tools: Furnace
+
+    item: Graveyard Soil
+        recipe:
+            input: Bone Meal, Dirt, Rotten Flesh
+            pattern: 12. 0.. ...
+
+group: Blocks—Structures
+
+    item: Birch Barricade
+        recipe:
+            input: Birch Wood
+            pattern: 0.. 0.. ...
+
+    item: Blood Channel
+        recipe:
+            input: Coagulated Blood, Redstone
+            pattern: 00. 00. 1..
+            tools: Crafting Table
+
+    item: Bounce Pad
+        recipe:
+            input: Slime Channel, Slimeball
+            pattern: 01. ... ...
+        recipe:
+            input: Gelatinous Slime, Slime Channel
+            pattern: 10. ... ...
+        recipe:
+            input: Coagulated Blood, Slime Channel
+            pattern: 10. ... ...
+        recipe:
+            input: Ball of Glue, Slime Channel
+            pattern: 10. ... ...
+
+    item: Jungle Barricade
+        recipe:
+            input: Jungle Wood
+            pattern: 0.. 0.. ...
+            tools: Crafting Table
+
+    item: Ladder
+        recipe:
+            input: Stone Tool Rod
+            pattern: 0.0 000 0.0
+            tools: Crafting Table
+        recipe:
+            input: Stone Rod
+            pattern: 0.0 000 0.0
+            tools: Crafting Table
+
+    item: Landmine (everything)
+        recipe:
+            input: Blank Cast, Oak Wood Planks, Pressure Plate, Redstone
+            pattern: 101 323 ...
+            tools: Crafting Table
+
+    item: Landmine (mobs players redstone)
+        recipe:
+            input: Blank Cast, Pressure Plate, Redstone, Stone
+            pattern: 303 212 ...
+            tools: Crafting Table
+
+    item: Landmine (players redstone)
+        recipe:
+            input: Blank Cast, Obsidian, Pressure Plate, Redstone
+            pattern: 101 323 ...
+            tools: Crafting Table
+
+    item: Landmine (redstone)
+        recipe:
+            input: Blank Cast, Pressure Plate, Redstone, Redstone Repeater
+            pattern: 303 212 ...
+            tools: Crafting Table
+
+    item: Oak Barricade
+        recipe:
+            input: Oak Wood
+            pattern: 0.. 0.. ...
+
+    item: Punji Stick
+        recipe:
+            input: Sugar Canes
+            pattern: 0.0 .0. 0.0
+            quantity: 5
+            tools: Crafting Table
+
+    item: Purple Wool Slab
+        recipe:
+            input: Purple Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Red Wool Slab
+        recipe:
+            input: Red Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Slime Channel
+        recipe:
+            input: Congealed Green Slime, Redstone
+            pattern: 01. ... ...
+        recipe:
+            input: Congealed Blue Slime, Redstone
+            pattern: 01. ... ...
+        recipe:
+            input: Congealed Purple Slime, Redstone
+            pattern: 01. ... ...
+
+    item: Spruce Barricade
+        recipe:
+            input: Spruce Wood
+            pattern: 0.. 0.. ...
+
+    item: Wooden Rail
+        recipe:
+            input: Oak Wood Planks, Stick
+            pattern: 0.0 010 0.0
+            quantity: 4
+            tools: Crafting Table
+
+group: Blocks—Wool Slabs
+
+    item: Black Wool Slab
+        recipe:
+            input: Black Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Blue Wool Slab
+        recipe:
+            input: Blue Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Brown Wool Slab
+        recipe:
+            input: Brown Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Cyan Wool Slab
+        recipe:
+            input: Cyan Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Gray Wool Slab
+        recipe:
+            input: Gray Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Green Wool Slab
+        recipe:
+            input: Green Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Light Blue Wool Slab
+        recipe:
+            input: Light Blue Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Light Gray Wool Slab
+        recipe:
+            input: Light Gray Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Lime Wool Slab
+        recipe:
+            input: Lime Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Magenta Wool Slab
+        recipe:
+            input: Magenta Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Orange Wool Slab
+        recipe:
+            input: Orange Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Pink Wool Slab
+        recipe:
+            input: Pink Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Wool Slab
+        recipe:
+            input: Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Yellow Wool Slab
+        recipe:
+            input: Yellow Wool
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+
 group: Bolts
 
     item: Alumite Bolt
@@ -234,7 +788,7 @@ group: Books
             input: Mighty Smelting
             pattern: ... .0. ...
 
-group: Cast Parts
+group: Cast Parts—Alumite
 
     item: Alumite Arrowhead
         recipe:
@@ -266,8 +820,8 @@ group: Cast Parts
 
     item: Alumite Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Alumite, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Alumite, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -308,22 +862,22 @@ group: Cast Parts
 
     item: Alumite Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Alumite, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Alumite, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Alumite Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Alumite, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Alumite, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Alumite Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Alumite, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Alumite, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -385,8 +939,8 @@ group: Cast Parts
 
     item: Alumite Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Alumite, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Alumite, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -425,6 +979,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Ardite
+
     item: Ardite Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -455,8 +1011,8 @@ group: Cast Parts
 
     item: Ardite Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Ardite, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Ardite, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -497,22 +1053,22 @@ group: Cast Parts
 
     item: Ardite Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Ardite, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Ardite, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Ardite Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Ardite, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Ardite, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Ardite Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Ardite, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Ardite, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -574,8 +1130,8 @@ group: Cast Parts
 
     item: Ardite Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Ardite, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Ardite, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -614,6 +1170,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Bronze
+
     item: Bronze Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -644,8 +1202,8 @@ group: Cast Parts
 
     item: Bronze Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Bronze, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Bronze, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -686,22 +1244,22 @@ group: Cast Parts
 
     item: Bronze Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Bronze, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Bronze, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Bronze Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Bronze, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Bronze, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Bronze Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Bronze, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Bronze, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -763,8 +1321,8 @@ group: Cast Parts
 
     item: Bronze Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Bronze, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Bronze, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -803,6 +1361,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Cobalt
+
     item: Cobalt Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -833,8 +1393,8 @@ group: Cast Parts
 
     item: Cobalt Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Cobalt, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Cobalt, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -875,22 +1435,22 @@ group: Cast Parts
 
     item: Cobalt Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Cobalt, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Cobalt, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Cobalt Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Cobalt, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Cobalt, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Cobalt Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Cobalt, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Cobalt, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -952,8 +1512,8 @@ group: Cast Parts
 
     item: Cobalt Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Cobalt, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Cobalt, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -992,6 +1552,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Copper
+
     item: Copper Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1022,8 +1584,8 @@ group: Cast Parts
 
     item: Copper Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Copper, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Copper, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -1064,22 +1626,22 @@ group: Cast Parts
 
     item: Copper Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Copper, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Copper, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Copper Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Copper, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Copper, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Copper Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Copper, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Copper, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1141,8 +1703,8 @@ group: Cast Parts
 
     item: Copper Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Copper, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Copper, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1181,6 +1743,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Iron
+
     item: Iron Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1211,8 +1775,8 @@ group: Cast Parts
 
     item: Iron Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Iron, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Iron, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -1253,22 +1817,22 @@ group: Cast Parts
 
     item: Iron Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Iron, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Iron, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Iron Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Iron, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Iron, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Iron Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Iron, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Iron, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1330,8 +1894,8 @@ group: Cast Parts
 
     item: Iron Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Iron, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Iron, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1370,6 +1934,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Manyullyn
+
     item: Manyullyn Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1400,8 +1966,8 @@ group: Cast Parts
 
     item: Manyullyn Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Manyullyn, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Manyullyn, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -1442,22 +2008,22 @@ group: Cast Parts
 
     item: Manyullyn Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Manyullyn, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Manyullyn, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Manyullyn Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Manyullyn, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Manyullyn, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Manyullyn Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Manyullyn, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Manyullyn, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1519,8 +2085,8 @@ group: Cast Parts
 
     item: Manyullyn Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Manyullyn, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Manyullyn, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1559,6 +2125,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Obsidian
+
     item: Obsidian Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1589,8 +2157,8 @@ group: Cast Parts
 
     item: Obsidian Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Obsidian, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Obsidian, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -1631,22 +2199,22 @@ group: Cast Parts
 
     item: Obsidian Full Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 432 Molten Obsidian, Casting Table, Crossbow Body Cast
+            extras: Full Guard Cast, Casting Table
+            input: 432 Molten Obsidian, Casting Table, Full Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Obsidian Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Obsidian, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Obsidian, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Obsidian Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Obsidian, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Obsidian, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1708,8 +2276,8 @@ group: Cast Parts
 
     item: Obsidian Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Obsidian, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Obsidian, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1748,6 +2316,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Pig Iron
+
     item: Pig Iron Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1778,8 +2348,8 @@ group: Cast Parts
 
     item: Pig Iron Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Pig Iron, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Pig Iron, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -1820,15 +2390,15 @@ group: Cast Parts
 
     item: Pig Iron Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Pig Iron, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Pig Iron, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Pig Iron Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Pig Iron, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Pig Iron, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1890,8 +2460,8 @@ group: Cast Parts
 
     item: Pig Iron Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Pig Iron, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Pig Iron, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -1930,6 +2500,8 @@ group: Cast Parts
             pattern: .0. .2. .1.
             tools: Smeltery
 
+group: Cast Parts—Steel
+
     item: Steel Arrowhead
         recipe:
             extras: Arrowhead Cast, Casting Table
@@ -1960,8 +2532,8 @@ group: Cast Parts
 
     item: Steel Broad Axe Head
         recipe:
-            extras: Axe Head Cast, Casting Table
-            input: 1152 Molten Steel, Axe Head Cast, Casting Table
+            extras: Broadaxe Head Cast, Casting Table
+            input: 1152 Molten Steel, Broadaxe Head Cast, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
@@ -2002,15 +2574,15 @@ group: Cast Parts
 
     item: Steel Hammer Head
         recipe:
-            extras: Hand Guard Cast, Casting Table
-            input: 1152 Molten Steel, Casting Table, Hand Guard Cast
+            extras: Hammer Head Cast, Casting Table
+            input: 1152 Molten Steel, Casting Table, Hammer Head Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
     item: Steel Hand Guard
         recipe:
-            extras: Crossbow Body Cast, Casting Table
-            input: 72 Molten Steel, Casting Table, Crossbow Body Cast
+            extras: Hand Guard Cast, Casting Table
+            input: 72 Molten Steel, Casting Table, Hand Guard Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2072,8 +2644,8 @@ group: Cast Parts
 
     item: Steel Sign Head
         recipe:
-            extras: Sign Head Cast, Casting Table
-            input: 144 Molten Steel, Casting Table, Sign Head Cast
+            extras: Wide Board Cast, Casting Table
+            input: 144 Molten Steel, Casting Table, Wide Board Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2151,8 +2723,8 @@ group: Cast Patterns
 
     item: Broadaxe Head Cast
         recipe:
-            extras: Stone Broadaxe Head, Casting Table
-            input: 144 Molten Aluminum Brass, Casting Table, Stone Broadaxe Head
+            extras: Stone Broad Axe Head, Casting Table
+            input: 144 Molten Aluminum Brass, Casting Table, Stone Broad Axe Head
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2195,13 +2767,6 @@ group: Cast Patterns
         recipe:
             extras: Stone Full Guard, Casting Table
             input: 144 Molten Aluminum Brass, Casting Table, Stone Full Guard
-            pattern: .0. .2. .1.
-            tools: Smeltery
-
-    item: Gear Cast
-        recipe:
-            extras: Stone Gear, Casting Table
-            input: 144 Molten Aluminum Brass, Casting Table, Stone Gear
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2304,8 +2869,8 @@ group: Cast Patterns
 
     item: Tool Binding Cast
         recipe:
-            extras: Stone Tool Binding, Casting Table
-            input: 144 Molten Aluminum Brass, Casting Table, Stone Tool Binding
+            extras: Stone Binding, Casting Table
+            input: 144 Molten Aluminum Brass, Casting Table, Stone Binding
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2332,8 +2897,8 @@ group: Cast Patterns
 
     item: Wide Board Cast
         recipe:
-            extras: Stone Wide Board, Casting Table
-            input: 144 Molten Aluminum Brass, Casting Table, Stone Wide Board
+            extras: Stone Sign Head, Casting Table
+            input: 144 Molten Aluminum Brass, Casting Table, Stone Sign Head
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -2387,17 +2952,15 @@ group: Food
 
     item: Hambone
         recipe:
-            input: Bone, Raw Pork
+            input: Bone, Raw Porkchop
             pattern: 111 101 111
             tools: Crafting Table
 
     item: Monster Jerky
         recipe:
-            input: Rotting Flesh
+            input: Rotten Flesh
             pattern: ... .0. ...
             tools: Drying Rack
-
-    item: Mutton Jerky
 
     item: Necrotic Bone
         gatherable: yes
@@ -2685,22 +3248,22 @@ group: Glass
 
     item: Red Stained Glass
         recipe:
-            input: Clear Glass, Rose Red Dye
+            input: Clear Glass, Rose Red
             pattern: 000 010 000
             quantity: 8
             tools: Crafting Table
         recipe:
-            input: Clear Glass, Rose Red Dye
+            input: Clear Glass, Rose Red
             pattern: 01. ... ...
 
     item: Red Stained Pane
         recipe:
-            input: Clear Glass Pane, Rose Red Dye
+            input: Clear Glass Pane, Rose Red
             pattern: 000 010 000
             quantity: 8
             tools: Crafting Table
         recipe:
-            input: Clear Glass Pane, Rose Red Dye
+            input: Clear Glass Pane, Rose Red
             pattern: 01. ... ...
 
     item: White Stained Glass
@@ -2725,91 +3288,100 @@ group: Glass
 
     item: Yellow Stained Glass
         recipe:
-            input: Clear Glass, Dandelion Yellow Dye
+            input: Clear Glass, Dandelion Yellow
             pattern: 000 010 000
             quantity: 8
             tools: Crafting Table
         recipe:
-            input: Clear Glass, Dandelion Yellow Dye
+            input: Clear Glass, Dandelion Yellow
             pattern: 01. ... ...
 
     item: Yellow Stained Pane
         recipe:
-            input: Clear Glass Pane, Dandelion Yellow Dye
+            input: Clear Glass Pane, Dandelion Yellow
             pattern: 000 010 000
             quantity: 8
             tools: Crafting Table
         recipe:
-            input: Clear Glass Pane, Dandelion Yellow Dye
+            input: Clear Glass Pane, Dandelion Yellow
             pattern: 01. ... ...
-
-group: Liquid Bucket
-
-    item: Seared Stone Bucket
-        recipe:
-            input: 1000 Seared Stone, Bucket, Casting Table
-            pattern: .0. .1. .2.
-            tools: Smeltery
 
 group: Liquid Buckets
 
     item: Bucket o' Blood
         recipe:
-            input: 1000 Blood, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Blood, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Liquid Slime Bucket
         recipe:
-            input: 1000 Liquid Slime, Bucket
+            input: 1000 Liquified Slime, Bucket
             pattern: ... .0. .1.
-            tools: Crafting Table
 
     item: Liquified Emerald Bucket
         recipe:
-            input: 1000 Liquified Emerald, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Liquified Emerald, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Aluminum Brass Bucket
         recipe:
-            input: 1000 Molten Aluminum Brass, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Aluminum Brass, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Aluminum Bucket
         recipe:
-            input: 1000 Molten Aluminum, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Aluminum, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Alumite Bucket
         recipe:
-            input: 1000 Molten Alumite, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Alumite, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Ardite Bucket
         recipe:
-            input: 1000 Molten Ardite, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Ardite, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Bronze Bucket
         recipe:
-            input: 1000 Molten Bronze, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Bronze, Bucket, Casting Table
+            pattern: .0. .1. .2.
             tools: Smeltery
 
     item: Molten Cobalt Bucket
         recipe:
-            input: 1000 Molten Cobalt, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Cobalt, Bucket, Casting Table
+            pattern: .0. .1. .2.
             tools: Smeltery
 
     item: Molten Copper Bucket
         recipe:
-            input: 1000 Molten Copper, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Copper, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Glass Bucket
         recipe:
-            input: 1000 Molten Glass, Bucket
-            pattern: .0. .1. ...
+            extras: Casting Table
+            input: 1000 Molten Glass, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Gold Bucket
         recipe:
@@ -2820,35 +3392,51 @@ group: Liquid Buckets
 
     item: Molten Iron Bucket
         recipe:
-            input: 1000 Molten Iron, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Iron, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Manyullyn Bucket
         recipe:
-            input: 1000 Molten Manyullyn, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Manyullyn, Bucket, Casting Table
+            pattern: .0. .1. .2.
             tools: Smeltery
 
     item: Molten Obsidian Bucket
         recipe:
-            input: 1000 Molten Obsidian, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Obsidian, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Pig Iron Bucket
         recipe:
+            extras: Casting Table
             input: 1000 Molten Pig Iron, Bucket, Casting Table
             pattern: .0. .1. .2.
             tools: Smeltery
 
     item: Molten Steel Bucket
         recipe:
-            input: 1000 Molten Steel, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Molten Steel, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Molten Tin Bucket
         recipe:
-            input: 1000 Molten Tin, Bucket
-            pattern: ... .0. .1.
+            extras: Casting Table
+            input: 1000 Liquid Tin, Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
+
+    item: Seared Stone Bucket
+        recipe:
+            input: 1000 Seared Stone (liquid), Bucket, Casting Table
+            pattern: .0. .1. .2.
+            tools: Smeltery
 
     item: Sticky Glue Bucket
         recipe:
@@ -2907,6 +3495,11 @@ group: Liquids
             tools: Smeltery
 
     item: Liquified Emerald
+        recipe:
+            input: Emerald Ore
+            pattern: ... .0. ...
+            quantity: 1280
+            tools: Smeltery
         recipe:
             input: Emerald
             pattern: ... .0. ...
@@ -3029,6 +3622,11 @@ group: Liquids
             input: Ardite Nugget
             pattern: ... .0. ...
             quantity: 16
+            tools: Smeltery
+        recipe:
+            input: Block of Ardite
+            pattern: ... .0. ...
+            quantity: 1296
             tools: Smeltery
 
     item: Molten Bronze
@@ -3219,7 +3817,7 @@ group: Liquids
 
     item: Molten Pig Iron
         recipe:
-            input: 640 Liqufied Emerald, 144 Molten Iron, 80 Blood
+            input: 640 Liquified Emerald, 144 Molten Iron, 80 Blood
             pattern: ... ... 102
             quantity: 144
             tools: Smeltery
@@ -3275,10 +3873,12 @@ group: Liquids
         recipe:
             input: Cobblestone
             pattern: ... .0. ...
+            quantity: 18
             tools: Smeltery
         recipe:
             input: Stone
             pattern: ... .0. ...
+            quantity: 18
             tools: Smeltery
 
 group: Materials
@@ -3299,7 +3899,7 @@ group: Materials
     item: Block of Solid Ender
         recipe:
             extras: Casting Basin
-            input: 1000 Liquid Ender, Casting Basin
+            input: 1000 Liquified Ender, Casting Basin
             pattern: .0. ... .1.
             tools: Smeltery
 
@@ -3437,7 +4037,7 @@ group: Materials
 
     item: Slime Soil
         recipe:
-            input: Gravel, Netherwart, Soul Sand
+            input: Gravel, Nether Wart, Soul Sand
             pattern: 12. 0.. ...
             quantity: 2
 
@@ -3683,9 +4283,13 @@ group: Metals
     item: Block of Tin
         recipe:
             extras: Casting Basin
-            input: 1296 Molten Tin, Casting Basin
+            input: 1296 Liquid Tin, Casting Basin
             pattern: .0. ... .1.
             tools: Smeltery
+        recipe:
+            input: Tin Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Bronze Ingot
         recipe:
@@ -3747,10 +4351,6 @@ group: Metals
             input: 16 Molten Cobalt, Casting Table, Nugget Cast
             pattern: .0. .2. .1.
             tools: Smeltery
-        recipe:
-            input: Cobalt Oreberry, furnace fuel
-            pattern: .0. ... .1.
-            tools: Furnace
 
     item: Copper Ingot
         recipe:
@@ -3758,6 +4358,14 @@ group: Metals
             input: 144 Molten Copper, Casting Table, Ingot Cast
             pattern: .0. .2. .1.
             tools: Smeltery
+        recipe:
+            input: Copper Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Copper Gravel Ore, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
         recipe:
             input: Copper Nugget
             pattern: 000 000 000
@@ -3915,7 +4523,7 @@ group: Metals
     item: Tin Ingot
         recipe:
             extras: Ingot Cast, Casting Table
-            input: 144 Molten Tin, Casting Table, Ingot Cast
+            input: 144 Liquid Tin, Casting Table, Ingot Cast
             pattern: .0. .2. .1.
             tools: Smeltery
         recipe:
@@ -3942,7 +4550,7 @@ group: Metals
             quantity: 9
         recipe:
             extras: Nugget Cast, Casting Table
-            input: 16 Molten Tin, Casting Table, Nugget Cast
+            input: 16 Liquid Tin, Casting Table, Nugget Cast
             pattern: .0. .2. .1.
             tools: Smeltery
 
@@ -4017,6 +4625,11 @@ group: Plants
         gatherable: yes
 
     item: Tin Oreberry Bush
+        gatherable: yes
+
+group: Slime Island
+
+    item: Blue Slimedirt
         gatherable: yes
 
 group: Smeltery and Parts
@@ -4172,13 +4785,13 @@ group: Stencil Patterns
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Axe Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Blank Pattern
         recipe:
@@ -4190,165 +4803,192 @@ group: Stencil Patterns
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Bowstring Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Broadaxe Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Chisel Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Crossbar Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Crossbow Body Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Crossbow Limb Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Excavator Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Fletching Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Full Guard Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Hammer Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Hand Guard Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Knife Blade Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Large Blade Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Large Plate Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Pan Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Pickaxe Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Scythe Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Shovel Head Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Shuriken Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Sword Blade Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Tool Binding Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Tool Rod Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Tough Binding Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Tough Rod Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Wide Board Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
     item: Wide Guard Pattern
         recipe:
             input: Blank Pattern
             pattern: ... .0. ...
-            tools: Stencil Table
+            tools: Stencil Table (oak)
 
 group: Stenciled Parts
+
+    item: Bowstring
+        recipe:
+            input: 3 String, Bowstring Pattern
+            pattern: ... 0.1 ...
+            tools: Tool Station
+
+    item: Feather Fletching
+        recipe:
+            input: Feather, Fletching Pattern
+            pattern: ... 0.1 ...
+            tools: Part Builder (oak)
+
+    item: Leaf Fletching
+        recipe:
+            extras: Fletching Pattern
+            input: Fletching Pattern, Oak Leaves
+            pattern: ... 1.0 ...
+            tools: Part Builder (oak)
+
+    item: Slimeleaf Fletching
+        recipe:
+            input: Fletching Pattern, Slimy Leaves
+            pattern: ... 1.0 ...
+            tools: Part Builder
+
+group: Stenciled Parts—Bone
 
     item: Bone Arrowhead
         recipe:
@@ -4382,7 +5022,7 @@ group: Stenciled Parts
 
     item: Bone Broad Axe Head
         recipe:
-            input: Bone, Broadaxe Head Pattern
+            input: 8 Bone, Broadaxe Head Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -4553,11 +5193,7 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Bowstring
-        recipe:
-            input: 3 String, String Pattern
-            pattern: ... 0.1 ...
-            tools: Tool Station
+group: Stenciled Parts—Cactus
 
     item: Cactus Arrowhead
         recipe:
@@ -4591,8 +5227,8 @@ group: Stenciled Parts
 
     item: Cactus Broad Axe Head
         recipe:
-            input: Broadaxe Head Pattern, Cactus
-            pattern: ... 10. ...
+            input: 8 Cactus, Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Cactus Chisel Head
@@ -4762,11 +5398,7 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Feather Fletching
-        recipe:
-            input: Feather, Fletching Pattern
-            pattern: ... 0.1 ...
-            tools: Part Builder
+group: Stenciled Parts—Flint
 
     item: Flint Arrowhead
         recipe:
@@ -4800,8 +5432,8 @@ group: Stenciled Parts
 
     item: Flint Broad Axe Head
         recipe:
-            input: Broadaxe Head Pattern, Flint
-            pattern: ... 10. ...
+            input: 8 Flint, Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Flint Chisel Head
@@ -4971,12 +5603,7 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Leaf Fletching
-        recipe:
-            extras: Fletching Pattern
-            input: Fletching Pattern, Oak Leaves
-            pattern: ... 1.0 ...
-            tools: Part Builder (oak) (oak)
+group: Stenciled Parts—Netherrack
 
     item: Netherrack Arrowhead
         recipe:
@@ -5010,8 +5637,8 @@ group: Stenciled Parts
 
     item: Netherrack Broad Axe Head
         recipe:
-            input: Broadaxe Head Pattern, Netherrack
-            pattern: ... 10. ...
+            input: 8 Netherrack, Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Netherrack Chisel Head
@@ -5181,6 +5808,8 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
+group: Stenciled Parts—Paper
+
     item: Paper Arrowhead
         recipe:
             input: 2 Paper, Arrowhead Pattern
@@ -5343,27 +5972,17 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
+group: Stenciled Parts—Slime (blue)
+
     item: Slime Arrowhead (blue)
         recipe:
             input: Arrowhead Pattern, Slime Crystal (blue)
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Arrowhead (green)
-        recipe:
-            input: Arrowhead Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Axe Head (blue)
         recipe:
             input: Axe Head Pattern, Slime Crystal (blue)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
-    item: Slime Axe Head (green)
-        recipe:
-            input: Axe Head Pattern, Slime Crystal (green)
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
@@ -5378,17 +5997,6 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Binding (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Slime Crystal (green), Tool Binding Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Slime Shard (green), Tool Binding Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Bow Limb (blue)
         recipe:
             extras: Slime Shard (blue)
@@ -5396,23 +6004,10 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Bow Limb (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: 2 Slime Crystal (green), Bow Limb Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Broad Axe Head (blue)
         recipe:
-            input: Broadaxe Head Pattern, Slime Crystal (blue)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
-    item: Slime Broad Axe Head (green)
-        recipe:
-            input: Broadaxe Head Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
+            input: 8 Slime Crystal (blue), Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Slime Chisel Head (blue)
@@ -5423,17 +6018,6 @@ group: Stenciled Parts
             tools: Part Builder (oak)
         recipe:
             input: Chisel Head Pattern, Slime Shard (blue)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
-    item: Slime Chisel Head (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Chisel Head Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Chisel Head Pattern, Slime Shard (green)
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
@@ -5448,26 +6032,9 @@ group: Stenciled Parts
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Crossbar (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Crossbar Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Crossbar Pattern, Slime Shard (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Crossbow Body (blue)
         recipe:
             input: 5 Slime Crystal (blue), Crossbow Body Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Crossbow Body (green)
-        recipe:
-            input: 5 Slime Crystal (green), Crossbow Body Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5477,21 +6044,9 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Crossbow Limb (green)
-        recipe:
-            input: 4 Slime Crystal (green), Crossbow Limb Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Excavator Head (blue)
         recipe:
             input: 8 Slime Crystal (blue), Excavator Head Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Excavator Head (green)
-        recipe:
-            input: 8 Slime Crystal (green), Excavator Head Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5502,28 +6057,9 @@ group: Stenciled Parts
             pattern: ... 1.0 ...
             tools: Tool Builder (oak)
 
-    item: Slime Fletching (green)
-        recipe:
-            extras: Fletching Pattern
-            input: Fletching Pattern, Slime Crystal (green)
-            pattern: ... 1.0 ...
-            tools: Tool Builder (oak)
-
-    item: Slime Full Guard (green)
-        recipe:
-            input: 3 Slime Crystal (green), Full Guard Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Hammer Head (blue)
         recipe:
             input: 8 Slime Crystal (blue), Hammer Head Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Hammer Head (green)
-        recipe:
-            input: 8 Slime Crystal (green), Hammer Head Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5538,17 +6074,6 @@ group: Stenciled Parts
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Hand Guard (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Hand Guard Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Hand Guard Pattern, Slime Shard (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Knife Blade (blue)
         recipe:
             extras: Slime Shard (blue)
@@ -5560,26 +6085,9 @@ group: Stenciled Parts
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Knife Blade (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Knife Blade Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Knife Blade Pattern, Slime Shard (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Large Plate (blue)
         recipe:
             input: 8 Slime Crystal (blue), Large Plate Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Large Plate (green)
-        recipe:
-            input: 8 Slime Crystal (green), Large Plate Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5589,21 +6097,9 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Large Sword Blade (green)
-        recipe:
-            input: 8 Slime Crystal (green), Large Blade Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Pan (blue)
         recipe:
             input: Pan Pattern, Slime Crystal (blue)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
-    item: Slime Pan (green)
-        recipe:
-            input: Pan Pattern, Slime Crystal (green)
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
@@ -5613,33 +6109,15 @@ group: Stenciled Parts
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Pickaxe Head (green)
-        recipe:
-            input: Pickaxe Head Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Scythe Head (blue)
         recipe:
             input: 8 Slime Crystal (blue), Scythe Head Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Scythe Head (green)
-        recipe:
-            input: 8 Slime Crystal (green), Scythe Head Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Shovel Head (blue)
         recipe:
             input: Shovel Head Pattern, Slime Crystal (blue)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
-    item: Slime Shovel Head (green)
-        recipe:
-            input: Shovel Head Pattern, Slime Crystal (green)
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
@@ -5654,38 +6132,15 @@ group: Stenciled Parts
             pattern: ... 10. ...
             tools: Part Builder (oak)
 
-    item: Slime Shuriken (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Shuriken Pattern, Slime Crystal (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Shuriken Pattern, Slime Shard (green)
-            pattern: ... 10. ...
-            tools: Part Builder (oak)
-
     item: Slime Sign Head (blue)
         recipe:
             input: Slime Crystal (blue), Wide Board Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Sign Head (green)
-        recipe:
-            input: Slime Crystal (green), Wide Board Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Sword Blade (blue)
         recipe:
             input: Slime Crystal (blue), Sword Blade Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Sword Blade (green)
-        recipe:
-            input: Slime Crystal (green), Sword Blade Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5700,38 +6155,15 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Tool Rod (green)
-        recipe:
-            extras: Slime Shard (green)
-            input: Slime Crystal (green), Tool Rod Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-        recipe:
-            input: Slime Shard (green), Tool Rod Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Tough Binding (blue)
         recipe:
             input: 3 Slime Crystal (blue), Tough Binding Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slime Tough Binding (green)
-        recipe:
-            input: 3 Slime Crystal (green), Tough Binding Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
     item: Slime Tough Rod (blue)
         recipe:
             input: 3 Slime Crystal (blue), Tough Rod Pattern
-            pattern: ... 01. ...
-            tools: Part Builder (oak)
-
-    item: Slime Tough Rod (green)
-        recipe:
-            input: 3 Slime Crystal (green), Tough Rod Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
@@ -5746,6 +6178,207 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
+group: Stenciled Parts—Slime (green)
+
+    item: Slime Arrowhead (green)
+        recipe:
+            input: Arrowhead Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Axe Head (green)
+        recipe:
+            input: Axe Head Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Binding (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Slime Crystal (green), Tool Binding Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Slime Shard (green), Tool Binding Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Bow Limb (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: 2 Slime Crystal (green), Bow Limb Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Broad Axe Head (green)
+        recipe:
+            input: 8 Slime Crystal (green), Broadaxe Head Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Chisel Head (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Chisel Head Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Chisel Head Pattern, Slime Shard (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Crossbar (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Crossbar Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Crossbar Pattern, Slime Shard (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Crossbow Body (green)
+        recipe:
+            input: 5 Slime Crystal (green), Crossbow Body Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Crossbow Limb (green)
+        recipe:
+            input: 4 Slime Crystal (green), Crossbow Limb Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Excavator Head (green)
+        recipe:
+            input: 8 Slime Crystal (green), Excavator Head Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Fletching (green)
+        recipe:
+            extras: Fletching Pattern
+            input: Fletching Pattern, Slime Crystal (green)
+            pattern: ... 1.0 ...
+            tools: Tool Builder (oak)
+
+    item: Slime Full Guard (green)
+        recipe:
+            input: 3 Slime Crystal (green), Full Guard Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Hammer Head (green)
+        recipe:
+            input: 8 Slime Crystal (green), Hammer Head Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Hand Guard (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Hand Guard Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Hand Guard Pattern, Slime Shard (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Knife Blade (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Knife Blade Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Knife Blade Pattern, Slime Shard (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Large Plate (green)
+        recipe:
+            input: 8 Slime Crystal (green), Large Plate Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Large Sword Blade (green)
+        recipe:
+            input: 8 Slime Crystal (green), Large Blade Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Pan (green)
+        recipe:
+            input: Pan Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Pickaxe Head (green)
+        recipe:
+            input: Pickaxe Head Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Scythe Head (green)
+        recipe:
+            input: 8 Slime Crystal (green), Scythe Head Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Shovel Head (green)
+        recipe:
+            input: Shovel Head Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Shuriken (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Shuriken Pattern, Slime Crystal (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Shuriken Pattern, Slime Shard (green)
+            pattern: ... 10. ...
+            tools: Part Builder (oak)
+
+    item: Slime Sign Head (green)
+        recipe:
+            input: Slime Crystal (green), Wide Board Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Sword Blade (green)
+        recipe:
+            input: Slime Crystal (green), Sword Blade Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Tool Rod (green)
+        recipe:
+            extras: Slime Shard (green)
+            input: Slime Crystal (green), Tool Rod Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+        recipe:
+            input: Slime Shard (green), Tool Rod Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Tough Binding (green)
+        recipe:
+            input: 3 Slime Crystal (green), Tough Binding Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
+    item: Slime Tough Rod (green)
+        recipe:
+            input: 3 Slime Crystal (green), Tough Rod Pattern
+            pattern: ... 01. ...
+            tools: Part Builder (oak)
+
     item: Slime Wide Guard (green)
         recipe:
             extras: Slime Shard (green)
@@ -5757,11 +6390,7 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
-    item: Slimeleaf Fletching
-        recipe:
-            input: Fletching Pattern, Slimy Leaves
-            pattern: ... 1.0 ...
-            tools: Part Builder
+group: Stenciled Parts—Stone
 
     item: Stone Arrowhead
         recipe:
@@ -5795,8 +6424,8 @@ group: Stenciled Parts
 
     item: Stone Broad Axe Head
         recipe:
-            input: Broadaxe Head Pattern, Cobblestone
-            pattern: ... 10. ...
+            input: 8 Cobblestone, Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Stone Chisel Head
@@ -5966,6 +6595,8 @@ group: Stenciled Parts
             pattern: ... 01. ...
             tools: Part Builder (oak)
 
+group: Stenciled Parts—Wooden
+
     item: Wooden Arrowhead
         recipe:
             input: Arrowhead Pattern, Oak Wood Planks
@@ -5998,8 +6629,8 @@ group: Stenciled Parts
 
     item: Wooden Broad Axe Head
         recipe:
-            input: Broadaxe Head Pattern, Oak Wood Planks
-            pattern: ... 10. ...
+            input: 8 Oak Wood Planks, Broadaxe Head Pattern
+            pattern: ... 01. ...
             tools: Part Builder (oak)
 
     item: Wooden Chisel Head
@@ -6168,548 +6799,6 @@ group: Stenciled Parts
             input: Stick, Wide Guard Pattern
             pattern: ... 01. ...
             tools: Part Builder (oak)
-
-group: Structures
-
-    item: Birch Barricade
-        recipe:
-            input: Birch Wood
-            pattern: 0.. 0.. ...
-
-    item: Black Wool Slab
-        recipe:
-            input: Black Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Blood Channel
-        recipe:
-            input: Coagulated Blood, Redstone
-            pattern: 00. 00. 1..
-            tools: Crafting Table
-
-    item: Blue Slimedirt
-        gatherable: yes
-
-    item: Blue Wool Slab
-        recipe:
-            input: Blue Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Bone Brick
-        recipe:
-            input: Bone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Bounce Pad
-        recipe:
-            input: Slime Channel, Slimeball
-            pattern: 01. ... ...
-        recipe:
-            input: Gelatinous Slime, Slime Channel
-            pattern: 10. ... ...
-        recipe:
-            input: Coagulated Blood, Slime Channel
-            pattern: 10. ... ...
-        recipe:
-            input: Glue, Slime Channel
-            pattern: 10. ... ...
-
-    item: Brown Wool Slab
-        recipe:
-            input: Brown Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Brownstone
-        recipe:
-            input: furnace fuel, Rough Brownstone
-            pattern: .1. ... .0.
-            tools: Furnace
-
-    item: Brownstone Brick
-        recipe:
-            input: Brownstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Brownstone Brick Slab
-        recipe:
-            input: Brownstone Brick
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Brownstone Road (rough)
-        recipe:
-            input: Rough Brownstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Brownstone Road Slab (rough)
-        recipe:
-            input: Brownstone Road (rough)
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Brownstone Road Slab (smooth)
-        recipe:
-            input: Brownstone Road (smooth)
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Brownstone Road (smooth)
-        recipe:
-            input: Brownstone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Brownstone Slab
-        recipe:
-            input: Brownstone
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Chiseled Brownstone
-        recipe:
-            input: Fancy Brownstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Chiseled Brownstone Slab
-        recipe:
-            input: Chiseled Brownstone
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Chiseled Seared Bricks
-        recipe:
-            input: Fancy Seared Bricks, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Chiseled Seared Bricks (layered)
-        recipe:
-            input: Seared Paver, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Chiseled Seared Bricks (nether)
-
-    item: Chiseled Seared Bricks (nether layered)
-
-    item: Chiseled Seared Slab
-        recipe:
-            input: Chiseled Seared Bricks
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Chiseled Seared Slab (layered)
-        recipe:
-            input: Chiseled Seared Bricks (layered)
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Consecrated Soil
-        recipe:
-            input: furnace fuel, Graveyard Soil
-            pattern: .1. ... .0.
-            tools: Furnace
-
-    item: Cracked Seared Bricks
-
-    item: Cracked Seared Bricks (nether)
-
-    item: Cyan Wool Slab
-        recipe:
-            input: Cyan Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Endstone Brick
-        recipe:
-            input: Endstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Alumite Brick
-        recipe:
-            input: Alumite Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Ardite Brick
-        recipe:
-            input: Ardite Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Bone Brick
-        recipe:
-            input: Bone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Brownstone
-        recipe:
-            input: Brownstone Road (smooth), Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Brownstone Slab
-        recipe:
-            input: Fancy Brownstone
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Fancy Cobalt Brick
-        recipe:
-            input: Cobalt Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Diamond Brick
-        recipe:
-            input: Diamond Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Endstone Brick
-        recipe:
-            input: Endstone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Gold Brick
-        recipe:
-            input: Gold Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Iron Brick
-        recipe:
-            input: Iron Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Lapis Brick
-        recipe:
-            input: Manyullyn Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Manyullyn Brick
-
-    item: Fancy Netherrack Brick
-        recipe:
-            input: Netherrack Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Obsidian Brick
-        recipe:
-            input: Obsidian Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Obsidian Brick (style 2)
-        recipe:
-            input: Obsidian Brick (style 2), Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Polished Stone Brick
-        recipe:
-            input: Polished Stone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Redstone Brick
-        recipe:
-            input: Redstone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Sandstone Brick
-        recipe:
-            input: Sandstone Brick, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Seared Bricks
-        recipe:
-            input: Seared Road, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Seared Bricks (nether)
-
-    item: Fancy Seared Slab
-        recipe:
-            input: Fancy Seared Bricks
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Fancy Slime Brick (blue)
-        recipe:
-            input: Slime Brick (blue), Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Slime Brick (green)
-        recipe:
-            input: Slime Brick (green), Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Fancy Stone Brick
-        recipe:
-            input: Stone Road, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Graveyard Soil
-        recipe:
-            input: Bone Meal, Dirt, Rotten Flesh
-            pattern: 12. 0.. ...
-
-    item: Gray Wool Slab
-        recipe:
-            input: Gray Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Green Wool Slab
-        recipe:
-            input: Green Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Jungle Barricade
-        recipe:
-            input: Jungle Wood
-            pattern: 0.. 0.. ...
-            tools: Crafting Table
-
-    item: Ladder
-        recipe:
-            input: Stone Tool Rod
-            pattern: 0.0 000 0.0
-            tools: Crafting Table
-        recipe:
-            input: Stone Rod
-            pattern: 0.0 000 0.0
-            tools: Crafting Table
-
-    item: Landmine (everything)
-        recipe:
-            input: Blank Cast, Oak Wood Planks, Pressure Plate, Redstone
-            pattern: 101 323 ...
-            tools: Crafting Table
-
-    item: Landmine (mobs players redstone)
-        recipe:
-            input: Blank Cast, Pressure Plate, Redstone, Stone
-            pattern: 303 212 ...
-            tools: Crafting Table
-
-    item: Landmine (players redstone)
-        recipe:
-            input: Blank Cast, Obsidian, Pressure Plate, Redstone
-            pattern: 101 323 ...
-            tools: Crafting Table
-
-    item: Landmine (redstone)
-        recipe:
-            input: Blank Cast, Pressure Plate, Redstone, Redstone Repeater
-            pattern: 303 212 ...
-            tools: Crafting Table
-
-    item: Lapis Brick
-        recipe:
-            input: Lapis Lazuli, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Light Blue Wool Slab
-        recipe:
-            input: Light Blue Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Light Gray Wool Slab
-        recipe:
-            input: Light Gray Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Lime Wool Slab
-        recipe:
-            input: Lime Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Magenta Wool Slab
-        recipe:
-            input: Magenta Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Oak Barricade
-        recipe:
-            input: Oak Wood
-            pattern: 0.. 0.. ...
-
-    item: Obsidian Brick (style 2)
-        recipe:
-            input: Obsidian Ingot, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Orange Wool Slab
-        recipe:
-            input: Orange Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Pink Wool Slab
-        recipe:
-            input: Pink Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Punji Stick
-        recipe:
-            input: Sugar Canes
-            pattern: 0.0 .0. 0.0
-            quantity: 5
-            tools: Crafting Table
-
-    item: Purple Wool Slab
-        recipe:
-            input: Purple Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Red Wool Slab
-        recipe:
-            input: Red Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Redstone Brick
-        recipe:
-            input: Redstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Rough Brownstone
-        recipe:
-            extras: Casting Basin
-            input: 16 Molten Tin, Casting Basin, Gravel
-            pattern: .0. .2. .1.
-            tools: Smeltery
-
-    item: Rough Brownstone Slab
-        recipe:
-            input: Rough Brownstone
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Sandstone Brick
-        recipe:
-            input: Chiseled Sandstone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Seared Cobblestone
-        recipe:
-            input: 72 Seared Stone, Casting Basin, Cobblestone
-            pattern: .0. .2. .1.
-            tools: Smeltery
-
-    item: Seared Paver
-        recipe:
-            input: Seared Stone, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Seared Paver Slab
-        recipe:
-            input: Seared Paver
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Seared Road
-        recipe:
-            input: Seared Bricks, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Seared Road Slab
-        recipe:
-            input: Seared Road
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Seared Stone
-        recipe:
-            extras: Casting Basin
-            input: 144 Seared Stone (liquid), Casting Basin
-            pattern: .0. ... .1.
-            tools: Smeltery
-
-    item: Seared Stone Slab
-        recipe:
-            input: Seared Stone
-            pattern: ... 000 ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Slime Brick (blue)
-        recipe:
-            input: Gelatinous Slime, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Slime Brick (green)
-        recipe:
-            input: Slimeball, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Slime Channel
-        recipe:
-            input: Congealed Green Slime, Redstone
-            pattern: 01. ... ...
-        recipe:
-            input: Congealed Blue Slime, Redstone
-            pattern: 01. ... ...
-        recipe:
-            input: Congealed Purple Slime, Redstone
-            pattern: 01. ... ...
-
-    item: Spruce Barricade
-        recipe:
-            input: Spruce Wood
-            pattern: 0.. 0.. ...
-
-    item: Stone Road
-        recipe:
-            input: Stone Bricks, Wooden Chisel
-            pattern: 10. ... ...
-
-    item: Wooden Rail
-        recipe:
-            input: Oak Wood Planks, Stick
-            pattern: 0.0 010 0.0
-            quantity: 4
-            tools: Crafting Table
-
-    item: Wool Slab
-        recipe:
-            input: Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
-
-    item: Yellow Wool Slab
-        recipe:
-            input: Yellow Wool
-            pattern: 000 ... ...
-            quantity: 6
-            tools: Crafting Table
 
 group: Tools
 
@@ -6937,9 +7026,35 @@ group: Tools
             pattern: 1.. 0.. ...
             tools: Tool Station
 
+update: Block of Emerald
+    recipe:
+        extras: Casting Basin
+        input: 5760 Liquified Emerald, Casting Basin
+        pattern: .0. ... .1.
+        tools: Smeltery
+
+update: Emerald
+    recipe:
+        extras: Gem Cast, Casting Table
+        input: 640 Liquified Emerald, Casting Table, Gem Cast
+        pattern: .0. .2. .1.
+        tools: Smeltery
+
+update: Gold Ingot
+    recipe:
+        input: furnace fuel, Gold Gravel Ore
+        pattern: .1. ... .0.
+        tools: Furnace
+
 update: Gold Nugget
     recipe:
         input: furnace fuel, Gold Oreberry
+        pattern: .1. ... .0.
+        tools: Furnace
+
+update: Iron Ingot
+    recipe:
+        input: furnace fuel, Iron Gravel Ore
         pattern: .1. ... .0.
         tools: Furnace
 
