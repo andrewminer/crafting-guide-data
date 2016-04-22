@@ -113,6 +113,11 @@ group: Blocks—Bricks
 
     item: Cracked Seared Bricks (nether)
 
+    item: Diamond Brick
+        recipe:
+            input: Block of Diamond, Wooden Chisel
+            pattern: 10. ... ...
+
     item: Endstone Brick
         recipe:
             input: End Stone, Wooden Chisel
@@ -3523,9 +3528,6 @@ group: Liquids
             quantity: 1000
             tools: Smeltery
 
-    item: Liquified Slime
-        gatherable: yes
-
     item: Molten Aluminum
         recipe:
             input: Aluminum Ore
@@ -3921,14 +3923,6 @@ group: Materials
         recipe:
             input: Slimeball
             pattern: 00. 00. ...
-
-    item: Congealed Purple Slime
-        gatherable: yes
-
-    item: Diamond Brick
-        recipe:
-            input: Block of Diamond, Wooden Chisel
-            pattern: 10. ... ...
 
     item: Empty Canister
         recipe:
@@ -4612,6 +4606,20 @@ group: Plants
     item: Iron Oreberry Bush
         gatherable: yes
 
+    item: Tin Oreberry Bush
+        gatherable: yes
+
+group: Slime Island
+
+    item: Blue Slimedirt
+        gatherable: yes
+
+    item: Congealed Purple Slime
+        gatherable: yes
+
+    item: Liquified Slime
+        gatherable: yes
+
     item: Slimy Grass
         gatherable: yes
 
@@ -4622,14 +4630,6 @@ group: Plants
         gatherable: yes
 
     item: Slimy Sapling
-        gatherable: yes
-
-    item: Tin Oreberry Bush
-        gatherable: yes
-
-group: Slime Island
-
-    item: Blue Slimedirt
         gatherable: yes
 
 group: Smeltery and Parts
