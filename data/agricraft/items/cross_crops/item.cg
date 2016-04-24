@@ -6,6 +6,7 @@ into farmland.  Then, right-click the farmland with [[Crop Sticks]] to place the
 crop sticks with *another* set of crop sticks so that they add sticks across the tops of the first set.  Now you have a
 cross-crops.
 
+Once formed, cross crops allow plant growing in adaject crops to cross breed.  If the two adjacent crops are of the same species, the mutation will be a stronger plant.  If they are two different species which form a valid pair, then the new plant has a chance to be a new species.  In any case, the cross crops will revert to being a regular crops (i.e., the extra crops on the top are destroyed). 
 END
 
 
