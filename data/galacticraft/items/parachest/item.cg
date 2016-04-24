@@ -1,5 +1,5 @@
 schema: 1
 
-description: The Parachest cannot be crafted, but instead is automatically created when the player returns to the overworld in a rocket.  It will land near where the player descends and will contain the rocket, landing pads, and extra fuel left over from the trip.
+description: The Parachest cannot be crafted, but instead is automatically created when the player returns to the overworld in a rocket.  It will land near where the player descends and will contain the rocket, landing pads, and extra fuel left over from the trip.  Any other equipment near the launch site (e.g., oxygen equipment or a [[Fuel Loader]]) will be left behind.
 
 
