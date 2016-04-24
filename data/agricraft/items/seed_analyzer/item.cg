@@ -1,0 +1,5 @@
+schema: 1
+
+description: The seed analyzer will accept any seed and determine the characteristics of the seed.  If an [[Agricultural Journal]] is also in the machine, then the page related to that plant will be added as well.  
+
+
