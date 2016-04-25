@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+Lapis Lazuli is a semi-rare precious stone found deep underground.  It naturally breaks up into 2-4 chunks when harvested.  In fact, this is generally better than using a silk touch pickaxe to get the ore as the ore only gives you a single chunk when smelted.
+
+In addition to serving as a blue dye, Lapis Lazuli is principally used with the [[Enchanting Table]].  Each enchantment can use 1, 2, or 3 chunks of lapis along with 1, 2, or 3 levels of experience.  Sacrificing more lapis & experience will result in higher-level enchantments.
+END
+
+
