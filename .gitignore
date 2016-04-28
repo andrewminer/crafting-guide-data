@@ -3,3 +3,4 @@ aws.config
 build
 dist
 node_modules
+data/modpack.cg

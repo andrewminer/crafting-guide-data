@@ -54,7 +54,7 @@ module.exports = (grunt)->
         ['test']
 
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
-        ['clean', 'script:compile-archive', 'symlink:images', 'compress', 'clean:modpack']
+        ['clean', 'script:compile-archive', 'symlink:images', 'compress']
 
     grunt.registerTask 'test', 'run unit tests',
         ['mochaTest']
