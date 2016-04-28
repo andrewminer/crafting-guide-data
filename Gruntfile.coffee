@@ -23,6 +23,7 @@ module.exports = (grunt)->
 
         clean:
             dist: ['./dist']
+            modpack: ['./data/modpack.cg']
 
         mochaTest:
             options:
@@ -53,7 +54,7 @@ module.exports = (grunt)->
         ['test']
 
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
-        ['clean', 'symlink:images', 'compress']
+        ['clean', 'script:compile-archive', 'symlink:images', 'compress', 'clean:modpack']
 
     grunt.registerTask 'test', 'run unit tests',
         ['mochaTest']
@@ -78,6 +79,10 @@ module.exports = (grunt)->
     grunt.registerTask 'script:clear', 'clears the terminal screen', ->
       done = this.async()
       grunt.util.spawn cmd:'clear', opts:{stdio:'inherit'}, (error)-> done(error)
+
+    grunt.registerTask 'script:compile-archive', 'clears the terminal screen', ->
+      done = this.async()
+      grunt.util.spawn cmd:'scripts/compile-archive', opts:{stdio:'inherit'}, (error)-> done(error)
 
     grunt.registerTask 'script:s3_upload:prod', 'uploads all static content to S3', ->
       done = this.async()

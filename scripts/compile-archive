@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ARCHIVE="data/modpack.cg"
+
+rm $ARCHIVE 2>/dev/null
+touch $ARCHIVE
+
+find data -name "mod.cg" -o -name "mod-version.cg" | while read FILE; do
+    echo "#file=/$FILE" >> $ARCHIVE
+    cat "$FILE" | sed 's/[\n\r]+/\n/' >> $ARCHIVE
+done
