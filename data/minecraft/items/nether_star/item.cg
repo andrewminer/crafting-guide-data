@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+The Nether Star is dropped by the Wither when it is defeated.  The Wither is extremely powerful, flys, and is capable of destroying blocks, so be well armed and armored before attempting to defeat one.
+
+Unlike most other monsters, the Wither doesn't live anywhere in the Minecraft world.  Instead, it is built as a multi-block structure which transforms into the mob.  To create one, create a T-shape of [[Soul Sand]] (one block with three on top of it) surmounted by three [[Wither Skeleton Skull]]s.  Then, stand back!  The Wither will instantly appear and go into a period of "charging up".  After which, it will violently explode and start attacking anything and everything nearby.
+END
+
+
