@@ -1,8 +1,5 @@
 schema: 1
 
-description: <<-END
-The Angel Ring let's you fly similar to being in creative mode.  
-It fits in the Baubles (mod) ring inventory slot and will add decorative wings on your back.
-END
+description: The Angel Ring let's you fly similar to being in creative mode.  It fits in the ring inventory slot added by the Baubles mod, and it adds decorative wings on your back.
 
 
