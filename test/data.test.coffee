@@ -16,6 +16,9 @@ fs                 = require 'fs'
 describe 'data files for', ->
 
     for modSlug in fs.readdirSync './data/'
+        stats = fs.lstatSync "./data/#{modSlug}"
+        continue unless stats.isDirectory()
+
         do (modSlug)->
             describe modSlug, ->
 
