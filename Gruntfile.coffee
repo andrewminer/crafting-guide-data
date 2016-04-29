@@ -46,7 +46,7 @@ module.exports = (grunt)->
         watch:
             test:
                 files: ['./data/**/*.cg']
-                tasks: ['script:clear', 'mochaTest']
+                tasks: ['script:clear', 'script:compile-archive', 'mochaTest']
 
     # Compound Tasks ###################################################################################################
 
