@@ -1,0 +1,8 @@
+schema: 1
+
+description: <<-END
+A cheaper alternative to regular charcoal.
+It can burn 2 items per sugar charcoal in a regular furnace
+END
+
+
