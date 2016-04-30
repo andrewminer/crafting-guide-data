@@ -1,5 +1,5 @@
 schema: 1
 
-description: Identical to vanilla farmland, except thst it keeps itself hydrated without a watersource
+description: Fertile Soil acts very much like regular tilled dirt except that it doesn't require a [[Water]] source block nearby to remain tilled.
 
 
