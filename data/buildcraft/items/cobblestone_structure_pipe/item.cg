@@ -1,0 +1,5 @@
+schema: 1
+
+description: A Cobblestone Structure Pipe acts like a pipe in that you can place wires, gates, facades, and pipe plugs on it, but without actually transporting anything.  They make a cheap and easy way to fill space between pipe systems in a way which allows your pipe wire to jump the gap.
+
+
