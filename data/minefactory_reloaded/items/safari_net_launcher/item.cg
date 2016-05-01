@@ -1,0 +1,11 @@
+schema: 1
+
+description: <<-END
+The Safari Net Launcher can be used to shoot a [[Safari Net (Reusable)]] or [[Safari Net (Single-Use)]] at mobs from a distance.  It has two modes: capture and release.  Right-clicking while sneaking will switch modes.
+
+When in capture mode, it will fire any empty safari net in the user's inventory.  If the net hits a mob, the mob will be captured, and the filled net will be dropped as a item you can pick up.
+
+When in release mode, it will fire any full safari net, releasing the trapped creature.  If the net is reusable, the empty net will be dropped for the player to pick up.
+END
+
+
