@@ -1,0 +1,5 @@
+schema: 1
+
+description: A Cake is a food item which can be placed in the world as a solid block, and then eaten one slice at a time.  Each of the seven slices restore 2 hunger points (1 shank).  It cannot be eaten as an item from your hotbar like other foods.
+
+
