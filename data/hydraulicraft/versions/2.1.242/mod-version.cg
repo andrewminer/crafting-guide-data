@@ -641,7 +641,7 @@ group: Miscellaneous
 
     item: Jar Of Dirt
         recipe:
-            input: Glass, Oakwood Slab, Podzol
+            input: Glass, Oak Wood Slab, Podzol
             pattern: .1. 020 000
             tools: Crafting Table
 
