@@ -1,0 +1,4659 @@
+schema: 1
+
+group: Core items
+
+  item: Decobench
+     recipe:
+         input: Rose Red, Cactus Green, Lapis Lazuli, Crafting Table, Clay Block
+         pattern: .0. 132 .4.
+         quantity: 1
+         tools: Crafting Table
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Crafting Table
+         pattern: .0. 132 ...
+         quantity: 1
+         tools: Crafting Table
+         
+  item: Red Crafting Clay
+     recipe:
+         input: Sand, Dirt, Rose Red
+         pattern: 01. 2.. ...
+         quantity: 4
+         tools: Crafting Table
+         
+  item: Green Crafting Clay
+     recipe:
+         input: Sand, Dirt, Cactus Green
+         pattern: 01. 2.. ...
+         quantity: 4
+         tools: Crafting Table
+         
+  item: Blue Crafting Clay
+     recipe:
+         input: Sand, Dirt, Lapis Lazuli
+         pattern: 01. 2.. ...
+         quantity: 4
+         tools: Crafting Table
+
+group: Decorations: Art
+
+  item: Piano
+     recipe:
+         input: 15 Red Crafting Clay, 12 Green Crafting Clay, 9 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Harp
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Phonograph
+     recipe:
+         input: 3 Red Crafting Clay, 2 Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Easel
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Camera
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Bathroom
+
+  item: Toilet Paper
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Tissue Box
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Body Towel
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Hand Towel
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Toilet Basin
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Toilet Pipe
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Toilet Water Tank
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Shower Head 1
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Shower Handles 1
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Soap Holder
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Sink Faucet Outward
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Sink Faucet Inward
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Sink
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Tub Faucet
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: ToothBrush Case
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Plunger
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Bedroom
+
+  item: Cradle
+     recipe:
+         input: 4 Red Crafting Clay, 3 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Brush and Comb
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Wall Mirror
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Sewing Machine
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Glass Rose
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Engagement Ring
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Perfume Blue
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Cyan
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Lime
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Orange
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Pink
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Purple
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Perfume Red
+     recipe:
+         input: 3 Red Crafting Clay
+         pattern: ... .0. ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Vanity Center
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Vanity Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Vanity Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Bedside Table
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Dream Catcher
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Dresser
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Sideboard
+     recipe:
+         input: 3 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Wardrobe
+     recipe:
+         input: 5 Red Crafting Clay, 4 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Dresser Boy
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Dresser Girl
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Chest of Drawers Boy
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Chest of Drawers Girl
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Alarm Clock
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Beds
+
+  item: Single Bed Black
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Blue
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Brown
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Coral
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Cyan
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Fuchsia
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Green
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Light Blue
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Lime
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Orange
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Pink
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Purple
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Razzle
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Red
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed White
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Single Bed Yellow
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+        
+  item: Double Bed Black Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Black Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Blue Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Blue Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Brown Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Brown Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Coral Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Coral Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Cyan Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Cyan Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Fuchsia Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Fuchsia Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Green Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Green Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Light Blue Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Light Blue Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Lime Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Lime Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Orange Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Orange Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Pink Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Pink Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Purple Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Purple Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Razzle Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Razzle Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Red Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Red Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed White Left
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed White Right
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Yellow Left
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Double Bed Yellow Right
+     recipe:
+         input: 2 Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Canopy Bed Black Left
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Black Right
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Blue Left
+     recipe:
+         input: 5 Red Crafting Clay, 7 Green Crafting Clay, 7 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Blue Right
+     recipe:
+         input: 5 Red Crafting Clay, 7 Green Crafting Clay, 7 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Brown Left
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Brown Right
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Coral Left
+     recipe:
+         input: 8 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Coral Right
+     recipe:
+         input: 8 Red Crafting Clay, 6 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Cyan Left
+     recipe:
+         input: 5 Red Crafting Clay, 7 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Cyan Right
+     recipe:
+         input: 5 Red Crafting Clay, 7 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Fuchsia Left
+     recipe:
+         input: 9 Red Crafting Clay, 4 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Fuchsia Right
+     recipe:
+         input: 9 Red Crafting Clay, 4 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Green Left
+     recipe:
+         input: 7 Red Crafting Clay, 8 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Green Right
+     recipe:
+         input: 7 Red Crafting Clay, 8 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Light Blue Left
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Light Blue Right
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Lime Left
+     recipe:
+         input: 7 Red Crafting Clay, 8 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Lime Right
+     recipe:
+         input: 7 Red Crafting Clay, 8 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Orange Left
+     recipe:
+         input: 8 Red Crafting Clay, 6 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Orange Right
+     recipe:
+         input: 8 Red Crafting Clay, 6 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Pink Left
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Pink Right
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Purple Left
+     recipe:
+         input: 7 Red Crafting Clay, 4 Green Crafting Clay, 7 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Purple Right
+     recipe:
+         input: 7 Red Crafting Clay, 4 Green Crafting Clay, 7 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Razzle Left
+     recipe:
+         input: 9 Red Crafting Clay, 5 Green Crafting Clay, 6 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Razzle Right
+     recipe:
+         input: 9 Red Crafting Clay, 5 Green Crafting Clay, 6 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Red Left
+     recipe:
+         input: 10 Red Crafting Clay, 5 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Red Right
+     recipe:
+         input: 10 Red Crafting Clay, 5 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed White Left
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed White Right
+     recipe:
+         input: 7 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Yellow Left
+     recipe:
+         input: 8 Red Crafting Clay, 7 Green Crafting Clay, 4 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Canopy Bed Yellow Right
+     recipe:
+         input: 8 Red Crafting Clay, 7 Green Crafting Clay, 4 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Dining
+
+  item: Plates Fancy
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Tea Set
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Tea Cup
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Beer Mug
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Salt and Pepper Shakers
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Wooden Beer Stein
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Dungeon
+
+  item: Gold Ingot Stack
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Clay
+         pattern: .2. 01. ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Iron Ingot Stack
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Bronze Ingot Stack
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Chain Bottom
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Chain Middle
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Chain Top
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Key Chain
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Stock
+     recipe:
+         input: 5 Red Crafting Clay, 5 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Cannon
+     recipe:
+         input: 5 Red Crafting Clay, 5 Green Crafting Clay, 5 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Cannon Balls
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+      
+  item: Skelleton 1
+     recipe:
+         input: 4 Red Crafting Clay, 4 Green Crafting Clay, 4 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Skelleton 2
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Skelleton 3
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Skelleton 4
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Coffin Stone 1
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Coffin Stone 2
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Coffin Wood 1
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Coffin Wood 2
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Coffin Wood 3
+     recipe:
+         input: 6 Red Crafting Clay, 6 Green Crafting Clay, 6 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Coffin Wood 4
+     recipe:
+         input: 3 Red Crafting Clay, 3 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: BurialUrn
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Dungeon Skeleton 1
+     recipe:
+         input: 3 Red Crafting Clay, 3 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Dungeon Skeleton 2
+     recipe:
+         input: 3 Red Crafting Clay, 3 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Dungeon Skeleton 3
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+
+  item: Dungeon Skeleton 4
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Treasure Map
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Giant Spider Web
+     recipe:
+         input: 3 Red Crafting Clay, 3 Green Crafting Clay, 3 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Guillotine
+     recipe:
+         input: 14 Red Crafting Clay, 12 Green Crafting Clay, 11 Blue Crafting Clay, Clay
+         pattern: .3. 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Dynamite Sticks
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Fences
+
+  item: Door Barricade
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Barbed Wire
+     recipe:
+         input: 2 Red Crafting Clay, 2 Green Crafting Clay, 2 Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+group: Decorations: Food
+
+  item: Wine Bottle
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Cooked Turkey
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay, Blue Crafting Clay
+         pattern: ... 012 ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Honey Pot
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay
+         pattern: ... 01. ...
+         quantity: 1
+         tools: Decobench
+         
+  item: Cheese Wheel
+     recipe:
+         input: Red Crafting Clay, Green Crafting Clay
+         pattern: ... 01. ...
+         quantity: 1
+         tools: Decobench
+
+# item: Altar De Muertos
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Anatomical Doll
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Anchor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Ant Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Aquarium
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Archive Box
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Axe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Baby Bottle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bacon Pan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Balloons
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barber Pole Ground
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barber Pole Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barcelona Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Carrots
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Golden Apple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Green Apple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Potatoes
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel Red Apple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Barrel
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: BasketBall Basket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: BasketBall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bathroom Sign Female
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bathroom Sign Male
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bathroom Sign
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bear Rug Black
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Beer Keg
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Big Anchor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Billiard Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bird Bath
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: birdcage
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Birdhouse
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Birthday Cake 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Birthday Cake
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: BookandQuill
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet 2 Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet 3 Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Center Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Center
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Corner Left Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Corner Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Corner Right Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Corner Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bottom Cabinet
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bread Loaf
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bronze Oddem
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Broom Cabinet L
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Broom Cabinet
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Broom
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Bubblegum Machine
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Built in Microwave Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Built in Microwave
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Candle Stick
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Candle Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Candy Bowl
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Candy Corn Bowl
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Candycane Jar
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Card Deck
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: CarrotPile
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Cart 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Cart 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Ceiling Fan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chalk Board
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chandelier Crystal
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chandelier Gold
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chandelier Iron
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Checkers
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chemistry Set
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chest Keyhole
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Chick Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Bells
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Lights
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Tree Small
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Tree
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Wreath 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Christmas Wreath 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Clothesline 6
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Coat Rack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Cow Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Credenza Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Credenza Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Crystal Ball
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Cuckoo Clock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Cutting Board
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dart Board
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: DiscordMLP
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dish Rack Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dish Rack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dog House Big
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dog House Small
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dollhouse 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dollhouse 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dolly Gennaln
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dolly Jill
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Dolly Mia
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Donation Box
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Egg Basket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Elf Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Etch-A-Sketch
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fall Wreath
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fire Alarm
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fireplace
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fish Bowl
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fish Trophy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: FishHanging
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fishing net
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Food Processor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fridge Large
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fridge Small
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Fruit Bowl
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garden Flamingo
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garden Gnome
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 10
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 6
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 7
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 8
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Garland 9
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Gingerbread House
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Glass Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Gold Oddem
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Grandfather Clock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Gravestone 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Gravestone 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Gravestone 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hammock Hook
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Anchor Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Anchor Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Anchor Single
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Bridge Single
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hanging Pheasants
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Haystack Fork
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Haystack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hillhouse Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hood Island
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hood Wall Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hood Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Horizontal Barrel
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hourglass
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: How High the Moon Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hummingbird Feeder
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Hydrant
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Icicles
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Inception Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Indian
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Ironing Board
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: item.props.radiator.name
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Jack In The Box
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Jewelry Box
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Journeymap Wall Sconce
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Jukebox
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Faucet 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Faucet 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Faucet Inward
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Faucet Outward
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Shelf Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Shelf
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Sink Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kitchen Sink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Kneeler
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Knife Block
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Knife Strip
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Knight Statue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Laptop
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Large Beer Keg
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Cyan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Green
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Light Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Light Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Lime
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Orange
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Purple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Rainbow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Razz
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Red
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp White
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lava Lamp Yellow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lawn Flamingo
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Lectern
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Log Bench Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Log Bench Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Long Crate
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Luggage
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Mailbox
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: MCW Ring
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Microscope
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Milk and Cookies
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Milk Bucket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Milk Jug
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Minotaur Doll
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Mistletoe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Moon Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Mop
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Music Box
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Newton's Cradle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Noodles
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Orrery
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Oven Floor Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Oven Floor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Oven Wall Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Oven Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Black
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Cyan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Green
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Light Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Lime
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Magenta
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Orange
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Purple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Red
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado White
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Papel Picado Yellow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Airplane
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern CherryBlossom
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern Green
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern Kanji
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern Purple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern Yellow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Lantern
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Paper Stack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Park Bench
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Park Bin
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Beanxxbot
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll BevoLJ
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll BulletPhase
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll CarrieExMachina
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll ChJees
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll coffee2002
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll convict999
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Davexx100
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Daycarn
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll DuskMoon
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll fergcraft
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Gellegbs
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Girafi
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Haggle1996
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Iarunu Tatsu
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Jakimfett
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll JudgeGrimm
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Latvian
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Lividcoffee
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll OnyxDarkKnight
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll OpenKerley
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll rckymtnrfc
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Revstrom
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Saice
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Seriiiously
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Skuli
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Taelnia
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll TheJays
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll tmzasz
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Trustlines
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll Xaw4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Patron Doll ZeroKazuma
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pew Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pew Middle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pew Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Picnic Basket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Picnic Table Centre
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Picnic Table Left
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Picnic Table Right
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pig Platter
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pig Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Piggy Bank
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pile of Coal Shovel
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pile of Coal
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pilgrim
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Player Cards
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: PotatoPile
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Potions Spilled
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Potions
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 4
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 5
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 6
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 7
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 8
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Present 9
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Presents 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Presents 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Presents 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: ProfMobius And Razz Dolls
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pumpkin 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pumpkin 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pumpkin 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Pumpkin Trio
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Punching Bag
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: R2 D2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rack Chains
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rainbow Hammock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rake
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Red-Blue Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Reindeer Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Reindeer
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rocking Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rocking Horse
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rope
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Round Wall Clock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rubik's Cube Shuffled
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Rubkik's Cube
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Safe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sand Castle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Santa Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sausage Links
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Scale
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Scarecrow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sea Shells
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: See-Saw
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Serrano Ham
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sharpening Stone
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sheep Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Shelf
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Ship in a Bottle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Ship's Helm
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Apothecary 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Apothecary
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Archery
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Baker 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Baker
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Bank
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Blacksmith
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Bombs
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Books
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Butcher
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Camping
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Candy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Farming
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Fish
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Flowers
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Furniture
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign General Store
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Helm
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Honey
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Inn
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Jail
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Jeweler 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Jeweler
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Lumber
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Magic
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Maps
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Mine
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Music
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Pet
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Produce
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Pub
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Shield
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Stable
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Swords
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Tailor
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Toys
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sign Vineyard
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Silver Oddem
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Skull Candle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sleigh
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Slide
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Small Christmas Tree
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Small Coin Pile Gold
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Small Coin Pile Silver
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Snow Globe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Snowman
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Speed Bag
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Spice Rack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Spider Candle
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Spinning Wheel
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Squid Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Squirrel Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Cyan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Green
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass LightBlue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Lime
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Magenta
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Orange
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Purple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Red
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass White
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stained Glass Yellow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stocking 1
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stocking 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stone Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stove
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stuffed Bunny
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stuffed Creeper
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stuffed Spider
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stuffed Teddy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Stuffed Wolf
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sun Wall
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sweetroll Dish
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Swing
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Sword Ground
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Clock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Black
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Blue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Cyan
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Green
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Grey
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp LightBlue
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Lime
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Magenta
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Orange
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Pink
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Purple
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Red
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp White
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Table Lamp Yellow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tanning Rack Cow
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tanning Rack Leather
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tanning Rack Wolf
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tardis
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tea Hooks
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Telephone Classy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Telescope
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tiger Plushie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tiki Torch
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: tile.null.name
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: tile.null.name_2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tire Swing
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toaster
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Top Cabinet Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Top Cabinet Glass Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Top Cabinet Glass
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Top Cabinet
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Boat
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Box Boy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Box Girl
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Helicopter
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Rocket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Soldier
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Toy Train
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Training Dummy
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Tree Swing
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Trophy Bear
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Trophy Deer
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Trophy Zombie
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Trough Hitching Post
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: TV Old
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Utensil Hooks
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Vase
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wall Cabinet Full Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wall Cabinet Full
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Washing Board
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wassily Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Water Bucket
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Water pump
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Watering Can
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wedding Cake
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wheel Barrel
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wheelbarrel Coal
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wheelbarrel Feed
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wheelbarrel Jugs
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wheelbarrel Rocks
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: White Hammock
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wiggle Side Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wind Chime
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wine Rack Dark
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wine Rack Empty
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wine Rack Full
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wine Rack
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Witch Cauldron
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wood Blocks
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wood Desk
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wooden Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wooden Office Chair
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wooden Table 2
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wooden Table 3
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Wooden Table
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: World Globe
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
+# item: Xylophone
+#    recipe:
+#        input:
+#        pattern: ... ... ...
+#        quantity: 1
+#        tools: Crafting Table
+
