@@ -53,6 +53,9 @@ module.exports = (grunt)->
     grunt.registerTask 'default', 'run tests to verify data files',
         ['test']
 
+    grunt.registerTask 'compress', 'compress images files to the maximum extent',
+        ['script:pngcrush']
+
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
         ['clean', 'script:compile-archive', 'symlink:images', 'compress']
 
@@ -83,6 +86,10 @@ module.exports = (grunt)->
     grunt.registerTask 'script:compile-archive', 'clears the terminal screen', ->
       done = this.async()
       grunt.util.spawn cmd:'scripts/compile-archive', opts:{stdio:'inherit'}, (error)-> done(error)
+
+    grunt.registerTask 'script:pngcrush', 'compresses all images using pngcrush', ->
+      done = this.async()
+      grunt.util.spawn cmd:'scripts/pngcrush', opts:{stdio:'inherit'}, (error)-> done(error)
 
     grunt.registerTask 'script:s3_upload:prod', 'uploads all static content to S3', ->
       done = this.async()

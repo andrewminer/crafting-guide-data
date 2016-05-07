@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find data -name "*.png" | while read FILE; do
+    pngcrush -ow -q $FILE
+done
