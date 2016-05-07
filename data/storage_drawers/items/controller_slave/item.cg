@@ -1,0 +1,5 @@
+schema: 1
+
+description: Controller Slaves extend the influence of a [[Drawer Controller]] by 4m in all directions.  They must be within 4m of the controller to operate.
+
+
