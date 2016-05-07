@@ -1,0 +1,18 @@
+#!/bin/bash
+
+OUTPUT="dist/images.js"
+printf "exports.images = {};\n" > $OUTPUT
+
+PRIOR_MOD=""
+find data -name "*.png" | grep "items" | sort | while read FILE; do
+    MOD=$(echo $FILE | sed 's@data/\([^/]*\)/.*@\1@')
+    ITEM=$(echo $FILE | sed 's@data/\([^/]*\)/items/\([^/]*\)/.*@\2@')
+    DATA=$(cat $FILE | base64)
+
+    if [[ "$PRIOR_MOD" != "$MOD" ]]; then
+        PRIOR_MOD="$MOD"
+        printf "\nexports.images.$MOD = {};\n" >> $OUTPUT
+    fi
+
+    printf "exports.images.$MOD.$ITEM = \"data:image/png;base64,$DATA\";\n" >> $OUTPUT
+done
