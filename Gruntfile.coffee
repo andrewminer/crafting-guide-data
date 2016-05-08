@@ -53,7 +53,7 @@ module.exports = (grunt)->
     grunt.registerTask 'default', 'run tests to verify data files',
         ['test']
 
-    grunt.registerTask 'compress', 'compress images files to the maximum extent',
+    grunt.registerTask 'pngcrush', 'compress images files to the maximum extent',
         ['script:pngcrush']
 
     grunt.registerTask 'dist', 'build the project to be run from Amazon S3',
