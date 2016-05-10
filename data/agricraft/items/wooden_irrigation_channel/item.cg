@@ -1,7 +1,7 @@
 schema: 1
 
 description: <<-END
-Wooden Irrigation Channels carry water from [[Wooden Water Tank]]s to where it is needed.  This is usually to one or more [[Sprinker]]s, but can also be to move it to other water tanks.
+Wooden Irrigation Channels carry water from [[Wooden Water Tank]]s to where it is needed.  This is usually to one or more [[Sprinkler]]s, but can also be to move it to other water tanks.
 
 To create a functional channel system, start by placing a channel against the side of a water tank.  You can see that it's working if it fills up with water.  From there, keep connecting more channels, [[Wooden Channel Valve]]s, [[Sprinkler]]s, or [[Wooden Irrigation Channel Block]]s.
 
