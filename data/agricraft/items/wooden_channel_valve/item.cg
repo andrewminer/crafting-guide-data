@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+The Wooden Channel Valve allows you to stop and start the flow of water through [[Wooden Irrigation Channel]]s with a redstone signal.  The valve is open when there is no signal and closed when there is.
+
+The simplest way to do this is to simply place a lever on the side of the valve.  When the lever is in the "down" position, the valve will be closed.
+END
+
+
