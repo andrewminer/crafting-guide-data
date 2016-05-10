@@ -5,7 +5,7 @@ Wooden Irrigation Channels carry water from [[Wooden Water Tank]]s to where it i
 
 To create a functional channel system, start by placing a channel against the side of a water tank.  You can see that it's working if it fills up with water.  From there, keep connecting more channels, [[Wooden Channel Valve]]s, [[Sprinkler]]s, or [[Wooden Irrigation Channel Block]]s.
 
-The only restriction is that this kind of channel only connects to segments at the same level (i.e., y-coordinate).  To move water down a level, use a [[Wooden Irrigation Channel Block]].  To use the water for irrigating plants, use a [[Sprinker]] segment.
+The only restriction is that this kind of channel only connects to segments at the same level (i.e., y-coordinate).  To move water down a level, use a [[Wooden Irrigation Channel Block]].  To use the water for irrigating plants, use a [[Sprinkler]] segment.
 
 
 END
