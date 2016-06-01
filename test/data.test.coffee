@@ -24,7 +24,11 @@ describe 'data files for', ->
 
                 mod = new Mod slug:modSlug
                 modParser = new ModParser model:mod, showAllErrors:true
-                modParser.parse fs.readFileSync "./data/#{modSlug}/mod.cg", 'utf8'
+                try
+                    modParser.parse fs.readFileSync "./data/#{modSlug}/mod.cg", 'utf8'
+                catch
+                    # Just a placeholder directory for a suggested mod.
+                    return
 
                 it 'loads mod.cg without errors', ->
                     modParser.errors.should.eql []
