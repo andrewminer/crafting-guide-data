@@ -911,13 +911,13 @@ group: Machines
 
     item: Induction Smelter
         recipe:
-            input: Bucket, Copper Gear, Invar Ingot, Machine Frame, Redstone Reception Coil
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame, Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
 
     item: Induction Smelter (Hardened)
         recipe:
-            input: Bucket, Copper Gear, Invar Ingot, Machine Frame (Hardened), Redstone Reception Coil
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Hardened), Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
         recipe:
@@ -927,7 +927,7 @@ group: Machines
 
     item: Induction Smelter (Reinforced)
         recipe:
-            input: Bucket, Copper Gear, Invar Ingot, Machine Frame (Reinforced), Redstone Reception Coil
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Reinforced), Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
         recipe:
@@ -937,7 +937,7 @@ group: Machines
 
     item: Induction Smelter (Resonant)
         recipe:
-            input: Bucket, Copper Gear, Invar Ingot, Machine Frame (Resonant), Redstone Reception Coil
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Resonant), Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
         recipe:
