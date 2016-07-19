@@ -1,8 +1,0 @@
-schema: 1
-
-description: <<-END
-Max I/O: 5120 Rf/t  
-Tier II conduits
-END
-
-
