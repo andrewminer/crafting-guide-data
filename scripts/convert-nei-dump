@@ -1,22 +1,39 @@
 #!/bin/bash
 
 read -d '' USAGE <<END
-USAGE: convert-nei-dump <source> <mod_slug> <mod_version>
+USAGE: convert-dump <source> <mod_slug> <mod_version>
 
-    Converts output from NEI dump files into a format which can be used by
-    Crafting Guide. In particlar, this script looks for the "Item Panel" dump
-    both in PNG and CSV formats and assumes they contain all the data for the
-    target mod.
+    Converts output from various dump files into a format which can be used by
+    Crafting Guide.  BEFORE RUNNING THIS SCRIPT, YOU MUST FIRST CREATE THE
+    NECESSARY DUMP FILES.
 
-    Unfortunate, NEI doesn't generate enough information to fill in all the
-    recipes for each item: only their names. Once this script has converted the
-    data, you will need to manually enter the missing content.
+    First, set up your Minecraft profile with the mod you want to dump as well
+    as NEI and MineTweaker 3.  Then, launch the game into a single player world
+    and run the following console commands:
+
+        /mt oredict
+        /mt recipes
+        /mt recipes furnace
+
+    Then, open your inventory and click the "NEI Subsets" button at the top.
+    Right-click the "Mod" menu, and then left-click the one mod you want to
+    dump.  This should change the icons displayed on the right to just those
+    belonging to that mod.
+
+    Now, click the "Options" button in the lower-right corner. Then click
+    "Tools" followed by "Data Dumps". Next to "Item Panel", click the center
+    button until it says "PNG" and then the left hand button until it says
+    "48x48".  Finally, click the "Dump" button.
+
+    Next, click the center button on the "Item Panel" row until it says "CSV",
+    and then click "Dump" again.
+
+    You have now created all the dump files needed by this script.
 
     <source>      :    the "dumps" directory where NEI dropped its content
     <mod_slug>    :    the slug of the mod being converted
     <mod_version> : the version of the mod being converted
 END
-
 
 SOURCE_DIR="$1"; shift
 MOD_SLUG="$1"; shift

@@ -1,0 +1,526 @@
+#!/usr/bin/env coffee
+
+_    = require 'underscore'
+fs   = require 'fs-extra'
+path = require 'path'
+util = require 'util'
+
+# Global Data ##########################################################################################################
+
+DEBUG       = false
+MOD         = null
+MOD_SCRIPT  = null
+WORLD_DIR   = null
+INDENT      = 0
+
+# Constants ############################################################################################################
+
+MINETWEAKER_LOG = 'minetweaker.log'
+ICON_DIR        = path.join 'dumps', 'itempanel_icons'
+ITEMPANEL_CSV   = path.join 'dumps', 'itempanel.csv'
+
+# Process Arguments ####################################################################################################
+
+process.argv.shift() # coffee
+process.argv.shift() # script file
+
+while process.argv.length > 0
+    switch process.argv[0]
+        when '--world'
+            process.argv.shift()
+            WORLD_DIR = process.argv[0]
+
+        when '--mod'
+            process.argv.shift()
+            MOD_SCRIPT = process.argv[0]
+
+    process.argv.shift()
+
+if not WORLD_DIR? then throw new Error '--world is required'
+if not MOD_SCRIPT? then throw new Error '--mod is required'
+
+# Classes ##############################################################################################################
+
+class MinecraftId
+
+    constructor: (@mod, @name, @meta=null, @variant=null)->
+        @meta = null if not @meta or @meta in ['0', '*']
+        @meta = parseInt @meta
+        @meta = null if Number.isNaN @meta
+
+    compareTo: (other)->
+        return -1 unless other?
+
+        if @mod isnt other.mod
+            return if @mod < other.mod then -1 else +1
+        if @name isnt other.name
+            return if @name < other.name then -1 else +1
+        if @meta isnt other.meta
+            if not @meta? then return -1
+            if not other.meta? then return +1
+            return if @meta < other.meta then -1 else +1
+        if @variant isnt other.variant
+            if not @variant? then return -1
+            if not other.variant? then return +1
+            return if @variant < other.variant then -1 else +1
+
+        return 0
+
+    createVariant: (variant)->
+        return new MinecraftId @mod, @name, @meta, variant
+
+    equals: (other)->
+        return @compareTo(other) is 0
+
+    matches: (other)->
+        return false unless other?
+        return false unless @mod is other.mod
+        return false unless @name is other.name
+        return true if other.meta is null
+        return false unless @meta is other.meta
+        return true
+
+    toString: ->
+        if not @_string
+            @_string = "#{@mod}:#{@name}"
+            if @meta? then @_string += ":#{@meta}"
+            if @variant? then @_string += ":#{@variant}"
+        return @_string
+
+# Helper Functions #####################################################################################################
+
+addItem = (item)->
+    if not item? then throw new Error "cannot add null item"
+
+    MOD.items.push item
+
+computePattern = (recipe, inputGrid)->
+    pattern = [['.', '.', '.'], ['.', '.', '.'], ['.', '.', '.']]
+    cells = _.compact _.flatten inputGrid
+    recipe.inputNames = (_.uniq (cell.item.displayName for cell in cells)).sort()
+
+    for row, rowIndex in inputGrid
+        for gridCell, columnIndex in row
+            continue unless gridCell?
+
+            itemNumber = recipe.inputNames.indexOf gridCell.item.displayName
+
+            if itemNumber >= 0
+                pattern[rowIndex][columnIndex] = "#{itemNumber}"
+
+    p = pattern
+    recipe.pattern = "#{p[0][0]}#{p[0][1]}#{p[0][2]} #{p[1][0]}#{p[1][1]}#{p[1][2]} #{p[2][0]}#{p[2][1]}#{p[2][2]}"
+
+computeGridSize = (grid)->
+    grid.width = grid.height = 0
+
+    grid.rawHeight = grid.length
+    grid.rawWidth = 0
+    for row, rowIndex in grid
+        grid.rawWidth = Math.max grid.rawWidth, row.length
+
+        for cell, colIndex in row
+            continue unless cell?
+            grid.height = Math.max grid.height, rowIndex + 1
+            grid.width = Math.max grid.width, colIndex + 1
+
+    grid.isLarge = grid.width > 2 or grid.height > 2
+
+computeSlug = (text)->
+    return null unless text?
+
+    result = text.toLowerCase()
+    result = result.replace /[^a-zA-Z0-9_]/g, '_'
+    result = result.replace /__+/g, '_'
+    result = result.replace /^_/, ''
+    result = result.replace /_$/, ''
+    return result
+
+debugLog = (text)->
+    return unless DEBUG
+    console.error text
+
+findItem = (search)->
+    for item in MOD.items
+        matches = true
+        for field, value of search
+            if field is 'minecraftId'
+                if not item.minecraftId.equals(search.minecraftId)
+                    matches = false
+                    break
+
+            else if item[field] isnt value
+                matches = false
+                break
+
+        return item if matches
+
+    return null
+
+lookUpItems = (itemIds)->
+    for row in itemIds
+        for gridCell in row
+            continue unless gridCell?
+
+            item = findItem minecraftId:gridCell.minecraftId
+            if not item?
+                console.error "could not find an item for id: #{gridCell.minecraftId}"
+                return null
+
+            gridCell.item = item
+
+normalizeMinecraftId = (minecraftId)->
+    return minecraftId unless minecraftId.mod is 'ore'
+    entries = MOD.oreDict[minecraftId.toString()]
+    return minecraftId unless entries?
+    return minecraftId unless entries.length > 0
+    return entries[0]
+
+normalizeRecipeGrid = (grid)->
+    result = grid
+
+    if grid.rawWidth is 2 and grid.rawHeight is 3
+        result = [
+            [ grid[0][0], grid[0][1], grid[1][0] ],
+            [ grid[1][1], grid[2][0], grid[2][1] ],
+            [       null,       null,       null ]
+        ]
+    else if grid.rawWidth is 1 and grid.rawHeight is 3
+        result = [
+            [ grid[0][0], grid[1][0], grid[2][0] ],
+            [       null,       null,       null ]
+            [       null,       null,       null ]
+        ]
+    else if grid.rawWidth is 1 and grid.rawHeight is 2
+        result = [
+            [ grid[0][0], grid[1][0],       null ],
+            [       null,       null,       null ]
+            [       null,       null,       null ]
+        ]
+
+    computeGridSize result
+
+    return result
+
+parseMinecraftId = (minecraftId)->
+    match = /^([^:]*):([^:]*)(:([0-9*]*))?$/.exec minecraftId
+    return null unless match?
+    return new MinecraftId match[1], match[2], match[4]
+
+parseRecipeInputs = (recipeType, text)->
+    allRows = []
+    currentRow = null
+    currentItem = ''
+
+    completeCurrentItem = ->
+        currentItem = currentItem.trim()
+        if currentItem isnt 'null'
+            match = currentItem.match /^ *([^ ]*)( \* ([0-9]+))?/
+            quantity = parseInt match[3]
+            if _.isNaN(quantity) then quantity = 1
+            if match?
+                currentRow.push(
+                    minecraftId: normalizeMinecraftId parseMinecraftId match[1]
+                    quantity: quantity
+                )
+        else
+            currentRow.push null
+        currentItem = ''
+
+    inputText = if recipeType is 'Shapeless' then text[0..text.length] else text[1..text.length - 2]
+    for c in inputText.split ''
+        if c is '['
+            currentRow = []
+        else if c is ']'
+            completeCurrentItem()
+            allRows.push currentRow
+            currentRow = null
+        else if c is ','
+            if currentRow?
+                completeCurrentItem()
+        else if c in ['<', '>']
+            # do nothing
+        else
+            if currentItem?
+                currentItem += c
+
+    if recipeType is 'Shapeless'
+        a = _.flatten allRows
+        allRows = [
+            [ a[0], a[1], a[4] ]
+            [ a[2], a[3], a[5] ]
+            [ a[6], a[7], a[8] ]
+        ]
+
+    computeGridSize allRows
+
+    return allRows
+
+# Stage Functions ######################################################################################################
+
+copyImages = ->
+    for item in MOD.items
+        continue unless item.iconFile?
+
+        itemPath = path.join 'data', MOD.slug, 'items', item.slug
+        fs.ensureDir itemPath
+        fs.copySync item.iconFile, path.join(itemPath, 'icon.png'), clobber:true
+
+discardNonModItems = ->
+    result = []
+    for item in MOD.items
+        if MOD.contains item
+            result.push item
+
+    MOD.items = result
+
+loadModHelper = ->
+    MOD = require "./mods/#{MOD_SCRIPT}"
+
+    MOD.slug ?= MOD_SCRIPT
+    MOD.version ?= '1.0'
+
+    MOD.items ?= []
+    MOD.oreDict ?= {}
+
+    MOD.adjustRecipe        ?= (recipe)-> return recipe
+    MOD.contains            ?= (id)-> return true
+    MOD.correctItem         ?= (item)-> # do nothing
+    MOD.makeCorrections     ?= -> # do nothing
+    MOD.normalizeName       ?= (item, index=1)-> return item.gameName
+    MOD.shouldNormalizeGrid ?= (item, grid)-> return false
+
+makeCorrections = ->
+    for item in MOD.items
+        MOD.correctItem item
+
+    MOD.makeCorrections()
+
+removeDuplicates = ->
+    result = []
+
+    lastDisplayName = null
+    for item in MOD.items
+        continue if item.displayName is lastDisplayName
+        result.push item
+        lastDisplayName = item.displayName
+
+    MOD.items = result
+
+scanFurnaceRecipes = ->
+    fileText = fs.readFileSync path.join(WORLD_DIR, MINETWEAKER_LOG), 'utf-8'
+    for line in fileText.split '\n'
+        match = line.match /furnace.addRecipe\(<([^>]*)>, <([^>]*)>/
+        continue unless match?
+
+        outputId = parseMinecraftId match[1]
+        outputItem = findItem minecraftId:outputId
+        if not outputItem?
+            console.error "Skipping furnace recipe for #{match[1]} because no matching item could be found"
+            continue
+
+        inputId = parseMinecraftId match[2]
+        inputItem = findItem minecraftId:inputId
+        if not inputItem?
+            console.error "Skipping furnace recipe for #{match[1]} because input item #{match[2]} could not be found"
+            continue
+
+        recipe =
+            inputNames: [ inputItem.gameName, 'furnace fuel' ]
+            quantity: 1
+            extras: []
+            tools: [ 'Furnace' ]
+            pattern: '.0. ... .1.'
+
+        outputItem.recipes ?= []
+        outputItem.recipes.push recipe
+
+scanIconFiles = ->
+    iconFiles = fs.readdirSync path.join WORLD_DIR, ICON_DIR
+    for fileName in iconFiles
+        match = fileName.match /^(.*?)(_([0-9]+))?\.png$/
+        continue unless match?
+
+        baseItem = findItem iconFileName:match[1]
+        if not baseItem?
+            console.error "Could not find item for icon file: #{fileName}"
+            continue
+
+        index = parseInt match[3]
+        index = if Number.isNaN(index) then 1 else index
+
+        if index is 1
+            item = baseItem
+            item.displayName = MOD.normalizeName baseItem, index
+        else
+            displayName = MOD.normalizeName baseItem, index
+            if displayName
+                item =
+                    minecraftId:  baseItem.minecraftId.createVariant index
+                    gameName:     baseItem.gameName
+                    displayName:  displayName
+                    iconFileName: fileName
+                    slug:         computeSlug displayName
+
+                addItem item
+            else
+                console.error "Could not find item for icon file: #{fileName}"
+
+        item.iconFile = path.join WORLD_DIR, ICON_DIR, fileName
+
+scanItemPanelCsv = ->
+    fileText = fs.readFileSync path.join(WORLD_DIR, ITEMPANEL_CSV), 'utf-8'
+    lines = fileText.split '\n'
+    lines.sort()
+
+    priorLine = null
+    for line, lineNumber in lines
+        continue if lineNumber is 0
+        continue if priorLine is line
+
+        match = line.match /^([^,]*),([^,]*),([^,]*),([^,]*),([^,]*)$/
+        continue unless match
+
+        item =
+            minecraftId: parseMinecraftId "#{match[1]}:#{match[3]}"
+            gameName: match[5]
+            iconFileName: match[5].replace(/:/g, '_')
+
+        item.displayName = MOD.normalizeName item
+        item.slug = computeSlug item.displayName
+
+        addItem item
+
+        priorLine = line
+
+scanOreDict = ->
+    fileText = fs.readFileSync path.join(WORLD_DIR, MINETWEAKER_LOG), 'utf-8'
+    lines = fileText.split '\n'
+
+    index = 0
+    while true
+        break if index >= lines.length
+        line = lines[index]
+        index += 1
+
+        match = line.match /^Ore entries for <([^>]*)> :$/
+        continue unless match?
+
+        genericIdText = match[1]
+        while true
+            break if index >= lines.length
+            line = lines[index]
+
+            match = line.match /^    <([^>]*)>$/
+            break unless match?
+            index += 1
+
+            MOD.oreDict[genericIdText] ?= []
+            MOD.oreDict[genericIdText].push parseMinecraftId match[1]
+
+scanRecipes = ->
+    fileText = fs.readFileSync path.join(WORLD_DIR, MINETWEAKER_LOG), 'utf-8'
+    for line in fileText.split '\n'
+        match = line.match /recipes.add(Shaped|Shapeless)\(<([^>]*)>( \* ([0-9]+))?, (.*)\);/
+        continue unless match?
+
+        recipeType = match[1]
+
+        outputId = parseMinecraftId match[2]
+        outputItem = findItem minecraftId:outputId
+        if not outputItem?
+            console.error "Ignoring recipe because there's no matching item: #{line}"
+            continue
+
+        quantity = parseInt match[4]
+        quantity = if _.isNaN(quantity) then 1 else quantity
+
+        inputGrid = parseRecipeInputs recipeType, match[5]
+        if MOD.shouldNormalizeGrid outputItem, inputGrid
+            inputGrid = normalizeRecipeGrid inputGrid
+        continue if inputGrid is null
+
+        recipe =
+            inputNames: []
+            quantity: quantity
+            extras: []
+            tools: if inputGrid.isLarge then ['Crafting Table'] else []
+
+        lookUpItems inputGrid
+        computePattern recipe, inputGrid
+
+        recipe = MOD.adjustRecipe recipe
+        if recipe?
+            outputItem.recipes ?= []
+            outputItem.recipes.push recipe
+
+sortItems = ->
+    MOD.items.sort (a, b)->
+        if a.displayName isnt b.displayName
+            return if a.displayName < b.displayName then -1 else +1
+
+        return a.minecraftId.compareTo b.minecraftId
+
+writeModVersionFile = ->
+    lines = ['schema: 1', '']
+    indent = 0
+
+    write = (lineText)->
+        for i in [0...indent]
+            lineText = '    ' + lineText
+        lines.push lineText
+
+    for item in MOD.items
+        write "item: #{item.displayName}"
+        indent++
+
+        if (not item.isGatherable? and not item.recipes?) or item.isGatherable
+            write 'gatherable: yes'
+
+        if item.recipes?
+            for recipe in item.recipes
+                write 'recipe:'
+                indent++
+
+                write "input: #{recipe.inputNames.join(', ')}"
+
+                write "pattern: #{recipe.pattern}"
+
+                if recipe.quantity isnt 1
+                    write "quantity: #{recipe.quantity}"
+
+                if recipe.tools.length > 0
+                    write "tools: #{recipe.tools.join(', ')}"
+
+                indent--
+
+        indent--
+        write ''
+
+    versionPath = path.join 'data', MOD.slug, 'versions', MOD.version
+    fs.ensureDirSync versionPath
+    fs.writeFileSync path.join(versionPath, 'mod-version.cg'), lines.join('\n'), encoding:'utf-8'
+
+writeJsonDump = ->
+    versionPath = path.join 'data', MOD.slug, 'versions', MOD.version
+    fs.ensureDirSync versionPath
+    fs.writeFileSync path.join(versionPath, 'mod-version.json'), JSON.stringify(MOD.items, null, 4), encoding:'utf-8'
+
+########################################################################################################################
+
+loadModHelper()
+
+scanItemPanelCsv()
+scanIconFiles()
+scanOreDict()
+scanRecipes()
+scanFurnaceRecipes()
+
+discardNonModItems()
+sortItems()
+removeDuplicates()
+makeCorrections()
+
+writeModVersionFile()
+writeJsonDump()
+copyImages()
