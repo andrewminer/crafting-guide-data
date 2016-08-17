@@ -1,6 +1,5 @@
 schema: 1
 
-group: Required Block
  item: Machine Inventory Manager
      recipe:
          input: Iron Ingot, Block of Redstone, Stone, Piston
@@ -8,7 +7,6 @@ group: Required Block
          quantity: 1
          tools: Crafting Table
 
-group: Add-on Blocks
  item: Advanced Cable Cluster
      recipe:
          input: Cable Cluster, Inventory Cable

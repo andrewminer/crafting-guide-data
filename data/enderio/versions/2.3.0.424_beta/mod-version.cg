@@ -934,4 +934,4 @@ group: Tools
         recipe:
             input: Basic Gear, Electrical Steel
             pattern: 1.1 .0. .1.
-            tools: Crafting Table# item: Basic Capacitor Bank_2
+            tools: Crafting Table
