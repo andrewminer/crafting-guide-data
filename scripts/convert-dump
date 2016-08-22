@@ -170,6 +170,7 @@ lookUpItems = (itemIds)->
             gridCell.item = item
 
 normalizeMinecraftId = (minecraftId)->
+    return null unless minecraftId
     return minecraftId unless minecraftId.mod is 'ore'
     entries = MOD.oreDict[minecraftId.toString()]
     return minecraftId unless entries?
@@ -258,6 +259,10 @@ parseRecipeInputs = (recipeType, text)->
 
 # Stage Functions ######################################################################################################
 
+assignGroups = ->
+    for item in MOD.items
+        MOD.assignGroup item
+
 copyImages = ->
     for item in MOD.items
         continue unless item.iconFile?
@@ -283,12 +288,14 @@ loadModHelper = ->
     MOD.items ?= []
     MOD.oreDict ?= {}
 
-    MOD.adjustRecipe        ?= (recipe)-> return recipe
-    MOD.contains            ?= (id)-> return true
-    MOD.correctItem         ?= (item)-> # do nothing
-    MOD.makeCorrections     ?= -> # do nothing
-    MOD.normalizeName       ?= (item, index=1)-> return item.gameName
-    MOD.shouldNormalizeGrid ?= (item, grid)-> return false
+    MOD.adjustRecipe         ?= (recipe)-> return recipe
+    MOD.assignGroup          ?= (item)-> return null
+    MOD.contains             ?= (id)-> return true
+    MOD.correctItem          ?= (item)-> # do nothing
+    MOD.makeCorrections      ?= -> # do nothing
+    MOD.normalizeName        ?= (item, index=1)-> return item.gameName
+    MOD.scrubMinetweakerLine ?= (lineText)-> return lineText
+    MOD.shouldNormalizeGrid  ?= (item, grid)-> return false
 
 makeCorrections = ->
     for item in MOD.items
@@ -310,6 +317,7 @@ removeDuplicates = ->
 scanFurnaceRecipes = ->
     fileText = fs.readFileSync path.join(WORLD_DIR, MINETWEAKER_LOG), 'utf-8'
     for line in fileText.split '\n'
+        line = MOD.scrubMinetweakerLine line
         match = line.match /furnace.addRecipe\(<([^>]*)>, <([^>]*)>/
         continue unless match?
 
@@ -421,6 +429,7 @@ scanOreDict = ->
 scanRecipes = ->
     fileText = fs.readFileSync path.join(WORLD_DIR, MINETWEAKER_LOG), 'utf-8'
     for line in fileText.split '\n'
+        line = MOD.scrubMinetweakerLine line
         match = line.match /recipes.add(Shaped|Shapeless)\(<([^>]*)>( \* ([0-9]+))?, (.*)\);/
         continue unless match?
 
@@ -428,9 +437,7 @@ scanRecipes = ->
 
         outputId = parseMinecraftId match[2]
         outputItem = findItem minecraftId:outputId
-        if not outputItem?
-            console.error "Ignoring recipe because there's no matching item: #{line}"
-            continue
+        continue unless outputItem?
 
         quantity = parseInt match[4]
         quantity = if _.isNaN(quantity) then 1 else quantity
@@ -456,6 +463,11 @@ scanRecipes = ->
 
 sortItems = ->
     MOD.items.sort (a, b)->
+        if a.groupName isnt b.groupName
+            if not a.groupName? then return -1
+            if not b.groupName? then return +1
+            return if a.groupName < b.groupName then -1 else +1
+
         if a.displayName isnt b.displayName
             return if a.displayName < b.displayName then -1 else +1
 
@@ -470,9 +482,19 @@ writeModVersionFile = ->
             lineText = '    ' + lineText
         lines.push lineText
 
+    currentGroupName = null
     for item in MOD.items
+        if item.groupName isnt currentGroupName
+            indent = 0
+            write "group: #{item.groupName}"
+            write ''
+            currentGroupName = item.groupName
+            indent++
+
         write "item: #{item.displayName}"
         indent++
+
+        # write "minecraftId: #{item.minecraftId}"
 
         if (not item.isGatherable? and not item.recipes?) or item.isGatherable
             write 'gatherable: yes'
@@ -517,10 +539,11 @@ scanRecipes()
 scanFurnaceRecipes()
 
 discardNonModItems()
+assignGroups()
 sortItems()
 removeDuplicates()
 makeCorrections()
 
 writeModVersionFile()
-writeJsonDump()
+# writeJsonDump()
 copyImages()
