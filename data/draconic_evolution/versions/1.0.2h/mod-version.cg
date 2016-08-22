@@ -1,0 +1,545 @@
+schema: 1
+
+group: Armor
+
+    item: Draconic Boots
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Wyvern Boots
+            pattern: 101 131 121
+            tools: Crafting Table
+
+    item: Draconic Chestplate
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Wyvern Chestplate
+            pattern: 101 131 121
+            tools: Crafting Table
+
+    item: Draconic Helm
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Wyvern Helm
+            pattern: 101 131 121
+            tools: Crafting Table
+
+    item: Draconic Leggings
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Wyvern Leggings
+            pattern: 101 131 121
+            tools: Crafting Table
+
+    item: Wyvern Boots
+        recipe:
+            input: Diamond Boots, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 121 101 131
+            tools: Crafting Table
+
+    item: Wyvern Chestplate
+        recipe:
+            input: Diamond Chestplate, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 121 101 131
+            tools: Crafting Table
+
+    item: Wyvern Helm
+        recipe:
+            input: Diamond Helmet, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 121 101 131
+            tools: Crafting Table
+
+    item: Wyvern Leggings
+        recipe:
+            input: Diamond Leggings, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 121 101 131
+            tools: Crafting Table
+
+group: Crafting Components
+
+    item: Awakened Core
+        recipe:
+            input: Awakened Draconium Ingot, Wyvern Core
+            pattern: 010 101 010
+            tools: Crafting Table
+
+    item: Chaotic Core
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Chaos Shard
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Crystal Binder
+        recipe:
+            input: Blaze Rod, Diamond, Draconic Core, Draconium Ingot
+            pattern: .31 .03 2..
+            tools: Crafting Table
+
+    item: Draconic Core
+        recipe:
+            input: Diamond, Draconium Ingot, Gold Ingot
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Draconic Energy Core
+        recipe:
+            input: Awakened Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: Draconic Flux Capacitor
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Wyvern Flux Capacitor
+            pattern: 101 232 121
+            tools: Crafting Table
+
+    item: Draconic Reactor Core
+        recipe:
+            input: Awakened Draconium Ingot, Chaos Shard
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Energy Core
+        recipe:
+            input: Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 000 212 000
+            tools: Crafting Table
+
+    item: Reactor Stabilizer Inner Rotor
+        recipe:
+            input: Awakened Draconium Ingot, Draconic Core, Draconium Ingot
+            pattern: ... 000 122
+            tools: Crafting Table
+
+    item: Reactor Stabilizer Outer Rotor
+        recipe:
+            input: Diamond, Draconic Core, Draconium Ingot
+            pattern: ... 000 122
+            tools: Crafting Table
+
+    item: Reactor Stabilizer Rotor Assembly
+        recipe:
+            input: Draconium Ingot, Reactor Stabilizer Inner Rotor, Reactor Stabilizer Outer Rotor, Wyvern Core
+            pattern: .12 300 .12
+            tools: Crafting Table
+
+    item: Wyvern Core
+        recipe:
+            input: Draconic Core, Draconium Ingot, Nether Star
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Wyvern Energy Core
+        recipe:
+            input: Block of Redstone, Draconic Core, Draconium Ingot
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: Wyvern Flux Capacitor
+        recipe:
+            input: Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: 020 212 020
+            tools: Crafting Table
+
+group: Energy
+
+    item: Advanced Energy Relay
+        recipe:
+            input: Draconic Core, Energy Relay, Wyvern Core
+            pattern: 010 121 010
+            quantity: 4
+            tools: Crafting Table
+        recipe:
+            input: Advanced Energy Transceiver
+            pattern: 00. ... ...
+
+    item: Advanced Energy Transceiver
+        recipe:
+            input: Advanced Energy Relay
+            pattern: 0.. ... ...
+            quantity: 2
+
+    item: Advanced Wireless Transceiver
+        recipe:
+            input: Advanced Energy Relay, Ender Pearl, Eye of Ender, Particle Generator
+            pattern: 131 202 131
+            tools: Crafting Table
+
+    item: Energy Infuser
+        recipe:
+            input: Draconic Core, Draconium Ingot, Enchantment Table, Particle Generator
+            pattern: 131 020 101
+            tools: Crafting Table
+
+    item: Energy Pylon
+        recipe:
+            input: Diamond, Draconic Core, Draconium Ingot, Emerald, Eye of Ender
+            pattern: 242 313 202
+            quantity: 2
+            tools: Crafting Table
+
+    item: Energy Relay
+        recipe:
+            input: Diamond, Draconic Core, Draconium Ingot
+            pattern: 202 010 202
+            quantity: 4
+            tools: Crafting Table
+        recipe:
+            input: Energy Transceiver
+            pattern: 00. ... ...
+
+    item: Energy Transceiver
+        recipe:
+            input: Energy Relay
+            pattern: 0.. ... ...
+            quantity: 2
+
+    item: Generator
+        recipe:
+            input: Draconic Core, Furnace, Iron Ingot, Nether Brick
+            pattern: 323 212 303
+            tools: Crafting Table
+
+    item: Reactor Energy Injector
+        recipe:
+            input: Draconium Ingot, Reactor Stabilizer Inner Rotor, Wyvern Core
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Reactor Stabilizer
+        recipe:
+            input: Awakened Draconium Ingot, Chaotic Core, Draconic Energy Core, Reactor Stabilizer Focus Ring, Reactor Stabilizer Frame, Reactor Stabilizer Rotor Assembly
+            pattern: 010 453 020
+            tools: Crafting Table
+
+    item: Reactor Stabilizer Focus Ring
+        recipe:
+            input: Diamond, Gold Ingot, Wyvern Core
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Reactor Stabilizer Frame
+        recipe:
+            input: Awakened Draconium Ingot, Iron Ingot, Wyvern Core
+            pattern: 111 20. 111
+            tools: Crafting Table
+
+    item: Wireless Energy Transceiver
+        recipe:
+            input: Ender Pearl, Energy Relay, Eye of Ender, Particle Generator
+            pattern: 030 212 030
+            tools: Crafting Table
+
+group: Machines
+
+    item: Advanced Player Detector
+        recipe:
+            input: Compass, Draconium Ingot, Eye of Ender, Player Detector, Wither Skeleton Skull
+            pattern: 141 232 101
+            tools: Crafting Table
+
+    item: Awakened Item Dislocator
+        recipe:
+            input: Awakened Draconium Ingot, Charged Draconium Block, Item Dislocator
+            pattern: 100 ..2 100
+            tools: Crafting Table
+
+    item: Disenchanter
+        recipe:
+            input: Book, Draconic Core, Emerald, Enchanted Book, Enchantment Table, Eye of Ender
+            pattern: 535 242 101
+            tools: Crafting Table
+
+    item: Dislocator Pedestal
+        recipe:
+            input: Blaze Powder, Pressure Plate, Stone, Stone Slab
+            pattern: .1. .2. 303
+            tools: Crafting Table
+
+    item: Dislocator Receptacle
+        recipe:
+            input: Dislocator Pedestal, Draconic Core, Draconium Infused Obsidian, Iron Ingot
+            pattern: 313 .2. 303
+            tools: Crafting Table
+
+    item: Distortion Flame
+        recipe:
+            input: Diamond, Glass, Nether Star
+            pattern: 212 101 212
+            quantity: 4
+            tools: Crafting Table
+
+    item: Draconic Chest
+        recipe:
+            input: Chest, Crafting Table, Draconic Core, Draconium Ingot, Furnace
+            pattern: 343 020 313
+            tools: Crafting Table
+
+    item: Enhanced Charm of Dislocation
+        recipe:
+            input: Charm of Dislocation, Draconium Ingot, Ender Pearl, Wyvern Core
+            pattern: 121 202 131
+            tools: Crafting Table
+
+    item: Fluid Gate
+        recipe:
+            input: Bucket, Draconic Core, Draconium Ingot, Redstone Comparator
+            pattern: 212 303 212
+            tools: Crafting Table
+
+    item: Flux Gate
+        recipe:
+            input: Draconic Core, Draconium Ingot, Redstone Comparator, Wyvern Energy Core
+            pattern: 101 232 101
+            tools: Crafting Table
+
+    item: Item Dislocator
+        recipe:
+            input: Block of Redstone, Charm of Dislocation, Iron Ingot
+            pattern: 022 ..1 022
+            tools: Crafting Table
+
+    item: Mob Grinder
+        recipe:
+            input: Diamond Sword, Draconic Core, Draconium Ingot, Furnace, Iron Ingot
+            pattern: 424 010 434
+            tools: Crafting Table
+
+    item: Particle Generator
+        recipe:
+            input: Blaze Rod, Block of Redstone, Draconic Core
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Player Detector
+        recipe:
+            input: Draconic Core, Eye of Ender, Iron Ingot, Redstone Comparator, Redstone Torch
+            pattern: 242 313 202
+            tools: Crafting Table
+
+    item: Potentiometer
+        recipe:
+            input: Block of Redstone, Iron Ingot, Nether Quartz, Redstone Comparator, Redstone Torch
+            pattern: 141 232 101
+            tools: Crafting Table
+
+    item: Rain Sensor
+        recipe:
+            input: Bucket, Redstone, Stone Slab, Weighted Pressure Plate (Heavy)
+            pattern: ... 101 232
+            tools: Crafting Table
+
+    item: Resurrection Stone
+        recipe:
+            input: Draconium Block, Mob Soul, Wyvern Core
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Stabilized Mob Spawner
+        gatherable: yes
+
+    item: Sun Dial
+        recipe:
+            input: Awakened Core, Draconic Core, Draconium Ingot, Dragon Egg, Enchantment Table
+            pattern: 202 131 242
+            tools: Crafting Table
+
+    item: Upgrade Modifier
+        recipe:
+            input: Draconic Core, Draconium Ingot, Iron Ingot
+            pattern: ... 101 222
+            tools: Crafting Table
+
+    item: Weather Controller
+        recipe:
+            input: Blaze Rod, Draconic Core, Draconium Ingot, Enchantment Table, TNT
+            pattern: 020 414 232
+            tools: Crafting Table
+
+group: Materials
+
+    item: Awakened Draconium Block
+        recipe:
+            input: Awakened Draconium Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Awakened Draconium Ingot
+        gatherable: yes
+        recipe:
+            input: Awakened Draconium Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+        recipe:
+            input: Awakened Draconium Block
+            pattern: 0.. ... ...
+            quantity: 9
+
+    item: Awakened Draconium Nugget
+        recipe:
+            input: Awakened Draconium Ingot
+            pattern: 0.. ... ...
+            quantity: 9
+
+    item: Chaos Shard
+        recipe:
+            input: Large Chaos Fragment
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Charged Draconium Block
+        gatherable: yes
+
+    item: Draconium Block
+        recipe:
+            input: Draconium Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Draconium Dust
+        gatherable: yes
+
+    item: Draconium Infused Obsidian
+        recipe:
+            input: Blaze Powder, Draconium Dust, Obsidian
+            pattern: 020 212 020
+            quantity: 4
+            tools: Crafting Table
+
+    item: Draconium Ingot
+        recipe:
+            input: Draconium Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+        recipe:
+            input: Draconium Block
+            pattern: 0.. ... ...
+            quantity: 9
+        recipe:
+            input: Draconium Dust, furnace fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+
+    item: Draconium Nugget
+        recipe:
+            input: Draconium Ingot
+            pattern: 0.. ... ...
+            quantity: 9
+
+    item: Draconium Ore
+        gatherable: yes
+
+    item: Dragon Heart
+        gatherable: yes
+
+    item: Large Chaos Fragment
+        recipe:
+            input: Small Chaos Fragment
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Mob Soul
+        gatherable: yes
+
+    item: Small Chaos Fragment
+        recipe:
+            input: Tiny Chaos Fragment
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Tiny Chaos Fragment
+        gatherable: yes
+
+group: Tools
+
+    item: Bow of the Wyvern
+        recipe:
+            input: Bow, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: .2. 101 .3.
+            tools: Crafting Table
+
+    item: Box of Safety Matches
+        recipe:
+            input: Safety Match
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Charm of Dislocation
+        recipe:
+            input: Blaze Powder, Draconium Dust, Eye of Ender
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Draconic Axe
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Diamond Axe, Draconic Energy Core
+            pattern: .0. 121 .3.
+            tools: Crafting Table
+
+    item: Draconic Bow
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Bow of the Wyvern, Draconic Energy Core
+            pattern: .0. 121 .3.
+            tools: Crafting Table
+
+    item: Draconic Evolution Information Tablet
+        recipe:
+            input: Draconium Dust, Stone
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Draconic Hoe
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Diamond Hoe, Draconic Energy Core
+            pattern: .0. 121 .3.
+            tools: Crafting Table
+
+    item: Draconic Pickaxe
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Pickaxe of the Wyvern
+            pattern: .0. 131 .2.
+            tools: Crafting Table
+
+    item: Draconic Shovel
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Shovel of the Wyvern
+            pattern: .0. 131 .2.
+            tools: Crafting Table
+
+    item: Draconic Staff of Power
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Pickaxe, Draconic Shovel, Draconic Sword
+            pattern: 101 213 141
+            tools: Crafting Table
+
+    item: Draconic Sword
+        recipe:
+            input: Awakened Core, Awakened Draconium Ingot, Draconic Energy Core, Sword of the Wyvern
+            pattern: .0. 131 .2.
+            tools: Crafting Table
+
+    item: Ender Arrow
+        recipe:
+            input: Arrow, Ender Pearl
+            pattern: 01. ... ...
+
+    item: Key
+        gatherable: yes
+
+    item: Pickaxe of the Wyvern
+        recipe:
+            input: Diamond Pickaxe, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: .2. 101 .3.
+            tools: Crafting Table
+
+    item: Safety Match
+        recipe:
+            input: Orange Dye, Stick
+            pattern: .0. .1. ...
+
+    item: Shovel of the Wyvern
+        recipe:
+            input: Diamond Shovel, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: .2. 101 .3.
+            tools: Crafting Table
+
+    item: Sword of the Wyvern
+        recipe:
+            input: Diamond Sword, Draconium Ingot, Wyvern Core, Wyvern Energy Core
+            pattern: .2. 101 .3.
+            tools: Crafting Table
