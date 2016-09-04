@@ -1,0 +1,8 @@
+schema: 1
+
+name: Minecraft Forge
+author: LexManos, Eloraam, Spacetoad
+description: Minecraft Forge is a common open source API allowing a broad range of mods to work cooperatively together. It allows many mods to be created without them editing the main Minecraft code.
+homePageUrl: http://MinecraftForge.net
+
+version: 10.13.4.1558

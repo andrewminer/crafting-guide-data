@@ -1,0 +1,8 @@
+schema: 1
+
+name: Crafting Guide Exporter
+author: Andrew Miner
+description: Exports item and recipe data for use on http://crafting-guide.com
+homePageUrl: http://crafting-guide.com
+
+version: 1.0

@@ -1,0 +1,8 @@
+schema: 1
+
+name: Minecraft Coder Pack
+author: Made by the MCP team
+description: Modding toolkit to decompile and deobfuscate the Minecraft client and server files.
+homePageUrl: http://mcp.ocean-labs.de/
+
+version: 9.05

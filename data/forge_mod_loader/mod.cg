@@ -1,0 +1,8 @@
+schema: 1
+
+name: Forge Mod Loader
+author: cpw, LexManos, Player
+description: The Forge Mod Loader provides the ability for systems to load mods from the file system. It also provides key capabilities for mods to be able to cooperate and provide a good modding environment. 
+homePageUrl: https://github.com/MinecraftForge/FML/wiki
+
+version: 7.10.99.99
