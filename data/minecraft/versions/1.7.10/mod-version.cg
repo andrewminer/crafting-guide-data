@@ -2033,14 +2033,14 @@ group: Food
             pattern: 000 000 000
             tools: Crafting Table
 
+    item: Melon (item)
+        gatherable: yes
+
     item: Melon (block)
         recipe:
             input: Melon (item)
             pattern: 000 000 000
             tools: Crafting Table
-
-    item: Melon (item)
-        gatherable: yes
 
     item: Melon Seeds
         recipe:
