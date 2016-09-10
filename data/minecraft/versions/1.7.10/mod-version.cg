@@ -179,6 +179,14 @@ group: Blocks (earthen)
             quantity: 8
             tools: Crafting Table
 
+    item: Clay (block)
+        recipe:
+            input: Clay (item)
+            pattern: 00. 00. ...
+
+    item: Clay (item)
+        gatherable: yes
+
     item: Cyan Stained Clay
         recipe:
             input: Cyan Dye, Hardened Clay
@@ -730,10 +738,19 @@ group: Blocks (tools)
             pattern: 000 0.0 000
             tools: Crafting Table
 
+    item: Command Block
+        gatherable: yes
+
     item: Crafting Table
         recipe:
             input: Oak Wood Planks
             pattern: 00. 00. ...
+
+    item: Ender Chest
+        recipe:
+            input: Eye of Ender, Obsidian
+            pattern: 111 101 111
+            tools: Crafting Table
 
     item: Furnace
         recipe:
@@ -929,7 +946,7 @@ group: Brewing (potions)
 
     item: Potion of Instant Damage II
         recipe:
-            input: Glowstone Dust, Potion of Instant Damage
+            input: Fermented Spider Eye, Potion of Instant Health II
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -939,7 +956,7 @@ group: Brewing (potions)
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Potion of Instant Health II
+            input: Glowstone Dust, Potion of Instant Damage
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -967,13 +984,13 @@ group: Brewing (potions)
 
     item: Potion of Invisibility (8:00)
         recipe:
-            input: Potion of Invisibility (3:00), Redstone
-            pattern: .1. ... 000
+            input: Fermented Spider Eye, Potion of Night Vision (8:00)
+            pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Potion of Night Vision (8:00)
-            pattern: .0. ... 111
+            input: Potion of Invisibility (3:00), Redstone
+            pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
 
@@ -1000,12 +1017,12 @@ group: Brewing (potions)
 
     item: Potion of Poison (2:00)
         recipe:
-            input: Potion of Poison II (0:22), Redstone
+            input: Potion of Poison (0:45), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Potion of Poison (0:45), Redstone
+            input: Potion of Poison II (0:22), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
@@ -1026,12 +1043,12 @@ group: Brewing (potions)
 
     item: Potion of Regeneration (2:00)
         recipe:
-            input: Potion of Regeneration II (0:22), Redstone
+            input: Potion of Regeneration (0:45), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Potion of Regeneration (0:45), Redstone
+            input: Potion of Regeneration II (0:22), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
@@ -1045,17 +1062,22 @@ group: Brewing (potions)
 
     item: Potion of Slowness (1:30)
         recipe:
-            input: Fermented Spider Eye, Potion of Speed (3:00)
+            input: Fermented Spider Eye, Potion of Fire Resistance (3:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Potion of Fire Resistance (3:00)
+            input: Fermented Spider Eye, Potion of Speed (3:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
 
     item: Potion of Slowness (4:00)
+        recipe:
+            input: Fermented Spider Eye, Potion of Fire Resistance (8:00)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
         recipe:
             input: Fermented Spider Eye, Potion of Speed (8:00)
             pattern: .0. ... 111
@@ -1064,11 +1086,6 @@ group: Brewing (potions)
         recipe:
             input: Potion of Slowness (1:30), Redstone
             pattern: .1. ... 000
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
-            input: Fermented Spider Eye, Potion of Fire Resistance (8:00)
-            pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
 
@@ -1081,12 +1098,12 @@ group: Brewing (potions)
 
     item: Potion of Speed (8:00)
         recipe:
-            input: Potion of Speed II (1:30), Redstone
+            input: Potion of Speed (3:00), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Potion of Speed (3:00), Redstone
+            input: Potion of Speed II (1:30), Redstone
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
@@ -1178,7 +1195,7 @@ group: Brewing (potions)
 
     item: Splash Potion of Instant Damage
         recipe:
-            input: Gunpowder, Potion of Instant Damage
+            input: Fermented Spider Eye, Splash Potion of Instant Health
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1188,17 +1205,22 @@ group: Brewing (potions)
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Splash Potion of Instant Health
+            input: Fermented Spider Eye, Splash Potion of Water Breathing (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Splash Potion of Water Breathing (2:15)
+            input: Gunpowder, Potion of Instant Damage
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
 
     item: Splash Potion of Instant Damage II
+        recipe:
+            input: Fermented Spider Eye, Splash Potion of Instant Health II
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
         recipe:
             input: Fermented Spider Eye, Splash Potion of Poison II (0:16)
             pattern: .0. ... 111
@@ -1211,11 +1233,6 @@ group: Brewing (potions)
             tools: Brewing Stand
         recipe:
             input: Gunpowder, Potion of Instant Damage II
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
-            input: Fermented Spider Eye, Splash Potion of Instant Health II
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1253,7 +1270,7 @@ group: Brewing (potions)
 
     item: Splash Potion of Invisibility (6:00)
         recipe:
-            input: Redstone, Splash Potion of Invisibility (2:15)
+            input: Fermented Spider Eye, Splash Potion of Night Vision (6:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1263,7 +1280,7 @@ group: Brewing (potions)
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Fermented Spider Eye, Splash Potion of Night Vision (6:00)
+            input: Redstone, Splash Potion of Invisibility (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1277,12 +1294,12 @@ group: Brewing (potions)
 
     item: Splash Potion of Night Vision (6:00)
         recipe:
-            input: Redstone, Splash Potion of Night Vision (2:15)
+            input: Gunpowder, Potion of Night Vision (8:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Gunpowder, Potion of Night Vision (8:00)
+            input: Redstone, Splash Potion of Night Vision (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1313,12 +1330,12 @@ group: Brewing (potions)
 
     item: Splash Potion of Poison II (0:16)
         recipe:
-            input: Gunpowder, Potion of Poison II (0:22)
+            input: Glowstone Dust, Splash Potion of Poison (0:33)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Glowstone Dust, Splash Potion of Poison (0:33)
+            input: Gunpowder, Potion of Poison II (0:22)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1332,11 +1349,6 @@ group: Brewing (potions)
 
     item: Splash Potion of Regeneration (1:30)
         recipe:
-            input: Redstone, Splash Potion of Regeneration II (0:16)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
             input: Gunpowder, Potion of Regeneration (2:00)
             pattern: .0. ... 111
             quantity: 3
@@ -1346,25 +1358,25 @@ group: Brewing (potions)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
-
-    item: Splash Potion of Regeneration II (0:16)
         recipe:
-            input: Gunpowder, Potion of Regeneration II (0:22)
+            input: Redstone, Splash Potion of Regeneration II (0:16)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
+
+    item: Splash Potion of Regeneration II (0:16)
         recipe:
             input: Glowstone Dust, Splash Potion of Regeneration (0:33)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
-
-    item: Splash Potion of Slowness (1:07)
         recipe:
-            input: Gunpowder, Potion of Slowness (1:30)
+            input: Gunpowder, Potion of Regeneration II (0:22)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
+
+    item: Splash Potion of Slowness (1:07)
         recipe:
             input: Fermented Spider Eye, Splash Potion of Fire Resistance (2:15)
             pattern: .0. ... 111
@@ -1375,25 +1387,30 @@ group: Brewing (potions)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
+        recipe:
+            input: Gunpowder, Potion of Slowness (1:30)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
 
     item: Splash Potion of Slowness (3:00)
-        recipe:
-            input: Fermented Spider Eye, Splash Potion of Speed (6:00)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
-            input: Redstone, Splash Potion of Slowness (1:07)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
         recipe:
             input: Fermented Spider Eye, Splash Potion of Fire Resistance (6:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
+            input: Fermented Spider Eye, Splash Potion of Speed (6:00)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
             input: Gunpowder, Potion of Slowness (4:00)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Redstone, Splash Potion of Slowness (1:07)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1407,17 +1424,17 @@ group: Brewing (potions)
 
     item: Splash Potion of Speed (6:00)
         recipe:
+            input: Gunpowder, Potion of Speed (8:00)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
             input: Redstone, Splash Potion of Speed (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
             input: Redstone, Splash Potion of Speed II (1:07)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
-            input: Gunpowder, Potion of Speed (8:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1443,12 +1460,12 @@ group: Brewing (potions)
 
     item: Splash Potion of Strength (6:00)
         recipe:
-            input: Redstone, Splash Potion of Strength (2:15)
+            input: Gunpowder, Potion of Strength (8:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Gunpowder, Potion of Strength (8:00)
+            input: Redstone, Splash Potion of Strength (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1460,12 +1477,12 @@ group: Brewing (potions)
 
     item: Splash Potion of Strength II (1:07)
         recipe:
-            input: Gunpowder, Potion of Strength II (1:30)
+            input: Glowstone Dust, Splash Potion of Strength (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Glowstone Dust, Splash Potion of Strength (2:15)
+            input: Gunpowder, Potion of Strength II (1:30)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1479,12 +1496,12 @@ group: Brewing (potions)
 
     item: Splash Potion of Water Breathing (6:00)
         recipe:
-            input: Redstone, Splash Potion of Water Breathing (2:15)
+            input: Gunpowder, Potion of Water Breathing (8:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Gunpowder, Potion of Water Breathing (8:00)
+            input: Redstone, Splash Potion of Water Breathing (2:15)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1554,6 +1571,16 @@ group: Brewing (supplies)
 
     item: Mundane Potion
         recipe:
+            input: Blaze Powder, Water Bottle
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Ghast Tear, Water Bottle
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
             input: Glistering Melon, Water Bottle
             pattern: .0. ... 111
             quantity: 3
@@ -1564,27 +1591,17 @@ group: Brewing (supplies)
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Ghast Tear, Water Bottle
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
-            input: Sugar, Water Bottle
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
-        recipe:
             input: Redstone, Water Bottle
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Blaze Powder, Water Bottle
+            input: Spider Eye, Water Bottle
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
         recipe:
-            input: Spider Eye, Water Bottle
+            input: Sugar, Water Bottle
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1784,40 +1801,40 @@ group: Dyes
     item: Lapis Lazuli
         gatherable: yes
         recipe:
-            input: Lapis Lazuli Block
-            pattern: 0.. ... ...
-            quantity: 9
-        recipe:
             input: Furnace Fuel, Lapis Lazuli Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Lapis Lazuli Block
+            pattern: 0.. ... ...
+            quantity: 9
 
     item: Light Blue Dye
+        recipe:
+            input: Blue Orchid
+            pattern: ... .0. ...
         recipe:
             input: Bone Meal, Lapis Lazuli
             pattern: ... 01. ...
             quantity: 2
-        recipe:
-            input: Blue Orchid
-            pattern: ... .0. ...
 
     item: Light Gray Dye
         recipe:
-            input: Bone Meal, Ink Sac
-            pattern: .0. 01. ...
-            quantity: 3
+            input: Azure Bluet
+            pattern: ... .0. ...
         recipe:
             input: Bone Meal, Gray Dye
             pattern: ... 01. ...
             quantity: 2
         recipe:
-            input: Azure Bluet
+            input: Bone Meal, Ink Sac
+            pattern: .0. 01. ...
+            quantity: 3
+        recipe:
+            input: Oxeye Daisy
             pattern: ... .0. ...
         recipe:
             input: White Tulip
-            pattern: ... .0. ...
-        recipe:
-            input: Oxeye Daisy
             pattern: ... .0. ...
 
     item: Lime Dye
@@ -1828,6 +1845,9 @@ group: Dyes
 
     item: Magenta Dye
         recipe:
+            input: Allium
+            pattern: ... .0. ...
+        recipe:
             input: Bone Meal, Lapis Lazuli, Rose Red
             pattern: 02. 21. ...
             quantity: 4
@@ -1836,15 +1856,12 @@ group: Dyes
             pattern: .1. 20. ...
             quantity: 3
         recipe:
-            input: Pink Dye, Purple Dye
-            pattern: ... 01. ...
-            quantity: 2
-        recipe:
-            input: Allium
-            pattern: ... .0. ...
-        recipe:
             input: Lilac
             pattern: ... .0. ...
+            quantity: 2
+        recipe:
+            input: Pink Dye, Purple Dye
+            pattern: ... 01. ...
             quantity: 2
 
     item: Orange Dye
@@ -1862,12 +1879,12 @@ group: Dyes
             pattern: ... 01. ...
             quantity: 2
         recipe:
-            input: Pink Tulip
-            pattern: ... .0. ...
-        recipe:
             input: Peony
             pattern: ... .0. ...
             quantity: 2
+        recipe:
+            input: Pink Tulip
+            pattern: ... .0. ...
 
     item: Purple Dye
         recipe:
@@ -1902,11 +1919,11 @@ group: Fireworks
 
     item: Fire Charge
         recipe:
-            input: Blaze Powder, Coal, Gunpowder
+            input: Blaze Powder, Charcoal, Gunpowder
             pattern: .1. 02. ...
             quantity: 3
         recipe:
-            input: Blaze Powder, Charcoal, Gunpowder
+            input: Blaze Powder, Coal, Gunpowder
             pattern: .1. 02. ...
             quantity: 3
 
@@ -2024,6 +2041,12 @@ group: Food
     item: Golden Apple
         recipe:
             input: Apple, Gold Ingot
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Golden Apple (magical)
+        recipe:
+            input: Apple, Block of Gold
             pattern: 111 101 111
             tools: Crafting Table
 
@@ -2265,6 +2288,16 @@ group: Liquids
 
 group: Machines
 
+    item: Button (stone)
+        recipe:
+            input: Stone
+            pattern: 0.. ... ...
+
+    item: Button (wooden)
+        recipe:
+            input: Oak Wood Planks
+            pattern: 0.. ... ...
+
     item: Daylight Sensor
         recipe:
             input: Glass, Nether Quartz, Oak Wood Slab
@@ -2407,12 +2440,12 @@ group: Minerals
 
     item: Charcoal
         recipe:
-            input: Furnace Fuel, Oak Wood
-            pattern: .1. ... .0.
-            tools: Furnace
-        recipe:
             input: Acacia Wood, Furnace Fuel
             pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Oak Wood
+            pattern: .1. ... .0.
             tools: Furnace
 
     item: Chiseled Quartz Block
@@ -2432,9 +2465,6 @@ group: Minerals
             tools: Furnace
 
     item: Coal Ore
-        gatherable: yes
-
-    item: Command Block
         gatherable: yes
 
     item: Diamond
@@ -2478,10 +2508,6 @@ group: Minerals
 
     item: Gold Ingot
         recipe:
-            input: Gold Nugget
-            pattern: 000 000 000
-            tools: Crafting Table
-        recipe:
             input: Block of Gold
             pattern: 0.. ... ...
             quantity: 9
@@ -2489,6 +2515,10 @@ group: Minerals
             input: Furnace Fuel, Gold Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Gold Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Gold Nugget
         recipe:
@@ -2497,6 +2527,9 @@ group: Minerals
             quantity: 9
 
     item: Gold Ore
+        gatherable: yes
+
+    item: Grass Block
         gatherable: yes
 
     item: Ice
@@ -2662,11 +2695,11 @@ group: Mob Drops (animals)
     item: Wool
         gatherable: yes
         recipe:
-            input: String
-            pattern: 00. 00. ...
-        recipe:
             input: Bone Meal, Wool
             pattern: ... 10. ...
+        recipe:
+            input: String
+            pattern: 00. 00. ...
 
     item: Yellow Wool
         recipe:
@@ -2692,12 +2725,6 @@ group: Mob Drops (monsters)
 
     item: Dragon Egg
         gatherable: yes
-
-    item: Ender Chest
-        recipe:
-            input: Eye of Ender, Obsidian
-            pattern: 111 101 111
-            tools: Crafting Table
 
     item: Ender Pearl
         gatherable: yes
@@ -2734,32 +2761,6 @@ group: Mob Drops (monsters)
     item: Zombie Head
         gatherable: yes
 
-group: Other
-
-    item: Button (stone)
-        recipe:
-            input: Stone
-            pattern: 0.. ... ...
-
-    item: Button (wooden)
-        recipe:
-            input: Oak Wood Planks
-            pattern: 0.. ... ...
-
-    item: Clay (block)
-        recipe:
-            input: Clay (item)
-            pattern: 00. 00. ...
-
-    item: Clay (item)
-        gatherable: yes
-
-    item: Golden Apple (magical)
-        recipe:
-            input: Apple, Block of Gold
-            pattern: 111 101 111
-            tools: Crafting Table
-
 group: Plants
 
     item: Cactus
@@ -2775,9 +2776,6 @@ group: Plants
         gatherable: yes
 
     item: Grass
-        gatherable: yes
-
-    item: Grass Block
         gatherable: yes
 
     item: Large Fern
@@ -2960,11 +2958,11 @@ group: Tools
 
     item: Torch
         recipe:
-            input: Coal, Stick
+            input: Charcoal, Stick
             pattern: 0.. 1.. ...
             quantity: 4
         recipe:
-            input: Charcoal, Stick
+            input: Coal, Stick
             pattern: 0.. 1.. ...
             quantity: 4
 

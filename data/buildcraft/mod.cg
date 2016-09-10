@@ -1,12 +1,8 @@
 schema: 1
 
-name:             Buildcraft
-author:           SpaceToad
-description:      A technical mod which adds power generation, mining, building and item/fluid/power transport systems
-homePageUrl:      http://www.mod-buildcraft.com
-documentationUrl: http://www.mod-buildcraft.com/wiki/doku.php
-downloadUrl:      http://www.mod-buildcraft.com/download/
+name: BuildCraft
+author: SpaceToad, BuildCraft Team
+description: Extending Minecraft with pipes, auto-crafting, quarries, engines and much more!
+homePageUrl: http://www.mod-buildcraft.com/
 
-version: 6.4.6
-
-tutorial: Gates, Wires, and Chips
+version: 7.1.17
