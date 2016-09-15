@@ -1,0 +1,2639 @@
+schema: 1
+
+group: Armor
+
+    item: Bronze Boots
+        recipe:
+            input: Bronze Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Bronze Chestplate
+        recipe:
+            input: Bronze Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Bronze Helmet
+        recipe:
+            input: Bronze Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Bronze Leggings
+        recipe:
+            input: Bronze Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Copper Boots
+        recipe:
+            input: Copper Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Copper Chestplate
+        recipe:
+            input: Copper Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Copper Helmet
+        recipe:
+            input: Copper Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Copper Leggings
+        recipe:
+            input: Copper Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Electrum Boots
+        recipe:
+            input: Electrum Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Electrum Chestplate
+        recipe:
+            input: Electrum Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Electrum Helmet
+        recipe:
+            input: Electrum Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Electrum Leggings
+        recipe:
+            input: Electrum Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Ferrous Boots
+        recipe:
+            input: Ferrous Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Ferrous Chestplate
+        recipe:
+            input: Ferrous Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Ferrous Helmet
+        recipe:
+            input: Ferrous Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Ferrous Leggings
+        recipe:
+            input: Ferrous Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Invar Boots
+        recipe:
+            input: Invar Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Invar Chestplate
+        recipe:
+            input: Invar Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Invar Helmet
+        recipe:
+            input: Invar Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Invar Leggings
+        recipe:
+            input: Invar Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Lead Boots
+        recipe:
+            input: Lead Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Lead Chestplate
+        recipe:
+            input: Lead Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Lead Helmet
+        recipe:
+            input: Lead Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Lead Leggings
+        recipe:
+            input: Lead Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Shiny Boots
+        recipe:
+            input: Shiny Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Shiny Chestplate
+        recipe:
+            input: Shiny Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Shiny Helmet
+        recipe:
+            input: Shiny Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Shiny Leggings
+        recipe:
+            input: Shiny Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Silver Boots
+        recipe:
+            input: Silver Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Silver Chestplate
+        recipe:
+            input: Silver Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Silver Helmet
+        recipe:
+            input: Silver Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Silver Leggings
+        recipe:
+            input: Silver Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Tin Boots
+        recipe:
+            input: Tin Ingot
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Tin Chestplate
+        recipe:
+            input: Tin Ingot
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Tin Helmet
+        recipe:
+            input: Tin Ingot
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Tin Leggings
+        recipe:
+            input: Tin Ingot
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+group: Fluids
+
+    item: Blazing Pyrotheum
+        recipe:
+            input: Pyrotheum Dust
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Blazing Pyrotheum Bucket
+        recipe:
+            input: 1000 Blazing Pyrotheum, Bucket
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Destabilized Redstone
+        recipe:
+            input: Block of Redstone
+            pattern: ... .0. ...
+            quantity: 900
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Redstone
+            pattern: ... .0. ...
+            quantity: 100
+            tools: Magma Crucible (Basic)
+
+    item: Destabilized Redstone Bucket
+        recipe:
+            input: Bucket, 1000 Destabilized Redstone
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Energized Glowstone
+        recipe:
+            input: Glowstone
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Glowstone Dust
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Energized Glowstone Bucket
+        recipe:
+            input: Bucket, 1000 Energized Glowstone
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Gelid Cryotheum
+        recipe:
+            input: Cryotheum Dust
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Gelid Cryotheum Bucket
+        recipe:
+            input: Bucket, 1000 Gelid Cryotheum
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Liquifacted Coal
+        recipe:
+            input: Pulverized Coal
+            pattern: ... .0. ...
+            quantity: 100
+            tools: Magma Crucible (Basic)
+
+    item: Liquifacted Coal Bucket
+        recipe:
+            input: Bucket, 1000 Liquifacted Coal
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Primal Mana
+        gatherable: yes
+
+    item: Primal Mana Bucket
+        recipe:
+            input: Bucket, 1000 Primal Mana
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Resonant Ender
+        recipe:
+            input: Ender Pearl
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Resonant Ender Bucket
+        recipe:
+            input: Bucket, 1000 Resonant Ender
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Steam
+        gatherable: yes
+
+    item: Tectonic Petrotheum
+        recipe:
+            input: Petrotheum Dust
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Tectonic Petrotheum Bucket
+        recipe:
+            input: Bucket, 1000 Tectonic Petrotheum
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Zephyrean Aerotheum
+        recipe:
+            input: Aerotheum Dust
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+
+    item: Zephyrean Aerotheum Bucket
+        recipe:
+            input: Bucket, 1000 Zephyrean Aerotheum
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+group: Gears
+
+    item: Bronze Gear
+        recipe:
+            input: Bronze Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Copper Gear
+        recipe:
+            input: Copper Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Electrum Gear
+        recipe:
+            input: Electrum Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Enderium Gear
+        recipe:
+            input: Enderium Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Ferrous Gear
+        recipe:
+            input: Ferrous Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Gold Gear
+        recipe:
+            input: Gold Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Invar Gear
+        recipe:
+            input: Invar Ingot, Iron Ingot
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Iron Gear
+        recipe:
+            input: Iron Ingot
+            pattern: .0. 000 .0.
+            tools: Crafting Table
+
+    item: Lead Gear
+        recipe:
+            input: Iron Ingot, Lead Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Lumium Gear
+        recipe:
+            input: Iron Ingot, Lumium Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Mana Infused Gear
+        recipe:
+            input: Iron Ingot, Mana Infused Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Shiny Gear
+        recipe:
+            input: Iron Ingot, Shiny Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Signalum Gear
+        recipe:
+            input: Iron Ingot, Signalum Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Silver Gear
+        recipe:
+            input: Iron Ingot, Silver Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Tin Gear
+        recipe:
+            input: Iron Ingot, Tin Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+group: Minerals
+
+    item: Aerotheum Dust
+        recipe:
+            input: Blitz Powder, Niter, Redstone, Sand
+            pattern: 02. 13. ...
+            quantity: 2
+
+    item: Bronze Blend
+        recipe:
+            input: Pulverized Copper, Pulverized Tin
+            pattern: 10. 00. ...
+            quantity: 4
+        recipe:
+            input: Bronze Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+
+    item: Bronze Block
+        recipe:
+            input: Bronze Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Bronze Ingot
+        recipe:
+            input: Bronze Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Bronze Blend
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Bronze Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Blend, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Bronze Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Bronze Blend, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 3 Copper Ingot, Tin Ingot
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 3 Pulverized Copper, Pulverized Tin
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bronze Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Bronze Nugget
+        recipe:
+            input: Bronze Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Cinnabar
+        gatherable: yes
+
+    item: Copper Block
+        recipe:
+            input: Copper Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Copper Ingot
+        gatherable: yes
+        recipe:
+            input: Copper Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Copper Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Copper Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Copper
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Copper Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Ore, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Copper Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Pulverized Copper
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: 2 Pulverized Copper, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Copper Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Copper Nugget
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Copper Ore
+        gatherable: yes
+
+    item: Cryotheum Dust
+        recipe:
+            input: Blizz Powder, Niter, Redstone, Snowball
+            pattern: 02. 13. ...
+            quantity: 2
+
+    item: Electrum Blend
+        recipe:
+            input: Pulverized Gold, Pulverized Silver
+            pattern: ... 10. ...
+            quantity: 2
+        recipe:
+            input: Electrum Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+
+    item: Electrum Block
+        recipe:
+            input: Electrum Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Electrum Ingot
+        recipe:
+            input: Electrum Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Electrum Blend
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Electrum Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Blend, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Electrum Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Ingot, Silver Ingot
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Pulverized Gold, Pulverized Silver
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Electrum Blend, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Electrum Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Electrum Nugget
+        recipe:
+            input: Electrum Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Enderium Blend
+        recipe:
+            input: Enderium Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            extras: Bucket
+            input: Pulverized Shiny Metal, Pulverized Silver, Pulverized Tin, Resonant Ender Bucket
+            pattern: 01. 223 ...
+            quantity: 4
+            tools: Crafting Table
+
+    item: Enderium Block
+        recipe:
+            input: Enderium Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Enderium Ingot
+        recipe:
+            input: Enderium Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: 2 Enderium Blend, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Enderium Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Enderium Nugget
+        recipe:
+            input: Enderium Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Ferrous Block
+        recipe:
+            input: Ferrous Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Ferrous Ingot
+        gatherable: yes
+        recipe:
+            input: Ferrous Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Ferrous Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Ferrous Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Ferrous Metal
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Ferrous Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Ore, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Ferrous Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Pulverized Ferrous Metal
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: 2 Pulverized Ferrous Metal, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Ferrous Nugget
+        recipe:
+            input: Ferrous Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Ferrous Ore
+        gatherable: yes
+
+    item: Invar Blend
+        recipe:
+            input: Pulverized Ferrous Metal, Pulverized Iron
+            pattern: .0. 11. ...
+            quantity: 3
+        recipe:
+            input: Invar Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+
+    item: Invar Block
+        recipe:
+            input: Invar Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Invar Ingot
+        recipe:
+            input: Invar Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Invar Blend
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Furnace Fuel, Invar Blend
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Invar Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Ferrous Ingot, 2 Iron Ingot
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Invar Blend, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Pulverized Ferrous Metal, 2 Pulverized Iron
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Invar Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Invar Nugget
+        recipe:
+            input: Invar Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Iron Nugget
+        recipe:
+            input: Iron Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Lead Block
+        recipe:
+            input: Lead Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Lead Ingot
+        gatherable: yes
+        recipe:
+            input: Lead Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Lead Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Lead Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Lead
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Lead Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Lead Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Pulverized Lead
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Lead Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Lead, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lead Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Lead Nugget
+        recipe:
+            input: Lead Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Lead Ore
+        gatherable: yes
+
+    item: Lumium Blend
+        recipe:
+            input: Lumium Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            extras: Bucket
+            input: Energized Glowstone Bucket, Pulverized Silver, Pulverized Tin
+            pattern: 12. 220 ...
+            quantity: 4
+            tools: Crafting Table
+
+    item: Lumium Block
+        recipe:
+            input: Lumium Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Lumium Ingot
+        recipe:
+            input: Lumium Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Lumium Blend
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Furnace Fuel, Lumium Blend
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: 2 Lumium Blend, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lumium Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Lumium Nugget
+        recipe:
+            input: Lumium Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Mana Dust
+        gatherable: yes
+
+    item: Mana Infused Block
+        recipe:
+            input: Mana Infused Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Mana Infused Ingot
+        recipe:
+            input: Mana Infused Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Mana Infused Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Mana Infused Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Mana Infused Metal
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Mana Infused Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Mana Infused Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Pulverized Mana Infused Metal
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Mana Infused Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Mana Infused Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Mana Infused Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Mana Infused Metal, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Mana Infused Metal, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Mana Infused Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Mana Infused Nugget
+        recipe:
+            input: Mana Infused Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Mana Infused Ore
+        gatherable: yes
+
+    item: Niter
+        gatherable: yes
+
+    item: Petrotheum Dust
+        recipe:
+            input: Basalz Powder, Clay (item), Pulverized Obsidian, Redstone
+            pattern: 03. 21. ...
+            quantity: 2
+
+    item: Pulverized Charcoal
+        recipe:
+            input: Charcoal
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Coal
+        recipe:
+            input: Coal
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Copper
+        recipe:
+            input: Copper Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Copper Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Ferrous Metal
+        recipe:
+            input: Ferrous Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Ferrous Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Gold
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Gold Horse Armor
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Gold Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Gold Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Iron
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Iron Horse Armor
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Iron Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Iron Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Lead
+        recipe:
+            input: Lead Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Lead Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Mana Infused Metal
+        recipe:
+            input: Mana Infused Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Mana Infused Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Obsidian
+        recipe:
+            input: Obsidian
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Shiny Metal
+        recipe:
+            input: Shiny Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Shiny Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Silver
+        recipe:
+            input: Silver Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Silver Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pulverized Tin
+        recipe:
+            input: Tin Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Tin Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+
+    item: Pyrotheum Dust
+        recipe:
+            input: Blaze Powder, Pulverized Coal, Redstone, Sulfur
+            pattern: 02. 31. ...
+            quantity: 2
+
+    item: Shiny Block
+        recipe:
+            input: Shiny Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Shiny Ingot
+        gatherable: yes
+        recipe:
+            input: Shiny Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Pyrotheum Dust, Shiny Ore
+            pattern: ... 01. ...
+        recipe:
+            input: Pulverized Shiny Metal
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Shiny Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Shiny Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Pulverized Shiny Metal
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Shiny Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Pyrotheum Dust, Shiny Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Rich Slag, Shiny Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Axe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Boots
+            pattern: ... 0.1 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Chestplate
+            pattern: ... 0.1 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Fishing Rod
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Helmet
+            pattern: ... 0.1 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Hoe
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Leggings
+            pattern: ... 0.1 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Pickaxe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Reinforced Bow
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Shears
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Shovel
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Sickle
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shiny Sword
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Shiny Metal, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Shiny Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Shiny Nugget
+        recipe:
+            input: Shiny Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Shiny Ore
+        gatherable: yes
+
+    item: Signalum Blend
+        recipe:
+            input: Signalum Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            extras: Bucket
+            input: Destabilized Redstone Bucket, Pulverized Copper, Pulverized Silver
+            pattern: 21. 110 ...
+            quantity: 4
+            tools: Crafting Table
+
+    item: Signalum Block
+        recipe:
+            input: Signalum Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Signalum Ingot
+        recipe:
+            input: Signalum Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Signalum Blend
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Furnace Fuel, Signalum Blend
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Sand, 2 Signalum Blend
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Signalum Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Signalum Nugget
+        recipe:
+            input: Signalum Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Silver Block
+        recipe:
+            input: Silver Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Silver Ingot
+        gatherable: yes
+        recipe:
+            input: Silver Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Pyrotheum Dust, Silver Ore
+            pattern: ... 01. ...
+        recipe:
+            input: Pulverized Silver
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Silver Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Silver Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Pulverized Silver
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Silver Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Pyrotheum Dust, Silver Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Rich Slag, Silver Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Axe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Boots
+            pattern: ... 0.1 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Chestplate
+            pattern: ... 0.1 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Fishing Rod
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Helmet
+            pattern: ... 0.1 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Hoe
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Leggings
+            pattern: ... 0.1 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Pickaxe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Reinforced Bow
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Shears
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Shovel
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Sickle
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Silver Sword
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Silver, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Silver Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Silver Nugget
+        recipe:
+            input: Silver Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Silver Ore
+        gatherable: yes
+
+    item: Sulfur
+        gatherable: yes
+
+    item: Tin Block
+        recipe:
+            input: Tin Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Tin Ingot
+        gatherable: yes
+        recipe:
+            input: Tin Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            ignoreDuringCrafting: yes
+            input: Pyrotheum Dust, Tin Ore
+            pattern: ... 01. ...
+        recipe:
+            input: Pulverized Tin
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Tin Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Tin Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Furnace Fuel, Pulverized Tin
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Furnace Fuel, Tin Ore
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Pyrotheum Dust, Tin Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Rich Slag, Tin Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Axe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Boots
+            pattern: ... 0.1 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Chestplate
+            pattern: ... 0.1 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Fishing Rod
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Helmet
+            pattern: ... 0.1 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Hoe
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Leggings
+            pattern: ... 0.1 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Ore
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Pickaxe
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Reinforced Bow
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Shears
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Shovel
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Sickle
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Tin Sword
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Tin, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Tin Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Tin Nugget
+        recipe:
+            input: Tin Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Tin Ore
+        gatherable: yes
+
+group: Mob Drops
+
+    item: Basalz Powder
+        recipe:
+            input: Basalz Rod
+            pattern: ... .0. ...
+            quantity: 2
+        recipe:
+            input: Basalz Rod
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: 200 Destabilized Redstone, Pulverized Obsidian
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Basalz Rod
+        gatherable: yes
+
+    item: Blitz Powder
+        recipe:
+            input: Blitz Rod
+            pattern: ... .0. ...
+            quantity: 2
+        recipe:
+            input: Blitz Rod
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: 200 Destabilized Redstone, Sand
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Blitz Rod
+        gatherable: yes
+
+    item: Blizz Powder
+        recipe:
+            input: Blizz Rod
+            pattern: ... .0. ...
+            quantity: 2
+        recipe:
+            input: Blizz Rod
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: 200 Destabilized Redstone, Snowball
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Blizz Rod
+        gatherable: yes
+
+group: Tools
+
+    item: Bronze Axe
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Bronze Fishing Rod
+        recipe:
+            input: Bronze Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Bronze Hoe
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Bronze Pickaxe
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Bronze Shears
+        recipe:
+            input: Bronze Ingot
+            pattern: .0. 0.. ...
+
+    item: Bronze Shovel
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Bronze Sickle
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Copper Axe
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Copper Fishing Rod
+        recipe:
+            input: Copper Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Copper Hoe
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Copper Pickaxe
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Copper Shears
+        recipe:
+            input: Copper Ingot
+            pattern: .0. 0.. ...
+
+    item: Copper Shovel
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Copper Sickle
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Diamond Fishing Rod
+        recipe:
+            input: Diamond, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Diamond Shears
+        recipe:
+            input: Diamond
+            pattern: .0. 0.. ...
+
+    item: Diamond Sickle
+        recipe:
+            input: Diamond, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Electrum Axe
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Electrum Fishing Rod
+        recipe:
+            input: Electrum Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Electrum Hoe
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Electrum Pickaxe
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Electrum Shears
+        recipe:
+            input: Electrum Ingot
+            pattern: .0. 0.. ...
+
+    item: Electrum Shovel
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Electrum Sickle
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Ferrous Axe
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Ferrous Fishing Rod
+        recipe:
+            input: Ferrous Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Ferrous Hoe
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Ferrous Pickaxe
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Ferrous Shears
+        recipe:
+            input: Ferrous Ingot
+            pattern: .0. 0.. ...
+
+    item: Ferrous Shovel
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Ferrous Sickle
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Forge Lexicon
+        recipe:
+            input: Book, Diamond, Gold Ingot, Iron Ingot, Redstone
+            pattern: .1. 203 .4.
+            tools: Crafting Table
+
+    item: Gold Fishing Rod
+        recipe:
+            input: Gold Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Gold Shears
+        recipe:
+            input: Gold Ingot
+            pattern: .0. 0.. ...
+
+    item: Gold Sickle
+        recipe:
+            input: Gold Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Invar Axe
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Invar Fishing Rod
+        recipe:
+            input: Invar Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Invar Hoe
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Invar Pickaxe
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Invar Shears
+        recipe:
+            input: Invar Ingot
+            pattern: .0. 0.. ...
+
+    item: Invar Shovel
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Invar Sickle
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Iron Fishing Rod
+        recipe:
+            input: Iron Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Iron Sickle
+        recipe:
+            input: Iron Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Lead Axe
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Lead Fishing Rod
+        recipe:
+            input: Lead Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Lead Hoe
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Lead Pickaxe
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Lead Shears
+        recipe:
+            input: Lead Ingot
+            pattern: .0. 0.. ...
+
+    item: Lead Shovel
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Lead Sickle
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Shiny Axe
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Shiny Fishing Rod
+        recipe:
+            input: Shiny Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Shiny Hoe
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Shiny Pickaxe
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Shiny Shears
+        recipe:
+            input: Shiny Ingot
+            pattern: .0. 0.. ...
+
+    item: Shiny Shovel
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Shiny Sickle
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Silver Axe
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: 00. 01. .1.
+            tools: Crafting Table
+
+    item: Silver Fishing Rod
+        recipe:
+            input: Silver Ingot, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Silver Hoe
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: 00. .1. .1.
+            tools: Crafting Table
+
+    item: Silver Pickaxe
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: 000 .1. .1.
+            tools: Crafting Table
+
+    item: Silver Shears
+        recipe:
+            input: Silver Ingot
+            pattern: .0. 0.. ...
+
+    item: Silver Shovel
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: 0.. 1.. 1..
+            tools: Crafting Table
+
+    item: Silver Sickle
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Stone Fishing Rod
+        recipe:
+            input: Cobblestone, Stick, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Stone Shears
+        recipe:
+            input: Cobblestone
+            pattern: .0. 0.. ...
+
+    item: Stone Sickle
+        recipe:
+            input: Cobblestone, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+    item: Tin Axe
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: 11. 10. .0.
+            tools: Crafting Table
+
+    item: Tin Fishing Rod
+        recipe:
+            input: Stick, String, Tin Ingot
+            pattern: ..2 .21 0.1
+            tools: Crafting Table
+
+    item: Tin Hoe
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: 11. .0. .0.
+            tools: Crafting Table
+
+    item: Tin Pickaxe
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: 111 .0. .0.
+            tools: Crafting Table
+
+    item: Tin Shears
+        recipe:
+            input: Tin Ingot
+            pattern: .0. 0.. ...
+
+    item: Tin Shovel
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: 1.. 0.. 0..
+            tools: Crafting Table
+
+    item: Tin Sickle
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: .1. ..1 01.
+            tools: Crafting Table
+
+    item: Wood Shears
+        recipe:
+            input: Oak Wood Planks
+            pattern: .0. 0.. ...
+
+    item: Wood Sickle
+        recipe:
+            input: Oak Wood Planks, Stick
+            pattern: .0. ..0 10.
+            tools: Crafting Table
+
+group: Weapons
+
+    item: Bronze Reinforced Bow
+        recipe:
+            input: Bronze Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Bronze Sword
+        recipe:
+            input: Bronze Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Copper Reinforced Bow
+        recipe:
+            input: Copper Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Copper Sword
+        recipe:
+            input: Copper Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Diamond Reinforced Bow
+        recipe:
+            input: Diamond, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Electrum Reinforced Bow
+        recipe:
+            input: Electrum Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Electrum Sword
+        recipe:
+            input: Electrum Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Ferrous Reinforced Bow
+        recipe:
+            input: Ferrous Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Ferrous Sword
+        recipe:
+            input: Ferrous Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Gold Reinforced Bow
+        recipe:
+            input: Gold Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Invar Reinforced Bow
+        recipe:
+            input: Invar Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Invar Sword
+        recipe:
+            input: Invar Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Iron Reinforced Bow
+        recipe:
+            input: Iron Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Lead Reinforced Bow
+        recipe:
+            input: Lead Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Lead Sword
+        recipe:
+            input: Lead Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Shiny Reinforced Bow
+        recipe:
+            input: Shiny Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Shiny Sword
+        recipe:
+            input: Shiny Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Silver Reinforced Bow
+        recipe:
+            input: Silver Ingot, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Silver Sword
+        recipe:
+            input: Silver Ingot, Stick
+            pattern: 0.. 0.. 1..
+            tools: Crafting Table
+
+    item: Stone Reinforced Bow
+        recipe:
+            input: Cobblestone, Stick, String
+            pattern: .02 1.2 .02
+            tools: Crafting Table
+
+    item: Tin Reinforced Bow
+        recipe:
+            input: Stick, String, Tin Ingot
+            pattern: .21 0.1 .21
+            tools: Crafting Table
+
+    item: Tin Sword
+        recipe:
+            input: Stick, Tin Ingot
+            pattern: 1.. 1.. 0..
+            tools: Crafting Table
+

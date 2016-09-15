@@ -1,0 +1,2933 @@
+schema: 1
+
+group: Documents
+
+    item: Blueprint
+        recipe:
+            input: Lapis Lazuli, Paper
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: List
+        gatherable: yes
+
+    item: List
+        recipe:
+            input: List
+            pattern: ... .0. ...
+        recipe:
+            input: Cactus Green, 8 Paper, Redstone
+            pattern: .2. 01. ...
+            tools: Assembly Table
+
+    item: Map Location
+        recipe:
+            input: Dandelion Yellow, Paper
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Template
+        recipe:
+            input: Ink Sac, Paper
+            pattern: 111 101 111
+            tools: Crafting Table
+
+group: Electronics (gates)
+
+    item: Basic Gate
+        gatherable: yes
+
+    item: Basic Gate
+        recipe:
+            input: Red Pipe Wire, Redstone Chipset
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Basic Gate (Autarchic Pulsar)
+        recipe:
+            input: Basic Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Basic Gate (Clock Timer)
+        recipe:
+            input: Basic Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Basic Gate (Light Sensor)
+        recipe:
+            input: Basic Gate, Daylight Sensor
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Basic Gate (Redstone Fader)
+        recipe:
+            input: Basic Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond AND Gate
+        recipe:
+            input: Blue Pipe Wire, Diamond Chipset, Green Pipe Wire, Red Pipe Wire, Yellow Pipe Wire
+            pattern: 20. 314 ...
+            tools: Assembly Table
+
+    item: Diamond AND Gate (Autarchic Pulsar)
+        recipe:
+            input: Diamond AND Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond AND Gate (Clock Timer)
+        recipe:
+            input: Diamond AND Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond AND Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Diamond AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Diamond AND Gate (Redstone Fader)
+        recipe:
+            input: Diamond AND Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond OR Gate
+        recipe:
+            input: Blue Pipe Wire, Diamond Chipset, Green Pipe Wire, Red Pipe Wire, Yellow Pipe Wire
+            pattern: 20. 314 ...
+            tools: Assembly Table
+
+    item: Diamond OR Gate (Autarchic Pulsar)
+        recipe:
+            input: Diamond OR Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond OR Gate (Clock Timer)
+        recipe:
+            input: Diamond OR Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Diamond OR Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Diamond OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Diamond OR Gate (Redstone Fader)
+        recipe:
+            input: Diamond OR Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald AND Gate
+        recipe:
+            input: Blue Pipe Wire, Emerald Chipset, Green Pipe Wire, Red Pipe Wire, Yellow Pipe Wire
+            pattern: 20. 314 ...
+            tools: Assembly Table
+
+    item: Emerald AND Gate (Autarchic Pulsar)
+        recipe:
+            input: Emerald AND Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald AND Gate (Clock Timer)
+        recipe:
+            input: Emerald AND Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald AND Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Emerald AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Emerald AND Gate (Redstone Fader)
+        recipe:
+            input: Emerald AND Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald OR Gate
+        recipe:
+            input: Blue Pipe Wire, Emerald Chipset, Green Pipe Wire, Red Pipe Wire, Yellow Pipe Wire
+            pattern: 20. 314 ...
+            tools: Assembly Table
+
+    item: Emerald OR Gate (Autarchic Pulsar)
+        recipe:
+            input: Emerald OR Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald OR Gate (Clock Timer)
+        recipe:
+            input: Emerald OR Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Emerald OR Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Emerald OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Emerald OR Gate (Redstone Fader)
+        recipe:
+            input: Emerald OR Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold AND Gate
+        recipe:
+            input: Blue Pipe Wire, Golden Chipset, Green Pipe Wire, Red Pipe Wire
+            pattern: 20. 31. ...
+            tools: Assembly Table
+
+    item: Gold AND Gate (Autarchic Pulsar)
+        recipe:
+            input: Gold AND Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold AND Gate (Clock Timer)
+        recipe:
+            input: Gold AND Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold AND Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Gold AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Gold AND Gate (Redstone Fader)
+        recipe:
+            input: Gold AND Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold OR Gate
+        recipe:
+            input: Blue Pipe Wire, Golden Chipset, Green Pipe Wire, Red Pipe Wire
+            pattern: 20. 31. ...
+            tools: Assembly Table
+
+    item: Gold OR Gate (Autarchic Pulsar)
+        recipe:
+            input: Gold OR Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold OR Gate (Clock Timer)
+        recipe:
+            input: Gold OR Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Gold OR Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Gold OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Gold OR Gate (Redstone Fader)
+        recipe:
+            input: Gold OR Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron AND Gate
+        recipe:
+            input: Blue Pipe Wire, Iron Chipset, Red Pipe Wire
+            pattern: .0. 21. ...
+            tools: Assembly Table
+
+    item: Iron AND Gate (Autarchic Pulsar)
+        recipe:
+            input: Iron AND Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron AND Gate (Clock Timer)
+        recipe:
+            input: Iron AND Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron AND Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Iron AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Iron AND Gate (Redstone Fader)
+        recipe:
+            input: Iron AND Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron OR Gate
+        recipe:
+            input: Blue Pipe Wire, Iron Chipset, Red Pipe Wire
+            pattern: .0. 21. ...
+            tools: Assembly Table
+
+    item: Iron OR Gate (Autarchic Pulsar)
+        recipe:
+            input: Iron OR Gate, Pulsating Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron OR Gate (Clock Timer)
+        recipe:
+            input: Iron OR Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Iron OR Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Iron OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Iron OR Gate (Redstone Fader)
+        recipe:
+            input: Iron OR Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Quartz AND Gate
+        recipe:
+            input: Blue Pipe Wire, Green Pipe Wire, Quartz Chipset, Red Pipe Wire
+            pattern: 10. 32. ...
+            tools: Assembly Table
+
+    item: Quartz AND Gate (Autarchic Pulsar)
+        recipe:
+            input: Pulsating Chipset, Quartz AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Quartz AND Gate (Clock Timer)
+        recipe:
+            input: Quartz AND Gate, Quartz Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Quartz AND Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Quartz AND Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Quartz AND Gate (Redstone Fader)
+        recipe:
+            input: Quartz AND Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+    item: Quartz OR Gate
+        recipe:
+            input: Blue Pipe Wire, Green Pipe Wire, Quartz Chipset, Red Pipe Wire
+            pattern: 10. 32. ...
+            tools: Assembly Table
+
+    item: Quartz OR Gate (Autarchic Pulsar)
+        recipe:
+            input: Pulsating Chipset, Quartz OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Quartz OR Gate (Clock Timer)
+        recipe:
+            input: Quartz Chipset, Quartz OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Quartz OR Gate (Light Sensor)
+        recipe:
+            input: Daylight Sensor, Quartz OR Gate
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Quartz OR Gate (Redstone Fader)
+        recipe:
+            input: Quartz OR Gate, Redstone Comp Chipset
+            pattern: ... 0.1 ...
+            tools: Integration Table
+
+group: Electronics (parts)
+
+    item: Blue Pipe Wire
+        recipe:
+            input: Iron Ingot, Lapis Lazuli, Redstone
+            pattern: .0. 21. ...
+            quantity: 8
+            tools: Assembly Table
+
+    item: Diamond Chipset
+        recipe:
+            input: Diamond, Redstone
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Emerald Chipset
+        recipe:
+            input: Emerald, Redstone
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Golden Chipset
+        recipe:
+            input: Gold Ingot, Redstone
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Green Pipe Wire
+        recipe:
+            input: Cactus Green, Iron Ingot, Redstone
+            pattern: .1. 20. ...
+            quantity: 8
+            tools: Assembly Table
+
+    item: Iron Chipset
+        recipe:
+            input: Iron Ingot, Redstone
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Pulsating Chipset
+        recipe:
+            input: Ender Pearl, Redstone
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Quartz Chipset
+        recipe:
+            input: Nether Quartz, Redstone
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Red Pipe Wire
+        recipe:
+            input: Iron Ingot, Redstone, Rose Red
+            pattern: .0. 12. ...
+            quantity: 8
+            tools: Assembly Table
+
+    item: Redstone Chipset
+        recipe:
+            input: Redstone
+            pattern: ... .0. ...
+            tools: Assembly Table
+
+    item: Redstone Comp Chipset
+        recipe:
+            input: Redstone, Redstone Comparator
+            pattern: ... 01. ...
+            tools: Assembly Table
+
+    item: Yellow Pipe Wire
+        recipe:
+            input: Dandelion Yellow, Iron Ingot, Redstone
+            pattern: .1. 20. ...
+            quantity: 8
+            tools: Assembly Table
+
+group: Filters & Lenses
+
+    item: Filter (Black)
+        recipe:
+            input: Glass, Ink Sac, Iron Bars
+            pattern: .0. 12. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Blue)
+        recipe:
+            input: Glass, Iron Bars, Lapis Lazuli
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Brown)
+        recipe:
+            input: Cocoa Beans, Glass, Iron Bars
+            pattern: .1. 02. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Clear)
+        recipe:
+            input: Glass, Iron Bars
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Cyan)
+        recipe:
+            input: Cyan Dye, Glass, Iron Bars
+            pattern: .1. 02. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Gray)
+        recipe:
+            input: Glass, Gray Dye, Iron Bars
+            pattern: .0. 12. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Green)
+        recipe:
+            input: Cactus Green, Glass, Iron Bars
+            pattern: .1. 02. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Light Blue)
+        recipe:
+            input: Glass, Iron Bars, Light Blue Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Light Gray)
+        recipe:
+            input: Glass, Iron Bars, Light Gray Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Lime)
+        recipe:
+            input: Glass, Iron Bars, Lime Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Magenta)
+        recipe:
+            input: Glass, Iron Bars, Magenta Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Orange)
+        recipe:
+            input: Glass, Iron Bars, Orange Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Pink)
+        recipe:
+            input: Glass, Iron Bars, Pink Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Purple)
+        recipe:
+            input: Glass, Iron Bars, Purple Dye
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Red)
+        recipe:
+            input: Glass, Iron Bars, Rose Red
+            pattern: .0. 21. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (White)
+        recipe:
+            input: Bone Meal, Glass, Iron Bars
+            pattern: .1. 02. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Filter (Yellow)
+        recipe:
+            input: Dandelion Yellow, Glass, Iron Bars
+            pattern: .1. 02. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Black)
+        recipe:
+            input: Glass, Ink Sac
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Blue)
+        recipe:
+            input: Glass, Lapis Lazuli
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Brown)
+        recipe:
+            input: Cocoa Beans, Glass
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Clear)
+        recipe:
+            input: Glass
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Cyan)
+        recipe:
+            input: Cyan Dye, Glass
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Gray)
+        recipe:
+            input: Glass, Gray Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Green)
+        recipe:
+            input: Cactus Green, Glass
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Light Blue)
+        recipe:
+            input: Glass, Light Blue Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Light Gray)
+        recipe:
+            input: Glass, Light Gray Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Lime)
+        recipe:
+            input: Glass, Lime Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Magenta)
+        recipe:
+            input: Glass, Magenta Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Orange)
+        recipe:
+            input: Glass, Orange Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Pink)
+        recipe:
+            input: Glass, Pink Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Purple)
+        recipe:
+            input: Glass, Purple Dye
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Red)
+        recipe:
+            input: Glass, Rose Red
+            pattern: ... 01. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (White)
+        recipe:
+            input: Bone Meal, Glass
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+    item: Lens (Yellow)
+        recipe:
+            input: Dandelion Yellow, Glass
+            pattern: ... 10. ...
+            quantity: 2
+            tools: Assembly Table
+
+group: Fluids
+
+    item: Fuel
+        recipe:
+            input: Oil
+            pattern: ... 0.. ...
+            tools: Refinery
+
+    item: Fuel Bucket
+        recipe:
+            input: Bucket, 1000 Fuel
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Oil
+        gatherable: yes
+
+    item: Oil Bucket
+        recipe:
+            input: Bucket, 1000 Oil
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Oil Spring
+        gatherable: yes
+
+    item: Tank
+        recipe:
+            input: Glass
+            pattern: 000 0.0 000
+            tools: Crafting Table
+
+    item: Water Spring
+        gatherable: yes
+
+group: Machine Parts
+
+    item: Construction Mark
+        recipe:
+            input: Gold Gear, Redstone Torch
+            pattern: 0.. 1.. ...
+
+    item: Diamond Gear
+        recipe:
+            input: Diamond, Gold Gear
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Gold Gear
+        recipe:
+            input: Gold Ingot, Iron Gear
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Iron Gear
+        recipe:
+            input: Iron Ingot, Stone Gear
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Land Mark
+        recipe:
+            input: Lapis Lazuli, Redstone Torch
+            pattern: 0.. 1.. ...
+
+    item: Package
+        gatherable: yes
+
+    item: Path Mark
+        recipe:
+            input: Cactus Green, Redstone Torch
+            pattern: 0.. 1.. ...
+
+    item: Stone Gear
+        recipe:
+            input: Cobblestone, Wood Gear
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Wood Gear
+        recipe:
+            input: Stick
+            pattern: .0. 0.0 .0.
+            tools: Crafting Table
+
+group: Machines (building)
+
+    item: Architect Table
+        recipe:
+            input: Blueprint, Crafting Table, Dandelion Yellow, Diamond Gear, Ink Sac, Land Mark
+            pattern: 454 212 303
+            tools: Crafting Table
+
+    item: Auto Workbench
+        recipe:
+            input: Crafting Table, Stone Gear
+            pattern: 1.. 0.. 1..
+            tools: Crafting Table
+        recipe:
+            input: Crafting Table, Stone Gear
+            pattern: 101 ... ...
+            tools: Crafting Table
+
+    item: Builder
+        recipe:
+            input: Chest, Crafting Table, Dandelion Yellow, Diamond Gear, Ink Sac, Land Mark
+            pattern: 454 212 303
+            tools: Crafting Table
+
+    item: Electronic Library
+        recipe:
+            input: Blueprint, Bookshelf, Iron Gear, Iron Ingot, Redstone
+            pattern: 323 101 343
+            tools: Crafting Table
+
+    item: Filler
+        recipe:
+            input: Chest, Crafting Table, Dandelion Yellow, Gold Gear, Ink Sac, Land Mark
+            pattern: 454 212 303
+            tools: Crafting Table
+
+    item: Mining Well
+        recipe:
+            input: Iron Gear, Iron Ingot, Iron Pickaxe, Redstone
+            pattern: 131 101 121
+            tools: Crafting Table
+
+    item: Quarry
+        recipe:
+            input: Diamond Gear, Diamond Pickaxe, Gold Gear, Iron Gear, Redstone
+            pattern: 343 232 010
+            tools: Crafting Table
+
+    item: Recipe Packager
+        recipe:
+            input: Crafting Table, Iron Ingot, Piston
+            pattern: .1. 101 .2.
+            tools: Crafting Table
+
+    item: Requester
+        recipe:
+            input: Chest, Iron Gear, Iron Ingot, Piston, Redstone
+            pattern: 232 101 242
+            tools: Crafting Table
+
+    item: Zone Planner
+        recipe:
+            input: Diamond Gear, Empty Map, Gold Gear, Iron Ingot, Redstone
+            pattern: 343 212 303
+            tools: Crafting Table
+
+group: Machines (electronics)
+
+    item: Advanced Crafting Table
+        recipe:
+            input: Chest, Crafting Table, Obsidian, Redstone Chipset
+            pattern: 212 202 232
+            tools: Crafting Table
+
+    item: Assembly Table
+        recipe:
+            input: Diamond, Diamond Gear, Obsidian, Redstone
+            pattern: 202 232 212
+            tools: Crafting Table
+
+    item: Charging Table
+        recipe:
+            input: Gold Gear, Obsidian, Redstone, Redstone Chipset
+            pattern: 121 131 101
+            tools: Crafting Table
+
+    item: Integration Table
+        recipe:
+            input: Diamond Gear, Gold Ingot, Obsidian, Redstone Chipset
+            pattern: 212 232 202
+            tools: Crafting Table
+
+    item: Laser
+        recipe:
+            input: Diamond, Obsidian, Redstone
+            pattern: 101 202 222
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Obsidian, Redstone
+            pattern: 122 002 122
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Obsidian, Redstone
+            pattern: 221 200 221
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Obsidian, Redstone
+            pattern: 222 202 101
+            tools: Crafting Table
+
+    item: Programming Table
+        recipe:
+            input: Diamond Gear, Emerald, Obsidian, Redstone Chipset
+            pattern: 212 232 202
+            tools: Crafting Table
+
+    item: Stamping Table
+        recipe:
+            input: Crafting Table, Gold Gear, Obsidian, Redstone Chipset
+            pattern: 202 232 212
+            tools: Crafting Table
+
+group: Machines (fluid)
+
+    item: Flood Gate
+        recipe:
+            input: Iron Bars, Iron Gear, Iron Ingot, Tank
+            pattern: 212 030 202
+            tools: Crafting Table
+
+    item: Pump
+        recipe:
+            input: Bucket, Iron Gear, Iron Ingot, Redstone, Tank
+            pattern: 232 212 404
+            tools: Crafting Table
+
+    item: Refinery
+        recipe:
+            input: Diamond Gear, Redstone Torch, Tank
+            pattern: 121 202 ...
+            tools: Crafting Table
+
+group: Machines (power)
+
+    item: Combustion Engine
+        recipe:
+            input: Glass, Iron Gear, Iron Ingot, Piston
+            pattern: 222 .0. 131
+            tools: Crafting Table
+
+    item: Creative Engine
+        gatherable: yes
+
+    item: Redstone Engine
+        recipe:
+            input: Glass, Oak Wood Planks, Piston, Wood Gear
+            pattern: 111 .0. 323
+            tools: Crafting Table
+
+    item: Stirling Engine
+        recipe:
+            input: Cobblestone, Glass, Piston, Stone Gear
+            pattern: 000 .1. 323
+            tools: Crafting Table
+
+group: Machines (transport)
+
+    item: Chute
+        recipe:
+            input: Hopper, Stone Gear
+            pattern: ... 10. ...
+        recipe:
+            input: Chest, Iron Ingot, Stone Gear
+            pattern: 101 .2. ...
+            tools: Crafting Table
+
+    item: Filtered Buffer
+        recipe:
+            input: Chest, Diamond Transport Pipe, Oak Wood Planks, Piston
+            pattern: 212 202 232
+            tools: Crafting Table
+
+group: Pipes (energy)
+
+    item: Cobblestone Kinesis Pipe
+        recipe:
+            input: Cobblestone Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Diamond Kinesis Pipe
+        recipe:
+            input: Diamond Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Emerald Kinesis Pipe
+        recipe:
+            input: Emerald Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Golden Kinesis Pipe
+        recipe:
+            input: Golden Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Iron Kinesis Pipe
+        recipe:
+            input: Iron Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Power Adapter
+        recipe:
+            input: Cobblestone Structure Pipe, Gold Ingot, Redstone, Stone Gear
+            pattern: 010 030 020
+            quantity: 4
+            tools: Crafting Table
+
+    item: Quartz Kinesis Pipe
+        recipe:
+            input: Quartz Transport Pipe, Redstone
+            pattern: ... 01. ...
+
+    item: Sandstone Kinesis Pipe
+        recipe:
+            input: Redstone, Sandstone Transport Pipe
+            pattern: ... 10. ...
+
+    item: Stone Kinesis Pipe
+        recipe:
+            input: Redstone, Stone Transport Pipe
+            pattern: ... 10. ...
+
+    item: Wooden Kinesis Pipe
+        recipe:
+            input: Redstone, Wooden Transport Pipe
+            pattern: ... 10. ...
+
+group: Pipes (fluid)
+
+    item: Clay Fluid Pipe
+        recipe:
+            input: Clay Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Cobblestone Fluid Pipe
+        recipe:
+            input: Cobblestone Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Diamond Fluid Pipe
+        recipe:
+            input: Diamond Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Emerald Fluid Pipe
+        recipe:
+            input: Emerald Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Golden Fluid Pipe
+        recipe:
+            input: Golden Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Iron Fluid Pipe
+        recipe:
+            input: Iron Transport Pipe, Pipe Sealant
+            pattern: ... 01. ...
+
+    item: Pipe Sealant
+        recipe:
+            input: Cactus Green
+            pattern: ... .0. ...
+
+    item: Quartz Fluid Pipe
+        recipe:
+            input: Pipe Sealant, Quartz Transport Pipe
+            pattern: ... 10. ...
+
+    item: Sandstone Fluid Pipe
+        recipe:
+            input: Pipe Sealant, Sandstone Transport Pipe
+            pattern: ... 10. ...
+
+    item: Stone Fluid Pipe
+        recipe:
+            input: Pipe Sealant, Stone Transport Pipe
+            pattern: ... 10. ...
+
+    item: Void Fluid Pipe
+        recipe:
+            input: Pipe Sealant, Void Transport Pipe
+            pattern: ... 10. ...
+
+    item: Wooden Fluid Pipe
+        recipe:
+            input: Pipe Sealant, Wooden Transport Pipe
+            pattern: ... 10. ...
+
+group: Pipes (structure)
+
+    item: Cobblestone Structure Pipe
+        recipe:
+            input: Black Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Cyan Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Gravel
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Facade: Stone
+        recipe:
+            input: 3 Cobblestone Structure Pipe, Stone
+            pattern: ... 10. ...
+            quantity: 6
+            tools: Assembly Table
+
+    item: Frame
+        gatherable: yes
+
+    item: Mining Pipe
+        gatherable: yes
+
+    item: Pipe Plug
+        recipe:
+            input: Cobblestone Structure Pipe
+            pattern: ... .0. ...
+            quantity: 4
+
+group: Pipes (transport)
+
+    item: Clay Transport Pipe
+        recipe:
+            input: Clay Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Clay (block)
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Clay (block)
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Clay (block)
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Cyan Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Clay (block), Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Cobblestone Transport Pipe
+        recipe:
+            input: Cobblestone Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Cobblestone Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Cobblestone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Cyan Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cobblestone, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Daizuli Transport Pipe
+        recipe:
+            input: Black Stained Glass, Diamond, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Diamond, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Diamond, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Diamond, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Gray Stained Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Green Stained Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Light Blue Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Light Gray Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Lime Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Magenta Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Orange Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Pink Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Purple Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Red Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, White Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lapis Lazuli Block, Yellow Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Diamond Transport Pipe
+        recipe:
+            input: Diamond Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Diamond Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Diamond
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Diamond
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Diamond
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Diamond
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Emerald Transport Pipe
+        recipe:
+            input: Emerald Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Emerald Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Emerald
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Emerald
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Emerald
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Emerald
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Emzuli Transport Pipe
+        recipe:
+            input: Black Stained Glass, Emerald, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Emerald, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Emerald, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Emerald, Lapis Lazuli Block
+            pattern: 201 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Gray Stained Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Green Stained Glass, Lapis Lazuli Block
+            pattern: 210 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Light Blue Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Light Gray Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Lime Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Magenta Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Orange Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Pink Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Purple Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Red Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, White Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Emerald, Lapis Lazuli Block, Yellow Stained Glass
+            pattern: 120 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Golden Transport Pipe
+        recipe:
+            input: Golden Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Golden Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Gold Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Gold Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Gold Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Gold Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Gold Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Ingot, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Iron Transport Pipe
+        recipe:
+            input: Iron Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Iron Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Iron Ingot
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Iron Ingot, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Lazuli Transport Pipe
+        recipe:
+            input: Black Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Lapis Lazuli Block
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lapis Lazuli Block, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Obsidian Transport Pipe
+        recipe:
+            input: Black Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Blue Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Gray Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lime Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Magenta Stained Glass, Obsidian
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Obsidian, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Quartz Transport Pipe
+        recipe:
+            input: Quartz Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Quartz Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Block of Quartz
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Brown Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Cyan Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Sandstone Transport Pipe
+        recipe:
+            input: Sandstone Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Sandstone Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Blue Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Gray Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lime Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Magenta Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Orange Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Pink Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Purple Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Red Stained Glass, Sandstone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Sandstone, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Sandstone, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Stone Transport Pipe
+        recipe:
+            input: Stone Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Stone Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Blue Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Gray Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lime Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Magenta Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Orange Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Pink Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Purple Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Red Stained Glass, Stone
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Stone, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Stone, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Stripes Transport Pipe
+        recipe:
+            input: Black Stained Glass, Gold Gear
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Gold Gear
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Gold Gear
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Gold Gear
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Gold Gear
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Green Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Light Blue Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Light Gray Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Lime Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Magenta Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gold Gear, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Void Transport Pipe
+        recipe:
+            input: Void Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Ink Sac, Redstone
+            pattern: 102 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Light Blue Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Light Gray Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Lime Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Magenta Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Orange Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Pink Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Purple Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Red Stained Glass, Redstone
+            pattern: 012 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Redstone, White Stained Glass
+            pattern: 021 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Ink Sac, Redstone, Yellow Stained Glass
+            pattern: 021 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+    item: Wooden Transport Pipe
+        recipe:
+            input: Wooden Fluid Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Wooden Kinesis Pipe
+            pattern: ... .0. ...
+        recipe:
+            input: Black Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Blue Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Brown Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Cyan Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Gray Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Green Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Blue Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Gray Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Lime Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Magenta Stained Glass, Oak Wood Planks
+            pattern: 101 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, Orange Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, Pink Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, Purple Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, Red Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, White Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Oak Wood Planks, Yellow Stained Glass
+            pattern: 010 ... ...
+            quantity: 8
+            tools: Crafting Table
+
+group: Robotics
+
+    item: Docking Station
+        recipe:
+            input: Golden Chipset, Iron Ingot
+            pattern: ... .1. 101
+            tools: Crafting Table
+
+    item: Redstone Board
+        recipe:
+            input: Paper, Redstone
+            pattern: 000 010 000
+            tools: Crafting Table
+
+    item: Redstone Board (Bomber)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Builder)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Butcher)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Carrier)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Delivery)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Farmer)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Harvester)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Knight)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Leaf Cutter)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Lumberjack)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Miner)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Picker)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Planter)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Pump)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Shovelman)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Stripes)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Board (Tank)
+        recipe:
+            input: Redstone Board
+            pattern: ... .0. ...
+            tools: Programming Table
+
+    item: Redstone Crystal
+        recipe:
+            input: Block of Redstone
+            pattern: ... .0. ...
+            tools: Assembly Table
+
+    item: Robot
+        recipe:
+            input: Diamond Chipset, Iron Ingot, Redstone Crystal
+            pattern: 111 121 0.0
+            tools: Crafting Table
+
+    item: Robot (Bomber)
+        recipe:
+            input: Redstone Board (Bomber), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Builder)
+        recipe:
+            input: Redstone Board (Builder), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Butcher)
+        recipe:
+            input: Redstone Board (Butcher), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Carrier)
+        recipe:
+            input: Redstone Board (Carrier), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Delivery)
+        recipe:
+            input: Redstone Board (Delivery), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Farmer)
+        recipe:
+            input: Redstone Board (Farmer), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Harvester)
+        recipe:
+            input: Redstone Board (Harvester), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Knight)
+        recipe:
+            input: Redstone Board (Knight), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Leaf Cutter)
+        recipe:
+            input: Redstone Board (Leaf Cutter), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Lumberjack)
+        recipe:
+            input: Redstone Board (Lumberjack), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Miner)
+        recipe:
+            input: Redstone Board (Miner), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Picker)
+        recipe:
+            input: Redstone Board (Picker), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Planter)
+        recipe:
+            input: Redstone Board (Planter), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Pump)
+        recipe:
+            input: Redstone Board (Pump), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Shovelman)
+        recipe:
+            input: Redstone Board (Shovelman), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Stripes)
+        recipe:
+            input: Redstone Board (Stripes), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+    item: Robot (Tank)
+        recipe:
+            input: Redstone Board (Tank), Robot
+            pattern: ... 1.0 ...
+            tools: Integration Table
+
+group: Tools
+
+    item: Debugger
+        gatherable: yes
+
+    item: Gate Copier
+        recipe:
+            input: Redstone Chipset, Wrench
+            pattern: ... 01. ...
+
+    item: Paintbrush
+        recipe:
+            input: Bone Meal, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Cactus Green, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Cocoa Beans, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Cyan Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Dandelion Yellow, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Gray Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Ink Sac, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Lapis Lazuli, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Light Blue Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Light Gray Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Lime Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Magenta Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Orange Dye, Paintbrush
+            pattern: ... 01. ...
+        recipe:
+            input: Paintbrush, Pink Dye
+            pattern: ... 10. ...
+        recipe:
+            input: Paintbrush, Purple Dye
+            pattern: ... 10. ...
+        recipe:
+            input: Paintbrush, Rose Red
+            pattern: ... 10. ...
+        recipe:
+            input: Stick, String, Wood Gear, Wool
+            pattern: .13 .21 0..
+            tools: Crafting Table
+
+    item: Wrench
+        recipe:
+            input: Iron Ingot, Stone Gear
+            pattern: 0.0 .1. .0.
+            tools: Crafting Table
+

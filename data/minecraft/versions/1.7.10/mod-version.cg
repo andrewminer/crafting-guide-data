@@ -149,6 +149,30 @@ group: Blocks (earthen)
 
     item: Brick
         recipe:
+            input: Brick Stairs
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Bricks
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Bricks Slab
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Clay (item)
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Flower Pot
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
             input: Clay (item), Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
@@ -186,6 +210,11 @@ group: Blocks (earthen)
 
     item: Clay (item)
         gatherable: yes
+        recipe:
+            extras: Bucket
+            input: Dirt, Slag, Water Bucket
+            pattern: 20. 11. ...
+            quantity: 4
 
     item: Cyan Stained Clay
         recipe:
@@ -202,6 +231,14 @@ group: Blocks (earthen)
 
     item: Gravel
         gatherable: yes
+        recipe:
+            input: Netherrack
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Stone
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
 
     item: Gray Stained Clay
         recipe:
@@ -218,6 +255,10 @@ group: Blocks (earthen)
             tools: Crafting Table
 
     item: Hardened Clay
+        recipe:
+            input: Clay (block)
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Clay (block), Furnace Fuel
             pattern: .0. ... .1.
@@ -255,11 +296,36 @@ group: Blocks (earthen)
         gatherable: yes
 
     item: Nether Brick (block)
+        gatherable: yes
         recipe:
             input: Nether Brick (item)
             pattern: 00. 00. ...
+        recipe:
+            input: 4 Netherrack, Soul Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
 
     item: Nether Brick (item)
+        recipe:
+            input: Nether Brick (block)
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Nether Brick Slab
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Nether Brick Stairs
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Netherrack
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Furnace Fuel, Netherrack
             pattern: .1. ... .0.
@@ -315,6 +381,106 @@ group: Blocks (earthen)
 
     item: Sand
         gatherable: yes
+        recipe:
+            input: Black Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Blue Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Brown Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Chiseled Sandstone
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Cobblestone
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Cyan Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Glass Bottle
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Gray Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Green Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Light Blue Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Light Gray Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Lime Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Magenta Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Orange Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Pink Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Purple Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Red Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Sandstone
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Sandstone Slab
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Sandstone Stairs
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Smooth Sandstone
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: White Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Yellow Stained Glass
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
 
     item: Sandstone
         recipe:
@@ -417,6 +583,10 @@ group: Blocks (glass)
             tools: Crafting Table
 
     item: Glass
+        recipe:
+            input: Sand
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Furnace Fuel, Sand
             pattern: .1. ... .0.
@@ -612,6 +782,15 @@ group: Blocks (stone)
 
     item: Cobblestone
         gatherable: yes
+        recipe:
+            input: Lever
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            extras: 1000 Lava, 1000 Water
+            input: 1000 Lava, 1000 Water
+            pattern: ... 1.0 ...
+            tools: Igneous Extruder (Basic)
 
     item: Cobblestone Slab
         recipe:
@@ -628,13 +807,22 @@ group: Blocks (stone)
             tools: Crafting Table
 
     item: Cracked Stone Bricks
-        gatherable: yes
+        recipe:
+            input: Stone Bricks
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
 
     item: End Stone
-        gatherable: yes
+        recipe:
+            input: 250 Resonant Ender, Sandstone
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
 
     item: Moss Stone
-        gatherable: yes
+        recipe:
+            input: Cobblestone, 250 Water
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
 
     item: Mossy Cobblestone Wall
         recipe:
@@ -644,13 +832,20 @@ group: Blocks (stone)
             tools: Crafting Table
 
     item: Mossy Stone Bricks
-        gatherable: yes
+        recipe:
+            input: Stone Bricks, 250 Water
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
 
     item: Netherrack
         gatherable: yes
 
     item: Obsidian
         gatherable: yes
+        recipe:
+            input: 1000 Lava, 1000 Water
+            pattern: ... 1.0 ...
+            tools: Igneous Extruder (Basic)
 
     item: Quartz Slab
         recipe:
@@ -668,9 +863,18 @@ group: Blocks (stone)
 
     item: Stone
         recipe:
+            input: Cobblestone
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Cobblestone, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
+        recipe:
+            extras: 1000 Lava
+            input: 1000 Lava, 1000 Water
+            pattern: ... 1.0 ...
+            tools: Igneous Extruder (Basic)
 
     item: Stone Brick Stairs
         recipe:
@@ -684,6 +888,10 @@ group: Blocks (stone)
             input: Stone
             pattern: 00. 00. ...
             quantity: 4
+        recipe:
+            input: 2 Cobblestone, Sand
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
 
     item: Stone Bricks Slab
         recipe:
@@ -776,6 +984,16 @@ group: Blocks (wooden)
             input: Acacia Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Acacia Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Acacia Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Acacia Wood Slab
         recipe:
@@ -796,6 +1014,16 @@ group: Blocks (wooden)
             input: Birch Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Birch Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Birch Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Birch Wood Slab
         recipe:
@@ -816,6 +1044,16 @@ group: Blocks (wooden)
             input: Dark Oak Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Dark Oak Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Dark Oak Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Dark Oak Wood Slab
         recipe:
@@ -849,6 +1087,16 @@ group: Blocks (wooden)
             input: Jungle Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Jungle Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Jungle Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Jungle Wood Slab
         recipe:
@@ -876,6 +1124,106 @@ group: Blocks (wooden)
             input: Oak Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Bed
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
+        recipe:
+            input: Boat
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Sawmill (Basic)
+        recipe:
+            input: Bookshelf
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: Button (wooden)
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: Chest
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Sawmill (Basic)
+        recipe:
+            input: Crafting Table
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Sawmill (Basic)
+        recipe:
+            input: Fence Gate
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Sawmill (Basic)
+        recipe:
+            input: Jukebox
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Sawmill (Basic)
+        recipe:
+            input: Note Block
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Sawmill (Basic)
+        recipe:
+            input: Oak Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: Pressure Plate (wooden)
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Sawmill (Basic)
+        recipe:
+            input: Sign
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Sawmill (Basic)
+        recipe:
+            input: Trapdoor
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Axe
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Door
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Hoe
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Pickaxe
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Shovel
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: Wooden Sword
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Bowl
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Oak Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Oak Wood Slab
         recipe:
@@ -896,6 +1244,16 @@ group: Blocks (wooden)
             input: Spruce Wood
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            input: Spruce Wood
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
+        recipe:
+            input: 2 Spruce Wood Stairs
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
 
     item: Spruce Wood Slab
         recipe:
@@ -1561,7 +1919,14 @@ group: Brewing (supplies)
             tools: Crafting Table
 
     item: Gunpowder
-        gatherable: yes
+        recipe:
+            input: Niter, Pulverized Charcoal, Sulfur
+            pattern: 12. 00. ...
+            quantity: 2
+        recipe:
+            input: Niter, Pulverized Coal, Sulfur
+            pattern: 12. 00. ...
+            quantity: 2
 
     item: Magma Cream
         gatherable: yes
@@ -1764,8 +2129,17 @@ group: Dyes
             input: Bone
             pattern: ... .0. ...
             quantity: 3
+        recipe:
+            input: Bone
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Pulverizer (Basic)
 
     item: Cactus Green
+        recipe:
+            input: Cactus
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Cactus, Furnace Fuel
             pattern: .0. ... .1.
@@ -1773,6 +2147,16 @@ group: Dyes
 
     item: Cocoa Beans
         gatherable: yes
+        recipe:
+            input: Cocoa Beans, Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Cocoa Beans, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 9
+            tools: Phytogenic Insolator (Basic)
 
     item: Cyan Dye
         recipe:
@@ -1788,6 +2172,16 @@ group: Dyes
             input: Sunflower
             pattern: ... .0. ...
             quantity: 2
+        recipe:
+            input: Dandelion
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Sunflower
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
 
     item: Gray Dye
         recipe:
@@ -1801,13 +2195,23 @@ group: Dyes
     item: Lapis Lazuli
         gatherable: yes
         recipe:
-            input: Furnace Fuel, Lapis Lazuli Ore
-            pattern: .1. ... .0.
-            tools: Furnace
-        recipe:
             input: Lapis Lazuli Block
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            input: Lapis Lazuli Ore
+            pattern: ... .0. ...
+            quantity: 12
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Lapis Lazuli Ore
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Furnace Fuel, Lapis Lazuli Ore
+            pattern: .1. ... .0.
+            tools: Furnace
 
     item: Light Blue Dye
         recipe:
@@ -1817,10 +2221,21 @@ group: Dyes
             input: Bone Meal, Lapis Lazuli
             pattern: ... 01. ...
             quantity: 2
+        recipe:
+            input: Blue Orchid
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Light Gray Dye
         recipe:
             input: Azure Bluet
+            pattern: ... .0. ...
+        recipe:
+            input: Oxeye Daisy
+            pattern: ... .0. ...
+        recipe:
+            input: White Tulip
             pattern: ... .0. ...
         recipe:
             input: Bone Meal, Gray Dye
@@ -1831,11 +2246,20 @@ group: Dyes
             pattern: .0. 01. ...
             quantity: 3
         recipe:
+            input: Azure Bluet
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
             input: Oxeye Daisy
             pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
         recipe:
             input: White Tulip
             pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Lime Dye
         recipe:
@@ -1848,14 +2272,6 @@ group: Dyes
             input: Allium
             pattern: ... .0. ...
         recipe:
-            input: Bone Meal, Lapis Lazuli, Rose Red
-            pattern: 02. 21. ...
-            quantity: 4
-        recipe:
-            input: Lapis Lazuli, Pink Dye, Rose Red
-            pattern: .1. 20. ...
-            quantity: 3
-        recipe:
             input: Lilac
             pattern: ... .0. ...
             quantity: 2
@@ -1863,8 +2279,29 @@ group: Dyes
             input: Pink Dye, Purple Dye
             pattern: ... 01. ...
             quantity: 2
+        recipe:
+            input: Lapis Lazuli, Pink Dye, Rose Red
+            pattern: .1. 20. ...
+            quantity: 3
+        recipe:
+            input: Bone Meal, Lapis Lazuli, Rose Red
+            pattern: 02. 21. ...
+            quantity: 4
+        recipe:
+            input: Allium
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Lilac
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
 
     item: Orange Dye
+        recipe:
+            input: Orange Tulip
+            pattern: ... .0. ...
         recipe:
             input: Dandelion Yellow, Rose Red
             pattern: ... 01. ...
@@ -1872,12 +2309,10 @@ group: Dyes
         recipe:
             input: Orange Tulip
             pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Pink Dye
-        recipe:
-            input: Bone Meal, Rose Red
-            pattern: ... 01. ...
-            quantity: 2
         recipe:
             input: Peony
             pattern: ... .0. ...
@@ -1885,6 +2320,20 @@ group: Dyes
         recipe:
             input: Pink Tulip
             pattern: ... .0. ...
+        recipe:
+            input: Bone Meal, Rose Red
+            pattern: ... 01. ...
+            quantity: 2
+        recipe:
+            input: Peony
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Pink Tulip
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Purple Dye
         recipe:
@@ -1903,6 +2352,21 @@ group: Dyes
             input: Rose Bush
             pattern: ... .0. ...
             quantity: 2
+        recipe:
+            input: Poppy
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Red Tulip
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Rose Bush
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
 
 group: Enchanting
 
@@ -1984,6 +2448,10 @@ group: Food
 
     item: Baked Potato
         recipe:
+            input: Potato
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Furnace Fuel, Potato
             pattern: .1. ... .0.
             tools: Furnace
@@ -2003,11 +2471,25 @@ group: Food
 
     item: Carrot
         gatherable: yes
+        recipe:
+            input: Carrot, Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Carrot, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 9
+            tools: Phytogenic Insolator (Basic)
 
     item: Clownfish
         gatherable: yes
 
     item: Cooked Chicken
+        recipe:
+            input: Raw Chicken
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Furnace Fuel, Raw Chicken
             pattern: .1. ... .0.
@@ -2015,17 +2497,29 @@ group: Food
 
     item: Cooked Fish
         recipe:
+            input: Raw Fish
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Furnace Fuel, Raw Fish
             pattern: .1. ... .0.
             tools: Furnace
 
     item: Cooked Porkchop
         recipe:
+            input: Raw Porkchop
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Furnace Fuel, Raw Porkchop
             pattern: .1. ... .0.
             tools: Furnace
 
     item: Cooked Salmon
+        recipe:
+            input: Raw Salmon
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
         recipe:
             input: Furnace Fuel, Raw Salmon
             pattern: .1. ... .0.
@@ -2058,8 +2552,22 @@ group: Food
 
     item: Melon (item)
         gatherable: yes
+        recipe:
+            input: Melon (block)
+            pattern: ... .0. ...
+            quantity: 9
+            tools: Sawmill (Basic)
 
     item: Melon (block)
+        recipe:
+            input: Melon Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Melon Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
         recipe:
             input: Melon (item)
             pattern: 000 000 000
@@ -2089,12 +2597,31 @@ group: Food
 
     item: Potato
         gatherable: yes
+        recipe:
+            input: Phyto-Gro, Potato
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Potato, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 9
+            tools: Phytogenic Insolator (Basic)
 
     item: Pufferfish
         gatherable: yes
 
     item: Pumpkin
         gatherable: yes
+        recipe:
+            input: Phyto-Gro, Pumpkin Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Pumpkin Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Pumpkin Pie
         recipe:
@@ -2127,6 +2654,10 @@ group: Food
 
     item: Steak
         recipe:
+            input: Raw Beef
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Furnace Fuel, Raw Beef
             pattern: .1. ... .0.
             tools: Furnace
@@ -2135,15 +2666,39 @@ group: Food
         recipe:
             input: Sugar Canes
             pattern: 0.. ... ...
+        recipe:
+            input: Sugar Canes
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
 
     item: Sugar Canes
-        gatherable: yes
+        recipe:
+            input: Phyto-Gro, Sugar Canes
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, Sugar Canes
+            pattern: ... 1.0 ...
+            quantity: 6
+            tools: Phytogenic Insolator (Basic)
 
     item: Wheat
+        gatherable: yes
         recipe:
             input: Hay Bale
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            input: Phyto-Gro, Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, Seeds
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
 group: Household Items
 
@@ -2180,6 +2735,11 @@ group: Household Items
             tools: Crafting Table
 
     item: Glass Bottle
+        recipe:
+            extras: 1000 Water
+            input: Water Bottle
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
         recipe:
             input: Glass
             pattern: 0.0 .0. ...
@@ -2253,9 +2813,18 @@ group: Household Items
             pattern: 000 ... ...
             quantity: 3
             tools: Crafting Table
+        recipe:
+            extras: Bucket
+            input: Sawdust, Water Bucket
+            pattern: .0. 010 .0.
+            quantity: 2
+            tools: Crafting Table
 
     item: Water Bottle
-        gatherable: yes
+        recipe:
+            input: Glass Bottle, 1000 Water
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
 
     item: Wooden Door
         recipe:
@@ -2270,21 +2839,132 @@ group: Liquids
 
     item: Bucket
         recipe:
+            extras: 1000 Blazing Pyrotheum
+            input: Blazing Pyrotheum Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Destabilized Redstone
+            input: Destabilized Redstone Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Energized Glowstone
+            input: Energized Glowstone Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Fuel
+            input: Fuel Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Gelid Cryotheum
+            input: Gelid Cryotheum Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Lava
+            input: Lava Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Liquifacted Coal
+            input: Liquifacted Coal Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Oil
+            input: Oil Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Primal Mana
+            input: Primal Mana Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Resonant Ender
+            input: Resonant Ender Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Tectonic Petrotheum
+            input: Tectonic Petrotheum Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Water
+            input: Water Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
+            extras: 1000 Zephyrean Aerotheum
+            input: Zephyrean Aerotheum Bucket
+            pattern: ... .0. ...
+            tools: Fluid Transposer (Basic)
+        recipe:
             input: Iron Ingot
             pattern: 0.0 .0. ...
             tools: Crafting Table
 
     item: Lava
         gatherable: yes
+        recipe:
+            input: Blaze Rod
+            pattern: ... .0. ...
+            quantity: 250
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Cobblestone
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Netherrack
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Obsidian
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Stone
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
 
     item: Lava Bucket
-        gatherable: yes
+        recipe:
+            input: Bucket, 1000 Lava
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
 
     item: Water
         gatherable: yes
+        recipe:
+            input: Ice
+            pattern: ... .0. ...
+            quantity: 1000
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Snow (block)
+            pattern: ... .0. ...
+            quantity: 500
+            tools: Magma Crucible (Basic)
+        recipe:
+            input: Snowball
+            pattern: ... .0. ...
+            quantity: 125
+            tools: Magma Crucible (Basic)
 
     item: Water Bucket
-        gatherable: yes
+        recipe:
+            input: Bucket, 1000 Water
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
 
 group: Machines
 
@@ -2431,8 +3111,16 @@ group: Minerals
         recipe:
             input: Nether Quartz
             pattern: 00. 00. ...
+        recipe:
+            input: Nether Quartz Ore, Soul Sand
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
 
     item: Block of Redstone
+        recipe:
+            input: Redstone Ore, Sand
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
         recipe:
             input: Redstone
             pattern: 000 000 000
@@ -2440,7 +3128,27 @@ group: Minerals
 
     item: Charcoal
         recipe:
+            input: Acacia Wood
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Compressed Sawdust
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Hay Bale
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Oak Wood
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
             input: Acacia Wood, Furnace Fuel
+            pattern: .0. ... .1.
+            tools: Furnace
+        recipe:
+            input: Compressed Sawdust, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
         recipe:
@@ -2460,6 +3168,15 @@ group: Minerals
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            input: Coal Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Coal Ore
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
             input: Coal Ore, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
@@ -2473,6 +3190,84 @@ group: Minerals
             input: Block of Diamond
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            input: Diamond Axe
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Boots
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Chestplate
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Fishing Rod
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Helmet
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Hoe
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Horse Armor
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Leggings
+            pattern: ... .0. ...
+            quantity: 7
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Diamond Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Pickaxe
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Reinforced Bow
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Shears
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Shovel
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Sickle
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Diamond Sword
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
         recipe:
             input: Diamond Ore, Furnace Fuel
             pattern: .0. ... .1.
@@ -2488,6 +3283,15 @@ group: Minerals
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            input: Emerald Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Emerald Ore
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
             input: Emerald Ore, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
@@ -2497,6 +3301,10 @@ group: Minerals
 
     item: Flint
         gatherable: yes
+        recipe:
+            input: Gravel
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
 
     item: Glowstone
         recipe:
@@ -2505,16 +3313,142 @@ group: Minerals
 
     item: Glowstone Dust
         gatherable: yes
+        recipe:
+            input: Glowstone
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Redstone Lamp
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Gold Ingot
+        gatherable: yes
         recipe:
             input: Block of Gold
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            ignoreDuringCrafting: yes
+            input: Gold Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Gold Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Gold
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Cinnabar, Gold Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Clock, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
             input: Furnace Fuel, Gold Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Furnace Fuel, Pulverized Gold
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Gold Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Shears, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Gold Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Golden Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Weighted Pressure Plate (Light)
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Gold, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
         recipe:
             input: Gold Nugget
             pattern: 000 000 000
@@ -2533,17 +3467,184 @@ group: Minerals
         gatherable: yes
 
     item: Ice
-        gatherable: yes
+        recipe:
+            input: 1000 Water
+            pattern: ... .0. ...
+            tools: Glacial Precipitator (Basic)
 
     item: Iron Ingot
+        gatherable: yes
         recipe:
             input: Block of Iron
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            ignoreDuringCrafting: yes
+            input: Iron Ore, Pyrotheum Dust
+            pattern: ... 10. ...
+        recipe:
+            input: Iron Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Pulverized Iron
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Anvil, Sand
+            pattern: ... 1.0 ...
+            quantity: 31
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Bucket, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Cauldron, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Cinnabar, Iron Ore
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Compass, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Flint and Steel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
             input: Furnace Fuel, Iron Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Furnace Fuel, Pulverized Iron
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Hopper, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Axe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Boots, Sand
+            pattern: ... 1.0 ...
+            quantity: 4
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Chestplate, Sand
+            pattern: ... 1.0 ...
+            quantity: 8
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Door, Sand
+            pattern: ... 1.0 ...
+            quantity: 6
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Fishing Rod, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Helmet, Sand
+            pattern: ... 1.0 ...
+            quantity: 5
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Hoe, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Leggings, Sand
+            pattern: ... 1.0 ...
+            quantity: 7
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Ore, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Ore, Rich Slag
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Ore, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Pickaxe, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Reinforced Bow, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Shovel, Sand
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Sickle, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Sword, Sand
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Shears
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Slightly Damaged Anvil
+            pattern: ... 0.1 ...
+            quantity: 22
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Very Damaged Anvil
+            pattern: ... 0.1 ...
+            quantity: 13
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Sand, Weighted Pressure Plate (Heavy)
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Iron, Sand
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 8 Iron Bars, Sand
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Iron Ore
         gatherable: yes
@@ -2560,6 +3661,40 @@ group: Minerals
     item: Nether Quartz
         gatherable: yes
         recipe:
+            input: Block of Quartz
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Chiseled Quartz Block
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Nether Quartz Ore
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Nether Quartz Ore
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Pillar Quartz Block
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Quartz Slab
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Quartz Stairs
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Pulverizer (Basic)
+        recipe:
             input: Furnace Fuel, Nether Quartz Ore
             pattern: .1. ... .0.
             tools: Furnace
@@ -2575,6 +3710,10 @@ group: Minerals
 
     item: Packed Ice
         gatherable: yes
+        recipe:
+            input: 250 Gelid Cryotheum, Ice
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
 
     item: Pillar Quartz Block
         recipe:
@@ -2589,6 +3728,40 @@ group: Minerals
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            input: Hardened Energy Cell
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Hardened Energy Cell Frame
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Leadstone Energy Cell
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Leadstone Energy Cell Frame
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Redstone Ore
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Redstone Ore
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Redstone Torch
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
             input: Furnace Fuel, Redstone Ore
             pattern: .1. ... .0.
             tools: Furnace
@@ -2600,6 +3773,10 @@ group: Minerals
         recipe:
             input: Snowball
             pattern: 00. 00. ...
+        recipe:
+            input: 500 Water
+            pattern: ... .0. ...
+            tools: Glacial Precipitator (Basic)
 
     item: Snow (layer)
         recipe:
@@ -2610,6 +3787,11 @@ group: Minerals
 
     item: Snowball
         gatherable: yes
+        recipe:
+            input: 250 Water
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Glacial Precipitator (Basic)
 
 group: Mob Drops (animals)
 
@@ -2651,6 +3833,30 @@ group: Mob Drops (animals)
 
     item: Leather
         gatherable: yes
+        recipe:
+            input: Item Frame
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
+        recipe:
+            input: Leather Boots
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
+        recipe:
+            input: Leather Cap
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Sawmill (Basic)
+        recipe:
+            input: Leather Pants
+            pattern: ... .0. ...
+            quantity: 5
+            tools: Sawmill (Basic)
+        recipe:
+            input: Leather Tunic
+            pattern: ... .0. ...
+            quantity: 6
+            tools: Sawmill (Basic)
 
     item: Light Blue Wool
         recipe:
@@ -2700,6 +3906,10 @@ group: Mob Drops (animals)
         recipe:
             input: String
             pattern: 00. 00. ...
+        recipe:
+            input: Painting
+            pattern: ... .0. ...
+            tools: Sawmill (Basic)
 
     item: Yellow Wool
         recipe:
@@ -2713,6 +3923,15 @@ group: Mob Drops (monsters)
             input: Blaze Rod
             pattern: ... .0. ...
             quantity: 2
+        recipe:
+            input: Blaze Rod
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: 200 Destabilized Redstone, Glowstone Dust
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
 
     item: Blaze Rod
         gatherable: yes
@@ -2754,6 +3973,86 @@ group: Mob Drops (monsters)
 
     item: String
         gatherable: yes
+        recipe:
+            input: Black Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Blue Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Brown Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Cyan Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Gray Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Green Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Light Blue Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Light Gray Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Lime Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Magenta Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Orange Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Pink Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Purple Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Red Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Yellow Wool
+            pattern: ... .0. ...
+            quantity: 4
+            tools: Pulverizer (Basic)
 
     item: Wither Skeleton Skull
         gatherable: yes
@@ -2765,6 +4064,16 @@ group: Plants
 
     item: Cactus
         gatherable: yes
+        recipe:
+            input: Cactus, Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Cactus, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 6
+            tools: Phytogenic Insolator (Basic)
 
     item: Dead Bush
         gatherable: yes
@@ -2783,6 +4092,16 @@ group: Plants
 
     item: Lily Pad
         gatherable: yes
+        recipe:
+            input: Lily Pad, Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Lily Pad, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 6
+            tools: Phytogenic Insolator (Basic)
 
     item: Mushroom (brown block)
         gatherable: yes
@@ -2792,6 +4111,16 @@ group: Plants
 
     item: Vines
         gatherable: yes
+        recipe:
+            input: Phyto-Gro, Vines
+            pattern: ... 1.0 ...
+            quantity: 2
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, Vines
+            pattern: ... 1.0 ...
+            quantity: 6
+            tools: Phytogenic Insolator (Basic)
 
 group: Tools
 

@@ -1,0 +1,1515 @@
+schema: 1
+
+group: Augments
+
+    item: Augment: Accelerated Extrusion
+        recipe:
+            input: Bronze Ingot, Cobblestone, Pneumatic Servo
+            pattern: .0. 020 101
+            tools: Crafting Table
+
+    item: Augment: CryoCoil Flux Amplifier
+        recipe:
+            input: Cryotheum Dust, Glowstone Dust, Redstone Transmission Coil, Silver Ingot
+            pattern: 131 323 030
+            tools: Crafting Table
+
+    item: Augment: CryoCoil Regulator
+        recipe:
+            input: Cryotheum Dust, Electrum Ingot, Glowstone Dust, Redstone Transmission Coil
+            pattern: 212 131 010
+            tools: Crafting Table
+
+    item: Augment: Excitation Field Limiter
+        recipe:
+            input: Electrum Ingot, Lead Nugget, Redstone
+            pattern: .1. 101 212
+            tools: Crafting Table
+
+    item: Augment: Flux Linkage Optimization
+        recipe:
+            input: Electrum Ingot, Glowstone Dust, Lead Ingot, Redstone, Redstone Transmission Coil
+            pattern: 303 242 101
+            tools: Crafting Table
+
+    item: Augment: Flux Modulation Booster
+        recipe:
+            input: Copper Ingot, Glowstone Dust, Redstone, Redstone Transmission Coil, Silver Ingot
+            pattern: 242 030 141
+            tools: Crafting Table
+
+    item: Augment: GyroServo Feedback
+        recipe:
+            input: Cryotheum Dust, Glowstone Dust, Hardened Glass, Pneumatic Servo
+            pattern: 121 232 020
+            tools: Crafting Table
+
+    item: Augment: Igneous Catalyst
+        recipe:
+            input: Bronze Ingot, Cobblestone, Gold Ingot, Pneumatic Servo, Stone
+            pattern: 121 030 424
+            tools: Crafting Table
+
+    item: Augment: Integrated Hopper Apparatus
+        recipe:
+            input: Iron Nugget, Pneumatic Servo
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Augment: Integrated Modular Framework
+        recipe:
+            input: Gold Ingot, Tin Nugget
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Augment: Integrated Redstone Circuit
+        recipe:
+            input: Redstone, Tin Nugget
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Augment: Integrated Servo Mechanism
+        recipe:
+            input: Pneumatic Servo, Tin Nugget
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Augment: Nullification Chamber
+        recipe:
+            extras: Bucket
+            input: Invar Ingot, Lava Bucket, Redstone, Silver Ingot
+            pattern: .3. 010 232
+            tools: Crafting Table
+
+    item: Augment: Overclocked Modular Gearbox
+        recipe:
+            input: Bronze Ingot, Gold Ingot, Pyrotheum Dust, Redstone, Redstone Reception Coil
+            pattern: 313 040 212
+            tools: Crafting Table
+
+    item: Augment: Pyroclastic Generation
+        recipe:
+            input: Gold Ingot, Obsidian, Pneumatic Servo, Stone
+            pattern: 303 020 101
+            tools: Crafting Table
+
+    item: Augment: Secondary Gearbox
+        recipe:
+            input: Lead Ingot, Redstone, Redstone Transmission Coil
+            pattern: .0. 020 101
+            tools: Crafting Table
+
+    item: Augment: Secondary Reception Coil
+        recipe:
+            input: Bronze Ingot, Redstone, Redstone Reception Coil
+            pattern: .0. 020 101
+            tools: Crafting Table
+
+    item: Augment: Secondary Sieve
+        recipe:
+            input: Bronze Ingot, Wool
+            pattern: .0. 010 101
+            tools: Crafting Table
+
+    item: Augment: Secondary Transmission Coil
+        recipe:
+            input: Copper Ingot, Redstone, Redstone Transmission Coil
+            pattern: .0. 020 101
+            tools: Crafting Table
+
+    item: Augment: Space-Time Flux Unifier
+        recipe:
+            input: Ender Pearl, Gold Ingot, Pyrotheum Dust, Redstone Reception Coil
+            pattern: 212 131 010
+            tools: Crafting Table
+
+    item: Augment: Stabilized Frame
+        recipe:
+            input: Bronze Ingot, Glowstone Dust, Hardened Glass, White Rockwool, Wool
+            pattern: 424 030 121
+            tools: Crafting Table
+
+    item: Augment: Transmission Coil Ducting
+        recipe:
+            input: Copper Ingot, Lead Nugget
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Augment: Trivection Chamber
+        recipe:
+            input: Bricks, Redstone, Redstone Reception Coil, Silver Ingot
+            pattern: .3. 121 030
+            tools: Crafting Table
+
+group: Energy Creation & Storage Items
+
+    item: Compression Dynamo
+        recipe:
+            input: Compression Dynamo, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Redstone, Redstone Transmission Coil, Tin Gear, Tin Ingot
+            pattern: .1. 232 303
+            tools: Crafting Table
+
+    item: Creative Energy Cell
+        recipe:
+            input: Creative Energy Cell, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Creative Flux Capacitor
+        gatherable: yes
+
+    item: Enervation Dynamo
+        recipe:
+            input: Enervation Dynamo, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Electrum Gear, Electrum Ingot, Redstone, Redstone Transmission Coil
+            pattern: .3. 010 121
+            tools: Crafting Table
+
+    item: Hardened Energy Cell
+        recipe:
+            input: Copper Ingot, Hardened Energy Cell Frame, Redstone Conductance Coil
+            pattern: .0. 010 .2.
+            tools: Crafting Table
+        recipe:
+            input: Hardened Energy Cell, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Leadstone Energy Cell
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Copper Ingot, Invar Ingot, Leadstone Energy Cell Frame, Redstone Conductance Coil
+            pattern: 101 020 131
+            tools: Crafting Table
+
+    item: Hardened Flux Capacitor
+        recipe:
+            input: Invar Ingot, Leadstone Flux Capacitor, Redstone, Tin Ingot
+            pattern: .2. 010 232
+            tools: Crafting Table
+
+    item: Leadstone Energy Cell
+        recipe:
+            input: Copper Ingot, Leadstone Energy Cell Frame, Redstone Conductance Coil
+            pattern: .0. 010 .2.
+            tools: Crafting Table
+        recipe:
+            input: Leadstone Energy Cell, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Leadstone Flux Capacitor
+        recipe:
+            input: Copper Ingot, Lead Ingot, Redstone, Sulfur
+            pattern: .2. 101 232
+            tools: Crafting Table
+
+    item: Magmatic Dynamo
+        recipe:
+            input: Magmatic Dynamo, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Gear, Invar Ingot, Redstone, Redstone Transmission Coil
+            pattern: .3. 010 121
+            tools: Crafting Table
+
+    item: Reactant Dynamo
+        recipe:
+            input: Reactant Dynamo, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Bronze Gear, Bronze Ingot, Redstone, Redstone Transmission Coil
+            pattern: .3. 010 121
+            tools: Crafting Table
+
+    item: Redstone Energy Cell
+        recipe:
+            input: Redstone Energy Cell, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Electrum Ingot, Lead Ingot, Redstone Conductance Coil, Redstone Energy Cell Frame (Full)
+            pattern: .0. 030 121
+            tools: Crafting Table
+
+    item: Redstone Flux Capacitor
+        recipe:
+            input: Diamond, Electrum Ingot, Hardened Flux Capacitor, Redstone
+            pattern: .3. 121 303
+            tools: Crafting Table
+
+    item: Resonant Energy Cell
+        recipe:
+            input: Enderium Ingot, Redstone Energy Cell
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Resonant Energy Cell, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Electrum Ingot, Lead Ingot, Redstone Conductance Coil, Resonant Energy Cell Frame (Full)
+            pattern: .0. 030 121
+            tools: Crafting Table
+
+    item: Resonant Flux Capacitor
+        recipe:
+            input: Enderium Ingot, Pyrotheum Dust, Redstone, Redstone Flux Capacitor
+            pattern: .2. 030 212
+            tools: Crafting Table
+
+    item: Steam Dynamo
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Steam Dynamo
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+        recipe:
+            input: Copper Gear, Copper Ingot, Redstone, Redstone Transmission Coil
+            pattern: .3. 010 121
+            tools: Crafting Table
+
+    item: Tesseract
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Tesseract
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+        recipe:
+            input: Bronze Ingot, Silver Ingot, Tesseract Frame (Full)
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Tuberous Flux Capacitor
+        recipe:
+            input: Lead Nugget, Poisonous Potato, Redstone
+            pattern: .0. 21. ...
+        recipe:
+            input: Lead Nugget, Potato, Redstone
+            pattern: .0. 21. ...
+
+group: Fluid Items
+
+    item: Creative Portable Tank
+        gatherable: yes
+
+    item: Florb (Empty)
+        recipe:
+            input: Sawdust, Slag, Slimeball
+            pattern: .2. 10. ...
+            quantity: 4
+
+    item: Hardened Portable Tank
+        recipe:
+            input: Invar Ingot, Portable Tank
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Copper Ingot, Glass, Invar Ingot
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Magmatic Florb (Empty)
+        recipe:
+            input: Magma Cream, Sawdust, Slag
+            pattern: .0. 21. ...
+            quantity: 4
+        recipe:
+            input: Blaze Powder, Sawdust, Slag, Slimeball
+            pattern: 03. 21. ...
+            quantity: 4
+
+    item: Portable Tank
+        recipe:
+            input: Copper Ingot, Glass
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Reinforced Portable Tank
+        recipe:
+            input: Hardened Glass, Hardened Portable Tank
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Invar Ingot, Portable Tank
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Resonant Portable Tank
+        recipe:
+            input: Enderium Ingot, Reinforced Portable Tank
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Hardened Glass, Hardened Portable Tank
+            pattern: 101 020 101
+            tools: Crafting Table
+
+group: Lights
+
+    item: Glowstone Illuminator
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 0.. ... ...
+            quantity: 2
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 0.. 0.. ...
+            quantity: 2
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 0.. 0.. ...
+            quantity: 4
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 00. ... ...
+            quantity: 2
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 0.. 0.. 0..
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 000 ... ...
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Glowstone Illuminator
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: 500 Energized Glowstone, Illuminator Frame
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Lumium Lamp
+        recipe:
+            input: Lumium Lamp
+            pattern: 0.. ... ...
+            quantity: 2
+        recipe:
+            input: Lumium Lamp
+            pattern: 0.. 0.. ...
+            quantity: 2
+        recipe:
+            input: Lumium Lamp
+            pattern: 0.. 0.. ...
+            quantity: 4
+        recipe:
+            input: Lumium Lamp
+            pattern: 00. ... ...
+            quantity: 2
+        recipe:
+            input: Lumium Lamp
+            pattern: 0.. 0.. 0..
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Lumium Lamp
+            pattern: 000 ... ...
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Lumium Lamp
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Lumium Blend, Signalum Ingot
+            pattern: .1. 010 .2.
+            quantity: 4
+            tools: Crafting Table
+
+    item: Radiant Lumium Lamp
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 0.. ... ...
+            quantity: 2
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 0.. 0.. ...
+            quantity: 2
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 0.. 0.. ...
+            quantity: 4
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 00. ... ...
+            quantity: 2
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 0.. 0.. 0..
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 000 ... ...
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Radiant Lumium Lamp
+            pattern: 000 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Lumium Ingot, Signalum Ingot
+            pattern: .1. 010 .2.
+            quantity: 4
+            tools: Crafting Table
+
+group: Machines
+
+    item: Acquisition Apparatus
+        recipe:
+            input: Acquisition Apparatus, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Hopper, Piston, Pneumatic Servo, Tin Gear
+            pattern: .0. 313 .2.
+            tools: Crafting Table
+
+    item: Aqueous Accumulator (Basic)
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Basic), Pneumatic Servo
+            pattern: .0. 232 141
+            tools: Crafting Table
+
+    item: Aqueous Accumulator (Hardened)
+        recipe:
+            input: Aqueous Accumulator (Basic), Electrum Gear, Invar Ingot
+            pattern: 212 .0. 2.2
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Hardened), Pneumatic Servo
+            pattern: .0. 232 141
+
+    item: Aqueous Accumulator (Reinforced)
+        recipe:
+            input: Aqueous Accumulator (Hardened), Hardened Glass, Signalum Gear
+            pattern: 121 .0. 1.1
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Reinforced), Pneumatic Servo
+            pattern: .0. 232 141
+
+    item: Aqueous Accumulator (Resonant)
+        recipe:
+            input: Aqueous Accumulator (Reinforced), Enderium Gear, Silver Ingot
+            pattern: 212 .0. 2.2
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Resonant), Pneumatic Servo
+            pattern: .0. 232 141
+
+    item: Autonomous Activator
+        recipe:
+            input: Autonomous Activator, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Chest, Piston, Redstone Reception Coil, Tin Gear
+            pattern: .0. 313 .2.
+            tools: Crafting Table
+
+    item: Creative Machinist's Workbench
+        recipe:
+            input: Creative Machinist's Workbench, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Cyclic Assembler (Basic)
+        recipe:
+            input: Chest, Copper Gear, Machine Frame (Basic), Redstone Reception Coil, Tin Gear
+            pattern: .0. 424 131
+            tools: Crafting Table
+
+    item: Cyclic Assembler (Hardened)
+        recipe:
+            input: Cyclic Assembler (Basic), Electrum Gear, Invar Ingot
+            pattern: 212 .0. 2.2
+        recipe:
+            input: Chest, Copper Gear, Machine Frame (Hardened), Redstone Reception Coil, Tin Gear
+            pattern: .0. 424 131
+
+    item: Cyclic Assembler (Reinforced)
+        recipe:
+            input: Cyclic Assembler (Hardened), Hardened Glass, Signalum Gear
+            pattern: 121 .0. 1.1
+        recipe:
+            input: Chest, Copper Gear, Machine Frame (Reinforced), Redstone Reception Coil, Tin Gear
+            pattern: .0. 424 131
+
+    item: Cyclic Assembler (Resonant)
+        recipe:
+            input: Cyclic Assembler (Reinforced), Enderium Gear, Silver Ingot
+            pattern: 212 .0. 2.2
+        recipe:
+            input: Chest, Copper Gear, Machine Frame (Resonant), Redstone Reception Coil, Tin Gear
+            pattern: .0. 424 131
+
+    item: Energetic Infuser (Basic)
+        recipe:
+            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Basic), Redstone Reception Coil, Redstone Transmission Coil
+            pattern: .1. 424 030
+            tools: Crafting Table
+
+    item: Energetic Infuser (Hardened)
+        recipe:
+            input: Electrum Gear, Energetic Infuser (Basic), Invar Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Hardened), Redstone Reception Coil, Redstone Transmission Coil
+            pattern: .1. 424 030
+
+    item: Energetic Infuser (Reinforced)
+        recipe:
+            input: Energetic Infuser (Hardened), Hardened Glass, Signalum Gear
+            pattern: 121 .0. 1.1
+        recipe:
+            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Reinforced), Redstone Reception Coil, Redstone Transmission Coil
+            pattern: .1. 424 030
+
+    item: Energetic Infuser (Resonant)
+        recipe:
+            input: Enderium Gear, Energetic Infuser (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Resonant), Redstone Reception Coil, Redstone Transmission Coil
+            pattern: .1. 424 030
+
+    item: Fluid Transposer (Basic)
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Basic), Redstone Reception Coil
+            pattern: .0. 232 141
+            tools: Crafting Table
+
+    item: Fluid Transposer (Hardened)
+        recipe:
+            input: Electrum Gear, Fluid Transposer (Basic), Invar Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Hardened), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Fluid Transposer (Reinforced)
+        recipe:
+            input: Fluid Transposer (Hardened), Hardened Glass, Signalum Gear
+            pattern: 121 .0. 1.1
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Reinforced), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Fluid Transposer (Resonant)
+        recipe:
+            input: Enderium Gear, Fluid Transposer (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Bucket, Copper Gear, Glass, Machine Frame (Resonant), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Glacial Precipitator (Basic)
+        recipe:
+            input: Copper Gear, Invar Ingot, Machine Frame (Basic), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+            tools: Crafting Table
+
+    item: Glacial Precipitator (Hardened)
+        recipe:
+            input: Electrum Gear, Glacial Precipitator (Basic), Invar Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Invar Ingot, Machine Frame (Hardened), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Glacial Precipitator (Reinforced)
+        recipe:
+            input: Glacial Precipitator (Hardened), Hardened Glass, Signalum Gear
+            pattern: 121 .0. 1.1
+        recipe:
+            input: Copper Gear, Invar Ingot, Machine Frame (Reinforced), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Glacial Precipitator (Resonant)
+        recipe:
+            input: Enderium Gear, Glacial Precipitator (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Invar Ingot, Machine Frame (Resonant), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Hardened Machinist's Workbench
+        recipe:
+            input: Hardened Machinist's Workbench, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Machinist's Workbench
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Copper Ingot, Crafting Table, Invar Ingot, Paper, Strongbox
+            pattern: 232 010 242
+            tools: Crafting Table
+
+    item: Igneous Extruder (Basic)
+        recipe:
+            input: Copper Gear, Glass, Machine Frame (Basic), Piston, Pneumatic Servo
+            pattern: .3. 121 040
+            tools: Crafting Table
+
+    item: Igneous Extruder (Hardened)
+        recipe:
+            input: Electrum Gear, Igneous Extruder (Basic), Invar Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Glass, Machine Frame (Hardened), Piston, Pneumatic Servo
+            pattern: .3. 121 040
+
+    item: Igneous Extruder (Reinforced)
+        recipe:
+            input: Hardened Glass, Igneous Extruder (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Copper Gear, Glass, Machine Frame (Reinforced), Piston, Pneumatic Servo
+            pattern: .3. 121 040
+
+    item: Igneous Extruder (Resonant)
+        recipe:
+            input: Enderium Gear, Igneous Extruder (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Glass, Machine Frame (Resonant), Piston, Pneumatic Servo
+            pattern: .3. 121 040
+
+    item: Induction Smelter (Basic)
+        recipe:
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Basic), Redstone Reception Coil
+            pattern: .0. 232 141
+            tools: Crafting Table
+
+    item: Induction Smelter (Hardened)
+        recipe:
+            input: Electrum Gear, Induction Smelter (Basic), Invar Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Hardened), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Induction Smelter (Reinforced)
+        recipe:
+            input: Hardened Glass, Induction Smelter (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Reinforced), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Induction Smelter (Resonant)
+        recipe:
+            input: Enderium Gear, Induction Smelter (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Resonant), Redstone Reception Coil
+            pattern: .0. 232 141
+
+    item: Item Allocator
+        recipe:
+            input: Copper Gear, Hopper, Pneumatic Servo, Tin Gear
+            pattern: .0. 313 .2.
+            tools: Crafting Table
+        recipe:
+            input: Item Allocator, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Machinist's Workbench
+        recipe:
+            input: Copper Ingot, Crafting Table, Paper, Strongbox
+            pattern: .2. 010 .3.
+            tools: Crafting Table
+        recipe:
+            input: Machinist's Workbench, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Chest, Copper Ingot, Crafting Table, Paper, Tin Ingot
+            pattern: 434 121 404
+            tools: Crafting Table
+
+    item: Magma Crucible (Basic)
+        recipe:
+            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Basic), Nether Brick (block), Redstone Reception Coil
+            pattern: .1. 323 040
+            tools: Crafting Table
+
+    item: Magma Crucible (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Magma Crucible (Basic)
+            pattern: 101 .2. 1.1
+        recipe:
+            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Hardened), Nether Brick (block), Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Magma Crucible (Reinforced)
+        recipe:
+            input: Hardened Glass, Magma Crucible (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Reinforced), Nether Brick (block), Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Magma Crucible (Resonant)
+        recipe:
+            input: Enderium Gear, Magma Crucible (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Resonant), Nether Brick (block), Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Nullifier
+        recipe:
+            extras: Bucket
+            input: Invar Ingot, Lava Bucket, Pneumatic Servo, Tin Gear
+            pattern: .0. 313 .2.
+            tools: Crafting Table
+        recipe:
+            input: Nullifier, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Phytogenic Insolator (Basic)
+        recipe:
+            input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Basic), Redstone Reception Coil
+            pattern: .2. 131 040
+            tools: Crafting Table
+
+    item: Phytogenic Insolator (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Phytogenic Insolator (Basic)
+            pattern: 101 .2. 1.1
+        recipe:
+            input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Hardened), Redstone Reception Coil
+            pattern: .2. 131 040
+
+    item: Phytogenic Insolator (Reinforced)
+        recipe:
+            input: Hardened Glass, Phytogenic Insolator (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Reinforced), Redstone Reception Coil
+            pattern: .2. 131 040
+
+    item: Phytogenic Insolator (Resonant)
+        recipe:
+            input: Enderium Gear, Phytogenic Insolator (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Resonant), Redstone Reception Coil
+            pattern: .2. 131 040
+
+    item: Pulverizer (Basic)
+        recipe:
+            input: Copper Gear, Flint, Machine Frame (Basic), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+            tools: Crafting Table
+
+    item: Pulverizer (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Pulverizer (Basic)
+            pattern: 101 .2. 1.1
+        recipe:
+            input: Copper Gear, Flint, Machine Frame (Hardened), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Pulverizer (Reinforced)
+        recipe:
+            input: Hardened Glass, Pulverizer (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Copper Gear, Flint, Machine Frame (Reinforced), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Pulverizer (Resonant)
+        recipe:
+            input: Enderium Gear, Pulverizer (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Flint, Machine Frame (Resonant), Piston, Redstone Reception Coil
+            pattern: .3. 121 040
+
+    item: Redstone Furnace (Basic)
+        recipe:
+            input: Bricks, Copper Gear, Machine Frame (Basic), Redstone, Redstone Reception Coil
+            pattern: .3. 020 141
+            tools: Crafting Table
+
+    item: Redstone Furnace (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Redstone Furnace (Basic)
+            pattern: 101 .2. 1.1
+        recipe:
+            input: Bricks, Copper Gear, Machine Frame (Hardened), Redstone, Redstone Reception Coil
+            pattern: .3. 020 141
+
+    item: Redstone Furnace (Reinforced)
+        recipe:
+            input: Hardened Glass, Redstone Furnace (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Bricks, Copper Gear, Machine Frame (Reinforced), Redstone, Redstone Reception Coil
+            pattern: .3. 020 141
+
+    item: Redstone Furnace (Resonant)
+        recipe:
+            input: Enderium Gear, Redstone Furnace (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Bricks, Copper Gear, Machine Frame (Resonant), Redstone, Redstone Reception Coil
+            pattern: .3. 020 141
+
+    item: Reinforced Machinist's Workbench
+        recipe:
+            input: Hardened Machinist's Workbench, Signalum Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Reinforced Machinist's Workbench, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Resonant Machinist's Workbench
+        recipe:
+            input: Enderium Ingot, Reinforced Machinist's Workbench
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Resonant Machinist's Workbench, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Sawmill (Basic)
+        recipe:
+            input: Copper Gear, Iron Axe, Machine Frame (Basic), Oak Wood Planks, Redstone Reception Coil
+            pattern: .1. 323 040
+            tools: Crafting Table
+
+    item: Sawmill (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Sawmill (Basic)
+            pattern: 101 .2. 1.1
+        recipe:
+            input: Copper Gear, Iron Axe, Machine Frame (Hardened), Oak Wood Planks, Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Sawmill (Reinforced)
+        recipe:
+            input: Hardened Glass, Sawmill (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+        recipe:
+            input: Copper Gear, Iron Axe, Machine Frame (Reinforced), Oak Wood Planks, Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Sawmill (Resonant)
+        recipe:
+            input: Enderium Gear, Sawmill (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+        recipe:
+            input: Copper Gear, Iron Axe, Machine Frame (Resonant), Oak Wood Planks, Redstone Reception Coil
+            pattern: .1. 323 040
+
+    item: Terrain Smasher
+        recipe:
+            input: Invar Pickaxe, Piston, Pneumatic Servo, Tin Gear
+            pattern: .0. 313 .2.
+            tools: Crafting Table
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Terrain Smasher
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+
+group: Minerals
+
+    item: Black Rockwool
+        recipe:
+            input: Ink Sac, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Blue Rockwool
+        recipe:
+            input: Lapis Lazuli, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Brown Rockwool
+        recipe:
+            input: Cocoa Beans, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Compressed Sawdust
+        recipe:
+            input: Sawdust
+            pattern: 000 0.0 000
+            tools: Crafting Table
+
+    item: Cyan Rockwool
+        recipe:
+            input: Cyan Dye, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Gray Rockwool
+        recipe:
+            input: Gray Dye, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Green Rockwool
+        recipe:
+            input: Cactus Green, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Light Blue Rockwool
+        recipe:
+            input: Light Blue Dye, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Light Gray Rockwool
+        recipe:
+            input: Slag
+            pattern: ... .0. ...
+            tools: Redstone Furnace (Basic)
+        recipe:
+            input: Furnace Fuel, Slag
+            pattern: .1. ... .0.
+            tools: Furnace
+        recipe:
+            input: Light Gray Dye, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+        recipe:
+            input: Light Gray Dye, White Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Lime Rockwool
+        recipe:
+            input: Light Gray Rockwool, Lime Dye
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Magenta Rockwool
+        recipe:
+            input: Light Gray Rockwool, Magenta Dye
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Orange Rockwool
+        recipe:
+            input: Light Gray Rockwool, Orange Dye
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Phyto-Gro
+        recipe:
+            input: Niter, Pulverized Charcoal, Slag
+            pattern: .2. 01. ...
+            quantity: 32
+        recipe:
+            input: Niter, Sawdust, Slag
+            pattern: 20. 11. ...
+            quantity: 8
+
+    item: Pink Rockwool
+        recipe:
+            input: Light Gray Rockwool, Pink Dye
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Purple Rockwool
+        recipe:
+            input: Light Gray Rockwool, Purple Dye
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Red Rockwool
+        recipe:
+            input: Light Gray Rockwool, Rose Red
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Rich Phyto-Gro
+        recipe:
+            input: Niter, Pulverized Charcoal, Rich Slag
+            pattern: .2. 01. ...
+            quantity: 32
+        recipe:
+            input: Niter, Rich Slag, Sawdust
+            pattern: 10. 22. ...
+            quantity: 8
+
+    item: Rich Slag
+        gatherable: yes
+
+    item: Sawdust
+        recipe:
+            input: Oak Wood
+            pattern: ... .0. ...
+            quantity: 8
+            tools: Pulverizer (Basic)
+
+    item: Slag
+        gatherable: yes
+
+    item: White Rockwool
+        recipe:
+            input: Bone Meal, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+    item: Yellow Rockwool
+        recipe:
+            input: Dandelion Yellow, Light Gray Rockwool
+            pattern: 111 101 111
+            quantity: 8
+            tools: Crafting Table
+
+group: Parts
+
+    item: Hardened Energy Cell Frame
+        recipe:
+            input: Invar Ingot, Leadstone Energy Cell Frame
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Hardened Glass
+        recipe:
+            input: Lead Ingot, 4 Pulverized Obsidian
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Pulverized Lead, 4 Pulverized Obsidian
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+
+    item: Hardened Lumium Glass
+        recipe:
+            input: Lumium Blend, 4 Pulverized Obsidian
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Lumium Ingot, 4 Pulverized Obsidian
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+
+    item: Illuminator Frame
+        recipe:
+            input: Hardened Glass, Nether Quartz, Signalum Ingot
+            pattern: .1. 0.0 .2.
+            quantity: 2
+            tools: Crafting Table
+
+    item: Leadstone Energy Cell Frame
+        recipe:
+            input: Block of Redstone, Glass, Lead Ingot
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Machine Frame (Basic)
+        recipe:
+            input: Glass, Iron Ingot, Tin Gear
+            pattern: 101 020 101
+            tools: Crafting Table
+
+    item: Machine Frame (Hardened)
+        recipe:
+            input: Electrum Gear, Invar Ingot, Machine Frame (Basic)
+            pattern: 101 .2. 1.1
+            tools: Crafting Table
+
+    item: Machine Frame (Reinforced)
+        recipe:
+            input: Hardened Glass, Machine Frame (Hardened), Signalum Gear
+            pattern: 020 .1. 0.0
+            tools: Crafting Table
+
+    item: Machine Frame (Resonant)
+        recipe:
+            input: Enderium Gear, Machine Frame (Reinforced), Silver Ingot
+            pattern: 202 .1. 2.2
+            tools: Crafting Table
+
+    item: Plate Frame
+        recipe:
+            input: Hardened Glass, Invar Ingot, Signalum Ingot
+            pattern: 202 1.1 212
+            tools: Crafting Table
+
+    item: Pneumatic Servo
+        recipe:
+            input: Glass, Iron Ingot, Redstone
+            pattern: .1. 020 .1.
+            tools: Crafting Table
+
+    item: Redprint
+        recipe:
+            input: Paper, Redstone
+            pattern: .1. 00. ...
+
+    item: Redstone Conductance Coil
+        recipe:
+            input: Electrum Ingot, Redstone
+            pattern: 1.. .0. ..1
+            tools: Crafting Table
+
+    item: Redstone Energy Cell Frame (Empty)
+        recipe:
+            input: Diamond, Electrum Ingot, Hardened Glass
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Redstone Energy Cell Frame (Full)
+        recipe:
+            input: 4000 Destabilized Redstone, Redstone Energy Cell Frame (Empty)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Redstone Reception Coil
+        recipe:
+            input: Gold Ingot, Redstone
+            pattern: ..1 .0. 1..
+            tools: Crafting Table
+
+    item: Redstone Transmission Coil
+        recipe:
+            input: Redstone, Silver Ingot
+            pattern: ..0 .1. 0..
+            tools: Crafting Table
+
+    item: Resonant Energy Cell Frame (Empty)
+        recipe:
+            input: Enderium Ingot, Redstone Energy Cell Frame (Empty)
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Resonant Energy Cell Frame (Full)
+        recipe:
+            input: Enderium Ingot, Redstone Energy Cell Frame (Full)
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: 4000 Destabilized Redstone, Resonant Energy Cell Frame (Empty)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Schematic
+        recipe:
+            input: Lapis Lazuli, Paper
+            pattern: .0. 11. ...
+
+    item: Tesseract Frame (Empty)
+        recipe:
+            input: Diamond, Enderium Ingot, Hardened Glass
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Tesseract Frame (Full)
+        recipe:
+            input: 1000 Resonant Ender, Tesseract Frame (Empty)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+group: Plates
+
+    item: Charge Plate
+        recipe:
+            input: Charge Plate, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Diamond, Electrum Ingot, Redstone Plate, Redstone Reception Coil, Redstone Transmission Coil
+            pattern: 101 424 131
+            tools: Crafting Table
+
+    item: Excursion Plate
+        recipe:
+            input: Excursion Plate, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Block of Quartz, Impulse Plate, Redstone Reception Coil, Signalum Ingot
+            pattern: 303 010 323
+            tools: Crafting Table
+
+    item: Impulse Plate
+        recipe:
+            input: Impulse Plate, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: 1000 Energized Glowstone, Plate Frame
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Redstone Plate
+        recipe:
+            input: Redstone Plate, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: 1000 Destabilized Redstone, Plate Frame
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Teleport Plate
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Teleport Plate
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+        recipe:
+            input: Bronze Ingot, Enderium Ingot, Hardened Energy Cell, Translocation Plate
+            pattern: 101 030 121
+            tools: Crafting Table
+
+    item: Translocation Plate
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Translocation Plate
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+        recipe:
+            input: Plate Frame, 1000 Resonant Ender
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+group: Storage Items
+
+    item: Cache
+        recipe:
+            input: Oak Wood, Tin Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Creative Cache
+        gatherable: yes
+
+    item: Creative Satchel
+        recipe:
+            input: Creative Satchel, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Creative Strongbox
+        recipe:
+            input: Creative Strongbox, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Hardened Cache
+        recipe:
+            input: Cache, Invar Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Oak Wood, Tin Ingot
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: Hardened Satchel
+        recipe:
+            input: Hardened Satchel, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Satchel, Tin Nugget
+            pattern: .2. 010 2.2
+            tools: Crafting Table
+
+    item: Hardened Strongbox
+        recipe:
+            input: Hardened Strongbox, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Strongbox
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Chest, Invar Ingot, Tin Ingot
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Reinforced Cache
+        recipe:
+            input: Hardened Cache, Hardened Glass
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Reinforced Satchel
+        recipe:
+            input: Reinforced Satchel, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Hardened Satchel, Invar Nugget
+            pattern: .2. 010 2.2
+            tools: Crafting Table
+
+    item: Reinforced Strongbox
+        recipe:
+            input: Hardened Glass, Hardened Strongbox
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Reinforced Strongbox, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Resonant Cache
+        recipe:
+            input: Enderium Ingot, Reinforced Cache
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Resonant Satchel
+        recipe:
+            input: Resonant Satchel, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Electrum Nugget, Enderium Ingot, Reinforced Satchel
+            pattern: .0. 121 0.0
+            tools: Crafting Table
+
+    item: Resonant Strongbox
+        recipe:
+            input: Enderium Ingot, Reinforced Strongbox
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+        recipe:
+            input: Resonant Strongbox, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+
+    item: Satchel
+        recipe:
+            input: Satchel, Signalum Nugget, Signalum Security Lock
+            pattern: .2. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Leather, Tin Ingot, Wool
+            pattern: .0. 121 0.0
+            tools: Crafting Table
+        recipe:
+            input: Tin Ingot, White Rockwool, Wool
+            pattern: .1. 020 1.1
+            tools: Crafting Table
+
+    item: Signalum Security Lock
+        recipe:
+            input: Bronze Ingot, Signalum Nugget
+            pattern: .1. 101 111
+            tools: Crafting Table
+
+    item: Strongbox
+        recipe:
+            input: Chest, Tin Ingot
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+        recipe:
+            input: Signalum Nugget, Signalum Security Lock, Strongbox
+            pattern: .1. 020 .0.
+            tools: Crafting Table
+
+group: Tools
+
+    item: BattleWrench
+        recipe:
+            input: Crescent Hammer, Invar Gear, Invar Ingot
+            pattern: 2.2 .1. .0.
+            tools: Crafting Table
+
+    item: Crescent Hammer
+        recipe:
+            input: Iron Ingot, Tin Ingot
+            pattern: 0.0 .1. .0.
+            tools: Crafting Table
+
+    item: Debugger
+        gatherable: yes
+
+    item: Dry Creative Sponge
+        gatherable: yes
+
+    item: Dry Magmatic Sponge
+        recipe:
+            input: Magma Cream, Sawdust, String
+            pattern: 212 101 212
+            tools: Crafting Table
+
+    item: Dry Plain Sponge
+        recipe:
+            input: Sawdust, Slimeball, String
+            pattern: 202 010 202
+            tools: Crafting Table
+
+    item: FluiVac
+        recipe:
+            input: Bronze Gear, Bucket, Invar Ingot, Leadstone Flux Capacitor, Redstone
+            pattern: 44. 402 .31
+            tools: Crafting Table
+
+    item: Flux Chiller
+        recipe:
+            input: Iron Ingot, Leadstone Flux Capacitor, Redstone, Snowball
+            pattern: .2. 010 .3.
+            tools: Crafting Table
+
+    item: Flux Igniter
+        recipe:
+            input: Flint, Iron Ingot, Leadstone Flux Capacitor, Redstone
+            pattern: .3. 121 .0.
+            tools: Crafting Table
+
+    item: Flux Transfuser
+        recipe:
+            input: Electrum Gear, Invar Ingot, Redstone, Redstone Conductance Coil
+            pattern: 22. 201 .13
+            tools: Crafting Table
+
+    item: Multimeter
+        recipe:
+            input: Copper Ingot, Electrum Gear, Lead Ingot, Redstone Conductance Coil
+            pattern: 0.0 232 .1.
+            tools: Crafting Table
+
