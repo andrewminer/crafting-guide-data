@@ -1,10 +1,8 @@
 schema: 1
 
-name:             Thermal Dynamics
-author:           Team CoFH
-description:      Adds various kinds of pipes for moving items, fluids and Redstone Flux. Formerly part of Thermal Expansion.
-homePageUrl:      http://teamcofh.com/
-documentationUrl: http://teamcofh.com/thermal-expansion/transportation/itemducts/
-downloadUrl:      http://teamcofh.com/downloads/
+name: Thermal Dynamics
+author: Team CoFH
+description: Thermal meets Dynamic - provides options for transporting items, fluids, and Redstone Flux!
+homePageUrl: http://www.teamcofh.com
 
-version: 1.0.0RC7-98
+version: 1.7.10r1.2.0

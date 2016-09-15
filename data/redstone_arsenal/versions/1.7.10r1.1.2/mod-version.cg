@@ -1,0 +1,159 @@
+schema: 1
+
+group: Armor
+
+    item: Flux-Infused Boots
+        recipe:
+            input: Fluxed Armor Plating
+            pattern: 0.0 0.0 ...
+            tools: Crafting Table
+
+    item: Flux-Infused Chestplate
+        recipe:
+            input: Fluxed Armor Plating
+            pattern: 0.0 000 000
+            tools: Crafting Table
+
+    item: Flux-Infused Helm
+        recipe:
+            input: Fluxed Armor Plating
+            pattern: 000 0.0 ...
+            tools: Crafting Table
+
+    item: Flux-Infused Leggings
+        recipe:
+            input: Fluxed Armor Plating
+            pattern: 000 0.0 0.0
+            tools: Crafting Table
+
+    item: Fluxed Armor Plating
+        recipe:
+            input: Flux Crystal, Fluxed Electrum Ingot, Fluxed Electrum Nugget
+            pattern: 222 010 222
+            tools: Crafting Table
+
+group: Minerals
+
+    item: Flux Crystal
+        recipe:
+            input: Flux Crystal Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: 200 Destabilized Redstone, Diamond
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Flux Crystal Block
+        recipe:
+            input: Flux Crystal
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Flux-Infused Obsidian Rod
+        recipe:
+            input: Flux Crystal, Obsidian Rod
+            pattern: ..0 .1. 0..
+            tools: Crafting Table
+
+    item: Fluxed Electrum Blend
+        recipe:
+            input: Fluxed Electrum Ingot
+            pattern: ... .0. ...
+            tools: Pulverizer (Basic)
+        recipe:
+            input: 200 Destabilized Redstone, Electrum Blend
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Fluxed Electrum Block
+        recipe:
+            input: Fluxed Electrum Ingot
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Fluxed Electrum Ingot
+        recipe:
+            input: Fluxed Electrum Block
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: 2 Fluxed Electrum Blend, Pyrotheum Dust
+            pattern: ... 0.1 ...
+            quantity: 2
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Fluxed Electrum Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
+
+    item: Fluxed Electrum Nugget
+        recipe:
+            input: Fluxed Electrum Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Obsidian Rod
+        recipe:
+            input: Blaze Powder, Pulverized Obsidian
+            pattern: ..1 .0. 1..
+            tools: Crafting Table
+
+group: Tools
+
+    item: Flux-Infused Axe
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: 11. 10. .0.
+            tools: Crafting Table
+
+    item: Flux-Infused Fishing Rod
+        recipe:
+            input: Fluxed Electrum Ingot, Obsidian Rod, String
+            pattern: ..0 .02 1.2
+            tools: Crafting Table
+
+    item: Flux-Infused OmniWrench
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: 1.1 .0. .1.
+            tools: Crafting Table
+
+    item: Flux-Infused Pickaxe
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: 111 .0. .0.
+            tools: Crafting Table
+
+    item: Flux-Infused Shovel
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: .1. .0. .0.
+            tools: Crafting Table
+
+    item: Flux-Infused Sickle
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: .1. ..1 01.
+            tools: Crafting Table
+
+group: Weapons
+
+    item: Flux-Infused BattleWrench
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: 1.1 111 .0.
+            tools: Crafting Table
+
+    item: Flux-Infused Bow
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot, String
+            pattern: .12 0.2 .12
+            tools: Crafting Table
+
+    item: Flux-Infused Sword
+        recipe:
+            input: Flux-Infused Obsidian Rod, Fluxed Electrum Ingot
+            pattern: .1. .1. .0.
+            tools: Crafting Table
+

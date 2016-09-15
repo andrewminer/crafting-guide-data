@@ -699,6 +699,16 @@ group: Minerals
             input: Copper Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Temperate Fluiduct (Opaque)
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Temperate Fluiduct
+            pattern: ... .0. ...
+            quantity: 3
+            tools: Pulverizer (Basic)
 
     item: Copper Ore
         gatherable: yes

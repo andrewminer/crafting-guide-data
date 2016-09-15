@@ -3738,6 +3738,11 @@ group: Minerals
             quantity: 8
             tools: Pulverizer (Basic)
         recipe:
+            input: Hardened Fluxduct
+            pattern: ... .0. ...
+            quantity: 2
+            tools: Pulverizer (Basic)
+        recipe:
             input: Leadstone Energy Cell
             pattern: ... .0. ...
             quantity: 8
@@ -3746,6 +3751,10 @@ group: Minerals
             input: Leadstone Energy Cell Frame
             pattern: ... .0. ...
             quantity: 8
+            tools: Pulverizer (Basic)
+        recipe:
+            input: Leadstone Fluxduct
+            pattern: ... .0. ...
             tools: Pulverizer (Basic)
         recipe:
             input: Redstone Ore

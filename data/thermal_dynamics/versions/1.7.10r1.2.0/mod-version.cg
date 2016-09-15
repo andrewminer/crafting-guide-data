@@ -1,0 +1,556 @@
+schema: 1
+
+group: Duct Adapters
+
+    item: Filter
+        recipe:
+            input: Glass, Iron Ingot, Iron Nugget, Paper
+            pattern: 202 131 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Hardened Filter
+        recipe:
+            input: Filter, Invar Ingot
+            pattern: ... 01. ...
+        recipe:
+            input: Glass, Invar Ingot, Iron Nugget, Paper
+            pattern: 202 131 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Hardened Retriever
+        recipe:
+            input: Invar Ingot, Retriever
+            pattern: ... 10. ...
+        recipe:
+            input: Eye of Ender, Glass, Gold Nugget, Invar Ingot
+            pattern: 212 303 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Hardened Servo
+        recipe:
+            input: Invar Ingot, Servo
+            pattern: ... 10. ...
+        recipe:
+            input: Glass, Invar Ingot, Iron Nugget, Redstone
+            pattern: 202 131 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Redstone Relay
+        recipe:
+            input: Lead Ingot, Nether Quartz, Redstone, Signalum Nugget
+            pattern: 313 020 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Reinforced Filter
+        recipe:
+            input: Electrum Ingot, Filter, Hardened Glass
+            pattern: 10. 021 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Electrum Ingot, Hardened Glass, Iron Nugget, Paper
+            pattern: 212 030 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Reinforced Retriever
+        recipe:
+            input: Electrum Ingot, Hardened Glass, Retriever
+            pattern: 20. 012 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Electrum Ingot, Eye of Ender, Gold Nugget, Hardened Glass
+            pattern: 232 010 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Reinforced Servo
+        recipe:
+            input: Electrum Ingot, Hardened Glass, Servo
+            pattern: 20. 012 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Electrum Ingot, Hardened Glass, Iron Nugget, Redstone
+            pattern: 212 030 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Resonant Filter
+        recipe:
+            input: Enderium Ingot, Reinforced Filter
+            pattern: ... 10. ...
+        recipe:
+            input: Enderium Ingot, Filter, Hardened Glass
+            pattern: 10. 021 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Hardened Glass, Iron Nugget, Paper
+            pattern: 212 030 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Resonant Retriever
+        recipe:
+            input: Enderium Ingot, Reinforced Retriever
+            pattern: ... 10. ...
+        recipe:
+            input: Enderium Ingot, Hardened Glass, Retriever
+            pattern: 20. 012 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Eye of Ender, Gold Nugget, Hardened Glass
+            pattern: 232 010 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Resonant Servo
+        recipe:
+            input: Enderium Ingot, Reinforced Servo
+            pattern: ... 10. ...
+        recipe:
+            input: Enderium Ingot, Hardened Glass, Servo
+            pattern: 20. 012 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Hardened Glass, Iron Nugget, Redstone
+            pattern: 212 030 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Retriever
+        recipe:
+            input: Eye of Ender, Glass, Gold Nugget, Iron Ingot
+            pattern: 212 303 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Servo
+        recipe:
+            input: Glass, Iron Ingot, Iron Nugget, Redstone
+            pattern: 202 131 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Signalum Filter
+        recipe:
+            input: Reinforced Filter, Signalum Ingot
+            pattern: ... 01. ...
+        recipe:
+            input: Filter, Hardened Glass, Signalum Ingot
+            pattern: 02. 210 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Iron Nugget, Paper, Signalum Ingot
+            pattern: 101 323 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Signalum Retriever
+        recipe:
+            input: Reinforced Retriever, Signalum Ingot
+            pattern: ... 01. ...
+        recipe:
+            input: Hardened Glass, Retriever, Signalum Ingot
+            pattern: 12. 201 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Eye of Ender, Gold Nugget, Hardened Glass, Signalum Ingot
+            pattern: 121 303 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Signalum Servo
+        recipe:
+            input: Reinforced Servo, Signalum Ingot
+            pattern: ... 01. ...
+        recipe:
+            input: Hardened Glass, Servo, Signalum Ingot
+            pattern: 12. 201 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Iron Nugget, Redstone, Signalum Ingot
+            pattern: 101 323 ...
+            quantity: 2
+            tools: Crafting Table
+
+    item: Stone Cover
+        gatherable: yes
+
+group: Ducts (energy)
+
+    item: Cryo-Stabilized Fluxduct
+        recipe:
+            input: Cryo-Stabilized Fluxduct (Empty), 500 Gelid Cryotheum
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Cryo-Stabilized Fluxduct (Empty)
+        recipe:
+            input: Electrum Ingot, Hardened Glass, Redstone Energy Fluxduct
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Hardened Fluxduct
+        recipe:
+            input: Invar Nugget, Leadstone Fluxduct, Redstone
+            pattern: 00. 210 ...
+            tools: Crafting Table
+        recipe:
+            input: Invar Ingot, Leadstone Fluxduct, Redstone
+            pattern: 212 112 0..
+            quantity: 3
+            tools: Crafting Table
+
+    item: Leadstone Fluxduct
+        recipe:
+            input: Glass, Lead Ingot, Redstone
+            pattern: 222 101 222
+            quantity: 6
+            tools: Crafting Table
+
+    item: Redstone Energy Fluxduct
+        recipe:
+            input: 200 Destabilized Redstone, Redstone Energy Fluxduct (Empty)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Redstone Energy Fluxduct (Empty)
+        recipe:
+            input: Electrum Ingot, Hardened Glass
+            pattern: 010 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Resonant Fluxduct
+        recipe:
+            input: Enderium Nugget, Redstone, Redstone Energy Fluxduct
+            pattern: 00. 120 ...
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Redstone, Redstone Energy Fluxduct
+            pattern: 121 221 0..
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: 200 Destabilized Redstone, Resonant Fluxduct (Empty)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Resonant Fluxduct (Empty)
+        recipe:
+            input: Enderium Nugget, Redstone, Redstone Energy Fluxduct (Empty)
+            pattern: 00. 120 ...
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Redstone, Redstone Energy Fluxduct (Empty)
+            pattern: 121 221 0..
+            quantity: 3
+            tools: Crafting Table
+
+group: Ducts (fluid)
+
+    item: Flux-Plated Fluiduct
+        recipe:
+            input: Electrum Ingot, Hardened Fluiduct, Signalum Ingot
+            pattern: 21. 110 ...
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Electrum Nugget, Hardened Fluiduct, Signalum Nugget
+            pattern: 220 210 0..
+            tools: Crafting Table
+
+    item: Flux-Plated Fluiduct (Opaque)
+        recipe:
+            input: Electrum Ingot, Hardened Fluiduct (Opaque), Signalum Ingot
+            pattern: 21. 110 ...
+            quantity: 3
+            tools: Crafting Table
+        recipe:
+            input: Electrum Nugget, Hardened Fluiduct (Opaque), Signalum Nugget
+            pattern: 220 210 0..
+            tools: Crafting Table
+
+    item: Hardened Fluiduct
+        recipe:
+            input: Hardened Glass, Invar Ingot
+            pattern: 101 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Fluiduct (Opaque), Hardened Glass
+            pattern: 000 000 1..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Hardened Fluiduct (Opaque)
+        recipe:
+            input: Invar Ingot, Lead Ingot
+            pattern: 010 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Fluiduct, Lead Ingot
+            pattern: 000 000 1..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Super-Laminar Fluiduct
+        recipe:
+            input: Bronze Ingot, Hardened Fluiduct, Hardened Glass
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: Super-Laminar Fluiduct (Opaque)
+        recipe:
+            input: Bronze Ingot, Hardened Fluiduct (Opaque), Hardened Glass
+            pattern: 020 212 020
+            tools: Crafting Table
+
+    item: Temperate Fluiduct
+        recipe:
+            input: Copper Ingot, Glass
+            pattern: 010 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Glass, Temperate Fluiduct (Opaque)
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Temperate Fluiduct (Opaque)
+        recipe:
+            input: Copper Ingot, Lead Ingot
+            pattern: 010 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Lead Ingot, Temperate Fluiduct
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+
+group: Ducts (items)
+
+    item: Fluctuating Itemduct
+        recipe:
+            input: Fluctuating Itemduct
+            pattern: ... .0. ...
+        recipe:
+            input: Fluctuating Itemduct, Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Fluctuating Itemduct, Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: 200 Destabilized Redstone, Itemduct
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Fluctuating Itemduct (Opaque)
+        recipe:
+            input: Fluctuating Itemduct (Opaque)
+            pattern: ... .0. ...
+        recipe:
+            input: Fluctuating Itemduct (Opaque), Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Fluctuating Itemduct (Opaque), Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: 200 Destabilized Redstone, Itemduct (Opaque)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Impulse Itemduct
+        recipe:
+            input: Impulse Itemduct
+            pattern: ... .0. ...
+        recipe:
+            input: Impulse Itemduct, Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Impulse Itemduct, Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: Hardened Glass, Impulse Itemduct (Opaque)
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: 200 Energized Glowstone, Itemduct
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Impulse Itemduct (Opaque)
+        recipe:
+            input: Impulse Itemduct (Opaque)
+            pattern: ... .0. ...
+        recipe:
+            input: Impulse Itemduct (Opaque), Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Impulse Itemduct (Opaque), Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: Impulse Itemduct, Lead Ingot
+            pattern: 000 000 1..
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: 200 Energized Glowstone, Itemduct (Opaque)
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Itemduct
+        recipe:
+            input: Itemduct
+            pattern: ... .0. ...
+        recipe:
+            input: Itemduct, Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Itemduct, Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: Hardened Glass, Tin Ingot
+            pattern: 101 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Itemduct (Opaque)
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Itemduct (Opaque)
+        recipe:
+            input: Itemduct (Opaque)
+            pattern: ... .0. ...
+        recipe:
+            input: Itemduct (Opaque), Pulverized Lead
+            pattern: ... 10. ...
+        recipe:
+            input: Itemduct (Opaque), Pulverized Silver
+            pattern: ... 10. ...
+        recipe:
+            input: Lead Ingot, Tin Ingot
+            pattern: 101 ... ...
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Itemduct, Lead Ingot
+            pattern: 000 000 1..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Warp Itemduct
+        recipe:
+            input: Warp Itemduct
+            pattern: ... .0. ...
+        recipe:
+            input: Pulverized Lead, Warp Itemduct
+            pattern: ... 01. ...
+        recipe:
+            input: Pulverized Silver, Warp Itemduct
+            pattern: ... 01. ...
+        recipe:
+            input: Enderium Nugget, Itemduct
+            pattern: 00. 110 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Itemduct
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Hardened Glass, Warp Itemduct (Opaque)
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+
+    item: Warp Itemduct (Opaque)
+        recipe:
+            input: Warp Itemduct (Opaque)
+            pattern: ... .0. ...
+        recipe:
+            input: Pulverized Lead, Warp Itemduct (Opaque)
+            pattern: ... 01. ...
+        recipe:
+            input: Pulverized Silver, Warp Itemduct (Opaque)
+            pattern: ... 01. ...
+        recipe:
+            input: Enderium Nugget, Itemduct (Opaque)
+            pattern: 00. 110 ...
+            quantity: 2
+            tools: Crafting Table
+        recipe:
+            input: Enderium Ingot, Itemduct (Opaque)
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+        recipe:
+            input: Lead Ingot, Warp Itemduct
+            pattern: 111 111 0..
+            quantity: 6
+            tools: Crafting Table
+
+group: Ducts (other)
+
+    item: Luxduct
+        recipe:
+            input: Lead Ingot, Lumium Ingot
+            pattern: 101 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Structuralduct (Opaque)
+        recipe:
+            input: Iron Nugget, Lead Ingot
+            pattern: 010 ... ...
+            quantity: 6
+            tools: Crafting Table
+
+group: Ducts (transport)
+
+    item: Long Range Linking Viaduct
+        recipe:
+            input: 1000 Resonant Ender, Viaduct
+            pattern: ... 1.0 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Long Range Viaduct
+        recipe:
+            input: Copper Ingot, Hardened Glass
+            pattern: 010 1.1 010
+            quantity: 8
+            tools: Crafting Table
+
+    item: Viaduct
+        recipe:
+            input: Viaduct (Untreated), 50 Zephyrean Aerotheum
+            pattern: ... 0.1 ...
+            tools: Fluid Transposer (Basic)
+
+    item: Viaduct (Untreated)
+        recipe:
+            input: Electrum Ingot, Hardened Glass
+            pattern: 010 1.1 010
+            quantity: 4
+            tools: Crafting Table
+
