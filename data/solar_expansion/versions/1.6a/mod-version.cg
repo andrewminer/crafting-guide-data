@@ -1,0 +1,166 @@
+schema: 1
+
+group: Helmets
+
+    item: Advanced Solar Helmet
+        recipe:
+            input: Advanced Solar Panel, Iron Helmet
+            pattern: ... 01. ...
+
+    item: Hardened Solar Helmet
+        recipe:
+            input: Hardened Solar Panel, Iron Helmet
+            pattern: ... 01. ...
+
+    item: Leadstone Solar Helmet
+        recipe:
+            input: Iron Helmet, Leadstone Solar Panel
+            pattern: ... 10. ...
+
+    item: Redstone Solar Helmet
+        recipe:
+            input: Iron Helmet, Redstone Solar Panel
+            pattern: ... 10. ...
+
+    item: Resonant Solar Helmet
+        recipe:
+            input: Iron Helmet, Resonant Solar Panel
+            pattern: ... 10. ...
+
+    item: Ultimate Solar Helmet
+        recipe:
+            input: Iron Helmet, Ultimate Solar Panel
+            pattern: ... 10. ...
+
+group: Minerals
+
+    item: Lapis Shard
+        recipe:
+            input: Lapis Lazuli
+            pattern: ... .0. ...
+            quantity: 9
+
+    item: Steel Ingot
+        recipe:
+            input: Iron Ingot, 2 Pulverized Coal
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 2 Pulverized Coal, Pulverized Iron
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: Iron Ingot, 4 Pulverized Charcoal
+            pattern: ... 1.0 ...
+            tools: Induction Smelter (Basic)
+        recipe:
+            input: 4 Pulverized Charcoal, Pulverized Iron
+            pattern: ... 0.1 ...
+            tools: Induction Smelter (Basic)
+
+    item: Steel Nugget
+        recipe:
+            input: Steel Ingot
+            pattern: ... .0. ...
+            quantity: 9
+
+group: Parts
+
+    item: Advanced Solar Core
+        recipe:
+            input: Lapis Lazuli, Resonant Solar Core
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Hardened Solar Core
+        recipe:
+            input: Invar Nugget, Leadstone Solar Core
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Leadstone Solar Core
+        recipe:
+            input: Iron Ingot, Lead Nugget
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+    item: Photovoltaic Cell
+        recipe:
+            input: Glass Pane, Iron Nugget, Lapis Shard
+            pattern: 000 222 111
+            tools: Crafting Table
+
+    item: Redstone Solar Core
+        recipe:
+            input: Electrum Nugget, Hardened Solar Core
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Resonant Solar Core
+        recipe:
+            input: Enderium Nugget, Redstone Solar Core
+            pattern: .0. 010 .0.
+            tools: Crafting Table
+
+    item: Ultimate Solar Core
+        recipe:
+            input: Advanced Solar Core, Purple Dye
+            pattern: .1. 101 .1.
+            tools: Crafting Table
+
+group: Solar Panels
+
+    item: Advanced Solar Panel
+        recipe:
+            input: Advanced Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Advanced Solar Core, Resonant Solar Panel
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Hardened Solar Panel
+        recipe:
+            input: Hardened Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Hardened Solar Core, Leadstone Solar Panel
+            pattern: 111 101 111
+            tools: Crafting Table
+
+    item: Leadstone Solar Panel
+        recipe:
+            input: Leadstone Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Leadstone Solar Core, Photovoltaic Cell, Redstone, Steel Nugget
+            pattern: 111 202 333
+            tools: Crafting Table
+
+    item: Redstone Solar Panel
+        recipe:
+            input: Redstone Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Hardened Solar Panel, Redstone Solar Core
+            pattern: 000 010 000
+            tools: Crafting Table
+
+    item: Resonant Solar Panel
+        recipe:
+            input: Resonant Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Redstone Solar Panel, Resonant Solar Core
+            pattern: 000 010 000
+            tools: Crafting Table
+
+    item: Ultimate Solar Panel
+        recipe:
+            input: Ultimate Solar Helmet
+            pattern: ... .0. ...
+        recipe:
+            input: Advanced Solar Panel, Ultimate Solar Core
+            pattern: 000 010 000
+            tools: Crafting Table
+
