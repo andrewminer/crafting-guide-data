@@ -1,0 +1,121 @@
+schema: 1
+
+ item: Machine Inventory Manager
+     recipe:
+         input: Iron Ingot, Block of Redstone, Stone, Piston
+         pattern: 000 010 232
+         quantity: 1
+         tools: Crafting Table
+
+ item: Advanced Cable Cluster
+     recipe:
+         input: Cable Cluster, Inventory Cable
+         pattern: 011 111 111
+         quantity: 1
+         tools: Crafting Table
+
+ item: Advanced Inventory Relay
+     recipe:
+         input: Inventory Relay, Lapis Lazuli
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Block Detector
+     recipe:
+         input: Inventory Cable, Nether Quartz
+         pattern: 01. 11. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Block Gate
+     recipe:
+         input: Inventory Cable, Iron Pickaxe, Dispenser
+         pattern: 01. 2.. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Cable Camouflage
+     recipe:
+         input: Inventory Cable, Red Wool, Green Wool, Blue Wool
+         pattern: 01. 23. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Cable Cluster
+     recipe:
+         input: Inventory Cable, Ender Pearl
+         pattern: 01. 11. ...
+         quantity: 1
+         tools: Crafting Table
+
+# **Creative Only Item**
+# item: Creative Supplier
+#     recipe:
+#         input:
+#         pattern: ... ... ...
+#         quantity: 1
+#         tools: Crafting Table
+
+ item: Double Sided Cable Camouflage
+     recipe:
+         input: Cable Camouflage, Iron Bars
+         pattern: 00. 11. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Inventory Cable
+     recipe:
+         input: Glass, Weighted Pressure Plate (Light), Iron Ingot, Redstone
+         pattern: 010 232 010
+         quantity: 8
+         tools: Crafting Table
+
+ item: Inventory Relay
+     recipe:
+         input: Inventory Cable, Hopper
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Item Valve
+     recipe:
+         input: Inventory Cable, Hopper, Dropper
+         pattern: 01. 12. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Rapid Item Valve
+     recipe:
+         input: Item Valve, Gold Ingot
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Redstone Emitter
+     recipe:
+         input: Inventory Cable, Redstone
+         pattern: 01. 11. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Redstone Receiver
+     recipe:
+         input: Inventory Cable, Redstone
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Sign Updater
+     recipe:
+         input: Inventory Cable, Ink Sac, Feather
+         pattern: 01. 2.. ...
+         quantity: 1
+         tools: Crafting Table
+
+ item: Transforming Cable Camouflage
+     recipe:
+         input: Double Sided Cable Camouflage, Sticky Piston
+         pattern: 01. ... ...
+         quantity: 1
+         tools: Crafting Table

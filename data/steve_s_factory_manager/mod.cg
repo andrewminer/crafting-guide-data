@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Steve's Factory Manager
+author:           Vswe
+description:      Steve's Factory Manager is a mod that will allow you to make processing structures using Flowcharts.
+homePageUrl:      http://minecraft.curseforge.com/projects/steves-factory-manager
+documentationUrl: http://ftbwiki.org/Steve's_Factory_Manager
+downloadUrl:      http://minecraft.curseforge.com/projects/steves-factory-manager/files
+
+version: A93
