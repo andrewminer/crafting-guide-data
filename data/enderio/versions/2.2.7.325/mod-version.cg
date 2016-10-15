@@ -272,6 +272,7 @@ group: Decoration
         recipe:
             input: Dark Steel
             pattern: ... 000 000
+            quantity: 16
             tools: Crafting Table
 
     item: Dark Pressure Plate
