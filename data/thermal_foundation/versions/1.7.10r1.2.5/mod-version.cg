@@ -709,6 +709,15 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 3
             tools: Pulverizer (Basic)
+        recipe:
+            input: Cuprosia Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Cuprosia Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Copper Ore
         gatherable: yes
@@ -1008,6 +1017,15 @@ group: Minerals
             input: Ferrous Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Niccissus Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Niccissus Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Ferrous Ore
         gatherable: yes
@@ -1136,6 +1154,15 @@ group: Minerals
             input: Iron Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Ferranium Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Ferranium Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Lead Block
         recipe:
@@ -1268,6 +1295,15 @@ group: Minerals
             input: Lead Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Phyto-Gro, Plombean Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Plombean Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Lead Ore
         gatherable: yes
@@ -1682,6 +1718,15 @@ group: Minerals
             input: Shiny Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Phyto-Gro, Platiolus Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Platiolus Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Shiny Ore
         gatherable: yes
@@ -1864,6 +1909,15 @@ group: Minerals
             input: Silver Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Phyto-Gro, Silverweed Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, Silverweed Seeds
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Silver Ore
         gatherable: yes
@@ -2002,6 +2056,15 @@ group: Minerals
             input: Tin Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            input: Petinia Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Petinia Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Tin Ore
         gatherable: yes

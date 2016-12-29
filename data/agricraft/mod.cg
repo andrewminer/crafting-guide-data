@@ -1,10 +1,8 @@
 schema: 1
 
-name:             Agricraft
-author:           InfinityRaider
-description:      Agricraft aims to implement IC2 crops mutations for every crop out there, using the configs it should be possible to configure any mutation from any mod you want while also adding some farming equipment.
-homePageUrl:      http://minecraft.curseforge.com/projects/agricraft
-documentationUrl: http://minecraft.curseforge.com/projects/agricraft
-downloadUrl:      http://minecraft.curseforge.com/projects/agricraft/files/2271837
+name: AgriCraft
+author: InfinityRaider
+description: Agricultural farming extended
+homePageUrl: http://minecraft.curseforge.com/mc-mods/225635-agricraft
 
-version: 1.4.6
+version: 1.7.10_1.5.0

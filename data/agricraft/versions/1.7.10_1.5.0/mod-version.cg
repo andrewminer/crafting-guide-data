@@ -1,0 +1,402 @@
+schema: 1
+
+group: Crop Seeds
+
+    item: Brown Mushroom Spores
+        recipe:
+            extras: Crop Sticks, Mycelium, Nether Wart, Potato Seeds
+            input: 2 Crop Sticks, Mycelium, Nether Wart, Potato Seeds
+            pattern: 203 .1. ...
+            tools: Crafting Table
+
+    item: Cactus Seeds
+        recipe:
+            extras: Crop Sticks, Poppy Seeds, Sand, Sugarcane Seeds
+            input: 2 Crop Sticks, Poppy Seeds, Sand, Sugarcane Seeds
+            pattern: 301 .2. ...
+            tools: Crafting Table
+
+    item: Carrot Seeds
+        recipe:
+            input: Carrot
+            pattern: ... .0. ...
+
+    item: Nitor Wart Spores
+        recipe:
+            extras: Crop Sticks, Glowstone, Nether Wart, Orange Tulip Seeds, Soul Sand
+            input: 2 Crop Sticks, Glowstone, Nether Wart, Orange Tulip Seeds, Soul Sand
+            pattern: 203 .4. .1.
+            tools: Crafting Table
+
+    item: Potato Seeds
+        recipe:
+            input: Potato
+            pattern: ... .0. ...
+
+    item: Red Mushroom Spores
+        recipe:
+            extras: Crop Sticks, Mycelium, Nether Wart, Poppy Seeds
+            input: 2 Crop Sticks, Mycelium, Nether Wart, Poppy Seeds
+            pattern: 203 .1. ...
+            tools: Crafting Table
+
+    item: Sugarcane Seeds
+        recipe:
+            extras: Carrot Seeds, Crop Sticks, Sand, Seeds
+            input: Carrot Seeds, 2 Crop Sticks, Sand, Seeds
+            pattern: 310 .2. ...
+            tools: Crafting Table
+
+group: Exotic Seeds
+
+    item: Aurigold Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Gold Ore, Orange Tulip Seeds, Redstodendron Seeds
+            input: 2 Crop Sticks, Dirt, Gold Ore, Orange Tulip Seeds, Redstodendron Seeds
+            pattern: 403 .1. .2.
+            tools: Crafting Table
+
+    item: Cuprosia Seeds
+        recipe:
+            extras: Copper Ore, Crop Sticks, Dirt, Red Tulip Seeds, Redstodendron Seeds
+            input: Copper Ore, 2 Crop Sticks, Dirt, Red Tulip Seeds, Redstodendron Seeds
+            pattern: 413 .2. .0.
+            tools: Crafting Table
+
+    item: Diamahlia Seeds
+        recipe:
+            extras: Aurigold Seeds, Crop Sticks, Diamond Ore, Dirt, Lapender Seeds
+            input: Aurigold Seeds, 2 Crop Sticks, Diamond Ore, Dirt, Lapender Seeds
+            pattern: 014 .3. .2.
+            tools: Crafting Table
+
+    item: Emeryllis Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Emerald Ore, Ferranium Seeds, Redstodendron Seeds
+            input: 2 Crop Sticks, Dirt, Emerald Ore, Ferranium Seeds, Redstodendron Seeds
+            pattern: 304 .1. .2.
+            tools: Crafting Table
+
+    item: Ferranium Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Iron Ore, Lapender Seeds, White Tulip Seeds
+            input: 2 Crop Sticks, Dirt, Iron Ore, Lapender Seeds, White Tulip Seeds
+            pattern: 304 .1. .2.
+            tools: Crafting Table
+
+    item: Lapender Seeds
+        recipe:
+            extras: Blue Orchid Seeds, Crop Sticks, Dirt, Lapis Lazuli Ore, Pink Tulip Seeds
+            input: Blue Orchid Seeds, 2 Crop Sticks, Dirt, Lapis Lazuli Ore, Pink Tulip Seeds
+            pattern: 410 .2. .3.
+            tools: Crafting Table
+
+    item: Niccissus Seeds
+        recipe:
+            extras: Aurigold Seeds, Crop Sticks, Dandelion Seeds, Dirt, Ferrous Ore
+            input: Aurigold Seeds, 2 Crop Sticks, Dandelion Seeds, Dirt, Ferrous Ore
+            pattern: 012 .3. .4.
+            tools: Crafting Table
+
+    item: Petinia Seeds
+        recipe:
+            extras: Crop Sticks, Daisy Seeds, Dirt, Lapender Seeds, Tin Ore
+            input: 2 Crop Sticks, Daisy Seeds, Dirt, Lapender Seeds, Tin Ore
+            pattern: 301 .2. .4.
+            tools: Crafting Table
+
+    item: Platiolus Seeds
+        recipe:
+            extras: Crop Sticks, Diamahlia Seeds, Dirt, Ferranium Seeds, Shiny Ore
+            input: 2 Crop Sticks, Diamahlia Seeds, Dirt, Ferranium Seeds, Shiny Ore
+            pattern: 103 .2. .4.
+            tools: Crafting Table
+
+    item: Plombean Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Ferranium Seeds, Lead Ore, Potato Seeds
+            input: 2 Crop Sticks, Dirt, Ferranium Seeds, Lead Ore, Potato Seeds
+            pattern: 204 .1. .3.
+            tools: Crafting Table
+
+    item: Quartzanthemum Seeds
+        recipe:
+            extras: Crop Sticks, Lapender Seeds, Nether Quartz Ore, Nitor Wart Spores, Soul Sand
+            input: 2 Crop Sticks, Lapender Seeds, Nether Quartz Ore, Nitor Wart Spores, Soul Sand
+            pattern: 301 .4. .2.
+            tools: Crafting Table
+
+    item: Redstodendron Seeds
+        recipe:
+            extras: Crop Sticks, Daisy Seeds, Dirt, Red Tulip Seeds, Redstone Ore
+            input: 2 Crop Sticks, Daisy Seeds, Dirt, Red Tulip Seeds, Redstone Ore
+            pattern: 301 .2. .4.
+            tools: Crafting Table
+
+    item: Silverweed Seeds
+        recipe:
+            extras: Allium Seeds, Aurigold Seeds, Crop Sticks, Dirt, Silver Ore
+            input: Allium Seeds, Aurigold Seeds, 2 Crop Sticks, Dirt, Silver Ore
+            pattern: 120 .3. .4.
+            tools: Crafting Table
+
+group: Farming Items
+
+    item: Crop Sticks
+        gatherable: yes
+
+    item: Crop Sticks
+        recipe:
+            input: Stick
+            pattern: 00. 00. ...
+            quantity: 4
+
+    item: Sprinkler
+        recipe:
+            input: Bucket, Iron Bars, Iron Ingot, Oak Wood Planks
+            pattern: .3. .2. 101
+            tools: Crafting Table
+
+    item: Water Pad
+        gatherable: yes
+
+    item: Water Pad
+        gatherable: yes
+
+    item: Wooden Channel Valve
+        recipe:
+            input: Iron Ingot, Lever, Irrigation Channel
+            pattern: .2. 10. ...
+
+    item: Irrigation Channel
+        recipe:
+            input: Full Irrigation Channel
+            pattern: ... .0. ...
+            quantity: 4
+        recipe:
+            input: Oak Wood Planks
+            pattern: 0.0 .0. ...
+            quantity: 6
+            tools: Crafting Table
+
+    item: Full Irrigation Channel
+        recipe:
+            input: Irrigation Channel
+            pattern: 00. 00. ...
+
+    item: Wooden Water Tank
+        recipe:
+            input: Oak Wood Planks
+            pattern: 0.0 0.0 000
+            tools: Crafting Table
+
+group: Fences
+
+    item: Fence
+        recipe:
+            input: Fence, Oak Wood Planks
+            pattern: 000 010 000
+            quantity: 8
+            tools: Crafting Table
+
+    item: Fence Gate
+        recipe:
+            input: Fence, Oak Wood Planks
+            pattern: 010 ... ...
+            tools: Crafting Table
+
+    item: Wooden Grate
+        recipe:
+            input: Oak Wood Planks
+            pattern: 0.0 .0. 0.0
+            quantity: 8
+            tools: Crafting Table
+
+group: Flower Seeds
+
+    item: Allium Seeds
+        recipe:
+            extras: Blue Orchid Seeds, Crop Sticks, Dirt, Poppy Seeds
+            input: Blue Orchid Seeds, 2 Crop Sticks, Dirt, Poppy Seeds
+            pattern: 310 .2. ...
+            tools: Crafting Table
+
+    item: Blue Orchid Seeds
+        recipe:
+            extras: Crop Sticks, Dandelion Seeds, Dirt, Poppy Seeds
+            input: 2 Crop Sticks, Dandelion Seeds, Dirt, Poppy Seeds
+            pattern: 301 .2. ...
+            tools: Crafting Table
+
+    item: Daisy Seeds
+        recipe:
+            extras: Blue Orchid Seeds, Crop Sticks, Dandelion Seeds, Dirt
+            input: Blue Orchid Seeds, 2 Crop Sticks, Dandelion Seeds, Dirt
+            pattern: 210 .3. ...
+            tools: Crafting Table
+
+    item: Dandelion Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Melon Seeds, Sugarcane Seeds
+            input: 2 Crop Sticks, Dirt, Melon Seeds, Sugarcane Seeds
+            pattern: 302 .1. ...
+            tools: Crafting Table
+
+    item: Orange Tulip Seeds
+        recipe:
+            extras: Blue Orchid Seeds, Crop Sticks, Daisy Seeds, Dirt
+            input: Blue Orchid Seeds, 2 Crop Sticks, Daisy Seeds, Dirt
+            pattern: 210 .3. ...
+            tools: Crafting Table
+
+    item: Pink Tulip Seeds
+        recipe:
+            extras: Allium Seeds, Crop Sticks, Dandelion Seeds, Dirt
+            input: Allium Seeds, 2 Crop Sticks, Dandelion Seeds, Dirt
+            pattern: 012 .3. ...
+            tools: Crafting Table
+
+    item: Poppy Seeds
+        recipe:
+            extras: Crop Sticks, Dirt, Pumpkin Seeds, Sugarcane Seeds
+            input: 2 Crop Sticks, Dirt, Pumpkin Seeds, Sugarcane Seeds
+            pattern: 302 .1. ...
+            tools: Crafting Table
+
+    item: Red Tulip Seeds
+        recipe:
+            extras: Allium Seeds, Crop Sticks, Dirt, Poppy Seeds
+            input: Allium Seeds, 2 Crop Sticks, Dirt, Poppy Seeds
+            pattern: 310 .2. ...
+            tools: Crafting Table
+
+    item: White Tulip Seeds
+        recipe:
+            extras: Crop Sticks, Daisy Seeds, Dandelion Seeds, Dirt
+            input: 2 Crop Sticks, Daisy Seeds, Dandelion Seeds, Dirt
+            pattern: 102 .3. ...
+            tools: Crafting Table
+
+group: Minerals
+
+    item: Diamond Nugget
+        recipe:
+            input: Diamond
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Diamahlia Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Diamahlia Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+
+    item: Emerald Nugget
+        recipe:
+            input: Emerald
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Emeryllis Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Emeryllis Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+
+    item: Quartz Shard
+        recipe:
+            input: Nether Quartz
+            pattern: ... .0. ...
+            quantity: 9
+        recipe:
+            input: Phyto-Gro, Quartzanthemum Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Quartzanthemum Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+
+group: Seed Management Items
+
+    item: Agricultural Journal
+        recipe:
+            input: Book and Quill, Crop Sticks, Potato Seeds
+            pattern: 121 202 121
+            tools: Crafting Table
+
+    item: Clipping
+        gatherable: yes
+
+    item: Seed Analyzer
+        recipe:
+            input: Glass Pane, Oak Wood Planks, Oak Wood Slab, Stick, Stone Slab
+            pattern: 303 .43 121
+            tools: Crafting Table
+
+    item: Seed Storage
+        recipe:
+            input: Acacia Wood Planks, Chest, Iron Ingot
+            pattern: 020 010 010
+            tools: Crafting Table
+        recipe:
+            input: Birch Wood Planks, Chest, Iron Ingot
+            pattern: 020 010 010
+            tools: Crafting Table
+        recipe:
+            input: Chest, Dark Oak Wood Planks, Iron Ingot
+            pattern: 121 101 101
+            tools: Crafting Table
+        recipe:
+            input: Chest, Iron Ingot, Jungle Wood Planks
+            pattern: 212 202 202
+            tools: Crafting Table
+        recipe:
+            input: Chest, Iron Ingot, Oak Wood Planks
+            pattern: 212 202 202
+            tools: Crafting Table
+        recipe:
+            input: Chest, Iron Ingot, Spruce Wood Planks
+            pattern: 212 202 202
+            tools: Crafting Table
+
+group: Tools
+
+    item: Clipper
+        recipe:
+            input: Iron Ingot, Shears, Stick
+            pattern: .0. 21. .2.
+            tools: Crafting Table
+
+    item: Debugger
+        gatherable: yes
+
+    item: Gardening Trowel
+        recipe:
+            input: Iron Ingot, Stick
+            pattern: ..1 00. ...
+            tools: Crafting Table
+
+    item: Iron Hand Rake
+        recipe:
+            input: Iron Bars, Stick
+            pattern: 01. ... ...
+
+    item: Magnifying Glass
+        recipe:
+            input: Glass Pane, Stick
+            pattern: 101 .1. .1.
+            tools: Crafting Table
+
+    item: Wooden Hand Rake
+        recipe:
+            input: Fence, Stick
+            pattern: 01. ... ...
+

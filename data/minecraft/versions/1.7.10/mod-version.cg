@@ -1379,15 +1379,15 @@ group: Brewing (potions)
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
-        recipe:
-            input: Potion of Poison II (0:22), Redstone
-            pattern: .1. ... 000
-            quantity: 3
-            tools: Brewing Stand
 
     item: Potion of Poison II (0:22)
         recipe:
             input: Glowstone Dust, Potion of Poison (0:45)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Glowstone Dust, Potion of Poison (2:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1460,15 +1460,15 @@ group: Brewing (potions)
             pattern: .1. ... 000
             quantity: 3
             tools: Brewing Stand
-        recipe:
-            input: Potion of Speed II (1:30), Redstone
-            pattern: .1. ... 000
-            quantity: 3
-            tools: Brewing Stand
 
     item: Potion of Speed II (1:30)
         recipe:
             input: Glowstone Dust, Potion of Speed (3:00)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Glowstone Dust, Potion of Speed (8:00)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1514,11 +1514,6 @@ group: Brewing (potions)
             tools: Brewing Stand
 
     item: Potion of Weakness (1:30)
-        recipe:
-            input: Awkward Potion, Fermented Spider Eye
-            pattern: .1. ... 000
-            quantity: 3
-            tools: Brewing Stand
         recipe:
             input: Fermented Spider Eye, Water Bottle
             pattern: .0. ... 111
@@ -1680,15 +1675,15 @@ group: Brewing (potions)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
-        recipe:
-            input: Redstone, Splash Potion of Poison II (0:16)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
 
     item: Splash Potion of Poison II (0:16)
         recipe:
             input: Glowstone Dust, Splash Potion of Poison (0:33)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Glowstone Dust, Splash Potion of Poison (1:30)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -1716,15 +1711,15 @@ group: Brewing (potions)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
-        recipe:
-            input: Redstone, Splash Potion of Regeneration II (0:16)
-            pattern: .0. ... 111
-            quantity: 3
-            tools: Brewing Stand
 
     item: Splash Potion of Regeneration II (0:16)
         recipe:
             input: Glowstone Dust, Splash Potion of Regeneration (0:33)
+            pattern: .0. ... 111
+            quantity: 3
+            tools: Brewing Stand
+        recipe:
+            input: Glowstone Dust, Splash Potion of Regeneration (1:30)
             pattern: .0. ... 111
             quantity: 3
             tools: Brewing Stand
@@ -2144,6 +2139,15 @@ group: Dyes
             input: Cactus, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
+        recipe:
+            input: Cactus Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Cactus Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Cocoa Beans
         gatherable: yes
@@ -2182,6 +2186,15 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 8
             tools: Pulverizer (Basic)
+        recipe:
+            input: Dandelion Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Dandelion Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Gray Dye
         recipe:
@@ -2212,6 +2225,15 @@ group: Dyes
             input: Furnace Fuel, Lapis Lazuli Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Lapender Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Lapender Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Light Blue Dye
         recipe:
@@ -2226,6 +2248,15 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 4
             tools: Pulverizer (Basic)
+        recipe:
+            input: Blue Orchid Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Blue Orchid Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Light Gray Dye
         recipe:
@@ -2260,6 +2291,24 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 4
             tools: Pulverizer (Basic)
+        recipe:
+            input: Daisy Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Daisy Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Phyto-Gro, White Tulip Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, White Tulip Seeds
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Lime Dye
         recipe:
@@ -2297,6 +2346,15 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 8
             tools: Pulverizer (Basic)
+        recipe:
+            input: Allium Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Allium Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Orange Dye
         recipe:
@@ -2311,6 +2369,15 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 4
             tools: Pulverizer (Basic)
+        recipe:
+            input: Orange Tulip Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Orange Tulip Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Pink Dye
         recipe:
@@ -2334,6 +2401,15 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 4
             tools: Pulverizer (Basic)
+        recipe:
+            input: Phyto-Gro, Pink Tulip Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Pink Tulip Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Purple Dye
         recipe:
@@ -2367,6 +2443,24 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 8
             tools: Pulverizer (Basic)
+        recipe:
+            input: Phyto-Gro, Poppy Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Phyto-Gro, Red Tulip Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Poppy Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Red Tulip Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
 group: Enchanting
 
@@ -2481,6 +2575,15 @@ group: Food
             pattern: ... 0.1 ...
             quantity: 9
             tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Carrot Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Carrot Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Clownfish
         gatherable: yes
@@ -2577,15 +2680,38 @@ group: Food
         recipe:
             input: Melon (item)
             pattern: 0.. ... ...
+        recipe:
+            extras: Carrot Seeds, Crop Sticks, Dirt, Pumpkin Seeds
+            input: Carrot Seeds, 2 Crop Sticks, Dirt, Pumpkin Seeds
+            pattern: 013 .2. ...
+            tools: Crafting Table
 
     item: Milk
         gatherable: yes
 
     item: Mushroom (brown)
         gatherable: yes
+        recipe:
+            input: Brown Mushroom Spores, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Brown Mushroom Spores, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Mushroom (red)
         gatherable: yes
+        recipe:
+            input: Phyto-Gro, Red Mushroom Spores
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Red Mushroom Spores, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Mushroom Stew
         recipe:
@@ -2603,9 +2729,18 @@ group: Food
             quantity: 3
             tools: Phytogenic Insolator (Basic)
         recipe:
+            input: Phyto-Gro, Potato Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
             input: Potato, Rich Phyto-Gro
             pattern: ... 0.1 ...
             quantity: 9
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Potato Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
             tools: Phytogenic Insolator (Basic)
 
     item: Pufferfish
@@ -2633,6 +2768,11 @@ group: Food
             input: Pumpkin
             pattern: 0.. ... ...
             quantity: 4
+        recipe:
+            extras: Carrot Seeds, Crop Sticks, Dirt, Potato Seeds
+            input: Carrot Seeds, 2 Crop Sticks, Dirt, Potato Seeds
+            pattern: 310 .2. ...
+            tools: Crafting Table
 
     item: Raw Beef
         gatherable: yes
@@ -2650,7 +2790,9 @@ group: Food
         gatherable: yes
 
     item: Seeds
-        gatherable: yes
+        recipe:
+            input: Wheat
+            pattern: ... .0. ...
 
     item: Steak
         recipe:
@@ -2679,9 +2821,18 @@ group: Food
             quantity: 2
             tools: Phytogenic Insolator (Basic)
         recipe:
+            input: Phyto-Gro, Sugarcane Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
             input: Rich Phyto-Gro, Sugar Canes
             pattern: ... 1.0 ...
             quantity: 6
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Rich Phyto-Gro, Sugarcane Seeds
+            pattern: ... 1.0 ...
+            quantity: 3
             tools: Phytogenic Insolator (Basic)
 
     item: Wheat
@@ -2723,7 +2874,7 @@ group: Household Items
 
     item: Bowl
         recipe:
-            input: Oak Wood Planks
+            input: Oak Wood Slab
             pattern: 0.0 .0. ...
             quantity: 4
             tools: Crafting Table
@@ -3272,6 +3423,10 @@ group: Minerals
             input: Diamond Ore, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
+        recipe:
+            input: Diamond Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Diamond Ore
         gatherable: yes
@@ -3295,6 +3450,10 @@ group: Minerals
             input: Emerald Ore, Furnace Fuel
             pattern: .0. ... .1.
             tools: Furnace
+        recipe:
+            input: Emerald Nugget
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Emerald Ore
         gatherable: yes
@@ -3323,6 +3482,15 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 4
             tools: Pulverizer (Basic)
+        recipe:
+            input: Nitor Wart Spores, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Nitor Wart Spores, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Gold Ingot
         gatherable: yes
@@ -3459,6 +3627,15 @@ group: Minerals
             input: Gold Ingot
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            input: Aurigold Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Aurigold Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Gold Ore
         gatherable: yes
@@ -3698,6 +3875,10 @@ group: Minerals
             input: Furnace Fuel, Nether Quartz Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Quartz Shard
+            pattern: 000 000 000
+            tools: Crafting Table
 
     item: Nether Quartz Ore
         gatherable: yes
@@ -3774,6 +3955,15 @@ group: Minerals
             input: Furnace Fuel, Redstone Ore
             pattern: .1. ... .0.
             tools: Furnace
+        recipe:
+            input: Phyto-Gro, Redstodendron Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator (Basic)
+        recipe:
+            input: Redstodendron Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator (Basic)
 
     item: Redstone Ore
         gatherable: yes
@@ -4450,6 +4640,9 @@ group: Trees
         gatherable: yes
 
     item: Stick
+        recipe:
+            input: Crop Sticks
+            pattern: ... .0. ...
         recipe:
             input: Oak Wood Planks
             pattern: 0.. 0.. ...
