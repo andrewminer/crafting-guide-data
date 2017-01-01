@@ -700,6 +700,10 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 9
         recipe:
+            extras: Cuprosia Seeds
+            input: Cuprosia Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
             input: Temperate Fluiduct (Opaque)
             pattern: ... .0. ...
             quantity: 3
@@ -1018,6 +1022,10 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 9
         recipe:
+            extras: Niccissus Seeds
+            input: Dirt, Niccissus Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Niccissus Seeds, Phyto-Gro
             pattern: ... 0.1 ...
             tools: Phytogenic Insolator (Basic)
@@ -1154,6 +1162,10 @@ group: Minerals
             input: Iron Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Ferranium Seeds
+            input: Dirt, Ferranium Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Ferranium Seeds, Phyto-Gro
             pattern: ... 0.1 ...
@@ -1295,6 +1307,10 @@ group: Minerals
             input: Lead Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Plombean Seeds
+            input: Dirt, Plombean Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Phyto-Gro, Plombean Seeds
             pattern: ... 1.0 ...
@@ -1719,6 +1735,10 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 9
         recipe:
+            extras: Platiolus Seeds
+            input: Dirt, Platiolus Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Phyto-Gro, Platiolus Seeds
             pattern: ... 1.0 ...
             tools: Phytogenic Insolator (Basic)
@@ -1910,6 +1930,10 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 9
         recipe:
+            extras: Silverweed Seeds
+            input: Dirt, Silverweed Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Phyto-Gro, Silverweed Seeds
             pattern: ... 1.0 ...
             tools: Phytogenic Insolator (Basic)
@@ -2056,6 +2080,10 @@ group: Minerals
             input: Tin Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Petinia Seeds
+            input: Dirt, Petinia Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Petinia Seeds, Phyto-Gro
             pattern: ... 0.1 ...

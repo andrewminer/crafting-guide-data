@@ -1968,6 +1968,10 @@ group: Brewing (supplies)
 
     item: Nether Wart
         gatherable: yes
+        recipe:
+            extras: Nether Wart
+            input: Nether Wart, Soul Sand
+            pattern: .0. .1. ...
 
     item: Potent Potion
         recipe:
@@ -2132,6 +2136,10 @@ group: Dyes
 
     item: Cactus Green
         recipe:
+            extras: Cactus Seeds
+            input: Cactus Seeds, Sand
+            pattern: .0. .1. ...
+        recipe:
             input: Cactus
             pattern: ... .0. ...
             tools: Redstone Furnace (Basic)
@@ -2177,6 +2185,10 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 2
         recipe:
+            extras: Dandelion Seeds
+            input: Dandelion Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
             input: Dandelion
             pattern: ... .0. ...
             quantity: 4
@@ -2212,6 +2224,10 @@ group: Dyes
             pattern: 0.. ... ...
             quantity: 9
         recipe:
+            extras: Lapender Seeds
+            input: Dirt, Lapender Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Lapis Lazuli Ore
             pattern: ... .0. ...
             quantity: 12
@@ -2239,6 +2255,10 @@ group: Dyes
         recipe:
             input: Blue Orchid
             pattern: ... .0. ...
+        recipe:
+            extras: Blue Orchid Seeds
+            input: Blue Orchid Seeds, Dirt
+            pattern: .0. .1. ...
         recipe:
             input: Bone Meal, Lapis Lazuli
             pattern: ... 01. ...
@@ -2272,6 +2292,14 @@ group: Dyes
             input: Bone Meal, Gray Dye
             pattern: ... 01. ...
             quantity: 2
+        recipe:
+            extras: Daisy Seeds
+            input: Daisy Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
+            extras: White Tulip Seeds
+            input: Dirt, White Tulip Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Bone Meal, Ink Sac
             pattern: .0. 01. ...
@@ -2325,6 +2353,10 @@ group: Dyes
             pattern: ... .0. ...
             quantity: 2
         recipe:
+            extras: Allium Seeds
+            input: Allium Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
             input: Pink Dye, Purple Dye
             pattern: ... 01. ...
             quantity: 2
@@ -2365,6 +2397,10 @@ group: Dyes
             pattern: ... 01. ...
             quantity: 2
         recipe:
+            extras: Orange Tulip Seeds
+            input: Dirt, Orange Tulip Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Orange Tulip
             pattern: ... .0. ...
             quantity: 4
@@ -2391,6 +2427,10 @@ group: Dyes
             input: Bone Meal, Rose Red
             pattern: ... 01. ...
             quantity: 2
+        recipe:
+            extras: Pink Tulip Seeds
+            input: Dirt, Pink Tulip Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Peony
             pattern: ... .0. ...
@@ -2428,6 +2468,14 @@ group: Dyes
             input: Rose Bush
             pattern: ... .0. ...
             quantity: 2
+        recipe:
+            extras: Poppy Seeds
+            input: Dirt, Poppy Seeds
+            pattern: .1. .0. ...
+        recipe:
+            extras: Red Tulip Seeds
+            input: Dirt, Red Tulip Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Poppy
             pattern: ... .0. ...
@@ -2566,6 +2614,10 @@ group: Food
     item: Carrot
         gatherable: yes
         recipe:
+            extras: Carrot Seeds
+            input: Carrot Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
             input: Carrot, Phyto-Gro
             pattern: ... 0.1 ...
             quantity: 3
@@ -2656,6 +2708,10 @@ group: Food
     item: Melon (item)
         gatherable: yes
         recipe:
+            extras: Melon Seeds
+            input: Dirt, Melon Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Melon (block)
             pattern: ... .0. ...
             quantity: 9
@@ -2684,13 +2740,16 @@ group: Food
             extras: Carrot Seeds, Crop Sticks, Dirt, Pumpkin Seeds
             input: Carrot Seeds, 2 Crop Sticks, Dirt, Pumpkin Seeds
             pattern: 013 .2. ...
-            tools: Crafting Table
 
     item: Milk
         gatherable: yes
 
     item: Mushroom (brown)
         gatherable: yes
+        recipe:
+            extras: Brown Mushroom Spores
+            input: Brown Mushroom Spores, Mycelium
+            pattern: .0. .1. ...
         recipe:
             input: Brown Mushroom Spores, Phyto-Gro
             pattern: ... 0.1 ...
@@ -2703,6 +2762,10 @@ group: Food
 
     item: Mushroom (red)
         gatherable: yes
+        recipe:
+            extras: Red Mushroom Spores
+            input: Mycelium, Red Mushroom Spores
+            pattern: .1. .0. ...
         recipe:
             input: Phyto-Gro, Red Mushroom Spores
             pattern: ... 1.0 ...
@@ -2720,9 +2783,17 @@ group: Food
 
     item: Poisonous Potato
         gatherable: yes
+        recipe:
+            extras: Potato Seeds
+            input: Dirt, Potato Seeds
+            pattern: .1. .0. ...
 
     item: Potato
         gatherable: yes
+        recipe:
+            extras: Potato Seeds
+            input: Dirt, Potato Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Phyto-Gro, Potato
             pattern: ... 1.0 ...
@@ -2749,6 +2820,10 @@ group: Food
     item: Pumpkin
         gatherable: yes
         recipe:
+            extras: Pumpkin Seeds
+            input: Dirt, Pumpkin Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Phyto-Gro, Pumpkin Seeds
             pattern: ... 1.0 ...
             tools: Phytogenic Insolator (Basic)
@@ -2772,7 +2847,6 @@ group: Food
             extras: Carrot Seeds, Crop Sticks, Dirt, Potato Seeds
             input: Carrot Seeds, 2 Crop Sticks, Dirt, Potato Seeds
             pattern: 310 .2. ...
-            tools: Crafting Table
 
     item: Raw Beef
         gatherable: yes
@@ -2790,6 +2864,7 @@ group: Food
         gatherable: yes
 
     item: Seeds
+        gatherable: yes
         recipe:
             input: Wheat
             pattern: ... .0. ...
@@ -2816,6 +2891,10 @@ group: Food
 
     item: Sugar Canes
         recipe:
+            extras: Sugarcane Seeds
+            input: Sand, Sugarcane Seeds
+            pattern: .1. .0. ...
+        recipe:
             input: Phyto-Gro, Sugar Canes
             pattern: ... 1.0 ...
             quantity: 2
@@ -2841,6 +2920,10 @@ group: Food
             input: Hay Bale
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            extras: Seeds
+            input: Dirt, Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Phyto-Gro, Seeds
             pattern: ... 1.0 ...
@@ -3473,6 +3556,10 @@ group: Minerals
     item: Glowstone Dust
         gatherable: yes
         recipe:
+            extras: Nitor Wart Spores
+            input: Nitor Wart Spores, Soul Sand
+            pattern: .0. .1. ...
+        recipe:
             input: Glowstone
             pattern: ... .0. ...
             quantity: 4
@@ -3627,6 +3714,10 @@ group: Minerals
             input: Gold Ingot
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            extras: Aurigold Seeds
+            input: Aurigold Seeds, Dirt
+            pattern: .0. .1. ...
         recipe:
             input: Aurigold Seeds, Phyto-Gro
             pattern: ... 0.1 ...
@@ -3908,6 +3999,10 @@ group: Minerals
             input: Block of Redstone
             pattern: 0.. ... ...
             quantity: 9
+        recipe:
+            extras: Redstodendron Seeds
+            input: Dirt, Redstodendron Seeds
+            pattern: .1. .0. ...
         recipe:
             input: Hardened Energy Cell
             pattern: ... .0. ...
