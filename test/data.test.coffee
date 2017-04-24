@@ -1,15 +1,16 @@
-###
-Crafting Guide - data.test.coffee
+#
+# Crafting Guide Data - data.test.coffee
+#
+# Copyright (c) 2015-2017 by Redwood Labs
+# All rights reserved.
+#
 
-Copyright (c) 2015 by Redwood Labs
-All rights reserved.
-###
-
-{Mod}              = require 'crafting-guide'
-{ModParser}        = require 'crafting-guide'
-{ModVersion}       = require 'crafting-guide'
-{ModVersionParser} = require 'crafting-guide'
-fs                 = require 'fs'
+CraftingGuideCommon = require "crafting-guide-common"
+Mod                 = CraftingGuideCommon.deprecated.game.Mod
+ModParser           = CraftingGuideCommon.deprecated.parsing.ModParser
+ModVersion          = CraftingGuideCommon.deprecated.game.ModVersion
+ModVersionParser    = CraftingGuideCommon.deprecated.parsing.ModVersionParser
+fs                  = require 'fs'
 
 ########################################################################################################################
 

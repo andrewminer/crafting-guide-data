@@ -1,9 +1,9 @@
-###
+#
 # Crafting Guide - test.coffee
 #
-# Copyright (c) 2014-2015 by Redwood Labs
+# Copyright (c) 2014-2017 by Redwood Labs
 # All rights reserved.
-###
+#
 
 # Test Set-up ##########################################################################################################
 
@@ -20,5 +20,5 @@ global.util     = require 'util'
 global.w        = require 'when'
 global.window   = {}
 
-{Logger}      = require 'crafting-guide-common'
+Logger = require('crafting-guide-common').util.Logger
 global.logger = new Logger level:Logger.FATAL
