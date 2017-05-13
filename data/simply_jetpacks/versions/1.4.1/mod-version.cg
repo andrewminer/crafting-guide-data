@@ -108,13 +108,13 @@ group: Tier 2 Items
 
     item: Hardened Thruster
         recipe:
-            input: Block of Redstone, Invar Ingot, Pneumatic Servo, Reactant Dynamo, Redstone Reception Coil, Tinker's Alloy Gear
+            input: Block of Redstone, Invar Ingot, Pneumatic Servo, Reactant Dynamo, Redstone Reception Coil, Bronze Gear
             pattern: 141 050 323
             tools: Crafting Table
 
     item: Tinker's Alloy Armor Plating
         recipe:
-            input: 10 Tinker's Alloy Ingot, Iron Armor Plating
+            input: 10 Bronze Ingot, Iron Armor Plating
             pattern: ... 0.1 ...
             tools: Crafting Table
 

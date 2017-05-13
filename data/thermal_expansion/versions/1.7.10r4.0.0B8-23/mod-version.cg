@@ -78,7 +78,7 @@ group: Augments
 
     item: Augment: Overclocked Modular Gearbox
         recipe:
-            input: Gold Ingot, Pyrotheum Dust, Redstone Reception Coil, Tinker’s Alloy Ingot
+            input: Gold Ingot, Pyrotheum Dust, Redstone Reception Coil, Bronze Ingot
             pattern: .0. 323 101
             tools: Crafting Table
 
@@ -90,13 +90,13 @@ group: Augments
 
     item: Augment: Secondary Reception Coil
         recipe:
-            input: Redstone, Redstone Reception Coil, Tinker’s Alloy Ingot
+            input: Redstone, Redstone Reception Coil, Bronze Ingot
             pattern: .2. 212 020
             tools: Crafting Table
 
     item: Augment: Secondary Sieve
         recipe:
-            input: Tinker’s Alloy Ingot, Wool
+            input: Bronze Ingot, Wool
             pattern: .0. 010 101
             tools: Crafting Table
 
@@ -114,7 +114,7 @@ group: Augments
 
     item: Augment: Stabilized Frame
         recipe:
-            input: Glowstone Dust, Hardened Glass, Light Gray Rockwool, Tinker’s Alloy Ingot
+            input: Glowstone Dust, Hardened Glass, Light Gray Rockwool, Bronze Ingot
             pattern: .1. 323 010
             tools: Crafting Table
 
@@ -248,7 +248,7 @@ group: Energy
 
     item: Reactant Dynamo
         recipe:
-            input: Redstone, Redstone Transmission Coil, Tinker’s Alloy Gear, Tinker’s Alloy Ingot
+            input: Redstone, Redstone Transmission Coil, Bronze Gear, Bronze Ingot
             pattern: .1. 232 303
             tools: Crafting Table
 
@@ -459,7 +459,7 @@ group: Functional Blocks
             pattern: ... 1.0 ...
             tools: Fluid Transposer
 
-    item: Machinist’s Workbench
+    item: Machinist's Workbench
         recipe:
             input: Copper Ingot, Crafting Table, Paper, Strongbox
             pattern: .2. 010 .3.
@@ -651,7 +651,7 @@ group: Machine Parts
 
     item: Signalum Security Lock
         recipe:
-            input: Signalum Nugget, Tinker’s Alloy Ingot
+            input: Signalum Nugget, Bronze Ingot
             pattern: .0. 010 000
             tools: Crafting Table
 
@@ -679,9 +679,9 @@ group: Machine Parts
             pattern: .1. 101 .1.
             tools: Crafting Table
 
-    item: Tinker’s Alloy Gear
+    item: Bronze Gear
         recipe:
-            input: Iron Ingot, Tinker’s Alloy Ingot
+            input: Iron Ingot, Bronze Ingot
             pattern: .1. 101 .1.
             tools: Crafting Table
 
@@ -1103,7 +1103,7 @@ group: Machines
 
     item: Tesseract
         recipe:
-            input: Silver Ingot, Tesseract Frame (Full), Tinker’s Alloy Ingot
+            input: Silver Ingot, Tesseract Frame (Full), Bronze Ingot
             pattern: 202 010 202
             tools: Crafting Table
 
@@ -2022,23 +2022,23 @@ group: Minerals
     item: Tin Ore
         gatherable: yes
 
-    item: Tinker’s Alloy Blend
+    item: Tinker's Alloy Blend
         recipe:
             input: Pulverized Copper, Pulverized Tin
             pattern: 00. 01. ...
             quantity: 4
         recipe:
-            input: Tinker’s Alloy Ingot
+            input: Bronze Ingot
             pattern: ... .0. ...
             tools: Pulverizer
 
-    item: Tinker’s Alloy Block
+    item: Tinker's Alloy Block
         recipe:
-            input: Tinker’s Alloy Ingot
+            input: Bronze Ingot
             pattern: 000 000 000
             tools: Crafting Table
 
-    item: Tinker’s Alloy Ingot
+    item: Bronze Ingot
         recipe:
             input: 3 Pulverized Copper, Pulverized Tin
             pattern: ... 0.1 ...
@@ -2050,31 +2050,31 @@ group: Minerals
             quantity: 4
             tools: Induction Smelter
         recipe:
-            input: Tinker’s Alloy Blend
+            input: Tinker's Alloy Blend
             pattern: ... .0. ...
             tools: Redstone Furnace
         recipe:
-            input: Tinker’s Alloy Blend, furnace fuel
+            input: Tinker's Alloy Blend, furnace fuel
             pattern: .0. ... .1.
             tools: Furnace
         recipe:
             extras: Slag
-            input: Sand, 1 Tinker’s Alloy Blend
+            input: Sand, 1 Tinker's Alloy Blend
             pattern: ... 0.1 ...
             quantity: 3
             tools: Induction Smelter
         recipe:
-            input: Tinker’s Alloy Block
+            input: Tinker's Alloy Block
             pattern: ... .0. ...
             quantity: 9
         recipe:
-            input: Tinker’s Alloy Nugget
+            input: Tinker's Alloy Nugget
             pattern: 000 000 000
             tools: Crafting Table
 
-    item: Tinker’s Alloy Nugget
+    item: Tinker's Alloy Nugget
         recipe:
-            input: Tinker’s Alloy Ingot
+            input: Bronze Ingot
             pattern: ... .0. ...
             quantity: 9
 

@@ -282,7 +282,7 @@ group: Tools
 
     item: Packing Tape
         recipe:
-            input: Paper, Slime Ball
+            input: Paper, Slimeball
             pattern: .1. 000 ...
             tools: Crafting Table
 

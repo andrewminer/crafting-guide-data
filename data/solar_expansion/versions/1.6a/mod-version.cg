@@ -44,19 +44,19 @@ group: Minerals
         recipe:
             input: Iron Ingot, 2 Pulverized Coal
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Coal, Pulverized Iron
             pattern: ... 0.1 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Iron Ingot, 4 Pulverized Charcoal
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 4 Pulverized Charcoal, Pulverized Iron
             pattern: ... 0.1 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
 
     item: Steel Nugget
         recipe:

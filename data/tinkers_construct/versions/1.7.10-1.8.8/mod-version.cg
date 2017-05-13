@@ -71,7 +71,7 @@ group: Armor
 
     item: Yellow Heart Canister
         recipe:
-            input: Golden Apple (magic), Miniature Yellow Heart, Red Heart Canister
+            input: Golden Apple (magical), Miniature Yellow Heart, Red Heart Canister
             pattern: 21. 0.. ...
 
 group: Blocks—Bricks
@@ -462,25 +462,25 @@ group: Blocks—Structures
 
     item: Landmine (everything)
         recipe:
-            input: Blank Cast, Oak Wood Planks, Pressure Plate, Redstone
+            input: Blank Cast, Oak Wood Planks, Pressure Plate (stone), Redstone
             pattern: 101 323 ...
             tools: Crafting Table
 
     item: Landmine (mobs players redstone)
         recipe:
-            input: Blank Cast, Pressure Plate, Redstone, Stone
+            input: Blank Cast, Pressure Plate (stone), Redstone, Stone
             pattern: 303 212 ...
             tools: Crafting Table
 
     item: Landmine (players redstone)
         recipe:
-            input: Blank Cast, Obsidian, Pressure Plate, Redstone
+            input: Blank Cast, Obsidian, Pressure Plate (stone), Redstone
             pattern: 101 323 ...
             tools: Crafting Table
 
     item: Landmine (redstone)
         recipe:
-            input: Blank Cast, Pressure Plate, Redstone, Redstone Repeater
+            input: Blank Cast, Pressure Plate (stone), Redstone, Redstone Repeater
             pattern: 303 212 ...
             tools: Crafting Table
 
@@ -3958,7 +3958,7 @@ group: Materials
 
     item: Grout
         recipe:
-            input: Clay, Gravel, Sand
+            input: Clay (item), Gravel, Sand
             pattern: 20. 1.. ...
             quantity: 2
 
@@ -4986,7 +4986,7 @@ group: Stenciled Parts
         recipe:
             input: Fletching Pattern, Slimy Leaves
             pattern: ... 1.0 ...
-            tools: Part Builder
+            tools: Part Builder (oak)
 
 group: Stenciled Parts—Bone
 
@@ -6055,7 +6055,7 @@ group: Stenciled Parts—Slime (blue)
             extras: Fletching Pattern
             input: Fletching Pattern, Slime Crystal (blue)
             pattern: ... 1.0 ...
-            tools: Tool Builder (oak)
+            tools: Part Builder (oak)
 
     item: Slime Hammer Head (blue)
         recipe:
@@ -6261,7 +6261,7 @@ group: Stenciled Parts—Slime (green)
             extras: Fletching Pattern
             input: Fletching Pattern, Slime Crystal (green)
             pattern: ... 1.0 ...
-            tools: Tool Builder (oak)
+            tools: Part Builder (oak)
 
     item: Slime Full Guard (green)
         recipe:

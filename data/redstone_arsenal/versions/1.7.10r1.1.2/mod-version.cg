@@ -42,7 +42,7 @@ group: Minerals
         recipe:
             input: 200 Destabilized Redstone, Diamond
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Flux Crystal Block
         recipe:
@@ -60,11 +60,11 @@ group: Minerals
         recipe:
             input: Fluxed Electrum Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: 200 Destabilized Redstone, Electrum Blend
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Fluxed Electrum Block
         recipe:
@@ -81,7 +81,7 @@ group: Minerals
             input: 2 Fluxed Electrum Blend, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Fluxed Electrum Nugget
             pattern: 000 000 000

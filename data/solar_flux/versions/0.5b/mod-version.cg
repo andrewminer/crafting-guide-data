@@ -53,7 +53,7 @@ group: Parts
 
     item: Photovoltaic Cell II
         recipe:
-            input: Clay, Lapis Lazuli, Mirror, Photovoltaic Cell I
+            input: Clay (item), Lapis Lazuli, Mirror, Photovoltaic Cell I
             pattern: 010 101 232
             quantity: 1
             tools: Crafting Table

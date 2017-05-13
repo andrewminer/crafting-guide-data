@@ -1,9 +1,9 @@
 #!/usr/bin/env coffee
 
-fs               = require 'fs'
-{Logger}         = require 'crafting-guide-common'
-{ModVersionParser} = require 'crafting-guide'
-{ModVersion}       = require 'crafting-guide'
+fs                 = require 'fs'
+{Logger}           = require('crafting-guide-common').util
+{ModVersionParser} = require('crafting-guide-common').deprecated.parsing
+{ModVersion}       = require('crafting-guide-common').deprecated.game
 
 ########################################################################################################################
 

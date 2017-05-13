@@ -195,7 +195,7 @@ group: Ducts (energy)
         recipe:
             input: Cryo-Stabilized Fluxduct (Empty), 500 Gelid Cryotheum
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Cryo-Stabilized Fluxduct (Empty)
         recipe:
@@ -225,7 +225,7 @@ group: Ducts (energy)
         recipe:
             input: 200 Destabilized Redstone, Redstone Energy Fluxduct (Empty)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Redstone Energy Fluxduct (Empty)
         recipe:
@@ -247,7 +247,7 @@ group: Ducts (energy)
         recipe:
             input: 200 Destabilized Redstone, Resonant Fluxduct (Empty)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Resonant Fluxduct (Empty)
         recipe:
@@ -359,7 +359,7 @@ group: Ducts (items)
         recipe:
             input: 200 Destabilized Redstone, Itemduct
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Fluctuating Itemduct (Opaque)
         recipe:
@@ -374,7 +374,7 @@ group: Ducts (items)
         recipe:
             input: 200 Destabilized Redstone, Itemduct (Opaque)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Impulse Itemduct
         recipe:
@@ -394,7 +394,7 @@ group: Ducts (items)
         recipe:
             input: 200 Energized Glowstone, Itemduct
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Impulse Itemduct (Opaque)
         recipe:
@@ -414,7 +414,7 @@ group: Ducts (items)
         recipe:
             input: 200 Energized Glowstone, Itemduct (Opaque)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Itemduct
         recipe:
@@ -532,7 +532,7 @@ group: Ducts (transport)
         recipe:
             input: 1000 Resonant Ender, Viaduct
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Long Range Viaduct
         recipe:
@@ -545,7 +545,7 @@ group: Ducts (transport)
         recipe:
             input: Viaduct (Untreated), 50 Zephyrean Aerotheum
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Viaduct (Untreated)
         recipe:

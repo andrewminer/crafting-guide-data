@@ -276,97 +276,97 @@ group: Dyes
 
     item: Ceramic Dye (Black)
         recipe:
-            input: Clay, Ink Sac
+            input: Clay (item), Ink Sac
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Blue)
         recipe:
-            input: Clay, Lapis Lazuli
+            input: Clay (item), Lapis Lazuli
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Brown)
         recipe:
-            input: Clay, Cocoa Beans
+            input: Clay (item), Cocoa Beans
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Cyan)
         recipe:
-            input: Clay, Cyan Dye
+            input: Clay (item), Cyan Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Gray)
         recipe:
-            input: Clay, Gray Dye
+            input: Clay (item), Gray Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Green)
         recipe:
-            input: Clay, Cactus Green
+            input: Clay (item), Cactus Green
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Light Blue)
         recipe:
-            input: Clay, Light Blue Dye
+            input: Clay (item), Light Blue Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Light Gray)
         recipe:
-            input: Clay, Light Gray Dye
+            input: Clay (item), Light Gray Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Lime)
         recipe:
-            input: Clay, Lime Dye
+            input: Clay (item), Lime Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Magenta)
         recipe:
-            input: Clay, Magenta Dye
+            input: Clay (item), Magenta Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Orange)
         recipe:
-            input: Clay, Orange Dye
+            input: Clay (item), Orange Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Pink)
         recipe:
-            input: Clay, Pink Dye
+            input: Clay (item), Pink Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Purple)
         recipe:
-            input: Clay, Purple Dye
+            input: Clay (item), Purple Dye
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (Red)
         recipe:
-            input: Clay, Rose Red
+            input: Clay (item), Rose Red
             pattern: 01. ... ...
             quantity: 4
 
     item: Ceramic Dye (White)
         recipe:
-            input: Bone Meal, Clay
+            input: Bone Meal, Clay (item)
             pattern: 10. ... ...
             quantity: 4
 
     item: Ceramic Dye (Yellow)
         recipe:
-            input: Clay, Dandelion Yellow
+            input: Clay (item), Dandelion Yellow
             pattern: 01. ... ...
             quantity: 4
             tools: Crafting Table
@@ -721,7 +721,7 @@ group: Machine Parts
 
     item: PRC LX-500 Logic Expansion Card
         recipe:
-            input: Diamond, Gold Ingot, Plastic Sheet, PRC LX-300 Logic Expansion Card, Redstone
+            input: Diamond, Gold Ingot, Plastic Sheets, PRC LX-300 Logic Expansion Card, Redstone
             pattern: 020 434 101
             tools: Crafting Table
 
@@ -753,7 +753,7 @@ group: Machines
 
     item: Auto-Disenchanter
         recipe:
-            input: Book, Diamond, Machine Frame, Nether Brick, Plastic Sheets, Redstone Reception Coil
+            input: Book, Diamond, Machine Frame, Nether Brick (block), Plastic Sheets, Redstone Reception Coil
             pattern: 434 020 151
             tools: Crafting Table
 
@@ -771,7 +771,7 @@ group: Machines
 
     item: Auto-Spawner
         recipe:
-            input: Emerald, Machine Frame, Magma Cream, Nether Wart, Plastic Sheets, Reception Coil
+            input: Emerald, Machine Frame, Magma Cream, Nether Wart, Plastic Sheets, Redstone Reception Coil
             pattern: 434 212 050
             tools: Crafting Table
 
@@ -789,7 +789,7 @@ group: Machines
 
     item: Block Breaker
         recipe:
-            input: Invar Gear, Iron Gear, Iron Pickaxe, Iron Shovel, Machine Frame, Plastic Sheets, Redstone Receiption Coil
+            input: Invar Gear, Iron Gear, Iron Pickaxe, Iron Shovel, Machine Frame, Plastic Sheets, Redstone Reception Coil
             pattern: 505 243 161
             tools: Crafting Table
 
@@ -819,7 +819,7 @@ group: Machines
 
     item: Chunk Loader
         recipe:
-            input: Electrum Gear, Plastic Sheets, Redstone Conductance Coil, Redstone Energy Cell Frame, Resonant Energy Cell, Tesseract
+            input: Electrum Gear, Plastic Sheets, Redstone Conductance Coil, Redstone Energy Cell Frame (Empty), Resonant Energy Cell, Tesseract
             pattern: 141 535 020
             tools: Crafting Table
 
@@ -850,13 +850,13 @@ group: Machines
 
     item: Fertilizer
         recipe:
-            input: Ferrous Gear, Glass Bottle, Leather, Machine Frame, Plastic Sheets, Reception Coil
+            input: Ferrous Gear, Glass Bottle, Leather, Machine Frame, Plastic Sheets, Redstone Reception Coil
             pattern: 414 232 050
             tools: Crafting Table
 
     item: Fisher
         recipe:
-            input: Bucket, Fishing Rod, Iron Gear, Machine Frame, Plastic Sheets, Reception Coil
+            input: Bucket, Fishing Rod, Iron Gear, Machine Frame, Plastic Sheets, Redstone Reception Coil
             pattern: 414 030 252
             tools: Crafting Table
 
@@ -1863,7 +1863,7 @@ group: Tools
 
     item: Golden Jailer's Safari Net
         recipe:
-            input: Golden Nugget, Jailer's Safari Net
+            input: Gold Nugget, Jailer's Safari Net
             pattern: 000 010 000
             tools: Crafting Table
 
@@ -1999,7 +1999,7 @@ group: Tools
 
     item: Spyglass
         recipe:
-            input: Glass, Plastic Sheets, Stick, Tinker's Alloy Ingot
+            input: Glass, Plastic Sheets, Stick, Bronze Ingot
             pattern: 303 101 .2.
             tools: Crafting Table
 
@@ -2036,7 +2036,7 @@ group: Upgrades
 
     item: Upgrade (Bronze)
         recipe:
-            input: Gold Nugget, Raw Plastic, Redstone, Tinker's Alloy Ingot
+            input: Gold Nugget, Raw Plastic, Redstone, Bronze Ingot
             pattern: 333 111 202
             tools: Crafting Table
 

@@ -36,7 +36,7 @@ group: Agriculture
             pattern: ... .0. ...
             tools: Macerator
         recipe:
-            input: 8 Melon
+            input: 8 Melon (item)
             pattern: ... .0. ...
             tools: Macerator
         recipe:
@@ -219,7 +219,7 @@ group: Agriculture
             quantity: 3
             tools: Canning Machine
         recipe:
-            input: 2 Tin Can, Melon
+            input: 2 Tin Can, Melon (item)
             pattern: .1. ... .0.
             quantity: 2
             tools: Canning Machine
@@ -1650,7 +1650,7 @@ group: Minerals
 
     item: CF Powder
         recipe:
-            input: Clay, Sand, Stone Dust
+            input: Clay (item), Sand, Stone Dust
             pattern: 212 202 212
             tools: Crafting Table
 
@@ -2126,7 +2126,7 @@ group: Minerals: Dusts
 
     item: Clay Dust
         recipe:
-            input: Clay (Block)
+            input: Clay (block)
             pattern: ... .0. ...
             quantity: 2
             tools: Macerator
@@ -3183,7 +3183,7 @@ group: Tools: Painters
             input: Cyan Dye, Painter
             pattern: ... 10. ...
 
-    item: Dark Grey Painter
+    item: Dark Gray Painter
         recipe:
             input: Gray Dye, Painter
             pattern: ... 10. ...
@@ -3198,7 +3198,7 @@ group: Tools: Painters
             input: Light Blue Dye, Painter
             pattern: ... 10. ...
 
-    item: Light Grey Painter
+    item: Light Gray Painter
         recipe:
             input: Light Gray Dye, Painter
             pattern: ... 10. ...

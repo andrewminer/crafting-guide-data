@@ -264,12 +264,12 @@ group: Minerals
         recipe:
             input: Diamahlia Seeds, Phyto-Gro
             pattern: ... 0.1 ...
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
         recipe:
             input: Diamahlia Seeds, Rich Phyto-Gro
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
 
     item: Emerald Nugget
         recipe:
@@ -283,12 +283,12 @@ group: Minerals
         recipe:
             input: Emeryllis Seeds, Phyto-Gro
             pattern: ... 0.1 ...
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
         recipe:
             input: Emeryllis Seeds, Rich Phyto-Gro
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
 
     item: Quartz Shard
         recipe:
@@ -302,12 +302,12 @@ group: Minerals
         recipe:
             input: Phyto-Gro, Quartzanthemum Seeds
             pattern: ... 1.0 ...
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
         recipe:
             input: Quartzanthemum Seeds, Rich Phyto-Gro
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Phytogenic Insolator (Basic)
+            tools: Phytogenic Insolator
 
 group: Seed Management Items
 

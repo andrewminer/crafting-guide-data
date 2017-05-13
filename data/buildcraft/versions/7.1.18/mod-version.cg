@@ -698,7 +698,7 @@ group: Fluids
         recipe:
             input: Bucket, 1000 Fuel
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Oil
         gatherable: yes
@@ -707,7 +707,7 @@ group: Fluids
         recipe:
             input: Bucket, 1000 Oil
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Oil Spring
         gatherable: yes

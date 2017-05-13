@@ -649,19 +649,13 @@ group: Modules
             pattern: 123 .0. ...
             tools: Crafting Table
 
-    item: Thaumic AspectSink module
-        recipe:
-            input: Air Shard, Blank Module, Iron Chipset, Redstone
-            pattern: 020 313 030
-            tools: Crafting Table
-            
     item: CC Based QuickSort module
         recipe:
             input: Redstone, Redstone Torch, Wireless Modem, QuickSort Module, Wired Modem, Networking Cable
             pattern: 010 234 050
             onlyIf: mod ComputerCraft
             tools: Crafting Table
-            
+
     item: CC Based ItemSink module
         recipe:
             input: Redstone, Redstone Torch, Wireless Modem, ItemSink Module, Wired Modem, Networking Cable
@@ -842,7 +836,7 @@ group: Upgrades
             input: Paper, Power Transportation Upgrade, Redstone Reception Coil, Redstone Transmission Coil, Steam Dynamo
             pattern: 040 212 030
             tools: Crafting Table
-            
+
     item: CC Remote Control Upgrade
         recipe:
             input: Redstone, Redstone Torch, Wireless Modem, Diamond Chipset, Wired Modem, Networking Cable

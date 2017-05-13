@@ -158,7 +158,7 @@ group: Crafting Components
 
     item: Binder Composite
         recipe:
-            input: Clay, Gravel, Sand
+            input: Clay (item), Gravel, Sand
             pattern: 111 202 111
             quantity: 8
             tools: Crafting Table

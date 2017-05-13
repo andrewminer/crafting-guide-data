@@ -96,7 +96,7 @@ group: Cables
 
     item: ME Storage Bus
         recipe:
-            input: ME Interface, Piston, Sticky Piston
+            input: ME Interface (block), Piston, Sticky Piston
             pattern: 02. .1. ...
 
     item: ME Toggle Bus
@@ -195,6 +195,8 @@ group: Decorative Elements
             pattern: 101 010 101
             quantity: 4
             tools: Crafting Table
+
+    item: Sky Stone
 
     item: Sky Stone Brick
         recipe:
@@ -562,7 +564,9 @@ group: Minerals
             pattern: ... .0. ...
             tools: Quartz Grindstone, Wooden Crank
 
-group: Paint Balls
+group: Projectiles
+
+    item: Matter Ball
 
     item: Paint Ball - Lumen White
         recipe:
@@ -803,16 +807,12 @@ group: Teleportation System Blocks & Parts
             tools: TNT
 
     item: Singularity
-        recipe:
-            input: 256k of any item
-            pattern: ... .0. ...
-            tools: Matter Condenser
 
 group: Tools
 
     item: Certus Quartz Axe
         recipe:
-            input: Certus Quartz, Stick
+            input: Certus Quartz Crystal, Stick
             pattern: 00. 01. .1.
             tools: Crafting Table
 

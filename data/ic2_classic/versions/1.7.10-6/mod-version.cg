@@ -37,7 +37,7 @@ item: 4x Ins. HV Cable
         input: Insulated HV Cable, Rubber
         pattern: ... 101 ...
     recipe:
-        input: HV 2x Insulated Cable, Rubber
+        input: 2x Ins. HV Cable, Rubber
         pattern: ... .0. .1.
 
 item: 60K Coolant Cell
@@ -222,14 +222,6 @@ item: Coal Ball
 item: Coal Chunk
     recipe:
         input: Compressed Coal Ball, Obsidian
-        pattern: 000 010 000
-        tools: Crafting Table
-    recipe:
-        input: Bricks, Compressed Coal Ball
-        pattern: 111 101 111
-        tools: Crafting Table
-    recipe:
-        input: Compressed Coal Ball, Iron Block
         pattern: 000 010 000
         tools: Crafting Table
 
@@ -924,7 +916,7 @@ item: Plantball
         pattern: 000 0.0 000
         tools: Crafting Table
     recipe:
-        input: Sugar Cane
+        input: Sugar Canes
         pattern: 000 0.0 000
         tools: Crafting Table
     recipe:
@@ -1320,7 +1312,7 @@ item: Wrench
         pattern: 0.0 000 .0.
         tools: Crafting Table
 
-update: Nether Brick
+update: Nether Brick (item)
     recipe:
         input: 3 Netherrack
         pattern: ... .0. ...
