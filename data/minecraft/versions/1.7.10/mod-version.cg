@@ -2890,6 +2890,7 @@ group: Food
             tools: Pulverizer
 
     item: Sugar Canes
+        gatherable: yes
         recipe:
             extras: Sugarcane Seeds
             input: Sand, Sugarcane Seeds
