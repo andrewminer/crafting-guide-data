@@ -1,0 +1,9 @@
+schema: 1
+
+description: <<-END
+The grapple is a tool which can be used to pull the player to far away places (esp. if those places are too high to jump to).  It works in all ways like a vanilla Minecraft [[Bow]].  Hold right-click to wind up, aim a bit above where you'd like to land, and release.  The player will be flung toward the target.  **NOTE:** It is quite possible to fling yourself high enough to take fall damage, so be careful!
+
+Like a bow, the grapple requires "ammunition" in the form of [[String]].  Also like a bow, a grapple with the Infinity enchantment will never consume any ammunition (though you must still have at least one piece of string to fire).
+END
+
+
