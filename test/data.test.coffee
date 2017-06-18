@@ -6,11 +6,13 @@
 #
 
 CraftingGuideCommon = require "crafting-guide-common"
+fs                  = require 'fs'
+
+_                   = CraftingGuideCommon._
 Mod                 = CraftingGuideCommon.deprecated.game.Mod
 ModParser           = CraftingGuideCommon.deprecated.parsing.ModParser
 ModVersion          = CraftingGuideCommon.deprecated.game.ModVersion
 ModVersionParser    = CraftingGuideCommon.deprecated.parsing.ModVersionParser
-fs                  = require 'fs'
 
 ########################################################################################################################
 
@@ -32,7 +34,7 @@ describe 'data files for', ->
                     return
 
                 it 'loads mod.cg without errors', ->
-                    modParser.errors.should.eql []
+                    (e.stack for e in modParser.errors).should.eql []
                     mod.name.should.not.equal ''
                     mod.activeModVersion.should.exist
 

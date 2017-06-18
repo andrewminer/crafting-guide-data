@@ -21,4 +21,4 @@ global.w        = require 'when'
 global.window   = {}
 
 Logger = require('crafting-guide-common').util.Logger
-global.logger = new Logger level:Logger.FATAL
+global.logger = new Logger level:Logger.ERROR
