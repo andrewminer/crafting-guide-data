@@ -32,6 +32,8 @@ try
         parser.parse text
 
         mod = new Mod slug:modSlug
+        text = fs.readFileSync path.join("data", modSlug, "mod.cg"), "UTF-8"
+        mod.parse text
         mod.addModVersion modVersion
 
         modPack.addMod mod
