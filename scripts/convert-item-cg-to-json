@@ -1,0 +1,44 @@
+#!/usr/bin/env coffee
+
+fs           = require "fs"
+{Item}       = require("crafting-guide-common").deprecated.game
+{ItemParser} = require("crafting-guide-common").deprecated.parsing
+{Logger}     = require("crafting-guide-common").util
+path         = require "path"
+
+########################################################################################################################
+
+global.logger = new Logger level:Logger.INFO
+
+try
+    dataPath = "data"
+    modSlugs = fs.readdirSync dataPath
+    for modSlug in modSlugs
+        modItemsPath = path.join dataPath, modSlug, "items"
+        try
+            itemSlugs = fs.readdirSync modItemsPath
+        catch error
+            continue # skip this mod, it has no items
+
+        for itemSlug in itemSlugs
+            itemCgPath = path.join modItemsPath, itemSlug, "item.cg"
+            itemJsonPath = path.join modItemsPath, itemSlug, "item.json"
+            try
+                itemDataText = fs.readFileSync itemCgPath, "utf-8"
+            catch error
+                continue # skip this item, it has not extra data
+
+            oldItem = new Item name:itemSlug
+            itemParser = new ItemParser model:oldItem
+            itemParser.parse itemDataText
+
+            itemJson = description: oldItem.description
+            if oldItem.videos.length > 0
+                itemJson.videos = ({name:video.name, youtTubeId:video.youTubeId} for video in oldItem.videos)
+            if oldItem.officialUrl
+                itemJson.links = [{name:"official site", url:oldItem.officialUrl}]
+
+            fs.writeFileSync itemJsonPath, JSON.stringify(itemJson, null, "    ")
+catch error
+    console.error error.stack
+

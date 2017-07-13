@@ -1,0 +1,3 @@
+{
+    "description": "When applied to any storage drawer, this upgrade will cause any excess items added to the storage drawer to be destroyed.  So far as the [[Drawer Controller]] is concerned, this drawer always has space remaining, so the various ways of inserting items into the storage drawer network will always work.  So, for example, double-right-clicking the storage controller will remove items from the players inventory, even if this drawer is full (destroying the excess items)."
+}

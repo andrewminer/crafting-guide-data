@@ -1,0 +1,3 @@
+{
+    "description": "The tank is a container for fluids. It can hold up 16,000mB of any kind of fluid ([[Water]], [[Lava]], [[Oil]], [[Fuel]], ...). Tanks placed on top of one another will automatically join together to form one large tank (though tanks placed next to one another do not).  Fluids may be added to the tank either by right-clicking with a bucket of fluid or by using fluid pipes.  In order to remove fluids from a tank, you will need to use a [[Wooden Fluid Pipe]] with some kind of power (e.g., a [[Redstone Engine]]).  Tanks may only hold one kind of fluid at a time, and will refuse to accept a second kind of fluid.\n\n| ![](adjacent-tanks.png) |\n|:-----------------------:|\n| *stacked tanks join together, side-by-side tanks don't* |\n"
+}

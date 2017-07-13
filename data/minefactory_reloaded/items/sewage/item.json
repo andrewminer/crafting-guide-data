@@ -1,0 +1,3 @@
+{
+    "description": "Sewage is collected when mobs are kept within range of a [[Sewer]].  As a fluid, it can be piped out of the sewer and into tanks, buckets, machines, etc. The best use of it is to pipe it into a [[Composter]] to produce [[Industrial Fertilizer]]. However, if you are so inclined, you can pour it out into the world and consume it with the the following ill effects:\n\n* Speed III 0:23\n* Slowness 0:40\n* Poison 0:40\n* Nausea 0:40\n\nSee also: [[Composter]], [[Sewer]]"
+}

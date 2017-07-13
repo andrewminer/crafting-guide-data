@@ -1,0 +1,3 @@
+{
+    "description": "The Telemetry Unit is used to gather data to be displayed on the telemetry information channel of a nearby Display Screen.\n\nIt can gather information about:\n- players\n- rockets\n- mobs"
+}

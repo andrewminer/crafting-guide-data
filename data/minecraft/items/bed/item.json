@@ -1,0 +1,3 @@
+{
+    "description": "When right-clicked after dark, the bed causes the player to \"sleep\" and \"wake up\" the next morning.  While sleeping, time passes\ninstantly from the moment the player sleeps until the next morning.  If there are monsters within 5m of the player, you won't be\nable to sleep.  Be careful where you place your bed, though: you'll bump your head painfully if you don't have at least 3m in the\nroom where your bed is.\n\nIn addition to passing the night, sleeping also changes the player's spawn point.  The next time the player dies, so long as the\nbed hasn't been broken, the player will spawn next to the bed."
+}

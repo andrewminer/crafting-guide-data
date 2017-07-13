@@ -1,0 +1,3 @@
+{
+    "description": "Free Runners are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing fall damage as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was.\n\nFree Runners can be charged inside of various power-related generators or storage devices, like the Advanced Solar Generator or the Energy Cube. They can hold a maximum charge of 64.0 kJ."
+}
