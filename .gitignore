@@ -1,7 +1,8 @@
+*.swp
 .DS_Store
 aws.config
 build
+data/modpack.cg
 dist
 node_modules
-data/modpack.cg
 tmp.cg
