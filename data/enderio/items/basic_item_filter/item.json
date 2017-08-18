@@ -1,0 +1,1 @@
+{"description":"The basic item filter is used by placing in the matching upgrade slot of an Item Conduit's face GUI. This gives access to 5 different item filter slots. The filter can be set to whitelist or blacklist these items, and can be set to ignore or respect item metadata."}
