@@ -52,7 +52,7 @@ group: Backpacks
 
     item: Builder's Backpack
         recipe:
-            input: Chest, Clay, String, Wool
+            input: Chest, Clay (item), String, Wool
             pattern: 232 101 232
             tools: Crafting Table
 
@@ -100,7 +100,7 @@ group: Backpacks
 
     item: Lepidopterist's Backpack
         recipe:
-            input: Lepitopterist's Chest, Stick, String, Wool
+            input: Lepidopterist's Chest, Stick, String, Wool
             pattern: 232 101 232
             tools: Crafting Table
 
@@ -229,6 +229,8 @@ group: Bee Produce
             input: Frozen Comb
             pattern: ... .0. ...
             tools: Centrifuge
+
+    item: Cocoa Comb
 
     item: Dripping Comb
 
@@ -1160,7 +1162,7 @@ group: Crated
 
     item: Crated Clay
         recipe:
-            input: Clay
+            input: Clay (item)
             pattern: 000 000 000
             tools: Carpenter
 
@@ -1268,7 +1270,7 @@ group: Crated
 
     item: Crated Nether Brick
         recipe:
-            input: Nether Brick
+            input: Nether Brick (block)
             pattern: 000 000 000
             tools: Carpenter
 
@@ -1476,7 +1478,7 @@ group: Farm blocks
 
     item: Farm Block (Nether Brick)
         recipe:
-            input: Copper Ingot, Nether Bricks, Oak Wood Slab, Tin Electron Tube
+            input: Copper Ingot, Nether Brick (block), Oak Wood Slab, Tin Electron Tube
             pattern: 010 232 ...
             tools: Crafting Table
 

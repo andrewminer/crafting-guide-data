@@ -1,0 +1,3 @@
+{
+    "description": "vaccum itemduct will be treated like a section of duct that is -1000 blocks long which effectively makes the pipe system prefer the selected route more. \nExample:\n\nPlace 1 chest, then leave a 1 block gap and place another. connect the 2 chests with item ducts. place 3 more ducts in the middle gap leading away from the 2 chests, then place a vaccum duct and finally a third chest. any items piped out of the first chest, will ignore the second chest and go directly to the third, even though the second chest next to it is technicaly closer.\n\n![](2015-09-13_18.22.18.jpg)"
+}

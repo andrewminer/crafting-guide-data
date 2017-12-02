@@ -443,7 +443,7 @@ group: Items
 
   item: Magnum Torch
     recipe:
-      input: Potion of Regeneration II (0:22), Chandelier, Potion of Healing II, Oak Wood
+      input: Potion of Regeneration II (0:22), Chandelier, Potion of Instant Health II, Oak Wood
       pattern: 012 131 131
       tools: QED (Quantum Entanglement Diviner)
 
@@ -562,7 +562,7 @@ group: Transfer
 
   item: Hyper-Rationing Pipe
     recipe:
-      input: Button, Glass, Lapis Lazuli
+      input: Button (stone), Glass, Lapis Lazuli
       pattern: 000 121 000
       quantity: 2
       tools: Crafting Table

@@ -1,0 +1,3 @@
+{
+    "description": "The Tunnel Bore is a self-propelled steam engine used to bore tunnels. When provided with fuel ([[Coal]], [[Charcoal]], [[Coal Coke]], etc.) and tracks, it will start boring a 3x3 tunnel directly in front of itself.  After each layer is removed, it will lay down a track, and proceed forward.  If provided with [[Gravel]], it will fill in any chasms it finds as it proceeds."
+}

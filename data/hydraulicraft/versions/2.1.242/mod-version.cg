@@ -150,7 +150,7 @@ group: Machine Parts
 
     item: Medium Pressure Valve
         recipe:
-            input: Lever, Media Pressure Pipe
+            input: Lever, Medium Pressure Pipe
             pattern: ... 101 ...
             quantity: 2
             tools: Crafting Table
@@ -438,23 +438,6 @@ group: Minerals
 
     item: Copper Ore
         gatherable: yes
-
-    item: Dark Iron Chunk
-        recipe:
-            input: Dark Iron Ore
-            pattern: ... .0. ...
-            quantity: 2
-            tools: Crusher
-
-    item: Dark Iron Dust
-        recipe:
-            input: Dark Iron Ingot
-            pattern: ... .0. ...
-            tools: Crusher
-        recipe:
-            input: Dark Iron Chunk
-            pattern: 0.. ... ...
-            tools: washer
 
     item: Diamond Shard
         recipe:

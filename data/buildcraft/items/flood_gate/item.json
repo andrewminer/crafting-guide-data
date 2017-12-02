@@ -1,0 +1,3 @@
+{
+    "description": "The flood gate accepts fluids via pipes and places them back in the world as fluid blocks: 1 block per 1000 mB of fluid (i.e., the opposite of a [[Pump]]).  So long as it is provided enough fluid, it will completely fill up the space it is in until the top of the fluid is level with the top of the flood gate.\n\n| ![](example.png) |\n|:----------------:|\n| *the result of using a [[Flood Gate]] (left) and a [[Pump]] (right) to move water* |"
+}

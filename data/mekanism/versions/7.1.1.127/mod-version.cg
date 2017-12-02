@@ -410,49 +410,49 @@ group: Decorative Items
             pattern: ... .0. ...
             tools: Enrichment Chamber
 
-    item: Grey Balloon
+    item: Gray Balloon
         recipe:
             input: Gray Dye, Leather, String
             pattern: .1. .2. .0.
             tools: Crafting Table
 
-    item: Grey Glow Panel
+    item: Gray Glow Panel
         recipe:
             input: Glass Pane, Glowstone Dust, Gray Dye, HDPE Sheet
             pattern: 030 323 131
             quantity: 2
             tools: Crafting Table
 
-    item: Grey Plastic Block
+    item: Gray Plastic Block
         recipe:
             input: Gray Dye, HDPE Sheet
             pattern: 111 101 111
             quantity: 4
             tools: Crafting Table
 
-    item: Grey Plastic Glow Block
+    item: Gray Plastic Glow Block
         recipe:
             input: Glowstone Dust, Gray Plastic Block
             pattern: 11. 10. ...
             quantity: 3
 
-    item: Grey Plastic Road
+    item: Gray Plastic Road
         recipe:
-            input: Grey Slick Plastic Block, Sand
+            input: Gray Slick Plastic Block, Sand
             pattern: 111 000 111
             quantity: 3
             tools: Crafting Table
 
-    item: Grey Reinforced Plastic Block
+    item: Gray Reinforced Plastic Block
         recipe:
-            input: Grey Plastic Block, Osmium Dust
+            input: Gray Plastic Block, Osmium Dust
             pattern: .0. 010 .0.
             quantity: 4
             tools: Crafting Table
 
-    item: Grey Slick Plastic Block
+    item: Gray Slick Plastic Block
         recipe:
-            input: Grey Plastic Block
+            input: Gray Plastic Block
             pattern: ... .0. ...
             tools: Enrichment Chamber
 
@@ -502,49 +502,49 @@ group: Decorative Items
             pattern: ... .0. ...
             tools: Enrichment Chamber
 
-    item: Light Grey Balloon
+    item: Light Gray Balloon
         recipe:
             input: Leather, Light Gray Dye, String
             pattern: .0. .2. .1.
             tools: Crafting Table
 
-    item: Light Grey Glow Panel
+    item: Light Gray Glow Panel
         recipe:
             input: Glass Pane, Glowstone Dust, HDPE Sheet, Light Gray Dye
             pattern: 020 232 121
             quantity: 2
             tools: Crafting Table
 
-    item: Light Grey Plastic Block
+    item: Light Gray Plastic Block
         recipe:
             input: HDPE Sheet, Light Gray Dye
             pattern: 000 010 000
             quantity: 4
             tools: Crafting Table
 
-    item: Light Grey Plastic Glow Block
+    item: Light Gray Plastic Glow Block
         recipe:
-            input: Glowstone Dust, Light Grey Plastic Block
+            input: Glowstone Dust, Light Gray Plastic Block
             pattern: 11. 10. ...
             quantity: 3
 
-    item: Light Grey Plastic Road
+    item: Light Gray Plastic Road
         recipe:
-            input: Light Grey Slick Plastic Block, Sand
+            input: Light Gray Slick Plastic Block, Sand
             pattern: 111 000 111
             quantity: 3
             tools: Crafting Table
 
-    item: Light Grey Reinforced Plastic Block
+    item: Light Gray Reinforced Plastic Block
         recipe:
-            input: Light Grey Plastic Block, Osmium Dust
+            input: Light Gray Plastic Block, Osmium Dust
             pattern: .0. 010 .0.
             quantity: 4
             tools: Crafting Table
 
-    item: Light Grey Slick Plastic Block
+    item: Light Gray Slick Plastic Block
         recipe:
-            input: Light Grey Plastic Block
+            input: Light Gray Plastic Block
             pattern: ... .0. ...
             tools: Enrichment Chamber
 
@@ -1621,11 +1621,6 @@ group: Materials
             tools: Crusher
         recipe:
             input: Wheat
-            pattern: ... .0. ...
-            quantity: 4
-            tools: Crusher
-        recipe:
-            input: Shrub
             pattern: ... .0. ...
             quantity: 4
             tools: Crusher

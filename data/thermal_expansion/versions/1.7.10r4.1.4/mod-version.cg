@@ -390,7 +390,7 @@ group: Lights
         recipe:
             input: 500 Energized Glowstone, Illuminator Frame
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Lumium Lamp
         recipe:
@@ -480,15 +480,15 @@ group: Machines
             pattern: .0. 313 .2.
             tools: Crafting Table
 
-    item: Aqueous Accumulator (Basic)
+    item: Aqueous Accumulator
         recipe:
-            input: Bucket, Copper Gear, Glass, Machine Frame (Basic), Pneumatic Servo
+            input: Bucket, Copper Gear, Glass, Machine Frame, Pneumatic Servo
             pattern: .0. 232 141
             tools: Crafting Table
 
     item: Aqueous Accumulator (Hardened)
         recipe:
-            input: Aqueous Accumulator (Basic), Electrum Gear, Invar Ingot
+            input: Aqueous Accumulator, Electrum Gear, Invar Ingot
             pattern: 212 .0. 2.2
         recipe:
             input: Bucket, Copper Gear, Glass, Machine Frame (Hardened), Pneumatic Servo
@@ -526,15 +526,15 @@ group: Machines
             pattern: .2. 101 .1.
             tools: Crafting Table
 
-    item: Cyclic Assembler (Basic)
+    item: Cyclic Assembler
         recipe:
-            input: Chest, Copper Gear, Machine Frame (Basic), Redstone Reception Coil, Tin Gear
+            input: Chest, Copper Gear, Machine Frame, Redstone Reception Coil, Tin Gear
             pattern: .0. 424 131
             tools: Crafting Table
 
     item: Cyclic Assembler (Hardened)
         recipe:
-            input: Cyclic Assembler (Basic), Electrum Gear, Invar Ingot
+            input: Cyclic Assembler, Electrum Gear, Invar Ingot
             pattern: 212 .0. 2.2
         recipe:
             input: Chest, Copper Gear, Machine Frame (Hardened), Redstone Reception Coil, Tin Gear
@@ -556,15 +556,15 @@ group: Machines
             input: Chest, Copper Gear, Machine Frame (Resonant), Redstone Reception Coil, Tin Gear
             pattern: .0. 424 131
 
-    item: Energetic Infuser (Basic)
+    item: Energetic Infuser
         recipe:
-            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Basic), Redstone Reception Coil, Redstone Transmission Coil
+            input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame, Redstone Reception Coil, Redstone Transmission Coil
             pattern: .1. 424 030
             tools: Crafting Table
 
     item: Energetic Infuser (Hardened)
         recipe:
-            input: Electrum Gear, Energetic Infuser (Basic), Invar Ingot
+            input: Electrum Gear, Energetic Infuser, Invar Ingot
             pattern: 202 .1. 2.2
         recipe:
             input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Hardened), Redstone Reception Coil, Redstone Transmission Coil
@@ -586,15 +586,15 @@ group: Machines
             input: Copper Gear, Leadstone Energy Cell Frame, Machine Frame (Resonant), Redstone Reception Coil, Redstone Transmission Coil
             pattern: .1. 424 030
 
-    item: Fluid Transposer (Basic)
+    item: Fluid Transposer
         recipe:
-            input: Bucket, Copper Gear, Glass, Machine Frame (Basic), Redstone Reception Coil
+            input: Bucket, Copper Gear, Glass, Machine Frame, Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
 
     item: Fluid Transposer (Hardened)
         recipe:
-            input: Electrum Gear, Fluid Transposer (Basic), Invar Ingot
+            input: Electrum Gear, Fluid Transposer, Invar Ingot
             pattern: 202 .1. 2.2
         recipe:
             input: Bucket, Copper Gear, Glass, Machine Frame (Hardened), Redstone Reception Coil
@@ -616,15 +616,15 @@ group: Machines
             input: Bucket, Copper Gear, Glass, Machine Frame (Resonant), Redstone Reception Coil
             pattern: .0. 232 141
 
-    item: Glacial Precipitator (Basic)
+    item: Glacial Precipitator
         recipe:
-            input: Copper Gear, Invar Ingot, Machine Frame (Basic), Piston, Redstone Reception Coil
+            input: Copper Gear, Invar Ingot, Machine Frame, Piston, Redstone Reception Coil
             pattern: .3. 121 040
             tools: Crafting Table
 
     item: Glacial Precipitator (Hardened)
         recipe:
-            input: Electrum Gear, Glacial Precipitator (Basic), Invar Ingot
+            input: Electrum Gear, Glacial Precipitator, Invar Ingot
             pattern: 202 .1. 2.2
         recipe:
             input: Copper Gear, Invar Ingot, Machine Frame (Hardened), Piston, Redstone Reception Coil
@@ -660,15 +660,15 @@ group: Machines
             pattern: 232 010 242
             tools: Crafting Table
 
-    item: Igneous Extruder (Basic)
+    item: Igneous Extruder
         recipe:
-            input: Copper Gear, Glass, Machine Frame (Basic), Piston, Pneumatic Servo
+            input: Copper Gear, Glass, Machine Frame, Piston, Pneumatic Servo
             pattern: .3. 121 040
             tools: Crafting Table
 
     item: Igneous Extruder (Hardened)
         recipe:
-            input: Electrum Gear, Igneous Extruder (Basic), Invar Ingot
+            input: Electrum Gear, Igneous Extruder, Invar Ingot
             pattern: 202 .1. 2.2
         recipe:
             input: Copper Gear, Glass, Machine Frame (Hardened), Piston, Pneumatic Servo
@@ -690,15 +690,15 @@ group: Machines
             input: Copper Gear, Glass, Machine Frame (Resonant), Piston, Pneumatic Servo
             pattern: .3. 121 040
 
-    item: Induction Smelter (Basic)
+    item: Induction Smelter
         recipe:
-            input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Basic), Redstone Reception Coil
+            input: Bucket, Invar Gear, Invar Ingot, Machine Frame, Redstone Reception Coil
             pattern: .0. 232 141
             tools: Crafting Table
 
     item: Induction Smelter (Hardened)
         recipe:
-            input: Electrum Gear, Induction Smelter (Basic), Invar Ingot
+            input: Electrum Gear, Induction Smelter, Invar Ingot
             pattern: 202 .1. 2.2
         recipe:
             input: Bucket, Invar Gear, Invar Ingot, Machine Frame (Hardened), Redstone Reception Coil
@@ -744,15 +744,15 @@ group: Machines
             pattern: 434 121 404
             tools: Crafting Table
 
-    item: Magma Crucible (Basic)
+    item: Magma Crucible
         recipe:
-            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Basic), Nether Brick (block), Redstone Reception Coil
+            input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame, Nether Brick (block), Redstone Reception Coil
             pattern: .1. 323 040
             tools: Crafting Table
 
     item: Magma Crucible (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Magma Crucible (Basic)
+            input: Electrum Gear, Invar Ingot, Magma Crucible
             pattern: 101 .2. 1.1
         recipe:
             input: Invar Gear, Leadstone Energy Cell Frame, Machine Frame (Hardened), Nether Brick (block), Redstone Reception Coil
@@ -785,15 +785,15 @@ group: Machines
             pattern: .2. 101 .1.
             tools: Crafting Table
 
-    item: Phytogenic Insolator (Basic)
+    item: Phytogenic Insolator
         recipe:
-            input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Basic), Redstone Reception Coil
+            input: Copper Gear, Dirt, Lumium Gear, Machine Frame, Redstone Reception Coil
             pattern: .2. 131 040
             tools: Crafting Table
 
     item: Phytogenic Insolator (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Phytogenic Insolator (Basic)
+            input: Electrum Gear, Invar Ingot, Phytogenic Insolator
             pattern: 101 .2. 1.1
         recipe:
             input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Hardened), Redstone Reception Coil
@@ -815,15 +815,15 @@ group: Machines
             input: Copper Gear, Dirt, Lumium Gear, Machine Frame (Resonant), Redstone Reception Coil
             pattern: .2. 131 040
 
-    item: Pulverizer (Basic)
+    item: Pulverizer
         recipe:
-            input: Copper Gear, Flint, Machine Frame (Basic), Piston, Redstone Reception Coil
+            input: Copper Gear, Flint, Machine Frame, Piston, Redstone Reception Coil
             pattern: .3. 121 040
             tools: Crafting Table
 
     item: Pulverizer (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Pulverizer (Basic)
+            input: Electrum Gear, Invar Ingot, Pulverizer
             pattern: 101 .2. 1.1
         recipe:
             input: Copper Gear, Flint, Machine Frame (Hardened), Piston, Redstone Reception Coil
@@ -845,15 +845,15 @@ group: Machines
             input: Copper Gear, Flint, Machine Frame (Resonant), Piston, Redstone Reception Coil
             pattern: .3. 121 040
 
-    item: Redstone Furnace (Basic)
+    item: Redstone Furnace
         recipe:
-            input: Bricks, Copper Gear, Machine Frame (Basic), Redstone, Redstone Reception Coil
+            input: Bricks, Copper Gear, Machine Frame, Redstone, Redstone Reception Coil
             pattern: .3. 020 141
             tools: Crafting Table
 
     item: Redstone Furnace (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Redstone Furnace (Basic)
+            input: Electrum Gear, Invar Ingot, Redstone Furnace
             pattern: 101 .2. 1.1
         recipe:
             input: Bricks, Copper Gear, Machine Frame (Hardened), Redstone, Redstone Reception Coil
@@ -895,15 +895,15 @@ group: Machines
             pattern: .2. 101 .1.
             tools: Crafting Table
 
-    item: Sawmill (Basic)
+    item: Sawmill
         recipe:
-            input: Copper Gear, Iron Axe, Machine Frame (Basic), Oak Wood Planks, Redstone Reception Coil
+            input: Copper Gear, Iron Axe, Machine Frame, Oak Wood Planks, Redstone Reception Coil
             pattern: .1. 323 040
             tools: Crafting Table
 
     item: Sawmill (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Sawmill (Basic)
+            input: Electrum Gear, Invar Ingot, Sawmill
             pattern: 101 .2. 1.1
         recipe:
             input: Copper Gear, Iron Axe, Machine Frame (Hardened), Oak Wood Planks, Redstone Reception Coil
@@ -996,7 +996,7 @@ group: Minerals
         recipe:
             input: Slag
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Furnace Fuel, Slag
             pattern: .1. ... .0.
@@ -1082,7 +1082,7 @@ group: Minerals
             input: Oak Wood
             pattern: ... .0. ...
             quantity: 8
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Slag
         gatherable: yes
@@ -1114,24 +1114,24 @@ group: Parts
             input: Lead Ingot, 4 Pulverized Obsidian
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Pulverized Lead, 4 Pulverized Obsidian
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
 
     item: Hardened Lumium Glass
         recipe:
             input: Lumium Blend, 4 Pulverized Obsidian
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lumium Ingot, 4 Pulverized Obsidian
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
 
     item: Illuminator Frame
         recipe:
@@ -1146,7 +1146,7 @@ group: Parts
             pattern: 212 101 212
             tools: Crafting Table
 
-    item: Machine Frame (Basic)
+    item: Machine Frame
         recipe:
             input: Glass, Iron Ingot, Tin Gear
             pattern: 101 020 101
@@ -1154,7 +1154,7 @@ group: Parts
 
     item: Machine Frame (Hardened)
         recipe:
-            input: Electrum Gear, Invar Ingot, Machine Frame (Basic)
+            input: Electrum Gear, Invar Ingot, Machine Frame
             pattern: 101 .2. 1.1
             tools: Crafting Table
 
@@ -1203,7 +1203,7 @@ group: Parts
         recipe:
             input: 4000 Destabilized Redstone, Redstone Energy Cell Frame (Empty)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Redstone Reception Coil
         recipe:
@@ -1231,7 +1231,7 @@ group: Parts
         recipe:
             input: 4000 Destabilized Redstone, Resonant Energy Cell Frame (Empty)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Schematic
         recipe:
@@ -1248,7 +1248,7 @@ group: Parts
         recipe:
             input: 1000 Resonant Ender, Tesseract Frame (Empty)
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
 group: Plates
 
@@ -1280,7 +1280,7 @@ group: Plates
         recipe:
             input: 1000 Energized Glowstone, Plate Frame
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Redstone Plate
         recipe:
@@ -1290,7 +1290,7 @@ group: Plates
         recipe:
             input: 1000 Destabilized Redstone, Plate Frame
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Teleport Plate
         recipe:
@@ -1310,7 +1310,7 @@ group: Plates
         recipe:
             input: Plate Frame, 1000 Resonant Ender
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
 group: Storage Items
 

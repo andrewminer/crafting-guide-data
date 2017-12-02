@@ -19,6 +19,7 @@ module.exports = (grunt)->
                     mode: 'gzip'
                 files: [
                     {expand: true, cwd:'./data', src:'**/*.cg', dest:'./dist/data'}
+                    {expand: true, cwd:'./data', src:'**/*.json', dest:'./dist/data'}
                 ]
 
         clean:

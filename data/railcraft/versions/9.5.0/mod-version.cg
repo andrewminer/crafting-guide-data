@@ -203,7 +203,7 @@ group: Decorative Blocks
 
     item: Bleached Clay
         recipe:
-            input: Bone Meal, Clay
+            input: Bone Meal, Clay (item)
             pattern: 10. 00. ...
 
     item: Block of Concrete
@@ -451,7 +451,7 @@ group: Decorative Blocks
 
     item: Infernal Block
         recipe:
-            input: Nether Brick, Soul Sand
+            input: Nether Brick (block), Soul Sand
             pattern: 10. 01. ...
         recipe:
             input: Infernal Cobblestone, furnace fuel
@@ -509,7 +509,7 @@ group: Decorative Blocks
 
     item: Nether Cobblestone
         recipe:
-            input: Nether Brick
+            input: Nether Brick (block)
             pattern: ... .0. ...
             tools: Rock Crusher
         recipe:
@@ -1753,7 +1753,7 @@ group: Decorative Walls
 
     item: Nether Brick Wall
         recipe:
-            input: Nether Brick
+            input: Nether Brick (block)
             pattern: 0.0 000 ...
             quantity: 5
             tools: Crafting Table
@@ -2482,7 +2482,7 @@ group: Multi-Block Structures
 
     item: Blast Furnace Brick
         recipe:
-            input: Magma Cream, Nether Brick, Soul Sand
+            input: Magma Cream, Nether Brick (block), Soul Sand
             pattern: 212 101 212
             quantity: 4
             tools: Crafting Table

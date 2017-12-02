@@ -32,7 +32,7 @@ group: Backpacks
             pattern: 111 101 111
             tools: Crafting Table
 
-    item: Grey Backpack
+    item: Gray Backpack
         recipe:
             input: Gray Dye, Woven Cloth
             pattern: 111 101 111
@@ -44,7 +44,7 @@ group: Backpacks
             pattern: 111 101 111
             tools: Crafting Table
 
-    item: Light Grey Backpack
+    item: Light Gray Backpack
         recipe:
             input: Light Gray Dye, Woven Cloth
             pattern: 111 101 111
@@ -276,9 +276,9 @@ group: Cables and Wires
             pattern: 111 101 111
             tools: Crafting Table
 
-    item: Framed Grey Insulated Wire
+    item: Framed Gray Insulated Wire
         recipe:
-            input: Grey Insulated Wire, Oak Wood Strip
+            input: Gray Insulated Wire, Oak Wood Strip
             pattern: 111 101 111
             tools: Crafting Table
 
@@ -288,9 +288,9 @@ group: Cables and Wires
             pattern: 111 101 111
             tools: Crafting Table
 
-    item: Framed Light Grey Insulated Wire
+    item: Framed Light Gray Insulated Wire
         recipe:
-            input: Light Grey Insulated Wire, Oak Wood Strip
+            input: Light Gray Insulated Wire, Oak Wood Strip
             pattern: 111 101 111
             tools: Crafting Table
 
@@ -361,15 +361,15 @@ group: Cables and Wires
             quantity: 12
             tools: Crafting Table
 
-    item: Grey Bundled Cable
+    item: Gray Bundled Cable
         recipe:
             input: Bundled Cable, Ink Sac, String
             pattern: 10. 2.. ...
             tools: Crafting Table
 
-    item: Grey Insulated Wire
+    item: Gray Insulated Wire
         recipe:
-            input: Grey Wool, Red Alloy Ingot
+            input: Gray Wool, Red Alloy Ingot
             pattern: 010 010 010
             quantity: 12
             tools: Crafting Table
@@ -387,15 +387,15 @@ group: Cables and Wires
             quantity: 12
             tools: Crafting Table
 
-    item: Light Grey Bundled Cable
+    item: Light Gray Bundled Cable
         recipe:
             input: Bundled Cable, Ink Sac, String
             pattern: 10. 2.. ...
             tools: Crafting Table
 
-    item: Light Grey Insulated Wire
+    item: Light Gray Insulated Wire
         recipe:
-            input: Light Grey Wool, Red Alloy Ingot
+            input: Light Gray Wool, Red Alloy Ingot
             pattern: 010 010 010
             quantity: 12
             tools: Crafting Table
@@ -493,7 +493,7 @@ group: Cables and Wires
 
     item: White Insulated Wire
         recipe:
-            input: Red Alloy Ingot, White Wool
+            input: Red Alloy Ingot, Wool
             pattern: 101 101 101
             quantity: 12
             tools: Crafting Table
@@ -563,7 +563,7 @@ group: Cards and Chips
 
     item: Item Terminator Chip
         recipe:
-            input: Grey Illumar, Iron Ingot, Null-Logic Routing Chip, Purple Illumar, Redstone
+            input: Gray Illumar, Iron Ingot, Null-Logic Routing Chip, Purple Illumar, Redstone
             pattern: 340 124 340
             tools: Crafting Table
 
@@ -656,7 +656,7 @@ group: Electronics Parts
         recipe:
             input: Copper Coil, Iron Ingot, Redstone, Stone
             pattern: .1. 303 202
-            tools: Crafting Guide
+            tools: Crafting Table
 
     item: Platformed Plate
         recipe:
@@ -709,7 +709,7 @@ group: Lamps and Lights
 
     item: Black Lantern
         recipe:
-            input: Black Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
+            input: Black Illumar, Circuit Plate, Glass Pane, Gold Nugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -739,7 +739,7 @@ group: Lamps and Lights
 
     item: Blue Lantern
         recipe:
-            input: Blue Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
+            input: Blue Illumar, Circuit Plate, Glass Pane, Gold Nugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -769,7 +769,7 @@ group: Lamps and Lights
 
     item: Brown Lantern
         recipe:
-            input: Brown Illumar, Circuit Plate, Glass Pane, Gold Bugget, Redstone
+            input: Brown Illumar, Circuit Plate, Glass Pane, Gold Nugget, Redstone
             pattern: 131 202 141
             tools: Crafting Table
 
@@ -799,7 +799,7 @@ group: Lamps and Lights
 
     item: Cyan Lantern
         recipe:
-            input: Circuit Plate, Cyan Illumar, Glass Pane, Gold Bugget, Redstone
+            input: Circuit Plate, Cyan Illumar, Glass Pane, Gold Nugget, Redstone
             pattern: 030 212 040
             tools: Crafting Table
 
@@ -829,37 +829,37 @@ group: Lamps and Lights
 
     item: Green Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Green Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Green Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
-    item: Grey Cage Lamp
+    item: Gray Cage Lamp
         recipe:
-            input: Circuit Plate, Conductive Plate, Grey Illumar, Iron Bars
+            input: Circuit Plate, Conductive Plate, Gray Illumar, Iron Bars
             pattern: .3. 323 010
             tools: Crafting Table
 
-    item: Grey Fallout Light
+    item: Gray Fallout Light
         recipe:
-            input: Conductive Plate, Gold Nugget, Grey Illumar, Iron Bars
+            input: Conductive Plate, Gold Nugget, Gray Illumar, Iron Bars
             pattern: 333 323 101
             tools: Crafting Table
 
-    item: Grey Fixture
+    item: Gray Fixture
         recipe:
-            input: Circuit Plate, Conductive Plate, Glass Pane, Grey Illumar
+            input: Circuit Plate, Conductive Plate, Glass Pane, Gray Illumar
             pattern: 222 232 010
             tools: Crafting Table
 
-    item: Grey Lamp
+    item: Gray Lamp
         recipe:
-            input: Glass Pane, Grey Illumar, Redstone
+            input: Glass Pane, Gray Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
-    item: Grey Lantern
+    item: Gray Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Grey Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Gray Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1013,33 +1013,33 @@ group: Lamps and Lights
             pattern: 020 131 040
             tools: Crafting Table
 
-    item: Inverted Grey Cage Lamp
+    item: Inverted Gray Cage Lamp
         recipe:
-            input: Cathode, Circuit Plate, Grey Illumar, Iron Bars
+            input: Cathode, Circuit Plate, Gray Illumar, Iron Bars
             pattern: .3. 323 101
             tools: Crafting Table
 
-    item: Inverted Grey Fallout Light
+    item: Inverted Gray Fallout Light
         recipe:
-            input: Cathode, Gold Nugget, Grey Illumar, Iron Bars
+            input: Cathode, Gold Nugget, Gray Illumar, Iron Bars
             pattern: 333 323 101
             tools: Crafting Table
 
-    item: Inverted Grey Fixture
+    item: Inverted Gray Fixture
         recipe:
-            input: Cathode, Circuit Plate, Glass Pane, Grey Illumar
+            input: Cathode, Circuit Plate, Glass Pane, Gray Illumar
             pattern: 222 232 101
             tools: Crafting Table
 
-    item: Inverted Grey Lamp
+    item: Inverted Gray Lamp
         recipe:
-            input: Glass Pane, Grey Illumar, Redstone Torch
+            input: Glass Pane, Gray Illumar, Redstone Torch
             pattern: 010 010 020
             tools: Crafting Table
 
-    item: Inverted Grey Lantern
+    item: Inverted Gray Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Nugget, Grey Illumar, Redstone Torch
+            input: Circuit Plate, Glass Pane, Gold Nugget, Gray Illumar, Redstone Torch
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1073,33 +1073,33 @@ group: Lamps and Lights
             pattern: 020 131 040
             tools: Crafting Table
 
-    item: Inverted Light Grey Cage Lamp
+    item: Inverted Light Gray Cage Lamp
         recipe:
-            input: Cathode, Circuit Plate, Iron Bars, Light Grey Illumar
+            input: Cathode, Circuit Plate, Iron Bars, Light Gray Illumar
             pattern: .2. 232 101
             tools: Crafting Table
 
-    item: Inverted Light Grey Fallout Light
+    item: Inverted Light Gray Fallout Light
         recipe:
-            input: Cathode, Gold Nugget, Iron Bars, Light Grey Illumar
+            input: Cathode, Gold Nugget, Iron Bars, Light Gray Illumar
             pattern: 222 232 101
             tools: Crafting Table
 
-    item: Inverted Light Grey Fixture
+    item: Inverted Light Gray Fixture
         recipe:
-            input: Cathode, Circuit Plate, Glass Pane, Light Grey Illumar
+            input: Cathode, Circuit Plate, Glass Pane, Light Gray Illumar
             pattern: 222 232 101
             tools: Crafting Table
 
-    item: Inverted Light Grey Lamp
+    item: Inverted Light Gray Lamp
         recipe:
-            input: Glass Pane, Light Grey Illumar, Redstone Torch
+            input: Glass Pane, Light Gray Illumar, Redstone Torch
             pattern: 010 010 020
             tools: Crafting Table
 
-    item: Inverted Light Grey Lantern
+    item: Inverted Light Gray Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Nugget, Light Grey Illumar, Redstone Torch
+            input: Circuit Plate, Glass Pane, Gold Nugget, Light Gray Illumar, Redstone Torch
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1369,37 +1369,37 @@ group: Lamps and Lights
 
     item: Light Blue Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Light Blue Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Light Blue Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
-    item: Light Grey Cage Lamp
+    item: Light Gray Cage Lamp
         recipe:
-            input: Circuit Plate, Conductive Plate, Iron Bars, Light Grey Illumar
+            input: Circuit Plate, Conductive Plate, Iron Bars, Light Gray Illumar
             pattern: .2. 232 010
             tools: Crafting Table
 
-    item: Light Grey Fallout Light
+    item: Light Gray Fallout Light
         recipe:
-            input: Conductive Plate, Gold Nugget, Iron Bars, Light Grey Illumar
+            input: Conductive Plate, Gold Nugget, Iron Bars, Light Gray Illumar
             pattern: 222 232 101
             tools: Crafting Table
 
-    item: Light Grey Fixture
+    item: Light Gray Fixture
         recipe:
-            input: Circuit Plate, Conductive Plate, Glass Pane, Light Grey Illumar
+            input: Circuit Plate, Conductive Plate, Glass Pane, Light Gray Illumar
             pattern: 222 232 010
             tools: Crafting Table
 
-    item: Light Grey Lamp
+    item: Light Gray Lamp
         recipe:
-            input: Glass Pane, Light Grey Illumar, Redstone
+            input: Glass Pane, Light Gray Illumar, Redstone
             pattern: 010 010 020
             tools: Crafting Table
 
-    item: Light Grey Lantern
+    item: Light Gray Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Light Grey Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Light Gray Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1429,7 +1429,7 @@ group: Lamps and Lights
 
     item: Lime Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Lime Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Lime Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1459,7 +1459,7 @@ group: Lamps and Lights
 
     item: Magenta Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Magenta Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Magenta Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1489,7 +1489,7 @@ group: Lamps and Lights
 
     item: Orange Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Orange Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Orange Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1519,7 +1519,7 @@ group: Lamps and Lights
 
     item: Pink Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Pink Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Pink Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1549,7 +1549,7 @@ group: Lamps and Lights
 
     item: Purple Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Purple Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Purple Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1579,7 +1579,7 @@ group: Lamps and Lights
 
     item: Red Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Red Illumar, Redstone
+            input: Circuit Plate, Glass Pane, Gold Nugget, Red Illumar, Redstone
             pattern: 020 131 040
             tools: Crafting Table
 
@@ -1609,7 +1609,7 @@ group: Lamps and Lights
 
     item: White Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone, White Illumar
+            input: Circuit Plate, Glass Pane, Gold Nugget, Redstone, White Illumar
             pattern: 020 141 030
             tools: Crafting Table
 
@@ -1639,7 +1639,7 @@ group: Lamps and Lights
 
     item: Yellow Lantern
         recipe:
-            input: Circuit Plate, Glass Pane, Gold Bugget, Redstone, Yellow Illumar
+            input: Circuit Plate, Glass Pane, Gold Nugget, Redstone, Yellow Illumar
             pattern: 020 141 030
             tools: Crafting Table
 
@@ -1677,7 +1677,7 @@ group: Logic Gates
 
     item: Bus Input Panel
         recipe:
-            input: Bundled Plate, Conductive Plate, While Illumar
+            input: Bundled Plate, Conductive Plate, White Illumar
             pattern: 010 020 000
             tools: Crafting Table
 
@@ -1847,7 +1847,7 @@ group: Machines
 
     item: Black Illumar Button
         recipe:
-            input: Black Illumar, Button
+            input: Black Illumar, Button (stone)
             pattern: 10. 0.. ...
 
     item: Black Illumar Feedback Button
@@ -1863,7 +1863,7 @@ group: Machines
 
     item: Blue Illumar Button
         recipe:
-            input: Blue Illumar, Button
+            input: Blue Illumar, Button (stone)
             pattern: 10. 0.. ...
 
     item: Blue Illumar Feedback Button
@@ -1873,7 +1873,7 @@ group: Machines
 
     item: Brown Illumar Button
         recipe:
-            input: Brown Illumar, Button
+            input: Brown Illumar, Button (stone)
             pattern: 10. 0.. ...
 
     item: Brown Illumar Feedback Button
@@ -1883,7 +1883,7 @@ group: Machines
 
     item: Cyan Illumar Button
         recipe:
-            input: Button, Cyan Illumar
+            input: Button (stone), Cyan Illumar
             pattern: 01. 1.. ...
 
     item: Cyan Illumar Feedback Button
@@ -1893,7 +1893,7 @@ group: Machines
 
     item: Green Illumar Button
         recipe:
-            input: Button, Green Illumar
+            input: Button (stone), Green Illumar
             pattern: 01. 1.. ...
 
     item: Green Illumar Feedback Button
@@ -1901,19 +1901,19 @@ group: Machines
             input: Green Illumar Button, Redstone Torch
             pattern: 01. ... ...
 
-    item: Grey Illumar Button
+    item: Gray Illumar Button
         recipe:
-            input: Button, Grey Illumar
+            input: Button (stone), Gray Illumar
             pattern: 01. 1.. ...
 
-    item: Grey Illumar Feedback Button
+    item: Gray Illumar Feedback Button
         recipe:
-            input: Grey Illumar Button, Redstone Torch
+            input: Gray Illumar Button, Redstone Torch
             pattern: 01. ... ...
 
     item: Light Blue Illumar Button
         recipe:
-            input: Button, Light Blue Illumar
+            input: Button (stone), Light Blue Illumar
             pattern: 01. 1.. ...
 
     item: Light Blue Illumar Feedback Button
@@ -1921,19 +1921,19 @@ group: Machines
             input: Light Blue Illumar Button, Redstone Torch
             pattern: 01. ... ...
 
-    item: Light Grey Illumar Button
+    item: Light Gray Illumar Button
         recipe:
-            input: Button, Light Grey Illumar
+            input: Button (stone), Light Gray Illumar
             pattern: 01. 1.. ...
 
-    item: Light Grey Illumar Feedback Button
+    item: Light Gray Illumar Feedback Button
         recipe:
-            input: Light Grey Illumar Button, Redstone Torch
+            input: Light Gray Illumar Button, Redstone Torch
             pattern: 01. ... ...
 
     item: Lime Illumar Button
         recipe:
-            input: Button, Lime Illumar
+            input: Button (stone), Lime Illumar
             pattern: 01. 1.. ...
 
     item: Lime Illumar Feedback Button
@@ -1943,7 +1943,7 @@ group: Machines
 
     item: Magenta Illumar Button
         recipe:
-            input: Button, Magenta Illumar
+            input: Button (stone), Magenta Illumar
             pattern: 01. 1.. ...
 
     item: Magenta Illumar Feedback Button
@@ -1953,7 +1953,7 @@ group: Machines
 
     item: Orange Illumar Button
         recipe:
-            input: Button, Orange Illumar
+            input: Button (stone), Orange Illumar
             pattern: 01. 1.. ...
 
     item: Orange Illumar Feedback Button
@@ -1963,7 +1963,7 @@ group: Machines
 
     item: Pink Illumar Button
         recipe:
-            input: Button, Pink Illumar
+            input: Button (stone), Pink Illumar
             pattern: 01. 1.. ...
 
     item: Pink Illumar Feedback Button
@@ -1973,7 +1973,7 @@ group: Machines
 
     item: Purple Illumar Button
         recipe:
-            input: Button, Purple Illumar
+            input: Button (stone), Purple Illumar
             pattern: 01. 1.. ...
 
     item: Purple Illumar Feedback Button
@@ -1983,7 +1983,7 @@ group: Machines
 
     item: Red Illumar Button
         recipe:
-            input: Button, Red Illumar
+            input: Button (stone), Red Illumar
             pattern: 01. 1.. ...
 
     item: Red Illumar Feedback Button
@@ -1993,7 +1993,7 @@ group: Machines
 
     item: White Illumar Button
         recipe:
-            input: Button, White Illumar
+            input: Button (stone), White Illumar
             pattern: 01. 1.. ...
 
     item: White Illumar Feedback Button
@@ -2003,7 +2003,7 @@ group: Machines
 
     item: Yellow Illumar Button
         recipe:
-            input: Button, Yellow Illumar
+            input: Button (stone), Yellow Illumar
             pattern: 01. 1.. ...
 
     item: Yellow Illumar Feedback Button
@@ -2080,7 +2080,7 @@ group: Minerals
             input: Cactus Green, Glowstone Dust
             pattern: 11. 00. ...
 
-    item: Grey Illumar
+    item: Gray Illumar
         recipe:
             input: Glowstone Dust, Gray Dye
             pattern: 00. 11. ...
@@ -2101,7 +2101,7 @@ group: Minerals
             input: Glowstone Dust, Light Blue Dye
             pattern: 00. 11. ...
 
-    item: Light Grey Illumar
+    item: Light Gray Illumar
         recipe:
             input: Glowstone Dust, Light Gray Dye
             pattern: 00. 11. ...
@@ -2233,13 +2233,13 @@ group: Plants
     item: Green Deviating Lily Seed
         gatherable: yes
 
-    item: Grey Deviating Lily Seed
+    item: Gray Deviating Lily Seed
         gatherable: yes
 
     item: Light Blue Deviating Lily Seed
         gatherable: yes
 
-    item: Light Grey Deviating Lily Seed
+    item: Light Gray Deviating Lily Seed
         gatherable: yes
 
     item: Lime Deviating Lily Seed

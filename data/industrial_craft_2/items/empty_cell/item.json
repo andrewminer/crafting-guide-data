@@ -1,0 +1,3 @@
+{
+    "description": "Empty Cells are made to be filled!  Each one can contain up to 1000mB of most fluids: just right-click the fluid block to fill the cell.  Generally, IC2 machines which operate on fluids will expect it to be provided via filled cells.  Also, since they are cheap and they stack, cells make a much more convenient way to transport liquid in your inventory than [[Bucket]]s."
+}

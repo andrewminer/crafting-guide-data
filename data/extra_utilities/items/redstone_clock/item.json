@@ -1,0 +1,1 @@
+{"description":"The Redstone Clock is a block added by the Extra Utilities mod.\n\nIt emits a one tick duration Redstone signal per second. It does not visually change while pulsing to keep lag to a minimum, so its effect is only visible on connected Redstone-sensitive blocks."}

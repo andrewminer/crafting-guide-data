@@ -1,0 +1,48 @@
+#!/usr/bin/env coffee
+
+{Converter}            = require("crafting-guide-common").deprecated
+fs                     = require "fs"
+{Logger}               = require("crafting-guide-common").util
+{Mod}                  = require("crafting-guide-common").deprecated.game
+{ModPack}              = require("crafting-guide-common").deprecated.game
+{ModPackJsonFormatter} = require("crafting-guide-common").parsing
+{ModVersion}           = require("crafting-guide-common").deprecated.game
+{ModVersionParser}     = require("crafting-guide-common").deprecated.parsing
+path                   = require "path"
+
+########################################################################################################################
+
+global.logger = new Logger level:Logger.INFO
+
+try
+    modPack = new ModPack
+
+    modSlugs = fs.readdirSync "data"
+    for modSlug in modSlugs
+        try
+            modVersions = fs.readdirSync path.join "data", modSlug, "versions"
+        catch e
+            continue # skip this mod, it has no mod version data
+
+        lastVersion = modVersions.pop()
+        text = fs.readFileSync path.join("data", modSlug, "versions", lastVersion, "mod-version.cg"), "UTF-8"
+
+        modVersion = new ModVersion modSlug:modSlug, version:lastVersion
+        parser = new ModVersionParser model:modVersion
+        parser.parse text
+
+        mod = new Mod slug:modSlug
+        text = fs.readFileSync path.join("data", modSlug, "mod.cg"), "UTF-8"
+        mod.parse text
+        mod.addModVersion modVersion
+
+        modPack.addMod mod
+
+    converter = new Converter
+    newModPack = converter.convert "crafting-guide", "Crafting Guide", modPack
+
+    formatter = new ModPackJsonFormatter
+    json = formatter.format newModPack
+    fs.writeFileSync path.join("data", "modpacks", "#{newModPack.id}.json"), json, encoding:"UTF-8"
+catch e
+    console.error e.stack

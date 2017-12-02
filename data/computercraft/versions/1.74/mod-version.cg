@@ -135,7 +135,7 @@ group: Floppy Disks
 
     item: Floppy Disk (Green)
         recipe:
-            input: Green Dye, Paper, Redstone
+            input: Cactus Green, Paper, Redstone
             pattern: 21. 0.. ...
 
     item: Floppy Disk (Light Blue)
@@ -180,7 +180,7 @@ group: Floppy Disks
 
     item: Floppy Disk (White)
         recipe:
-            input: Bonemeal, Paper, Redstone
+            input: Cactus Green, Paper, Redstone
             pattern: 21. 0.. ...
 
     item: Floppy Disk (Yellow)

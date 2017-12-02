@@ -768,10 +768,6 @@ group: Upgrades
             input: Compass, Empty Map, Gold Ingot, Microchip (Tier 2), Water Bottle
             pattern: 202 313 242
             tools: Crafting Table
-        recipe:
-            input: Compass, Gold Ingot, Map (completed), Microchip (Tier 2), Water Bottle
-            pattern: 101 323 141
-            tools: Crafting Table
 
     item: Piston Upgrade
         recipe:

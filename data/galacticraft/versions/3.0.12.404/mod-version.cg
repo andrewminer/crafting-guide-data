@@ -521,7 +521,7 @@ group: Food
 
     item: Can of Food (Melon)
         recipe:
-            input: Melon, Tin Canister
+            input: Melon (item), Tin Canister
             pattern: 10. 0.. ...
 
     item: Can of Food (Potato)
@@ -731,7 +731,7 @@ group: Machines
 
     item: Circuit Fabricator
         recipe:
-            input: Aluminum Ingot, Aluminum Wire, Button, Furnace, Lever, Redstone Torch
+            input: Aluminum Ingot, Aluminum Wire, Button (stone), Furnace, Lever, Redstone Torch
             pattern: 040 232 151
             tools: Crafting Table
 
@@ -1358,7 +1358,7 @@ group: Rockets
 
     item: Rocket (Tier 2 capacity: 54)
         recipe:
-            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), Chest 3, Nose Cone, Rocket Engine (Tier 1)
+            input: 10 Heavy-Duty Plate (Tier 2), 4 Rocket Fins, 2 Booster (Tier 1), 3 Chest, Nose Cone, Rocket Engine (Tier 1)
             pattern: 402 153 ...
             tools: Crafting Table
 

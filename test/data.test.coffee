@@ -1,15 +1,18 @@
-###
-Crafting Guide - data.test.coffee
+#
+# Crafting Guide Data - data.test.coffee
+#
+# Copyright (c) 2015-2017 by Redwood Labs
+# All rights reserved.
+#
 
-Copyright (c) 2015 by Redwood Labs
-All rights reserved.
-###
+CraftingGuideCommon = require "crafting-guide-common"
+fs                  = require 'fs'
 
-{Mod}              = require 'crafting-guide'
-{ModParser}        = require 'crafting-guide'
-{ModVersion}       = require 'crafting-guide'
-{ModVersionParser} = require 'crafting-guide'
-fs                 = require 'fs'
+_                   = CraftingGuideCommon._
+Mod                 = CraftingGuideCommon.deprecated.game.Mod
+ModParser           = CraftingGuideCommon.deprecated.parsing.ModParser
+ModVersion          = CraftingGuideCommon.deprecated.game.ModVersion
+ModVersionParser    = CraftingGuideCommon.deprecated.parsing.ModVersionParser
 
 ########################################################################################################################
 
@@ -31,7 +34,7 @@ describe 'data files for', ->
                     return
 
                 it 'loads mod.cg without errors', ->
-                    modParser.errors.should.eql []
+                    (e.stack for e in modParser.errors).should.eql []
                     mod.name.should.not.equal ''
                     mod.activeModVersion.should.exist
 

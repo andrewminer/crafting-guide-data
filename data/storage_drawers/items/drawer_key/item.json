@@ -1,0 +1,3 @@
+{
+    "description": "Clicking a full, half or compacting drawer while holding the key will toggle the drawer's lock state. When a drawer is locked it will show a little key hole on its top border. A locked drawer will only accept items it already contains. If it is part of a network, “free” spaces will not be filled. You can withdraw the last item from a locked drawer without it losing the item. Compared to an unlocked drawer that would show an empty drawer in this case."
+}

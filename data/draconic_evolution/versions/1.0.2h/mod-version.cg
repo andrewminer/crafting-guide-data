@@ -266,7 +266,7 @@ group: Energy
 
     item: Generator
         recipe:
-            input: Draconic Core, Furnace, Iron Ingot, Nether Brick
+            input: Draconic Core, Furnace, Iron Ingot, Nether Brick (block)
             pattern: 323 212 303
             tools: Crafting Table
 
@@ -322,7 +322,7 @@ group: Machines
 
     item: Dislocator Pedestal
         recipe:
-            input: Blaze Powder, Pressure Plate, Stone, Stone Slab
+            input: Blaze Powder, Pressure Plate (stone), Stone, Stone Slab
             pattern: .1. .2. 303
             tools: Crafting Table
 

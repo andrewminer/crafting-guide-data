@@ -225,75 +225,75 @@ group: Fluids
             input: Pyrotheum Dust
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Blazing Pyrotheum Bucket
         recipe:
             input: 1000 Blazing Pyrotheum, Bucket
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Destabilized Redstone
         recipe:
             input: Block of Redstone
             pattern: ... .0. ...
             quantity: 900
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
         recipe:
             input: Redstone
             pattern: ... .0. ...
             quantity: 100
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Destabilized Redstone Bucket
         recipe:
             input: Bucket, 1000 Destabilized Redstone
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Energized Glowstone
         recipe:
             input: Glowstone
             pattern: ... .0. ...
             quantity: 1000
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
         recipe:
             input: Glowstone Dust
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Energized Glowstone Bucket
         recipe:
             input: Bucket, 1000 Energized Glowstone
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Gelid Cryotheum
         recipe:
             input: Cryotheum Dust
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Gelid Cryotheum Bucket
         recipe:
             input: Bucket, 1000 Gelid Cryotheum
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Liquifacted Coal
         recipe:
             input: Pulverized Coal
             pattern: ... .0. ...
             quantity: 100
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Liquifacted Coal Bucket
         recipe:
             input: Bucket, 1000 Liquifacted Coal
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Primal Mana
         gatherable: yes
@@ -302,20 +302,20 @@ group: Fluids
         recipe:
             input: Bucket, 1000 Primal Mana
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Resonant Ender
         recipe:
             input: Ender Pearl
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Resonant Ender Bucket
         recipe:
             input: Bucket, 1000 Resonant Ender
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Steam
         gatherable: yes
@@ -325,26 +325,26 @@ group: Fluids
             input: Petrotheum Dust
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Tectonic Petrotheum Bucket
         recipe:
             input: Bucket, 1000 Tectonic Petrotheum
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Zephyrean Aerotheum
         recipe:
             input: Aerotheum Dust
             pattern: ... .0. ...
             quantity: 250
-            tools: Magma Crucible (Basic)
+            tools: Magma Crucible
 
     item: Zephyrean Aerotheum Bucket
         recipe:
             input: Bucket, 1000 Zephyrean Aerotheum
             pattern: ... 0.1 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
 group: Gears
 
@@ -454,7 +454,7 @@ group: Minerals
         recipe:
             input: Bronze Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Bronze Block
         recipe:
@@ -470,12 +470,12 @@ group: Minerals
         recipe:
             input: Bronze Blend
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Bronze Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Blend, Furnace Fuel
             pattern: .0. ... .1.
@@ -484,76 +484,76 @@ group: Minerals
             input: Bronze Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Bronze Blend, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 3 Copper Ingot, Tin Ingot
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 3 Pulverized Copper, Pulverized Tin
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Bronze Nugget
             pattern: 000 000 000
@@ -587,51 +587,51 @@ group: Minerals
         recipe:
             input: Copper Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Pulverized Copper
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Copper Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Ore, Furnace Fuel
             pattern: .0. ... .1.
@@ -640,46 +640,46 @@ group: Minerals
             input: Copper Ore, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Ore, Rich Slag
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Ore, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Pulverized Copper
             pattern: .1. ... .0.
@@ -688,7 +688,7 @@ group: Minerals
             input: 2 Pulverized Copper, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Copper Nugget
             pattern: 000 000 000
@@ -700,15 +700,28 @@ group: Minerals
             pattern: ... .0. ...
             quantity: 9
         recipe:
+            extras: Cuprosia Seeds
+            input: Cuprosia Seeds, Dirt
+            pattern: .0. .1. ...
+        recipe:
             input: Temperate Fluiduct (Opaque)
             pattern: ... .0. ...
             quantity: 3
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: Temperate Fluiduct
             pattern: ... .0. ...
             quantity: 3
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
+        recipe:
+            input: Cuprosia Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Cuprosia Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Copper Ore
         gatherable: yes
@@ -727,7 +740,7 @@ group: Minerals
         recipe:
             input: Electrum Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Electrum Block
         recipe:
@@ -743,12 +756,12 @@ group: Minerals
         recipe:
             input: Electrum Blend
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Electrum Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Blend, Furnace Fuel
             pattern: .0. ... .1.
@@ -757,76 +770,76 @@ group: Minerals
             input: Electrum Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Gold Ingot, Silver Ingot
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Pulverized Gold, Pulverized Silver
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Electrum Blend, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Electrum Nugget
             pattern: 000 000 000
@@ -842,7 +855,7 @@ group: Minerals
         recipe:
             input: Enderium Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             extras: Bucket
             input: Pulverized Shiny Metal, Pulverized Silver, Pulverized Tin, Resonant Ender Bucket
@@ -865,7 +878,7 @@ group: Minerals
             input: 2 Enderium Blend, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Enderium Nugget
             pattern: 000 000 000
@@ -896,51 +909,51 @@ group: Minerals
         recipe:
             input: Ferrous Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Pulverized Ferrous Metal
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Ferrous Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Ore, Furnace Fuel
             pattern: .0. ... .1.
@@ -949,46 +962,46 @@ group: Minerals
             input: Ferrous Ore, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Ore, Rich Slag
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Ore, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Pulverized Ferrous Metal
             pattern: .1. ... .0.
@@ -997,7 +1010,7 @@ group: Minerals
             input: 2 Pulverized Ferrous Metal, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Nugget
             pattern: 000 000 000
@@ -1008,6 +1021,19 @@ group: Minerals
             input: Ferrous Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Niccissus Seeds
+            input: Dirt, Niccissus Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Niccissus Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Niccissus Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Ferrous Ore
         gatherable: yes
@@ -1020,7 +1046,7 @@ group: Minerals
         recipe:
             input: Invar Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Invar Block
         recipe:
@@ -1036,7 +1062,7 @@ group: Minerals
         recipe:
             input: Invar Blend
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Furnace Fuel, Invar Blend
             pattern: .1. ... .0.
@@ -1045,81 +1071,81 @@ group: Minerals
             input: Invar Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Ferrous Ingot, 2 Iron Ingot
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Invar Blend, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Pulverized Ferrous Metal, 2 Pulverized Iron
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Invar Nugget
             pattern: 000 000 000
@@ -1136,6 +1162,19 @@ group: Minerals
             input: Iron Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Ferranium Seeds
+            input: Dirt, Ferranium Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Ferranium Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Ferranium Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Lead Block
         recipe:
@@ -1156,16 +1195,16 @@ group: Minerals
         recipe:
             input: Lead Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Pulverized Lead
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Lead Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Lead Ore
             pattern: .1. ... .0.
@@ -1178,86 +1217,86 @@ group: Minerals
             input: Lead Axe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Boots, Sand
             pattern: ... 1.0 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Chestplate, Sand
             pattern: ... 1.0 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Fishing Rod, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Helmet, Sand
             pattern: ... 1.0 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Hoe, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Leggings, Sand
             pattern: ... 1.0 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Ore, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Ore, Rich Slag
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Ore, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Pickaxe, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Reinforced Bow, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Shears, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Shovel, Sand
             pattern: ... 1.0 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Sickle, Sand
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Sword, Sand
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Lead, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lead Nugget
             pattern: 000 000 000
@@ -1268,6 +1307,19 @@ group: Minerals
             input: Lead Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Plombean Seeds
+            input: Dirt, Plombean Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Phyto-Gro, Plombean Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Plombean Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Lead Ore
         gatherable: yes
@@ -1276,7 +1328,7 @@ group: Minerals
         recipe:
             input: Lumium Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             extras: Bucket
             input: Energized Glowstone Bucket, Pulverized Silver, Pulverized Tin
@@ -1298,7 +1350,7 @@ group: Minerals
         recipe:
             input: Lumium Blend
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Furnace Fuel, Lumium Blend
             pattern: .1. ... .0.
@@ -1307,7 +1359,7 @@ group: Minerals
             input: 2 Lumium Blend, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Lumium Nugget
             pattern: 000 000 000
@@ -1340,16 +1392,16 @@ group: Minerals
         recipe:
             input: Mana Infused Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Pulverized Mana Infused Metal
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Mana Infused Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Mana Infused Ore
             pattern: .1. ... .0.
@@ -1362,27 +1414,27 @@ group: Minerals
             input: Mana Infused Ore, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Mana Infused Ore, Rich Slag
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Mana Infused Ore, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Mana Infused Metal, Pyrotheum Dust
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Mana Infused Metal, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Mana Infused Nugget
             pattern: 000 000 000
@@ -1410,37 +1462,37 @@ group: Minerals
         recipe:
             input: Charcoal
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Coal
         recipe:
             input: Coal
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Copper
         recipe:
             input: Copper Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Copper Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Ferrous Metal
         recipe:
             input: Ferrous Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Ferrous Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Gold
         recipe:
@@ -1448,17 +1500,17 @@ group: Minerals
             input: Gold Horse Armor
             pattern: ... .0. ...
             quantity: 5
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: Gold Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Gold Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Iron
         recipe:
@@ -1466,84 +1518,84 @@ group: Minerals
             input: Iron Horse Armor
             pattern: ... .0. ...
             quantity: 5
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: Iron Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Iron Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Lead
         recipe:
             input: Lead Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Lead Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Mana Infused Metal
         recipe:
             input: Mana Infused Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Mana Infused Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Obsidian
         recipe:
             input: Obsidian
             pattern: ... .0. ...
             quantity: 4
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Shiny Metal
         recipe:
             input: Shiny Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Shiny Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Silver
         recipe:
             input: Silver Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Silver Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pulverized Tin
         recipe:
             input: Tin Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             ignoreDuringCrafting: yes
             input: Tin Ore
             pattern: ... .0. ...
             quantity: 2
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
 
     item: Pyrotheum Dust
         recipe:
@@ -1570,16 +1622,16 @@ group: Minerals
         recipe:
             input: Pulverized Shiny Metal
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Shiny Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Shiny Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Pulverized Shiny Metal
             pattern: .1. ... .0.
@@ -1592,86 +1644,86 @@ group: Minerals
             input: Pyrotheum Dust, Shiny Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Rich Slag, Shiny Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Axe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Boots
             pattern: ... 0.1 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Chestplate
             pattern: ... 0.1 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Fishing Rod
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Helmet
             pattern: ... 0.1 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Hoe
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Leggings
             pattern: ... 0.1 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Pickaxe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Reinforced Bow
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Shears
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Shovel
             pattern: ... 0.1 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Sickle
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Shiny Sword
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Shiny Metal, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Shiny Nugget
             pattern: 000 000 000
@@ -1682,6 +1734,19 @@ group: Minerals
             input: Shiny Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Platiolus Seeds
+            input: Dirt, Platiolus Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Phyto-Gro, Platiolus Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Platiolus Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Shiny Ore
         gatherable: yes
@@ -1690,7 +1755,7 @@ group: Minerals
         recipe:
             input: Signalum Ingot
             pattern: ... .0. ...
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             extras: Bucket
             input: Destabilized Redstone Bucket, Pulverized Copper, Pulverized Silver
@@ -1712,7 +1777,7 @@ group: Minerals
         recipe:
             input: Signalum Blend
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Furnace Fuel, Signalum Blend
             pattern: .1. ... .0.
@@ -1721,7 +1786,7 @@ group: Minerals
             input: Sand, 2 Signalum Blend
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Signalum Nugget
             pattern: 000 000 000
@@ -1752,16 +1817,16 @@ group: Minerals
         recipe:
             input: Pulverized Silver
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Silver Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Silver Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Pulverized Silver
             pattern: .1. ... .0.
@@ -1774,86 +1839,86 @@ group: Minerals
             input: Pyrotheum Dust, Silver Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Rich Slag, Silver Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Axe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Boots
             pattern: ... 0.1 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Chestplate
             pattern: ... 0.1 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Fishing Rod
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Helmet
             pattern: ... 0.1 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Hoe
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Leggings
             pattern: ... 0.1 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Pickaxe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Reinforced Bow
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Shears
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Shovel
             pattern: ... 0.1 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Sickle
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Silver Sword
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Silver, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Silver Nugget
             pattern: 000 000 000
@@ -1864,6 +1929,19 @@ group: Minerals
             input: Silver Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Silverweed Seeds
+            input: Dirt, Silverweed Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Phyto-Gro, Silverweed Seeds
+            pattern: ... 1.0 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Rich Phyto-Gro, Silverweed Seeds
+            pattern: ... 1.0 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Silver Ore
         gatherable: yes
@@ -1890,16 +1968,16 @@ group: Minerals
         recipe:
             input: Pulverized Tin
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Tin Ore
             pattern: ... .0. ...
-            tools: Redstone Furnace (Basic)
+            tools: Redstone Furnace
         recipe:
             input: Cinnabar, Tin Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Furnace Fuel, Pulverized Tin
             pattern: .1. ... .0.
@@ -1912,86 +1990,86 @@ group: Minerals
             input: Pyrotheum Dust, Tin Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Rich Slag, Tin Ore
             pattern: ... 1.0 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Axe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Boots
             pattern: ... 0.1 ...
             quantity: 4
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Chestplate
             pattern: ... 0.1 ...
             quantity: 8
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Fishing Rod
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Helmet
             pattern: ... 0.1 ...
             quantity: 5
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Hoe
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Leggings
             pattern: ... 0.1 ...
             quantity: 7
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Ore
             pattern: ... 1.0 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Pickaxe
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Reinforced Bow
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Shears
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Shovel
             pattern: ... 0.1 ...
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Sickle
             pattern: ... 0.1 ...
             quantity: 3
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Sand, Tin Sword
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: 2 Pulverized Tin, Sand
             pattern: ... 0.1 ...
             quantity: 2
-            tools: Induction Smelter (Basic)
+            tools: Induction Smelter
         recipe:
             input: Tin Nugget
             pattern: 000 000 000
@@ -2002,6 +2080,19 @@ group: Minerals
             input: Tin Ingot
             pattern: ... .0. ...
             quantity: 9
+        recipe:
+            extras: Petinia Seeds
+            input: Dirt, Petinia Seeds
+            pattern: .1. .0. ...
+        recipe:
+            input: Petinia Seeds, Phyto-Gro
+            pattern: ... 0.1 ...
+            tools: Phytogenic Insolator
+        recipe:
+            input: Petinia Seeds, Rich Phyto-Gro
+            pattern: ... 0.1 ...
+            quantity: 3
+            tools: Phytogenic Insolator
 
     item: Tin Ore
         gatherable: yes
@@ -2017,11 +2108,11 @@ group: Mob Drops
             input: Basalz Rod
             pattern: ... .0. ...
             quantity: 4
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: 200 Destabilized Redstone, Pulverized Obsidian
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Basalz Rod
         gatherable: yes
@@ -2035,11 +2126,11 @@ group: Mob Drops
             input: Blitz Rod
             pattern: ... .0. ...
             quantity: 4
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: 200 Destabilized Redstone, Sand
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Blitz Rod
         gatherable: yes
@@ -2053,11 +2144,11 @@ group: Mob Drops
             input: Blizz Rod
             pattern: ... .0. ...
             quantity: 4
-            tools: Pulverizer (Basic)
+            tools: Pulverizer
         recipe:
             input: 200 Destabilized Redstone, Snowball
             pattern: ... 1.0 ...
-            tools: Fluid Transposer (Basic)
+            tools: Fluid Transposer
 
     item: Blizz Rod
         gatherable: yes

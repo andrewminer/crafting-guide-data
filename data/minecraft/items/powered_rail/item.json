@@ -1,0 +1,3 @@
+{
+    "description": "Powered Rails provide a way to control the motion [[Minecart]]s passing over them.  When provided with a redstone signal, these rails will speed up any cart passing by.  Without a signal, they will slow a cart down.  This can be used to automatically propel minecarts over long distances at considerable speed.  Unlike regular [[Track]], however, they cannot go around curves.\n\nThe [Railcraft](/browse/railcraft) mod adds a lot of options for high-speed minecart and trail travel. See the following  pages to see Railcraft's high-speed options: [[H.S. Track]], [[H.S. Transition Track]], [[H.S. Booster Track]], [[Reinforced Track]] and [[Reinforced Booster Track]]"
+}
