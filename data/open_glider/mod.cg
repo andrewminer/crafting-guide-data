@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Open Glider
+author:           gr8pefish
+description:      Open Glider adds a hang glider to Minecraft, allowing you to soar through the skies and explore your world's beauty.
+homePageUrl:      https://minecraft.curseforge.com/projects/open-glider
+documentationUrl: https://minecraft.curseforge.com/projects/open-glider
+downloadUrl:      https://minecraft.curseforge.com/projects/open-glider/files
+
+version: 1.12.1-1.1.0

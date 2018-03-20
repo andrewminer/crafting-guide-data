@@ -1,0 +1,37 @@
+schema: 1
+
+# item: Advanced Hang Glider
+#     recipe:
+#         input: Glider Wing (Left), Hang Glider, Glider Wing (Right), Elytra
+#         pattern: .3. 012 .3.
+#         quantity: 1
+#         tools: Crafting Table
+
+# item: Glider Wing (Left)
+#     recipe:
+#         input: Stick, Leather
+#         pattern: .01 011 111
+#         quantity: 1
+#         tools: Crafting Table
+
+# item: Glider Wing (Right)
+#     recipe:
+#         input: Stick, Leather
+#         pattern: 10. 110 111
+#         quantity: 1
+#         tools: Crafting Table
+
+# item: Hang Glider
+#     recipe:
+#         input: Glider Wing (Left), Scaffolding, Glider Wing (Right)
+#         pattern: ... 012 ...
+#         quantity: 1
+#         tools: Crafting Table
+
+# item: Scaffolding
+#     recipe:
+#         input: Iron Ingot
+#         pattern: .0. 0.0 000
+#         quantity: 1
+#         tools: Crafting Table
+
