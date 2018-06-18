@@ -1,0 +1,113 @@
+schema: 1
+
+ item: Advanced Lappack
+     recipe:
+         input: Energypack, Advanced Circuit, Energy Crystal
+         pattern: .0. .1. .2.
+         quantity: 1
+         tools: Crafting Table
+         
+ item: Advanced Electric Jetpack
+     recipe:
+         input: Carbon Plate, Electric Jetpack, Engine Booster, Advanced Lappack, Glass Fibre Cable, Advanced Circuit
+         pattern: 010 232 454
+         quantity: 1
+         tools: Crafting Table
+
+ item: Advanced NanoChestplate
+     recipe:
+         input: Carbon Plate, Advanced Electric Jetpack, NanoSuit Bodyarmor, Glass Fibre Cable, Advanced Circuit
+         pattern: 010 020 343
+         quantity: 1
+         tools: Crafting Table
+
+ item: Ultimate Lappack
+     recipe:
+         input: Lapotron Crystal, Iridium Reinforced Plate, Lappack, Superconductor
+         pattern: 010 020 030
+         quantity: 1
+         tools: Crafting Table
+
+ item: GraviChestPlate
+     recipe:
+         input: Superconductor, QuantumSuit Bodyarmor, Gravitation Engine, HV-Transformer, Ultimate Lappack
+         pattern: 010 232 040
+         quantity: 1
+         tools: Crafting Table
+
+ item: Advanced Diamond Drill
+     recipe:
+         input: Overclocker Upgrade, Diamond Drill, Advanced Circuit
+         pattern: ... 010 202
+         quantity: 1
+         tools: Crafting Table
+
+ item: Advanced Chainsaw
+     recipe:
+         input: Diamond, Overclocker Upgrade, Chainsaw, Advanced Circuit
+         pattern: .0. 121 313
+         quantity: 1
+         tools: Crafting Table
+
+ item: GraviTool
+     recipe:
+         input: Carbon Plate, Electric Hoe, Advanced Alloy, Energy Crystal, Electric Wrench, Advanced Circuit, Electric Treetap
+         pattern: 010 232 456
+         quantity: 1
+         tools: Crafting Table
+
+ item: Vajra
+     recipe:
+         input: Iron Plate, Energy Crystal, Carbon Plate, Vajra Core, Advanced Alloy, Lapotron Crystal
+         pattern: 010 232 454
+         quantity: 1
+         tools: Crafting Table
+
+ item: Superconductor Cover
+     recipe:
+         input: Advanced Alloy, Iridium Reinforced Plate, Carbon Plate
+         pattern: 010 222 010
+         quantity: 3
+         tools: Crafting Table
+
+ item: Superconductor
+     recipe:
+         input: Superconductor Cover, Glass Fibre Cable, Gold Ingot
+         pattern: 000 121 000
+         quantity: 3
+         tools: Crafting Table
+
+ item: Cooling Core
+     recipe:
+         input: 60k Coolant Cell, Advanced Heat Exchanger, Heat-Capacity Reactor Plating, Iridium Reinforced Plate
+         pattern: 010 232 010
+         quantity: 1
+         tools: Crafting Table
+
+ item: Gravitation Engine
+     recipe:
+         input: Tesla Coil, Superconductor, Cooling Core, HV-Transformer
+         pattern: 010 232 010
+         quantity: 1
+         tools: Crafting Table
+
+ item: Magnetron
+     recipe:
+         input: Iron Plate, Copper Plate, Superconductor
+         pattern: 010 121 010
+         quantity: 1
+         tools: Crafting Table
+
+ item: Vajra Core
+     recipe:
+         input: Magnetron, Iridium Reinforced Plate, Tesla Coil, Superconductor, HV-Transformer
+         pattern: .0. 121 343
+         quantity: 1
+         tools: Crafting Table
+
+ item: Engine Booster
+     recipe:
+         input: Glowstone Dust, Advanced Alloy, Advanced Circuit, Overclocker Upgrade, Advanced Heat Vent
+         pattern: 010 232 141
+         quantity: 1
+tools: Crafting Table
