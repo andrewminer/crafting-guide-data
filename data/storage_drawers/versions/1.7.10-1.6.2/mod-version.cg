@@ -227,31 +227,31 @@ group: Storage Upgrades
     item: Storage Upgrade (II)
         recipe:
             input: Iron Ingot, Stick, Upgrade Template
-            pattern: 010 121 010
+            pattern: 111 020 111
             tools: Crafting Table
 
     item: Storage Upgrade (III)
         recipe:
             input: Gold Ingot, Stick, Upgrade Template
-            pattern: 010 121 010
+            pattern: 111 020 111
             tools: Crafting Table
 
     item: Storage Upgrade (IV)
         recipe:
             input: Obsidian, Stick, Upgrade Template
-            pattern: 010 121 010
+            pattern: 111 020 111
             tools: Crafting Table
 
     item: Storage Upgrade (V)
         recipe:
             input: Diamond, Stick, Upgrade Template
-            pattern: 010 121 010
+            pattern: 111 020 111
             tools: Crafting Table
 
     item: Storage Upgrade (VI)
         recipe:
             input: Emerald, Stick, Upgrade Template
-            pattern: 010 121 010
+            pattern: 111 020 111
             tools: Crafting Table
 
     item: Upgrade Template
