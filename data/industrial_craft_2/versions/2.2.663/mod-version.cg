@@ -3095,6 +3095,12 @@ group: Tools
             pattern: 0.0 000 .0.
             tools: Crafting Table
 
+    item: Wrench (New)
+        recipe:
+            input: Bronze Ingot
+            pattern: .0. 000 0.0
+            tools: Crafting Table
+
 group: Tools: Electric
 
     item: Chainsaw
