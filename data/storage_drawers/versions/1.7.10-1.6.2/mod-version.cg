@@ -254,6 +254,42 @@ group: Storage Upgrades
             pattern: 000 121 000
             tools: Crafting Table
 
+    item: Storage Downgrade
+        recipe:
+            input: Coal, Stick, Upgrade Template
+            pattern: 000 121 000
+            tools: Crafting Table
+
+    item: Storage Upgrade (VI)
+        recipe:
+            input: Emerald, Stick, Upgrade Template
+            pattern: 000 121 000
+            tools: Crafting Table
+
+    item: Conversion Upgrade
+        recipe:
+            input: Lapis, Stick, Upgrade Template
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Redstone Upgrade
+        recipe:
+            input: Redstone, Stick, Upgrade Template
+            pattern: 010 121 010
+            tools: Crafting Table
+
+    item: Redstone Max Upgrade
+        recipe:
+            input: Redstone, Stick, Upgrade Template
+            pattern: 000 121 111
+            tools: Crafting Table
+
+    item: Redstone Min Upgrade
+        recipe:
+            input: Redstone, Stick, Upgrade Template
+            pattern: 111 121 000
+            tools: Crafting Table
+
     item: Upgrade Template
         recipe:
             input: Oak Drawer, Stick
@@ -263,8 +299,8 @@ group: Storage Upgrades
 
     item: Void Upgrade
         recipe:
-            input: Obsidian, Stick, Upgrade Template
-            pattern: 111 020 111
+            input: Obsidian, Upgrade Template
+            pattern: 000 010 000
             tools: Crafting Table
 
 group: Tools
