@@ -218,6 +218,12 @@ group: Storage Upgrades
             pattern: 121 232 020
             tools: Crafting Table
 
+    item: Storage Upgrade (I)
+        recipe:
+            input: Obsidian, Stick, Upgrade Template
+            pattern: 000 121 000
+            tools: Crafting Table
+
     item: Status Upgrade (II)
         recipe:
             input: Redstone, Redstone Comparator, Stick, Upgrade Template
@@ -236,19 +242,13 @@ group: Storage Upgrades
             pattern: 000 121 000
             tools: Crafting Table
 
-    item: Storage Upgrade (IV)
-        recipe:
-            input: Obsidian, Stick, Upgrade Template
-            pattern: 000 121 000
-            tools: Crafting Table
-
-    item: Storage Upgrade (V)
+    item: Storage Upgrade (iV)
         recipe:
             input: Diamond, Stick, Upgrade Template
             pattern: 000 121 000
             tools: Crafting Table
 
-    item: Storage Upgrade (VI)
+    item: Storage Upgrade (V)
         recipe:
             input: Emerald, Stick, Upgrade Template
             pattern: 000 121 000
