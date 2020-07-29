@@ -1,0 +1,10 @@
+schema: 1
+
+name:             Gravitation Suite
+author:           Chocohead
+description:      Boosting IC2 Jetpacks to the next level!
+homePageUrl:      https://minecraft.curseforge.com/projects/gravitation-suite
+documentationUrl: https://ftbwiki.org/Gravitation_Suite
+downloadUrl:      https://minecraft.curseforge.com/projects/gravitation-suite/files
+
+version: 3.0.1
